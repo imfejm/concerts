@@ -292,7 +292,7 @@ async function init() {
 
 document.getElementById('search').addEventListener('input', e => {
   searchQuery = e.target.value;
-  if (activeView === 'kalendar') {
+  if (searchQuery && activeView !== 'all') {
     activeView = 'all';
     document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
     document.querySelector('.view-btn[data-view="all"]').classList.add('active');
