@@ -356,7 +356,7 @@ main {
 }
 
 .stat-label {
-  color: #fff;
+  color: #000;
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -679,7 +679,7 @@ main {
 }
 .stat-label {
   font-size: 0.75rem;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
