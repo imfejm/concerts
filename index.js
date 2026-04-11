@@ -218,7 +218,6 @@ function render() {
 
 function cardHTML(ev) {
   const dateLabel = formatDate(ev.date, ev.time);
-  const cat = (ev.category || 'hudba').toLowerCase();
   const img = ev.image
     ? `<img class="card-img" src="${escHtml(ev.image)}" alt="${escHtml(ev.title)}" loading="lazy" onerror="this.parentNode.innerHTML='<div class=\\'card-img-placeholder\\'>&#9835;</div>'">`
     : `<div class="card-img-placeholder">&#9835;</div>`;
@@ -227,7 +226,6 @@ function cardHTML(ev) {
     <a class="card" href="${escHtml(ev.url || '#')}" target="_blank" rel="noopener">
       <div style="position:relative">
         ${img}
-        <span class="card-cat ${cat}">${escHtml(cat)}</span>
         <span class="card-arrow">&#8599;</span>
       </div>
       <div class="card-body">
@@ -328,11 +326,18 @@ document.querySelector('.view-bar').addEventListener('click', e => {
   render();
 });
 
+function closeMenu() {
+  document.getElementById('header-nav').classList.remove('open');
+  document.getElementById('hamburger').classList.remove('open');
+}
+
 document.getElementById('hamburger').addEventListener('click', () => {
-  const nav = document.getElementById('header-nav');
-  const btn = document.getElementById('hamburger');
-  nav.classList.toggle('open');
-  btn.classList.toggle('open');
+  document.getElementById('header-nav').classList.toggle('open');
+  document.getElementById('hamburger').classList.toggle('open');
+});
+
+document.getElementById('header-nav').addEventListener('click', e => {
+  if (e.target.closest('.filter-btn, .view-btn')) closeMenu();
 });
 
 init();

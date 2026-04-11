@@ -14,7 +14,7 @@
   --accent: #8a9451;
   --accent2: #85a543;
   --text: #eff3f3;
-  --muted: #888;
+  --muted: #c3c2c2;
   --font-display: "Bebas Neue", sans-serif;
   --font-body: "DM Sans", sans-serif;
 }
@@ -191,8 +191,8 @@ header {
   animation-play-state: paused;
 }
 
-.stat-sep {
-  color: var(--muted);
+.stat.stat-sep {
+  color: #00bcd4;
   font-size: 1.2rem;
   background: none;
   border: none;
@@ -339,8 +339,8 @@ main {
 }
 
 .stat {
-  background: var(--surface);
-  border: 1px solid var(--border);
+  background: none;
+  border: none;
   border-radius: 4px;
   padding: 0.4rem 1rem;
   display: flex;
@@ -352,11 +352,11 @@ main {
 .stat-num {
   font-family: var(--font-display);
   font-size: 1rem;
-  color: var(--accent);
+  color: #fff;
 }
 
 .stat-label {
-  color: var(--muted);
+  color: #fff;
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -674,12 +674,12 @@ main {
 .stat-num {
   font-family: var(--font-display);
   font-size: 1.5rem;
-  color: var(--accent);
+  color: #fff;
   line-height: 1;
 }
 .stat-label {
   font-size: 0.75rem;
-  color: var(--muted);
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
@@ -784,21 +784,6 @@ main {
   padding-top: 0.4rem;
 }
 
-.card-cat {
-  position: absolute;
-  top: 0.6rem;
-  left: 0.6rem;
-  background: rgba(0, 0, 0, 0.75);
-  color: #fff;
-  font-size: 0.65rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  padding: 0.2rem 0.5rem;
-  border-radius: 1px;
-}
-.card-cat.hudba {
-  background: var(--accent);
-}
 
 .card-arrow {
   position: absolute;
@@ -925,10 +910,16 @@ footer a {
     gap: 0.75rem;
     padding: 0.75rem 0 1rem;
     border-top: 1px solid var(--border);
+    width: 100%;
+    overflow: hidden;
   }
 
   .header-nav.open {
     display: flex;
+  }
+
+  .view-bar {
+    flex-wrap: wrap;
   }
 
   .search-wrap {
