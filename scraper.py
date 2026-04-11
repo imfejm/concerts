@@ -174,9 +174,7 @@ def scrape_klub007():
         link = event_div.find('a', href=True)
         url = link.get('href', '') if link else ''
         
-        # Získej obrázek z meta tagu v schématu
-        img_meta = event_div.find('meta', {'itemprop': 'image'})
-        image = img_meta.get('content', '') if img_meta else ''
+        image = ''  # klub007strahov.cz blokuje hotlinking
         
         # Získej den z <em class="date">
         date_elem = event_div.find('em', class_='date')

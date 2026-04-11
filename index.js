@@ -219,7 +219,7 @@ function render() {
 function cardHTML(ev) {
   const dateLabel = formatDate(ev.date, ev.time);
   const img = ev.image
-    ? `<img class="card-img" src="${escHtml(ev.image)}" alt="${escHtml(ev.title)}" loading="lazy" onerror="this.parentNode.innerHTML='<div class=\\'card-img-placeholder\\'>&#9835;</div>'">`
+    ? `<img class="card-img" src="${escHtml(ev.image)}" alt="${escHtml(ev.title)}" loading="lazy" onerror="this.outerHTML='<div class=\\'card-img-placeholder\\'>&#9835;</div>'">`
     : `<div class="card-img-placeholder">&#9835;</div>`;
 
   return `
