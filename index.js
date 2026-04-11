@@ -1,0 +1,326 @@
+let allEvents = [];
+let activeVenue = 'vse';
+let searchQuery = '';
+let activeView = 'all';
+
+const todayStr = (() => {
+  const d = new Date();
+  return `${d.getDate()}.${d.getMonth()+1}.${d.getFullYear()}`;
+})();
+
+function normalizeDate(raw) {
+  if (!raw) return '';
+  // odstranit mezery, sjednotit formát
+  return raw.replace(/\s/g, '');
+}
+
+function isToday(dateStr) {
+  const n = normalizeDate(dateStr);
+  return n === todayStr || n === todayStr.replace(/\b(\d)\./g, '0$1.');
+}
+
+function formatDate(dateStr, timeStr) {
+  if (!dateStr) return '';
+  const parts = dateStr.replace(/\s/g, '').split('.');
+  if (parts.length < 2) return dateStr;
+  const days = ['Ne','Po','Út','St','Čt','Pá','So'];
+  try {
+    const d = new Date(parseInt(parts[2]) || new Date().getFullYear(), parseInt(parts[1])-1, parseInt(parts[0]));
+    const dayName = days[d.getDay()];
+    return `${dayName} ${parts[0]}.${parts[1]}. ${parts[2] || ''}${timeStr ? ' · ' + timeStr : ''}`.trim();
+  } catch(e) {
+    return `${dateStr}${timeStr ? ' · '+timeStr : ''}`;
+  }
+}
+
+function buildFilters(events) {
+  const venues = [...new Set(events.map(e => e.venue).filter(Boolean))].sort();
+  const wrap = document.getElementById('filters');
+  wrap.innerHTML = '<button class="filter-btn active" data-venue="vse">Vše</button>';
+  venues.forEach(v => {
+    const btn = document.createElement('button');
+    btn.className = 'filter-btn';
+    btn.dataset.venue = v;
+    btn.textContent = v;
+    wrap.appendChild(btn);
+  });
+  wrap.addEventListener('click', e => {
+    const btn = e.target.closest('.filter-btn');
+    if (!btn) return;
+    activeVenue = btn.dataset.venue;
+    wrap.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    if (activeView === 'kalendar') {
+      activeView = 'all';
+      document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+      document.querySelector('.view-btn[data-view="all"]').classList.add('active');
+    }
+    render();
+  });
+}
+
+function eventDate(ev) {
+  const parts = normalizeDate(ev.date).split('.');
+  try {
+    const d = new Date(parseInt(parts[2]), parseInt(parts[1])-1, parseInt(parts[0]));
+    d.setHours(0,0,0,0);
+    return isNaN(d) ? null : d;
+  } catch(e) { return null; }
+}
+
+function getFiltered() {
+  const today = new Date(); today.setHours(0,0,0,0);
+  return allEvents.filter(ev => {
+    const venueOk = activeVenue === 'vse' || ev.venue === activeVenue;
+    const q = searchQuery.toLowerCase();
+    const searchOk = !q ||
+      (ev.title || '').toLowerCase().includes(q) ||
+      (ev.venue || '').toLowerCase().includes(q);
+    if (!venueOk || !searchOk) return false;
+    if (activeView === 'dnes') {
+      return isToday(ev.date);
+    }
+    if (activeView === 'tyden') {
+      const d = eventDate(ev);
+      if (!d) return false;
+      const diff = Math.round((d - today) / 86400000);
+      return diff >= 0 && diff <= 7;
+    }
+    return true;
+  });
+}
+
+function renderCalendar(selectedKey = null, calYear = null, calMonth = null) {
+  const content = document.getElementById('content');
+  const today = new Date(); today.setHours(0,0,0,0);
+  const year = calYear ?? today.getFullYear();
+  const month = calMonth ?? today.getMonth();
+  const firstDay = new Date(year, month, 1);
+  const lastDay = new Date(year, month + 1, 0);
+  const monthNames = ['Leden','Únor','Březen','Duben','Květen','Červen','Červenec','Srpen','Září','Říjen','Listopad','Prosinec'];
+  const dayNames = ['Po','Út','St','Čt','Pá','So','Ne'];
+
+  const byDate = {};
+  allEvents.forEach(ev => {
+    const d = eventDate(ev);
+    if (!d) return;
+    const key = `${d.getDate()}.${d.getMonth()+1}.${d.getFullYear()}`;
+    if (!byDate[key]) byDate[key] = [];
+    byDate[key].push(ev);
+  });
+
+  let startOffset = (firstDay.getDay() + 6) % 7;
+  let cells = '';
+  for (let i = 0; i < startOffset; i++) cells += `<div class="cal-cell cal-empty"></div>`;
+  for (let day = 1; day <= lastDay.getDate(); day++) {
+    const key = `${day}.${month+1}.${year}`;
+    const evs = byDate[key] || [];
+    const isT = day === today.getDate() && month === today.getMonth() && year === today.getFullYear();
+    const isSel = key === selectedKey;
+    cells += `
+      <div class="cal-cell${isT ? ' cal-today' : ''}${evs.length ? ' cal-has-events' : ''}${isSel ? ' cal-selected' : ''}" data-key="${key}">
+        <div class="cal-day-num">${day}</div>
+        ${evs.length ? `<span class="cal-count">${evs.length}</span>` : ''}
+      </div>`;
+  }
+
+  const dayCards = selectedKey && byDate[selectedKey]
+    ? `<div class="cal-day-cards">
+        <div class="section-head">
+          <h2 class="section-title">${selectedKey}</h2>
+          <span class="section-count">${byDate[selectedKey].length} ${byDate[selectedKey].length === 1 ? 'akce' : 'akcí'}</span>
+        </div>
+        <div class="grid">${byDate[selectedKey].map(ev => cardHTML(ev)).join('')}</div>
+       </div>`
+    : '';
+
+  content.innerHTML = `
+    <div class="cal-wrap">
+      <div class="cal-nav">
+        <button class="cal-nav-btn" id="cal-prev">&#8592;</button>
+        <div class="cal-header">${monthNames[month]} ${year}</div>
+        <button class="cal-nav-btn" id="cal-next">&#8594;</button>
+      </div>
+      <div class="cal-grid">
+        ${dayNames.map(d => `<div class="cal-head-cell">${d}</div>`).join('')}
+        ${cells}
+      </div>
+    </div>
+    ${dayCards}`;
+
+  content.querySelectorAll('.cal-cell.cal-has-events').forEach(cell => {
+    cell.addEventListener('click', () => {
+      renderCalendar(cell.dataset.key, year, month);
+      const cards = document.querySelector('.cal-day-cards');
+      if (cards) cards.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  document.getElementById('cal-prev').addEventListener('click', () => {
+    const d = new Date(year, month - 1, 1);
+    renderCalendar(null, d.getFullYear(), d.getMonth());
+  });
+
+  document.getElementById('cal-next').addEventListener('click', () => {
+    const d = new Date(year, month + 1, 1);
+    renderCalendar(null, d.getFullYear(), d.getMonth());
+  });
+}
+
+function render() {
+  if (activeView === 'kalendar') { renderCalendar(); return; }
+  const events = getFiltered();
+  const content = document.getElementById('content');
+
+  if (!events.length) {
+    content.innerHTML = `
+      <div class="grid">
+        <div class="empty">
+          <div class="empty-icon">&#9835;</div>
+          <div class="empty-title">Nic nenalezeno</div>
+          <p>Zkus jiný filtr nebo hledaný výraz.</p>
+        </div>
+      </div>`;
+    return;
+  }
+
+  // Skupiny: Dnes / Tento týden / Brzy
+  const today = new Date(); today.setHours(0,0,0,0);
+  const groups = { 'Dnes': [], 'Tento týden': [], 'Brzy': [] };
+
+  events.forEach(ev => {
+    const parts = normalizeDate(ev.date).split('.');
+    let d = null;
+    try { d = new Date(parseInt(parts[2]), parseInt(parts[1])-1, parseInt(parts[0])); d.setHours(0,0,0,0); } catch(e) {}
+    if (!d || isNaN(d)) { groups['Brzy'].push(ev); return; }
+    const diff = Math.round((d - today) / 86400000);
+    if (diff === 0) groups['Dnes'].push(ev);
+    else if (diff > 0 && diff <= 7) groups['Tento týden'].push(ev);
+    else groups['Brzy'].push(ev);
+  });
+
+  const sectionIds = { 'Dnes': 'section-dnes', 'Tento týden': 'section-tyden', 'Brzy': 'section-brzy' };
+  let html = '';
+  Object.entries(groups).forEach(([label, evs]) => {
+    if (!evs.length) return;
+    html += `
+      <div class="section-head" id="${sectionIds[label]}">
+        <h2 class="section-title">${label}</h2>
+        <span class="section-count">${evs.length} ${evs.length === 1 ? 'akce' : 'akcí'}</span>
+      </div>
+      <div class="grid">
+        ${evs.map(ev => cardHTML(ev)).join('')}
+      </div>`;
+  });
+
+  content.innerHTML = html;
+}
+
+function cardHTML(ev) {
+  const dateLabel = formatDate(ev.date, ev.time);
+  const cat = (ev.category || 'hudba').toLowerCase();
+  const img = ev.image
+    ? `<img class="card-img" src="${escHtml(ev.image)}" alt="${escHtml(ev.title)}" loading="lazy" onerror="this.parentNode.innerHTML='<div class=\\'card-img-placeholder\\'>&#9835;</div>'">`
+    : `<div class="card-img-placeholder">&#9835;</div>`;
+
+  return `
+    <a class="card" href="${escHtml(ev.url || '#')}" target="_blank" rel="noopener">
+      <div style="position:relative">
+        ${img}
+        <span class="card-cat ${cat}">${escHtml(cat)}</span>
+        <span class="card-arrow">&#8599;</span>
+      </div>
+      <div class="card-body">
+        <div class="card-date">${escHtml(dateLabel)}</div>
+        <div class="card-title">${escHtml(ev.title || '???')}</div>
+        <div class="card-venue">&#9679; ${escHtml(ev.venue || '')}</div>
+      </div>
+    </a>`;
+}
+
+function escHtml(str) {
+  return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function updateStats(events) {
+  const todayCount = events.filter(e => isToday(e.date)).length;
+  const venues = new Set(events.map(e => e.venue).filter(Boolean));
+  [1,2,3,4,5,6].forEach(i => {
+    const suffix = i === 1 ? '' : `-${i}`;
+    document.getElementById(`stat-total${suffix}`).textContent = events.length;
+    document.getElementById(`stat-venues${suffix}`).textContent = venues.size;
+    document.getElementById(`stat-today${suffix}`).textContent = todayCount;
+  });
+}
+
+async function init() {
+  try {
+    const res = await fetch('concerts.json');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    allEvents = data.events || [];
+
+    // update badge
+    const badge = document.getElementById('update-badge');
+    if (data.updated && badge) {
+      const d = new Date(data.updated);
+      badge.innerHTML =
+        `Aktualizováno: <span>${d.toLocaleDateString('cs-CZ')} v ${d.toLocaleTimeString('cs-CZ', {hour:'2-digit',minute:'2-digit'})}</span>`;
+    }
+
+    // ticker
+    const ticker = document.getElementById('ticker');
+    if (ticker) {
+      const titles = allEvents.slice(0, 10).map(e => e.title).filter(Boolean);
+      ticker.textContent = titles.join('  ·  ');
+    }
+
+    buildFilters(allEvents);
+    updateStats(allEvents);
+    render();
+
+  } catch(err) {
+    document.getElementById('content').innerHTML = `
+      <div class="error-box">
+        <strong>Chyba při načítání dat</strong><br><br>
+        ${err.message}<br><br>
+        Ujisti se, že soubor <code>concerts.json</code> je ve stejné složce jako tento soubor
+        a že jsi spustil <code>python scraper.py</code>.<br><br>
+        Pokud otevíráš soubor přímo z disku (file://), zkus ho otevřít přes lokální server:<br>
+        <code>python -m http.server 8000</code> a pak jdi na <code>http://localhost:8000</code>
+      </div>`;
+  }
+}
+
+document.getElementById('search').addEventListener('input', e => {
+  searchQuery = e.target.value;
+  if (activeView === 'kalendar') {
+    activeView = 'all';
+    document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+    document.querySelector('.view-btn[data-view="all"]').classList.add('active');
+  }
+  render();
+});
+
+document.querySelector('.view-bar').addEventListener('click', e => {
+  const btn = e.target.closest('.view-btn');
+  if (!btn) return;
+  const view = btn.dataset.view;
+
+  if (view === 'tyden') {
+    activeView = 'all';
+    document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+    document.querySelector('.view-btn[data-view="all"]').classList.add('active');
+    render();
+    const target = document.getElementById('section-tyden');
+    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    return;
+  }
+
+  activeView = view;
+  document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  render();
+});
+
+init();

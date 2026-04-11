@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kdo hraje v Praze</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="#">Praha<span>.</span>Koncerty</a>
+      <div class="filters" id="filters">
+        <button class="filter-btn active" data-venue="vse">Vše</button>
+      </div>
+      <div class="view-bar">
+        <button class="view-btn active" data-view="all">Všechny</button>
+        <button class="view-btn" data-view="dnes">Dnes</button>
+        <button class="view-btn" data-view="tyden">Tento týden</button>
+        <button class="view-btn" data-view="kalendar">Kalendář</button>
+        <button class="view-btn view-btn-mapa" data-view="mapa">Mapa</button>
+      </div>
+      <div class="search-wrap">
+        <span class="search-icon">&#9654;</span>
+        <input
+          type="text"
+          id="search"
+          placeholder="Hledat akci..."
+          autocomplete="off"
+        />
+      </div>
+    </header>
+
+    <div class="hero-bar" id="stats">
+      <div class="stats-ticker">
+        <div class="stats-track">
+          <div class="stat"><div class="stat-num" id="stat-total">0</div><div class="stat-label">Akcí celkem</div></div>
+          <div class="stat"><div class="stat-num" id="stat-venues">0</div><div class="stat-label">Klubů</div></div>
+          <div class="stat"><div class="stat-num" id="stat-today">0</div><div class="stat-label">Dnes</div></div>
+          <div class="stat stat-sep">·</div>
+          <div class="stat"><div class="stat-num" id="stat-total-2">0</div><div class="stat-label">Akcí celkem</div></div>
+          <div class="stat"><div class="stat-num" id="stat-venues-2">0</div><div class="stat-label">Klubů</div></div>
+          <div class="stat"><div class="stat-num" id="stat-today-2">0</div><div class="stat-label">Dnes</div></div>
+          <div class="stat stat-sep">·</div>
+          <div class="stat"><div class="stat-num" id="stat-total-3">0</div><div class="stat-label">Akcí celkem</div></div>
+          <div class="stat"><div class="stat-num" id="stat-venues-3">0</div><div class="stat-label">Klubů</div></div>
+          <div class="stat"><div class="stat-num" id="stat-today-3">0</div><div class="stat-label">Dnes</div></div>
+          <div class="stat stat-sep">·</div>
+          <div class="stat"><div class="stat-num" id="stat-total-4">0</div><div class="stat-label">Akcí celkem</div></div>
+          <div class="stat"><div class="stat-num" id="stat-venues-4">0</div><div class="stat-label">Klubů</div></div>
+          <div class="stat"><div class="stat-num" id="stat-today-4">0</div><div class="stat-label">Dnes</div></div>
+          <div class="stat stat-sep">·</div>
+          <div class="stat"><div class="stat-num" id="stat-total-5">0</div><div class="stat-label">Akcí celkem</div></div>
+          <div class="stat"><div class="stat-num" id="stat-venues-5">0</div><div class="stat-label">Klubů</div></div>
+          <div class="stat"><div class="stat-num" id="stat-today-5">0</div><div class="stat-label">Dnes</div></div>
+          <div class="stat stat-sep">·</div>
+          <div class="stat"><div class="stat-num" id="stat-total-6">0</div><div class="stat-label">Akcí celkem</div></div>
+          <div class="stat"><div class="stat-num" id="stat-venues-6">0</div><div class="stat-label">Klubů</div></div>
+          <div class="stat"><div class="stat-num" id="stat-today-6">0</div><div class="stat-label">Dnes</div></div>
+          <div class="stat stat-sep">·</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="update-badge" class="update-badge"></div>
+
+    <main>
+      <div id="content">
+        <div class="loading">
+          <div>
+            <span class="loading-dot"></span>
+            <span class="loading-dot"></span>
+            <span class="loading-dot"></span>
+          </div>
+          <p style="margin-top: 1rem; font-size: 0.85rem">
+            Načítám koncerty...
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      Praha Koncerty &mdash; data se aktualizují spuštěním
+      <code>scraper.py</code>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
