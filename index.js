@@ -299,6 +299,11 @@ document.getElementById('search').addEventListener('input', e => {
     document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
     document.querySelector('.view-btn[data-view="all"]').classList.add('active');
   }
+  if (searchQuery && activeVenue !== 'vse') {
+    activeVenue = 'vse';
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    document.querySelector('.filter-btn[data-venue="vse"]').classList.add('active');
+  }
   render();
 });
 
@@ -321,6 +326,13 @@ document.querySelector('.view-bar').addEventListener('click', e => {
   document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
   render();
+});
+
+document.getElementById('hamburger').addEventListener('click', () => {
+  const nav = document.getElementById('header-nav');
+  const btn = document.getElementById('hamburger');
+  nav.classList.toggle('open');
+  btn.classList.toggle('open');
 });
 
 init();

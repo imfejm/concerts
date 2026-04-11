@@ -12,25 +12,32 @@
   </head>
   <body>
     <header>
-      <a class="logo" href="#">Praha<span>.</span>Koncerty</a>
-      <div class="filters" id="filters">
-        <button class="filter-btn active" data-venue="vse">Vše</button>
+      <div class="header-top">
+        <a class="logo" href="#">Praha<span>.</span>Koncerty</a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
       </div>
-      <div class="view-bar">
-        <button class="view-btn active" data-view="all">Všechny</button>
-        <button class="view-btn" data-view="dnes">Dnes</button>
-        <button class="view-btn" data-view="tyden">Tento týden</button>
-        <button class="view-btn" data-view="kalendar">Kalendář</button>
-        <button class="view-btn view-btn-mapa" data-view="mapa">Mapa</button>
-      </div>
-      <div class="search-wrap">
-        <span class="search-icon">&#9654;</span>
-        <input
-          type="text"
-          id="search"
-          placeholder="Hledat akci..."
-          autocomplete="off"
-        />
+      <div class="header-nav" id="header-nav">
+        <div class="filters" id="filters">
+          <button class="filter-btn active" data-venue="vse">Vše</button>
+        </div>
+        <div class="view-bar">
+          <button class="view-btn active" data-view="all">Všechny</button>
+          <button class="view-btn" data-view="dnes">Dnes</button>
+          <button class="view-btn" data-view="tyden">Tento týden</button>
+          <button class="view-btn" data-view="kalendar">Kalendář</button>
+          <button class="view-btn view-btn-mapa" data-view="mapa">Mapa</button>
+        </div>
+        <div class="search-wrap">
+          <span class="search-icon">&#9654;</span>
+          <input
+            type="text"
+            id="search"
+            placeholder="Hledat akci..."
+            autocomplete="off"
+          />
+        </div>
       </div>
     </header>
 

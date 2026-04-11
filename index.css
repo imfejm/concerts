@@ -40,11 +40,50 @@ header {
   background: rgba(13, 13, 13, 0.95);
   backdrop-filter: blur(8px);
   z-index: 100;
+}
+
+.header-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
   gap: 1rem;
   flex-wrap: wrap;
+  padding-bottom: 0.5rem;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.hamburger span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 2px;
+  transition: all 0.2s;
+}
+
+.hamburger.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
 }
 
 .logo {
@@ -63,6 +102,7 @@ header {
   position: relative;
   flex: 1;
   max-width: 400px;
+  margin: 1rem;
 }
 
 .search-icon {
@@ -82,6 +122,7 @@ header {
   padding: 0.75rem 1rem 0.75rem 2.5rem;
   color: var(--text);
   font-family: inherit;
+  
 }
 
 #search:focus {
@@ -592,7 +633,8 @@ code {
 /* HERO BAR */
 .hero-bar {
   background: var(--accent);
-  padding: 0.5rem 2rem;
+  padding: 0rem 2rem;
+  margin: 1rem;
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -869,8 +911,30 @@ footer a {
 
 @media (max-width: 600px) {
   header {
-    padding: 0 1rem;
+    padding: 1rem;
   }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .header-nav {
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+    padding: 0.75rem 0 1rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .header-nav.open {
+    display: flex;
+  }
+
+  .search-wrap {
+    max-width: 100%;
+  }
+
   main {
     padding: 1.25rem 1rem;
   }
