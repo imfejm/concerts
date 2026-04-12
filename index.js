@@ -248,6 +248,14 @@ async function renderMap() {
 
     marker.bindPopup(popupContent, { maxWidth: 280 });
   });
+
+  // Klik na prázdné místo mapy (mimo marker/popup) → zpět na seznam
+  mapInstance.on('click', () => {
+    activeView = 'all';
+    document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+    document.querySelector('.view-btn[data-view="all"]').classList.add('active');
+    render();
+  });
 }
 
 function render() {
