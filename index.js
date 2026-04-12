@@ -450,7 +450,7 @@ document.querySelector('.view-bar').addEventListener('click', e => {
     document.querySelector('.view-btn[data-view="all"]').classList.add('active');
     render();
     const target = document.getElementById('section-zitra');
-    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (target) scrollBelowHeader(target);
     return;
   }
 
@@ -460,7 +460,7 @@ document.querySelector('.view-bar').addEventListener('click', e => {
     document.querySelector('.view-btn[data-view="all"]').classList.add('active');
     render();
     const target = document.getElementById('section-tyden');
-    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (target) scrollBelowHeader(target);
     return;
   }
 
@@ -468,7 +468,17 @@ document.querySelector('.view-bar').addEventListener('click', e => {
   document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
   render();
+  if (view === 'dnes') {
+    const target = document.getElementById('content');
+    if (target) scrollBelowHeader(target);
+  }
 });
+
+function scrollBelowHeader(target) {
+  const headerH = document.querySelector('header').offsetHeight;
+  const top = target.getBoundingClientRect().top + window.scrollY - headerH - 8;
+  window.scrollTo({ top, behavior: 'smooth' });
+}
 
 function closeMenu() {
   document.getElementById('header-nav').classList.remove('open');
