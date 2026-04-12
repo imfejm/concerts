@@ -534,7 +534,6 @@ footer {
   text-align: center;
   color: var(--muted);
   margin-top: 3rem;
- 
 }
 .footer-content {
   display: flex;
@@ -554,8 +553,8 @@ footer a {
   color: var(--muted);
 }
 .footer-qr {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   object-fit: contain;
   border-radius: 4px;
 }
