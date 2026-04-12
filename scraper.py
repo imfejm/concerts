@@ -986,9 +986,13 @@ def scrape_meetfactory():
             event_boxes = soup.find_all('div', class_='ab-box')
             
             for box in event_boxes:
-                # Obrázek
+                # Obrázek - seznam vrací miniatury 79x111, detail stránky má 320x426
                 img = box.find('img', class_='program-image')
-                image_url = img.get('src', '') if img else ''
+                image_url = ''
+                if img:
+                    image_url = img.get('src', '')
+                    # Nahraď thumbnail velikost za plnou verzi používanou na detail stránce
+                    image_url = image_url.replace('-79x111.jpg', '-320x426.jpg')
                 # Konvertuj relativní cestu na absolutní URL
                 if image_url and not image_url.startswith('http'):
                     image_url = 'https://meetfactory.cz' + image_url
@@ -1486,7 +1490,18 @@ def scrape_malostranska():
         url = btn['href'] if btn else ''
 
         img = block.find('img')
-        image = img['src'] if img else ''
+        image = ''
+        if img:
+            mb_src = img.get('src', '')
+            # MB vrací pouze miniatury 150x125 (grayscale). Obrázky pocházejí z GoOut CDN.
+            # Vzor: /grayscale/8_150x125/HASH.{GOOUT_ID}-800.jpg
+            # GoOut CDN: goout.net/i/{prvni_3_cifry}/{GOOUT_ID}-800.jpg
+            goout_match = re.search(r'/([^/]+)\.(\d{7,8})-', mb_src)
+            if goout_match:
+                goout_id = goout_match.group(2)
+                image = f'https://goout.net/i/{goout_id[:3]}/{goout_id}-800.jpg'
+            else:
+                image = mb_src
 
         events.append({
             "title": title,

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-12T14:04:41.618444",
+  "updated": "2026-04-12T16:09:52.636948",
   "count": 560,
   "events": [
     {
@@ -9,7 +9,7 @@
       "venue": "MeetFactory",
       "category": "galerie kostka",
       "url": "https://meetfactory.cz/cs/program/detail/tadeas-podracky-it-grows-with-you",
-      "image": "https://meetfactory.cz/media/images/rescaled/Josef_Mrva_Challenger_Escape_Plan_Kostka_Meetfactory_ph_Jan_Kolsky_03-79x111.jpg"
+      "image": "https://meetfactory.cz/media/images/rescaled/Josef_Mrva_Challenger_Escape_Plan_Kostka_Meetfactory_ph_Jan_Kolsky_03-320x426.jpg"
     },
     {
       "title": "Tadeáš Podracký: It Grows With You",
@@ -18,7 +18,7 @@
       "venue": "MeetFactory",
       "category": "galerie meetfactory",
       "url": "https://meetfactory.cz/cs/program/detail/tadeas-podracky-it-grows-with-you-1",
-      "image": "https://meetfactory.cz/media/images/rescaled/004_Podracky_It_Grows_With_You_P4A3573up-79x111.jpg"
+      "image": "https://meetfactory.cz/media/images/rescaled/004_Podracky_It_Grows_With_You_P4A3573up-320x426.jpg"
     },
     {
       "title": "WHITECHAPEL, SYLOSIS, 200 STAB WOUNDS, TRIBAL GAZE (UK)",
@@ -360,7 +360,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://admin.goout.net/cs/ticketing/sale/544484/desk/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/i5ao5v1b61.1282249-800.jpg"
+      "image": "https://goout.net/i/128/1282249-800.jpg"
     },
     {
       "title": "Kampa Jazz Band",
@@ -594,7 +594,7 @@
       "venue": "MeetFactory",
       "category": "hudba",
       "url": "https://meetfactory.cz/cs/program/detail/live-nation-balu-brigada",
-      "image": "https://meetfactory.cz/media/images/rescaled/Balu_Brigada_1920x1005_photo-79x111.jpg"
+      "image": "https://meetfactory.cz/media/images/rescaled/Balu_Brigada_1920x1005_photo-320x426.jpg"
     },
     {
       "title": "Klub zadán",
@@ -621,7 +621,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/monogram-and-royal-flush/szcgcgy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/j3rt26fhdc.1371307-800.jpg"
+      "image": "https://goout.net/i/137/1371307-800.jpg"
     },
     {
       "title": "Folklor Trio",
@@ -702,7 +702,7 @@
       "venue": "MeetFactory",
       "category": "hudba",
       "url": "https://meetfactory.cz/cs/program/detail/bitchin-bajas",
-      "image": "https://meetfactory.cz/media/images/rescaled/bitchin_bajas-79x111.jpg"
+      "image": "https://meetfactory.cz/media/images/rescaled/bitchin_bajas-320x426.jpg"
     },
     {
       "title": "Tokyo Drift",
@@ -738,7 +738,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/lorraine-leckie-and-her-demons-krest-alba%2Bspecial-host-nezna-noc/szebjhy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/75wp5jswi4.1386949-383.jpg"
+      "image": "https://goout.net/i/138/1386949-800.jpg"
     },
     {
       "title": "Muzikanti z Kampy",
@@ -882,7 +882,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/souflsou%2Bladislav-bonita/szjelgy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/dsr8f4ha7h.1320259-800.jpg"
+      "image": "https://goout.net/i/132/1320259-800.jpg"
     },
     {
       "title": "The Corks",
@@ -1053,7 +1053,7 @@
       "venue": "MeetFactory",
       "category": "hudba",
       "url": "https://meetfactory.cz/cs/program/detail/unsane",
-      "image": "https://meetfactory.cz/media/images/rescaled/UNSANE_2_Mohawk_3.8.22_cRc-79x111.jpg"
+      "image": "https://meetfactory.cz/media/images/rescaled/UNSANE_2_Mohawk_3.8.22_cRc-320x426.jpg"
     },
     {
       "title": "Big Band Pražského salonního orchestruNedělní Dixie",
@@ -1242,7 +1242,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/vladimir-merta-duo-s-o-fenclem/szifdgy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/b3mh0srrga.1383039-800.jpg"
+      "image": "https://goout.net/i/138/1383039-800.jpg"
     },
     {
       "title": "Fource presents: Kiki Rockwell (USA) + support: Finnegan …",
@@ -1314,7 +1314,7 @@
       "venue": "MeetFactory",
       "category": "hudba",
       "url": "https://meetfactory.cz/cs/program/detail/great-lake-swimmers",
-      "image": "https://meetfactory.cz/media/images/rescaled/GLS-trio-outside-RobertGeorgeff-79x111.jpg"
+      "image": "https://meetfactory.cz/media/images/rescaled/GLS-trio-outside-RobertGeorgeff-320x426.jpg"
     },
     {
       "title": "MANFRED MANN'S EARTH BAND (UK)",
@@ -1359,7 +1359,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/petr-vondracek-and-lokomotiva/szfgcgy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/wjt7xf5azi.1275990-800.jpg"
+      "image": "https://goout.net/i/127/1275990-800.jpg"
     },
     {
       "title": "Fource presents: Aries (USA) + support: Ray Sequoya (USA)",
@@ -1458,7 +1458,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/hm/szggcgy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/linmjzv636.1290119-800.jpg"
+      "image": "https://goout.net/i/129/1290119-800.jpg"
     },
     {
       "title": "Jedna ku třem",
@@ -1602,7 +1602,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/ve-svetle-pisni-davida-stypky/szpglgy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/4k1pznhd2p.1384322-800.jpg"
+      "image": "https://goout.net/i/138/1384322-800.jpg"
     },
     {
       "title": "Neil Young Tribute",
@@ -1692,7 +1692,7 @@
       "venue": "MeetFactory",
       "category": "hudba",
       "url": "https://meetfactory.cz/cs/program/detail/grvolver-groove-culture-festival",
-      "image": "https://meetfactory.cz/media/images/rescaled/106507428_10157726337313253_8956800279864913782_n_1-79x111.jpg"
+      "image": "https://meetfactory.cz/media/images/rescaled/106507428_10157726337313253_8956800279864913782_n_1-320x426.jpg"
     },
     {
       "title": "OLLIE LISHMAN (AU)",
@@ -1746,7 +1746,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/vaclav-koubek-s-kapelou-30-let-kapely/szygqhy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/qxmltg8jba.1312398-800.jpg"
+      "image": "https://goout.net/i/131/1312398-800.jpg"
     },
     {
       "title": "The Virginmarys (UK) + support: Atomy nevadí",
@@ -1872,7 +1872,7 @@
       "venue": "MeetFactory",
       "category": "hudba",
       "url": "https://meetfactory.cz/cs/program/detail/orcutt-shelley-miller",
-      "image": "https://meetfactory.cz/media/images/rescaled/Orcutt_Shelley_Miller_credit_Rachel_Lipsitz-79x111.jpg"
+      "image": "https://meetfactory.cz/media/images/rescaled/Orcutt_Shelley_Miller_credit_Rachel_Lipsitz-320x426.jpg"
     },
     {
       "title": "Petros Klampanis Trio",
@@ -1899,7 +1899,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/edith-piaf-dnes-nechci-spat-sama/szffdey",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/d0hd28539r.1364191-800.jpg"
+      "image": "https://goout.net/i/136/1364191-800.jpg"
     },
     {
       "title": "Muzikanti z Kampy",
@@ -2133,7 +2133,7 @@
       "venue": "MeetFactory",
       "category": "hudba",
       "url": "https://meetfactory.cz/cs/program/detail/akchamel",
-      "image": "https://meetfactory.cz/media/images/rescaled/Akchamel_in_costumes-79x111.jpg"
+      "image": "https://meetfactory.cz/media/images/rescaled/Akchamel_in_costumes-320x426.jpg"
     },
     {
       "title": "Open Call: Rezidence v Surfy Space Taiwan",
@@ -2178,7 +2178,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/koniny-tour-petr-soukup/szryeiy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/o90ucpwgyj.1381728-800.jpg"
+      "image": "https://goout.net/i/138/1381728-800.jpg"
     },
     {
       "title": "Koniny Tour: Petr Soukup",
@@ -2241,7 +2241,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/krausberry/szgbjhy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/tsgb7plt4e.1013897-800-3-.jpg"
+      "image": "https://goout.net/i/101/1013897-800.jpg"
     },
     {
       "title": "Joshua Curran & The Rubberdux",
@@ -2259,7 +2259,7 @@
       "venue": "MeetFactory",
       "category": "hudba",
       "url": "https://meetfactory.cz/cs/program/detail/selection-klangkarussell-kaleidoscope-live-tour",
-      "image": "https://meetfactory.cz/media/images/rescaled/Press_pic_2_Klangkarussell_c_Maik_Schuster-79x111.jpg"
+      "image": "https://meetfactory.cz/media/images/rescaled/Press_pic_2_Klangkarussell_c_Maik_Schuster-320x426.jpg"
     },
     {
       "title": "TUYA RAVE X JOWI (DE)",
@@ -2340,7 +2340,7 @@
       "venue": "MeetFactory",
       "category": "hudba",
       "url": "https://meetfactory.cz/cs/program/detail/rock-for-people-peter-doherty",
-      "image": "https://meetfactory.cz/media/images/rescaled/473077002_1166850078135744_900488910692494305_n-79x111.jpg"
+      "image": "https://meetfactory.cz/media/images/rescaled/473077002_1166850078135744_900488910692494305_n-320x426.jpg"
     },
     {
       "title": "KARNIVOOL, INTERVALS (AU)",
@@ -2403,7 +2403,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/lenka-nickova/szqcwhy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/nqcu1nnbza.1389151-800.jpg"
+      "image": "https://goout.net/i/138/1389151-800.jpg"
     },
     {
       "title": "Urban Skies Tour 2026: Kebu (FIN)",
@@ -2475,7 +2475,7 @@
       "venue": "MeetFactory",
       "category": "hudba",
       "url": "https://meetfactory.cz/cs/program/detail/glyders",
-      "image": "https://meetfactory.cz/media/images/rescaled/glyders-viscius-02-79x111.jpg"
+      "image": "https://meetfactory.cz/media/images/rescaled/glyders-viscius-02-320x426.jpg"
     },
     {
       "title": "LORD OF THE LOST (DE)",
@@ -2601,7 +2601,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/voila/szngqhy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/jce9hnf32e.1354170-800.jpg"
+      "image": "https://goout.net/i/135/1354170-800.jpg"
     },
     {
       "title": "REMDIK , PAKOSTEŇ ,",
@@ -2691,7 +2691,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/originalni-prazsky-synkopicky-orchestr/szlbjhy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/dkb9zmjz8j.77069630-2984026078292741-3538665418220634112-n.jpg"
+      "image": "https://goout.net/i/770/77069630-800.jpg"
     },
     {
       "title": "Kampa Jazz Band",
@@ -2853,7 +2853,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/mucha-v-besede/szigqhy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/6p7kptaock.1360749-800.jpg"
+      "image": "https://goout.net/i/136/1360749-800.jpg"
     },
     {
       "title": "Hudební sdružení Petřín",
@@ -2979,7 +2979,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/svitani-krasa-v-tonech-harfy-i-hlasu/szxamgy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/v87pdzfgmj.1282249-800.jpg"
+      "image": "https://goout.net/i/128/1282249-800.jpg"
     },
     {
       "title": "Hang Massive / UK+SWE",
@@ -3015,7 +3015,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/kriskros-a-cappella-majova-live-session/szobhgy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/zrww6dumwc.1383730-800.jpg"
+      "image": "https://goout.net/i/138/1383730-800.jpg"
     },
     {
       "title": "TANTEHORSE LIGHT IN THE DARKNESS (ČECHOVÁ+VIZVÁRY)",
@@ -3132,7 +3132,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/vasiluv-rubas/sztgqhy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/fgldfwmmsh.1388249-800.jpg"
+      "image": "https://goout.net/i/138/1388249-800.jpg"
     },
     {
       "title": "Folklor Trio",
@@ -3168,7 +3168,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/samir-hauser-pacient-0/szphqhy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/2wm6sm5zwy.1381064-800.jpg"
+      "image": "https://goout.net/i/138/1381064-800.jpg"
     },
     {
       "title": "STRESS",
@@ -3249,7 +3249,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/edith-piaf-dnes-nechci-spat-sama/szefdey",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/8z9gsh0t47.1364191-800.jpg"
+      "image": "https://goout.net/i/136/1364191-800.jpg"
     },
     {
       "title": "moondoggy (CAN)",
@@ -3411,7 +3411,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/big-band-vaclava-zelinky-spring-swing/szbhqhy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/4zjcb6lx2d.1388259-800.jpg"
+      "image": "https://goout.net/i/138/1388259-800.jpg"
     },
     {
       "title": "Conamara Chaos",
@@ -3438,7 +3438,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/pocta-zuzane-navarove-jazz-elements/szwcfey/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/9agkudnfm1.1218619-800-1-.jpg"
+      "image": "https://goout.net/i/121/1218619-800.jpg"
     },
     {
       "title": "Načarej",
@@ -3744,7 +3744,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/big-band-trumpets-lady-trumpets-swing/szghqhy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/vto831lcf3.1140499-800.jpg"
+      "image": "https://goout.net/i/114/1140499-800.jpg"
     },
     {
       "title": "A Perfect Circle",
@@ -4041,7 +4041,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/bratri-ebenove/sznjidy",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/q26pmh7ixh.1261456-800.jpg"
+      "image": "https://goout.net/i/126/1261456-800.jpg"
     },
     {
       "title": "PŘESUNUTO: Fource presents: Feng (UK)",
@@ -4077,7 +4077,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/bratri-ebenove/szmjidy",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/eicrcefoo8.1261455-800-1-.jpg"
+      "image": "https://goout.net/i/126/1261455-800.jpg"
     },
     {
       "title": "LATERNA MAGIKA PERPETUUM HAVEL",
@@ -4419,7 +4419,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/my-new-band-believe/szqtfiy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/jegtmxtck7.1390422-800.jpg"
+      "image": "https://goout.net/i/139/1390422-800.jpg"
     },
     {
       "title": "HIATUS , SANCTUS IUDA , NARCOSA",
@@ -4671,7 +4671,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/honza-krizek-band-krest-alba-mosty-spalim/szqewhy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/lojsboef6i.1389167-800.jpg"
+      "image": "https://goout.net/i/138/1389167-800.jpg"
     },
     {
       "title": "KAFKA BAND HRAJE KAFKU",
