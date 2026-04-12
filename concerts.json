@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-12T16:09:52.636948",
-  "count": 560,
+  "updated": "2026-04-12T17:30:46.987040",
+  "count": 621,
   "events": [
     {
       "title": "Jozef Mrva ml.: Challenger Escape Plan",
@@ -91,6 +91,15 @@
       "category": "hudba",
       "url": "https://www.redutajazzclub.cz/artists-cs/ray-charles-lee",
       "image": "https://www.redutajazzclub.cz/data/images/tx1908_1_tn.jpg"
+    },
+    {
+      "title": "Rick Ross (USA)",
+      "date": "2.4.2026",
+      "time": "",
+      "venue": "SaSaZu",
+      "category": "hudba",
+      "url": "https://www.sasazu-club.com/events/rickross26",
+      "image": "https://images.squarespace-cdn.com/content/v1/67c814a930ff2420d320eabc/a842d206-3f76-4fd4-a1ea-ed27389932c9/02_04+RICK+ROSS.jpg"
     },
     {
       "title": "PRAGUE QUEEN",
@@ -219,6 +228,15 @@
       "image": "https://www.redutajazzclub.cz/data/images/tx4599_1_tn.jpg"
     },
     {
+      "title": "Apparat / Spectaculare_13",
+      "date": "8.4.2026",
+      "time": "",
+      "venue": "SaSaZu",
+      "category": "hudba",
+      "url": "https://www.sasazu-club.com/events/apparat2026",
+      "image": "https://images.squarespace-cdn.com/content/v1/67c814a930ff2420d320eabc/a4a98972-5488-4a66-9593-9b3b869868f8/apparat.jpg"
+    },
+    {
       "title": "THE CELL",
       "date": "9.4.2026",
       "time": "24:00",
@@ -289,6 +307,15 @@
       "category": "hudba",
       "url": "https://www.redutajazzclub.cz/artists-cs/swinging-melodies-a-journey-through-unforgettable",
       "image": "https://www.redutajazzclub.cz/data/images/tx3538_1_tn.jpg"
+    },
+    {
+      "title": "Munzifai, Forhundrtdtols, Hells Band a Top Secret",
+      "date": "11.4.2026",
+      "time": "18:30",
+      "venue": "Music Club Jižák",
+      "category": "hudba",
+      "url": "https://fb.me/e/4bL5MgkxC",
+      "image": ""
     },
     {
       "title": "ULYANA DEL REY",
@@ -894,6 +921,24 @@
       "image": "https://www.kckampa.cz/media/The-Corks-Kampa-Poster-Work1a-Red-pracovni-kopie-600x600.jpg"
     },
     {
+      "title": "James Cole & Idea: Well Done Tour",
+      "date": "17.4.2026",
+      "time": "19:30",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/james-cole-idea-well-done-tour/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2025/12/FUTURUM-WEB-ROZMERY-4-756x454.png"
+    },
+    {
+      "title": "Let It Roll Warm-Up w/ Macky Gee & Mozey (UK)",
+      "date": "17.4.2026",
+      "time": "",
+      "venue": "SaSaZu",
+      "category": "hudba",
+      "url": "https://www.sasazu-club.com/events/letitroll",
+      "image": "https://images.squarespace-cdn.com/content/v1/67c814a930ff2420d320eabc/9015782c-ba72-45b6-bdcd-9c27dcf660a3/17_4_LETITROLL.jpg"
+    },
+    {
       "title": "Groovy & Stinky FEST 2026",
       "date": "18.4.2026",
       "time": "15:30",
@@ -1020,6 +1065,15 @@
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/aw7pmtlsdn.647371963-1557527049709981-8336573421116654256-n.jpg"
     },
     {
+      "title": "Soukromá akce - 18.4.2026",
+      "date": "18.4.2026",
+      "time": "",
+      "venue": "Music Club Jižák",
+      "category": "hudba",
+      "url": "https://www.musicclubjizak.cz/program/",
+      "image": ""
+    },
+    {
       "title": "MUSIC BAR – vstup zdarma!",
       "date": "19.4.2026",
       "time": "17:00",
@@ -1090,6 +1144,15 @@
       "category": "hudba",
       "url": "https://goout.net/cs/olin-nejezchleba-a-kybabu/szegcgy/",
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/h51otckz3g.907039-800.jpg"
+    },
+    {
+      "title": "Lloyd Banks (USA)",
+      "date": "19.4.2026",
+      "time": "",
+      "venue": "SaSaZu",
+      "category": "hudba",
+      "url": "https://www.sasazu-club.com/events/lloyd",
+      "image": "https://images.squarespace-cdn.com/content/v1/67c814a930ff2420d320eabc/eda39939-97e1-439f-ae57-73e51dcad2f4/19_04+LLOYD+BANKS+.jpg"
     },
     {
       "title": "DITZ (UK)",
@@ -1362,6 +1425,15 @@
       "image": "https://goout.net/i/127/1275990-800.jpg"
     },
     {
+      "title": "FAST FOOD ORCHESTRA",
+      "date": "22.4.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/fast-food-orchestra/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/02/FUTURUM-WEB-ROZMERY-7-1-756x454.png"
+    },
+    {
       "title": "Fource presents: Aries (USA) + support: Ray Sequoya (USA)",
       "date": "23.4.2026",
       "time": "20:00",
@@ -1468,6 +1540,15 @@
       "category": "hudba",
       "url": "https://www.kckampa.cz/",
       "image": "https://www.kckampa.cz/media/1ku3-cb-600x600.jpg"
+    },
+    {
+      "title": "Kill the Dandies + Frankie & The Deadbeats + Caulichute",
+      "date": "23.4.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/kill-the-dandies-frankie-the-deadbeats-caulichute/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/02/FUTURUM-WEB-ROZMERY-3-756x454.png"
     },
     {
       "title": "Selection presents: Natalie Jane (USA)",
@@ -1614,6 +1695,15 @@
       "image": "https://www.kckampa.cz/media/young-600x600.jpg"
     },
     {
+      "title": "DESADE & DENOI (křest EP RIOT V RÁJI)",
+      "date": "24.4.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/desade-denoi-krest-ep-riot-v-raji/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-4-1-756x454.png"
+    },
+    {
       "title": "VPŘEDSKOK x BOLESLAM 2026",
       "date": "25.4.2026",
       "time": "16:30",
@@ -1747,6 +1837,15 @@
       "category": "hudba",
       "url": "https://goout.net/cs/vaclav-koubek-s-kapelou-30-let-kapely/szygqhy/",
       "image": "https://goout.net/i/131/1312398-800.jpg"
+    },
+    {
+      "title": "Disney / Nick Party - Childhoodnites",
+      "date": "25.4.2026",
+      "time": "20:30",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/disney-nick-party-childhoodnites/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/02/FUTURUM-WEB-ROZMERY-5-756x454.png"
     },
     {
       "title": "The Virginmarys (UK) + support: Atomy nevadí",
@@ -2073,6 +2172,15 @@
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/quoiroru8f.zavreno.jpg"
     },
     {
+      "title": "MIGUEL: CAOS Tour",
+      "date": "29.4.2026",
+      "time": "",
+      "venue": "SaSaZu",
+      "category": "hudba",
+      "url": "https://www.sasazu-club.com/events/miguel25",
+      "image": "https://images.squarespace-cdn.com/content/v1/67c814a930ff2420d320eabc/cd417cf7-f46d-4af9-846e-dc2f56dacc65/571228287_1262887235856419_8990578941119922488_n.jpg"
+    },
+    {
       "title": "Výstava: Martin Šárovec – PRINCESSES, FAIRIES & BAD GIRLS",
       "date": "30.4.2026",
       "time": "",
@@ -2199,6 +2307,15 @@
       "image": "https://www.kckampa.cz/media/muzikanti-600x600.jpg"
     },
     {
+      "title": "Jessica Baio / US",
+      "date": "30.4.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/jessica-baio-us/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/02/FUTURUM-WEB-ROZMERY-13-756x454.png"
+    },
+    {
       "title": "MAX STYLER (US)",
       "date": "01.05.2026",
       "time": "",
@@ -2242,6 +2359,24 @@
       "category": "hudba",
       "url": "https://goout.net/cs/krausberry/szgbjhy/",
       "image": "https://goout.net/i/101/1013897-800.jpg"
+    },
+    {
+      "title": "Tygroo: 10 let kapely + hosté: Omnion & Trygve Wakenshaw / NZ",
+      "date": "1.5.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/tygroo-10-let-kapely-hoste-omnion-trygve-wakenshaw/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-3-1-756x454.png"
+    },
+    {
+      "title": "REDMAN (USA)",
+      "date": "1.5.2026",
+      "time": "",
+      "venue": "SaSaZu",
+      "category": "hudba",
+      "url": "https://www.sasazu-club.com/events/redman",
+      "image": "https://images.squarespace-cdn.com/content/v1/67c814a930ff2420d320eabc/3243c51a-4f09-4571-a104-139ca15fee14/01_05_REDMAN.png"
     },
     {
       "title": "Joshua Curran & The Rubberdux",
@@ -2305,6 +2440,15 @@
       "category": "hudba",
       "url": "https://goout.net/cs/krausberry/szfbjhy/",
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/5tns0uwlpw.411156-800.jpg"
+    },
+    {
+      "title": "Sekhmet - Unclean - Identity - Dark Methodism",
+      "date": "2.5.2026",
+      "time": "19:00",
+      "venue": "Music Club Jižák",
+      "category": "hudba",
+      "url": "https://www.facebook.com/events/s/prague-black-rites/1128198102670510/",
+      "image": ""
     },
     {
       "title": "Opal In Sky (CAN), Sharks In Your Mouth (USA), Sharks In …",
@@ -2505,6 +2649,15 @@
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/oybf8063w9.646411850-1530393285760763-5666453880925304027-n.jpg"
     },
     {
+      "title": "THE RUMPLED / IT – VYPRODÁNO",
+      "date": "6.5.2026",
+      "time": "19:30",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/the-rumpled-it-support-budweiss-drunken-bastards-cz/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2025/10/FUTURUM-WEB-ROZMERY-5-756x454.png"
+    },
+    {
       "title": "Dope D.O.D. (NL)",
       "date": "7.5.2026",
       "time": "20:00",
@@ -2539,6 +2692,24 @@
       "category": "hudba",
       "url": "https://goout.net/cs/etc/szjbjhy/",
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/8g75nqabe8.646067889-1530393109094114-6075348124216517602-n.jpg"
+    },
+    {
+      "title": "Branko's Bridge + I Love You Honey Bunny",
+      "date": "7.5.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/brankos-bridge-i-love-you-honey-bunny/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-3-2-756x454.png"
+    },
+    {
+      "title": "MERLIN / ARGOS / LATERS",
+      "date": "7.5.2026",
+      "time": "19:00",
+      "venue": "Music Club Jižák",
+      "category": "hudba",
+      "url": "https://www.facebook.com/events/4325719677702536/?acontext=%7B%22source%22%3A%2229%22%2C%22ref_notif_type%22%3A%22events_add_page_cohost%22%2C%22action_history%22%3A%22null%22%7D&notif_id=1767964711208532&notif_t=events_add_page_cohost&ref=notif",
+      "image": ""
     },
     {
       "title": "Simon Kornél and the Boughris (HU)",
@@ -2604,6 +2775,15 @@
       "image": "https://goout.net/i/135/1354170-800.jpg"
     },
     {
+      "title": "Karlo / SK + Edúv syn / SK",
+      "date": "8.5.2026",
+      "time": "19:30",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/karlo-sk-eduv-syn-sk/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-2-756x454.png"
+    },
+    {
       "title": "REMDIK , PAKOSTEŇ ,",
       "date": "09.05.2026",
       "time": "19:00",
@@ -2656,6 +2836,15 @@
       "category": "hudba",
       "url": "https://www.redutajazzclub.cz/artists-cs/two-voices-jazz-band-romantic-night",
       "image": "https://www.redutajazzclub.cz/data/images/tx4634_1_tn.jpg"
+    },
+    {
+      "title": "Soukromá akce - 9.5.2026",
+      "date": "9.5.2026",
+      "time": "",
+      "venue": "Music Club Jižák",
+      "category": "hudba",
+      "url": "https://www.musicclubjizak.cz/program/",
+      "image": ""
     },
     {
       "title": "Trio Mandili (GE)",
@@ -2764,6 +2953,15 @@
       "category": "hudba",
       "url": "https://www.redutajazzclub.cz/artists-cs/pop-icons-dorota-tothova-1",
       "image": "https://www.redutajazzclub.cz/data/images/tx4566_1_tn.jpg"
+    },
+    {
+      "title": "Mário Bihári: Díky Zuzce Navarové",
+      "date": "12.5.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/mario-bihari-diky-zuzce-navarove/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-6-756x454.png"
     },
     {
       "title": "The Agony, Janet A, Natty",
@@ -2919,6 +3117,15 @@
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/5cgot8n7a4.26.jpeg"
     },
     {
+      "title": "Four Imaginary Boys",
+      "date": "15.5.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/four-imaginary-boys-a-tribute-to-the-cure/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/01/FUTURUM-WEB-ROZMERY-3-756x454.png"
+    },
+    {
       "title": "Berem Všechno",
       "date": "16.5.2026",
       "time": "21:00",
@@ -2980,6 +3187,15 @@
       "category": "hudba",
       "url": "https://goout.net/cs/svitani-krasa-v-tonech-harfy-i-hlasu/szxamgy/",
       "image": "https://goout.net/i/128/1282249-800.jpg"
+    },
+    {
+      "title": "ACID ROW",
+      "date": "16.5.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/acid-row/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/02/FUTURUM-WEB-ROZMERY-6-756x454.png"
     },
     {
       "title": "Hang Massive / UK+SWE",
@@ -3108,6 +3324,15 @@
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/60l6e1oqry.Michaela-Linkova-titulni-strana.jpg"
     },
     {
+      "title": "Sofia Isella: Her Desire, The Nemesis Tour",
+      "date": "19.5.2026",
+      "time": "",
+      "venue": "SaSaZu",
+      "category": "hudba",
+      "url": "https://www.sasazu-club.com/events/isella26",
+      "image": "https://images.squarespace-cdn.com/content/v1/67c814a930ff2420d320eabc/22fc3381-8aa8-4c42-b236-7e9d195a268e/202A9777+Large.jpg"
+    },
+    {
       "title": "Fource presents: Chris Grey (CAN)",
       "date": "20.5.2026",
       "time": "20:00",
@@ -3144,6 +3369,15 @@
       "image": "https://www.kckampa.cz/media/Folklor-Trio-600x600.jpg"
     },
     {
+      "title": "Dead Finks / NZ / DE + Amen Break",
+      "date": "20.5.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/dead-finks-nz-de-amen-break/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-10-756x454.png"
+    },
+    {
       "title": "GUMMY PIG , GALANTI",
       "date": "21.05.2026",
       "time": "19:00",
@@ -3171,6 +3405,15 @@
       "image": "https://goout.net/i/138/1381064-800.jpg"
     },
     {
+      "title": "Paledusk / JP",
+      "date": "21.5.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/paledusk-jp/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2025/12/FUTURUM-WEB-ROZMERY-7-756x454.png"
+    },
+    {
       "title": "STRESS",
       "date": "22.05.2026",
       "time": "19:00",
@@ -3196,6 +3439,24 @@
       "category": "hudba",
       "url": "https://goout.net/cs/swingova-tancirna-s-the-mole-s-wing-orchestra/szidwhy/",
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/cv9sic1qcm.525930-800.jpg"
+    },
+    {
+      "title": "HEATED RIVARLY CLUB – VYPRODÁNO",
+      "date": "22.5.2026",
+      "time": "20:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/heated-rivarly-club-vyprodano/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/03/Snimek-obrazovky-2026-03-30-v-16.21.33-756x413.png"
+    },
+    {
+      "title": "Public Image Ltd.",
+      "date": "22.5.2026",
+      "time": "",
+      "venue": "SaSaZu",
+      "category": "hudba",
+      "url": "https://www.sasazu-club.com/events/pil",
+      "image": "https://images.squarespace-cdn.com/content/v1/67c814a930ff2420d320eabc/2ea63cff-9842-4908-9d63-6276956dcf42/PiL-1000x1000px-02.jpg"
     },
     {
       "title": "Coremusic slaví 15 let",
@@ -3234,6 +3495,24 @@
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/73er4twgx9.monofoto.jpeg"
     },
     {
+      "title": "Goran Bregović Wedding and Funeral band",
+      "date": "23.5.2026",
+      "time": "",
+      "venue": "SaSaZu",
+      "category": "hudba",
+      "url": "https://www.sasazu-club.com/events/goran26",
+      "image": "https://images.squarespace-cdn.com/content/v1/67c814a930ff2420d320eabc/7c0a7782-0b6b-488c-bf4d-d456e0644f48/263760-800.jpg"
+    },
+    {
+      "title": "Moonpark + Caught in Action",
+      "date": "23.5.2026",
+      "time": "20:00",
+      "venue": "Music Club Jižák",
+      "category": "hudba",
+      "url": "https://www.facebook.com/events/941928401652637",
+      "image": ""
+    },
+    {
       "title": "The Abyssinians + Big Youth / JAM",
       "date": "24.5.2026",
       "time": "20:00",
@@ -3250,6 +3529,24 @@
       "category": "hudba",
       "url": "https://goout.net/cs/edith-piaf-dnes-nechci-spat-sama/szefdey",
       "image": "https://goout.net/i/136/1364191-800.jpg"
+    },
+    {
+      "title": "JMSN / US",
+      "date": "24.5.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/jmsn-us/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-9-756x454.png"
+    },
+    {
+      "title": "bbno$ - The Internet Explorer Tour / SOLD OUT",
+      "date": "24.5.2026",
+      "time": "",
+      "venue": "SaSaZu",
+      "category": "hudba",
+      "url": "https://www.sasazu-club.com/events/bbno25",
+      "image": "https://images.squarespace-cdn.com/content/v1/67c814a930ff2420d320eabc/1ab7aac7-8de7-4739-b82b-17b20e25037d/bbnos.jpg"
     },
     {
       "title": "moondoggy (CAN)",
@@ -3342,6 +3639,15 @@
       "image": "https://www.kckampa.cz/media/Fotka-600x600.jpeg"
     },
     {
+      "title": "PANOPTIKUM (křest alba Pizza Extrapolis) + MIDNIGHT SWIMMERS + speciální host",
+      "date": "27.5.2026",
+      "time": "20:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/panoptikum-krest-alba-pizza-extrapolis-midnight-swimmers-specialni-host/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/04/FUTURUM-WEB-ROZMERY-2-756x454.png"
+    },
+    {
       "title": "Tojeon, Love & other cliches, Kristy Hernandez",
       "date": "28.5.2026",
       "time": "20:00",
@@ -3369,6 +3675,15 @@
       "image": "https://palacakropolis.cz/images/photos/0026/1896/Brat_i_Orffov__2024_1_web_event.jpg"
     },
     {
+      "title": "Hello Marcel + DJ Le Petit Nicolas",
+      "date": "28.5.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/hello-marcel-dj-le-petit-nicolas/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/04/FUTURUM-WEB-ROZMERY-3-756x454.png"
+    },
+    {
       "title": "STEPHAN BODZIN LIVE (DE)",
       "date": "29.05.2026",
       "time": "",
@@ -3378,6 +3693,15 @@
       "image": "https://www.roxy.cz/upload/temp/stephan-bodzin-pxs-r9lfze54c6jh-crop-480-480.jpg"
     },
     {
+      "title": "SHIFT HAPPENS: Noise Don´t Cry / Glad For Today / IAN / DJ Pinecone",
+      "date": "29.5.2026",
+      "time": "19:00",
+      "venue": "Music Club Jižák",
+      "category": "hudba",
+      "url": "https://fb.me/e/1SQaSUGIds",
+      "image": ""
+    },
+    {
       "title": "BOVSKI (DE)",
       "date": "30.05.2026",
       "time": "",
@@ -3385,6 +3709,15 @@
       "category": "hudba",
       "url": "https://www.roxy.cz/events/detail/4831/bovski",
       "image": "https://www.roxy.cz/upload/temp/bovski-pxs-esvv1dfvf72m-crop-480-480.jpg"
+    },
+    {
+      "title": "křest EP: What a Doomsday // Res Publica Porcos + support: Urges, Ztráty v Plusu, Patro",
+      "date": "30.5.2026",
+      "time": "18:00",
+      "venue": "Music Club Jižák",
+      "category": "hudba",
+      "url": "https://www.facebook.com/events/s/krest-ep-what-a-doomsday-res-p/1666515618126052/",
+      "image": ""
     },
     {
       "title": "Cock Sparrer / UK",
@@ -3423,6 +3756,15 @@
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/nn0vdzx2kw.906748-800.jpg"
     },
     {
+      "title": "Susidy Sterplyat / UA",
+      "date": "2.6.2026",
+      "time": "20:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/susidy-sterplyat-ua/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/04/FUTURUM-WEB-ROZMERY-1-756x454.png"
+    },
+    {
       "title": "Wohnout",
       "date": "03.06.2026",
       "time": "19:30",
@@ -3457,6 +3799,15 @@
       "category": "hudba",
       "url": "https://palacakropolis.cz/work/33298?event_id=40219",
       "image": "https://palacakropolis.cz/images/photos/0026/3124/Nebe_je_rud__CD_cover_web_event.jpg"
+    },
+    {
+      "title": "Opatoff",
+      "date": "5.6.2026",
+      "time": "",
+      "venue": "Music Club Jižák",
+      "category": "hudba",
+      "url": "https://www.musicclubjizak.cz/program/",
+      "image": ""
     },
     {
       "title": "KRS-One / US",
@@ -3585,6 +3936,15 @@
       "image": "https://www.roxy.cz/upload/temp/dombresky-px-cuf1iqdk1974-crop-480-480.png"
     },
     {
+      "title": "LAKESIDE X",
+      "date": "12.6.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/lakeside-x/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/02/FUTURUM-WEB-ROZMERY-7-756x454.png"
+    },
+    {
       "title": "!T.O.O.H.! , KOŽIŠ , MAKRAB",
       "date": "13.06.2026",
       "time": "18:30",
@@ -3619,6 +3979,15 @@
       "category": "hudba",
       "url": "https://www.kckampa.cz/",
       "image": "https://www.kckampa.cz/media/jazz_600-600x600.jpg"
+    },
+    {
+      "title": "SHELTER / US",
+      "date": "15.6.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/shelter-us/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2025/12/FUTURUM-WEB-ROZMERY-4-1-756x454.png"
     },
     {
       "title": "P.O.D. / US",
@@ -3747,6 +4116,15 @@
       "image": "https://goout.net/i/114/1140499-800.jpg"
     },
     {
+      "title": "Dogstar",
+      "date": "29.6.2026",
+      "time": "",
+      "venue": "SaSaZu",
+      "category": "hudba",
+      "url": "https://www.sasazu-club.com/events/dogstar",
+      "image": "https://images.squarespace-cdn.com/content/v1/67c814a930ff2420d320eabc/d30b978e-cb9f-474f-ab48-6b3bfe90e400/MAIN-PRESS_HORIZONTAL_Dogstar_Pic_Horizontal_NoLogo_Credit-Brian-Bowen-Smith-scaled-1.jpg"
+    },
+    {
       "title": "A Perfect Circle",
       "date": "2.7.2026",
       "time": "",
@@ -3772,6 +4150,15 @@
       "category": "hudba",
       "url": "https://rockcafe.cz/cs/program/the-real-mckenzies-can/",
       "image": "https://static.goout.cloud/rockcafecz/2026/02/b9566a72-644339237_1336400251856264_7776713604601199312_n-250x167.jpg"
+    },
+    {
+      "title": "Iscream Never Ground / JP",
+      "date": "9.7.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/iscream-never-ground-jp/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-756x454.png"
     },
     {
       "title": "Obscure presents: Eric Johnson (USA)",
@@ -3900,6 +4287,15 @@
       "image": "https://www.pragueopenair.cz/wp-content/uploads/2026/02/POA-FOTO-2026-1500x1000-stozvirat-.jpg"
     },
     {
+      "title": "The Living Tombstone",
+      "date": "8.8.2026",
+      "time": "",
+      "venue": "SaSaZu",
+      "category": "hudba",
+      "url": "https://www.sasazu-club.com/events/tombstone",
+      "image": "https://images.squarespace-cdn.com/content/v1/67c814a930ff2420d320eabc/365885b2-8bdd-49a9-8527-ec61f610374c/08_08+TLT.png"
+    },
+    {
       "title": "AIRBOURNE",
       "date": "10.8.2026",
       "time": "",
@@ -3907,6 +4303,15 @@
       "category": "hudba",
       "url": "https://www.forumkarlin.cz/udalost/airbourne",
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2026/01/2400x800.jpg"
+    },
+    {
+      "title": "Hot Water Music / US + support",
+      "date": "14.8.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/hot-water-music-us-support/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-1-1-756x454.png"
     },
     {
       "title": "Xindl X",
@@ -3952,6 +4357,15 @@
       "category": "hudba",
       "url": "https://www.pragueopenair.cz/events/omd/",
       "image": "https://www.pragueopenair.cz/wp-content/uploads/2025/11/POA-FOTO-2026-1500x1000-omd.jpg"
+    },
+    {
+      "title": "Red Leather / US",
+      "date": "22.8.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/red-leather-us/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-1-756x454.png"
     },
     {
       "title": "Mig 21",
@@ -4080,6 +4494,15 @@
       "image": "https://goout.net/i/126/1261455-800.jpg"
     },
     {
+      "title": "L1NKN P4RK (The Linkin Park Experience) + Wirefall",
+      "date": "11.9.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/l1nkn-p4rk-the-linkin-park-experience-wirefall/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-5-756x454.png"
+    },
+    {
       "title": "LATERNA MAGIKA PERPETUUM HAVEL",
       "date": "12.09.2026",
       "time": "",
@@ -4107,6 +4530,15 @@
       "image": "https://palacakropolis.cz/images/photos/0025/3150/pocketart_web_event.jpg"
     },
     {
+      "title": "GUITAR GANGSTERS , RAVACHOL",
+      "date": "17.09.2026",
+      "time": "19:00",
+      "venue": "Klub 007 Strahov",
+      "category": "hudba",
+      "url": "https://klub007strahov.cz/events/guitar-gangsters-uk-ravachol-cz/",
+      "image": ""
+    },
+    {
       "title": "THE NECKS/AU",
       "date": "17.09.2026",
       "time": "",
@@ -4125,6 +4557,15 @@
       "image": "https://www.roxy.cz/upload/temp/faaschtis26-bandpic-800x800-pgauwkjt800i-crop-480-480.jpg"
     },
     {
+      "title": "Donny Benét / AU",
+      "date": "17.9.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/donny-benet-au/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-3-756x454.png"
+    },
+    {
       "title": "Doctor Victor",
       "date": "18.9.2026",
       "time": "18:00",
@@ -4132,6 +4573,15 @@
       "category": "hudba",
       "url": "https://musicbar.cz/cs/program/doctor-victor-2/",
       "image": "https://static.goout.cloud/musicbarcz/2025/12/fe1a9eb0-doctor-victor-300-300x300.jpg"
+    },
+    {
+      "title": "FUTURE BLOOD VOL. 6: TOKYO DRIFT, BEATA & MESS",
+      "date": "18.9.2026",
+      "time": "20:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/future-blood-vol-6-tokyo-drift-beata-mess/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-2-1-756x454.png"
     },
     {
       "title": "Daniel Sloss",
@@ -4222,6 +4672,15 @@
       "category": "hudba",
       "url": "https://palacakropolis.cz/work/33298?event_id=39017",
       "image": "https://palacakropolis.cz/images/photos/0025/7441/Banned_From_Utopia_web_event.jpg"
+    },
+    {
+      "title": "Blockhead / US + ProleteR / FR + support: Arms and Sleepers / DE",
+      "date": "29.9.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/blockhead-us-proleter-fr-support-arms-and-sleepers-de/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-11-756x454.png"
     },
     {
       "title": "Obscure presents: The Dear Hunter (USA) + special guest",
@@ -4350,6 +4809,24 @@
       "image": "https://palacakropolis.cz/images/photos/0026/2463/parraforcuva-2025-_maxhartmannphoto-web-0236_web_event.jpg"
     },
     {
+      "title": "Käärijä",
+      "date": "8.10.2026",
+      "time": "",
+      "venue": "SaSaZu",
+      "category": "hudba",
+      "url": "https://www.sasazu-club.com/events/kaarija26",
+      "image": "https://images.squarespace-cdn.com/content/v1/67c814a930ff2420d320eabc/ed8b2091-e301-4777-b64c-d96c9991455d/Kaa-1080x1080.png"
+    },
+    {
+      "title": "Skyline",
+      "date": "9.10.2026",
+      "time": "20:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/skyline/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/04/FUTURUM-WEB-ROZMERY-756x454.png"
+    },
+    {
       "title": "Kaizers Orchestra / NO",
       "date": "10.10.2026",
       "time": "18:00",
@@ -4377,6 +4854,15 @@
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2025/10/TK_2400x800.jpg"
     },
     {
+      "title": "Blood Red Shoes / UK",
+      "date": "10.10.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/blood-red-shoes-uk/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-5-1-756x454.png"
+    },
+    {
       "title": "FAINTEST IDEA , JET8",
       "date": "11.10.2026",
       "time": "19:00",
@@ -4384,6 +4870,15 @@
       "category": "hudba",
       "url": "https://klub007strahov.cz/events/faintest-idea-uk-jet8-cz/",
       "image": ""
+    },
+    {
+      "title": "FEKETE SERETLEK & STUDIO DAMÚZA KAR",
+      "date": "12.10.2026",
+      "time": "",
+      "venue": "Palác Akropolis",
+      "category": "hudba",
+      "url": "https://palacakropolis.cz/work/33298?event_id=40583",
+      "image": "https://palacakropolis.cz/images/photos/0009/3951/1_web_event.JPG"
     },
     {
       "title": "O5 a Radeček",
@@ -4584,6 +5079,15 @@
       "image": "https://static.goout.cloud/musicbarcz/2026/03/eb5620e2-mg_4358-300x300.jpg"
     },
     {
+      "title": "The Clockworks / IE",
+      "date": "25.10.2026",
+      "time": "10:16",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/the-clockworks-ie/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/02/FUTURUM-WEB-ROZMERY-4-756x454.png"
+    },
+    {
       "title": "Slayyyter / US – VYPRODÁNO",
       "date": "26.10.2026",
       "time": "19:00",
@@ -4672,6 +5176,15 @@
       "category": "hudba",
       "url": "https://goout.net/cs/honza-krizek-band-krest-alba-mosty-spalim/szqewhy/",
       "image": "https://goout.net/i/138/1389167-800.jpg"
+    },
+    {
+      "title": "Sports / US",
+      "date": "3.11.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/sports-us/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2025/11/FUTURUM-WEB-ROZMERY-6-756x454.png"
     },
     {
       "title": "KAFKA BAND HRAJE KAFKU",
@@ -4764,6 +5277,15 @@
       "image": "https://www.roxy.cz/upload/temp/eodm-pressphoto-t66xjl7heatx-crop-480-480.jpg"
     },
     {
+      "title": "SON MIEUX / NL",
+      "date": "12.11.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/son-mieux-nl/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/02/FUTURUM-WEB-ROZMERY-14-756x454.png"
+    },
+    {
       "title": "The Hardkiss / UA",
       "date": "13.11.2026",
       "time": "18:00",
@@ -4854,6 +5376,15 @@
       "image": "https://static.goout.cloud/musicbarcz/2025/12/76e3eec3-thomartway-300-300x300.jpg"
     },
     {
+      "title": "Chameleons / UK",
+      "date": "22.11.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/chameleons-uk/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/04/FUTURUM-WEB-ROZMERY-4-756x454.png"
+    },
+    {
       "title": "THE MUSIC DIGEST (38)",
       "date": "23.11.2026",
       "time": "",
@@ -4861,6 +5392,15 @@
       "category": "hudba",
       "url": "https://palacakropolis.cz/work/33298?event_id=40909",
       "image": "https://palacakropolis.cz/images/photos/0023/4023/The_Music_Digest_web_event.png"
+    },
+    {
+      "title": "Aiko",
+      "date": "27.11.2026",
+      "time": "20:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/aiko-2/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2025/10/aiko-756x454.png"
     },
     {
       "title": "Depeche Mode Generation Party",
@@ -4996,6 +5536,15 @@
       "category": "hudba",
       "url": "https://klub007strahov.cz/events/green-monster-cz-psycho-beets-pl/",
       "image": ""
+    },
+    {
+      "title": "Alexandr Misko / RU",
+      "date": "24.1.2027",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/alexandr-misko-ru/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-4-756x454.png"
     },
     {
       "title": "Original ENIGMA Voices Symphonic",

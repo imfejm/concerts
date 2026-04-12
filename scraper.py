@@ -1694,6 +1694,160 @@ def scrape_sala_terrena():
 
 
 # ─────────────────────────────────────────────────────────────
+#  SASAZU CLUB  (sasazu-club.com)
+# ─────────────────────────────────────────────────────────────
+def scrape_sasazu():
+    print("* SaSaZu Club...")
+    soup = get_soup("https://www.sasazu-club.com/events")
+    if not soup:
+        return []
+
+    events = []
+    base = "https://www.sasazu-club.com"
+
+    for item in soup.select("a.grid-item"):
+        text_el = item.find(class_="portfolio-text")
+        text = text_el.get_text(strip=True) if text_el else ""
+        if not text:
+            continue
+
+        # Formát: "17.4.2026 - Název" nebo "8. 4. 2026 - Název"
+        m = re.match(r"(\d{1,2})\.?\s*(\d{1,2})\.?\s*(\d{4})\s*[-–]\s*(.+)", text)
+        if not m:
+            continue
+
+        date_str = f"{int(m.group(1))}.{int(m.group(2))}.{m.group(3)}"
+        title = m.group(4).strip()
+
+        href = item.get("href", "")
+        url = href if href.startswith("http") else base + href
+
+        img = item.find("img")
+        image = img.get("data-image", "") or img.get("src", "") if img else ""
+
+        events.append({
+            "title": title,
+            "date": date_str,
+            "time": "",
+            "venue": "SaSaZu",
+            "category": "hudba",
+            "url": url,
+            "image": image,
+        })
+
+    print(f"   [OK] {len(events)} akcí")
+    return events
+
+
+# ─────────────────────────────────────────────────────────────
+#  CARGO GALLERY  (cargogallery.cz)
+# ─────────────────────────────────────────────────────────────
+def scrape_cargogallery():
+    print("* Cargo Gallery...")
+    soup = get_soup("https://cargogallery.cz/program/")
+    if not soup:
+        return []
+
+    events = []
+    for ev in soup.select("div.eventon_list_event"):
+        # Název
+        title_el = ev.find("span", class_="evcal_event_title")
+        title = title_el.get_text(strip=True) if title_el else ""
+        if not title:
+            continue
+
+        # Datum a čas ze schema.org meta
+        start_meta = ev.find("meta", {"itemprop": "startDate"})
+        date_str = ""
+        time_str = ""
+        if start_meta:
+            # Formát: "2026-4-17T19:30+2:00"
+            start_val = start_meta.get("content", "")
+            dt_match = re.match(r"(\d{4})-(\d{1,2})-(\d{1,2})T(\d{2}:\d{2})", start_val)
+            if dt_match:
+                date_str = f"{int(dt_match.group(3))}.{int(dt_match.group(2))}.{dt_match.group(1)}"
+                time_str = dt_match.group(4)
+
+        if not date_str:
+            continue
+
+        # URL
+        a_tag = ev.find("a", class_="evcal_list_a")
+        url = a_tag.get("href", "") if a_tag else "https://cargogallery.cz/program/"
+
+        # Obrázek
+        img_el = ev.find("span", class_="ev_ftImg")
+        image = img_el.get("data-thumb", "") if img_el else ""
+        if not image and img_el:
+            image = img_el.get("data-img", "")
+
+        events.append({
+            "title": title,
+            "date": date_str,
+            "time": time_str,
+            "venue": "Cargo Gallery",
+            "category": "hudba",
+            "url": url,
+            "image": image,
+        })
+
+    print(f"   [OK] {len(events)} akcí")
+    return events
+
+
+# ─────────────────────────────────────────────────────────────
+#  MUSIC CLUB JIŽÁK  (musicclubjizak.cz)
+# ─────────────────────────────────────────────────────────────
+def scrape_musicclubjizak():
+    print("* Music Club Jižák...")
+    soup = get_soup("https://www.musicclubjizak.cz/program/")
+    if not soup:
+        return []
+
+    events = []
+    posts = soup.select("div.oxy-post")
+
+    for post in posts:
+        title_el = post.find(class_="koncert-vystupujici")
+        title = title_el.get_text(strip=True) if title_el else ""
+
+        # Přeskoč "připravujeme" položky
+        if not title or "připravujeme" in title.lower():
+            continue
+
+        # Datum: "02. 05. 2026" → "2.5.2026"
+        date_el = post.find(class_="koncert-date")
+        date_text = date_el.get_text(strip=True) if date_el else ""
+        date_match = re.search(r"(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})", date_text)
+        if not date_match:
+            continue
+        date_str = f"{int(date_match.group(1))}.{int(date_match.group(2))}.{date_match.group(3)}"
+
+        # Čas
+        time_el = post.find(class_="koncert-zacatek")
+        time_str = time_el.get_text(strip=True) if time_el else ""
+
+        # URL
+        a_tag = post.find("a")
+        url = a_tag.get("href", "").strip() if a_tag else ""
+        if not url:
+            url = "https://www.musicclubjizak.cz/program/"
+
+        events.append({
+            "title": title,
+            "date": date_str,
+            "time": time_str,
+            "venue": "Music Club Jižák",
+            "category": "hudba",
+            "url": url,
+            "image": "",
+        })
+
+    print(f"   [OK] {len(events)} akcí")
+    return events
+
+
+# ─────────────────────────────────────────────────────────────
 #  HLAVNÍ FUNKCE
 # ─────────────────────────────────────────────────────────────
 def main():
@@ -1724,6 +1878,9 @@ def main():
         scrape_pragueopenair,
         scrape_malostranska,
         scrape_sala_terrena,
+        scrape_cargogallery,
+        scrape_sasazu,
+        scrape_musicclubjizak,
     ]
 
     for scraper in scrapers:

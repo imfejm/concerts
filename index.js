@@ -484,4 +484,13 @@ document.getElementById('header-nav').addEventListener('click', e => {
   if (e.target.closest('.filter-btn, .view-btn')) closeMenu();
 });
 
+document.addEventListener('click', e => {
+  if (activeView !== 'mapa') return;
+  if (e.target.closest('#map-container, #header-nav, header, .venue-map-btn')) return;
+  activeView = 'all';
+  document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+  document.querySelector('.view-btn[data-view="all"]').classList.add('active');
+  render();
+});
+
 init();
