@@ -1398,6 +1398,151 @@ def scrape_reduta():
 
 
 # ─────────────────────────────────────────────────────────────
+#  MALOSTRANSKÁ BESEDA  (malostranska-beseda.cz)
+# ─────────────────────────────────────────────────────────────
+def scrape_malostranska():
+    print("* Malostranská Beseda...")
+    from datetime import date as _date
+
+    today = _date.today()
+    events = []
+    seen = set()
+
+    soup = get_soup("https://www.malostranska-beseda.cz/club/program?limit=200&do=loadMore")
+    if not soup:
+        return []
+
+    # Načti také jednotlivé měsíce (loadMore vynechává poslední event v měsíci)
+    months_soups = [soup]
+    for i in range(12):
+        m = (today.month - 1 + i) % 12 + 1
+        y = today.year + ((today.month - 1 + i) // 12)
+        s = get_soup(f"https://www.malostranska-beseda.cz/club/program?year={y}&month={m}")
+        if s:
+            months_soups.append(s)
+
+    blocks = []
+    for s in months_soups:
+        for container in s.select('div.bg-khaki'):
+            for child in container.find_all('div', recursive=False):
+                if child.find('b') and child.find('h4'):
+                    blocks.append(child)
+
+    for block in blocks:
+        date_b = block.find('b')
+        if not date_b:
+            continue
+        dm = re.match(r'(\d{1,2})\.\s*(\d{2})\.\s*(\d{4})', date_b.get_text(strip=True))
+        if not dm:
+            continue
+        d, mo, y = dm.groups()
+        if _date(int(y), int(mo), int(d)) < today:
+            continue
+        date_str = f"{int(d):02d}.{int(mo):02d}.{y}"
+
+        time_m = re.search(r'(\d{2}:\d{2})', date_b.parent.get_text())
+        time_str = time_m.group(1) if time_m else ''
+
+        h4 = block.find('h4')
+        title = h4.get_text(strip=True) if h4 else ''
+        if not title:
+            continue
+
+        key = (date_str, title)
+        if key in seen:
+            continue
+        seen.add(key)
+
+        btn = block.find('a', class_='btn')
+        url = btn['href'] if btn else ''
+
+        img = block.find('img')
+        image = img['src'] if img else ''
+
+        events.append({
+            "title": title,
+            "date": date_str,
+            "time": time_str,
+            "venue": "Malostranská Beseda",
+            "category": "hudba",
+            "url": url,
+            "image": image,
+        })
+
+    print(f"   [OK] {len(events)} akcí")
+    return events
+
+
+# ─────────────────────────────────────────────────────────────
+#  PRAGUE OPEN AIR  (pragueopenair.cz) — Energy Pub + Areál7
+# ─────────────────────────────────────────────────────────────
+def scrape_pragueopenair():
+    print("* Prague Open Air (Energy Pub + Areál7 Holešovice)...")
+
+    soup = get_soup("https://www.pragueopenair.cz/")
+    if not soup:
+        return []
+
+    venue_map = {
+        'energy pub': 'Energy Pub',
+        'areál7': 'Areál7 Holešovice',
+        'areal7': 'Areál7 Holešovice',
+    }
+
+    events = []
+    for ev in soup.find_all('div', class_='eventon_list_event'):
+        # Venue
+        loc = ev.find(itemprop='location')
+        if not loc:
+            continue
+        venue_raw = loc.find(itemprop='name')
+        if not venue_raw:
+            continue
+        venue_raw = venue_raw.get_text(strip=True).lower()
+        venue = next((v for k, v in venue_map.items() if k in venue_raw), None)
+        if not venue:
+            continue
+
+        # Datum a čas ze schema startDate
+        start = ev.find('meta', itemprop='startDate')
+        if not start:
+            continue
+        m = re.match(r'(\d{4})-(\d{1,2})-(\d{1,2})T(\d{2}:\d{2})', start.get('content', ''))
+        if not m:
+            continue
+        y, mo, d, t = m.groups()
+        date_str = f"{int(d):02d}.{int(mo):02d}.{y}"
+        time_str = t
+
+        # Titulek
+        title_el = ev.find('span', class_='evcal_event_title')
+        title = title_el.get_text(strip=True) if title_el else ''
+        if not title:
+            continue
+
+        # URL
+        url_el = ev.find('a', itemprop='url')
+        url = url_el['href'] if url_el else ''
+
+        # Obrázek
+        img_el = ev.find('meta', itemprop='image')
+        image = img_el['content'] if img_el else ''
+
+        events.append({
+            "title": title,
+            "date": date_str,
+            "time": time_str,
+            "venue": venue,
+            "category": "hudba",
+            "url": url,
+            "image": image,
+        })
+
+    print(f"   [OK] {len(events)} akcí")
+    return events
+
+
+# ─────────────────────────────────────────────────────────────
 #  HLAVNÍ FUNKCE
 # ─────────────────────────────────────────────────────────────
 def main():
@@ -1425,6 +1570,8 @@ def main():
         scrape_jazz_dock,
         scrape_reduta,
         scrape_archa,
+        scrape_pragueopenair,
+        scrape_malostranska,
     ]
 
     for scraper in scrapers:
