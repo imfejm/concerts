@@ -534,7 +534,30 @@ footer {
   text-align: center;
   color: var(--muted);
   margin-top: 3rem;
-  font-size: 0.9rem;
+ 
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.footer-text {
+  text-align: left;
+  font-size: 1rem;
+}
+.footer-text p {
+  margin: 0.25rem 0;
+}
+footer a {
+  color: var(--muted);
+}
+.footer-qr {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 4px;
 }
 
 code {
