@@ -322,23 +322,23 @@ def scrape_akropolis():
                 if default_image:
                     break
         
-        # Vytvoř mapování obrázků -> event_id z .image_box_auto prvků
+        # Vytvoř mapování obrázků -> event_id z .image_box_auto prvků (featured události v horní části)
         image_map = {}  # event_id -> image_url
         image_boxes = soup.find_all(True, class_='image_box_auto')
         for img in image_boxes:
             src = img.get('src', '')
             if not src:
                 continue
-            
+
             # Projdi nadřazené prvky a hledej event_id
             current = img.parent
             for _ in range(10):
                 if not current:
                     break
-                
+
                 parent_html = str(current)
                 event_match = re.search(r'event_id=(\d+)', parent_html)
-                
+
                 if event_match:
                     event_id = event_match.group(1)
                     # Vytvoř absolutní URL
@@ -347,9 +347,9 @@ def scrape_akropolis():
                     else:
                         image_map[event_id] = src
                     break
-                
+
                 current = current.parent
-        
+
         for tr in all_trs:
             tr_html = str(tr)
             
@@ -412,21 +412,50 @@ def scrape_akropolis():
             time_match = re.search(r'(\d{2}):(\d{2})', tr_text)
             time_str = f"{time_match.group(1)}:{time_match.group(2)}" if time_match else ""
             
-            # Vyber správný obrázek (mapovaný nebo default)
-            event_image = image_map.get(event_id, default_image)
-            
-            # Přijmi event (s korektním obrázkem)
+            # Vyber obrázek z featured sekce (pokud existuje)
+            event_image = image_map.get(event_id, "")
+
+            # Přijmi event
             if title and len(title) > 2 and len(title) < 300 and date_str:
+                # Přeskoč nežádoucí akce
+                if "nebojsy" in title.lower() or "divadlo" in title.lower():
+                    continue
+                category = "hudba"
                 events.append({
                     "title": title,
                     "date": date_str,
                     "time": time_str,
                     "venue": "Palác Akropolis",
-                    "category": "hudba",
+                    "category": category,
                     "url": f"https://palacakropolis.cz/work/33298?event_id={event_id}",
-                    "image": event_image,  # Používáme mapovaný obrázek nebo default
+                    "image": event_image,
+                    "_event_id": event_id,  # dočasně pro stahování obrázků
                 })
-        
+
+        # Pro události bez obrázku stáhni detailní stránku
+        missing = [e for e in events if not e.get("image")]
+        if missing:
+            print(f"   Stahuji obrázky pro {len(missing)} akcí z detailních stránek...")
+            for event in missing:
+                eid = event.get("_event_id")
+                if not eid:
+                    continue
+                detail_url = f"https://palacakropolis.cz/work/33298?event_id={eid}&no=62&page_id=33824"
+                detail_soup = get_soup(detail_url)
+                if detail_soup:
+                    img_tag = detail_soup.find('img', class_='galery_out_img')
+                    if img_tag:
+                        src = img_tag.get('src', '')
+                        if src:
+                            if src.startswith('/'):
+                                event["image"] = f"https://palacakropolis.cz{src}"
+                            else:
+                                event["image"] = src
+
+        # Odstraň dočasný klíč _event_id ze všech eventů
+        for event in events:
+            event.pop("_event_id", None)
+
         print(f"   [OK] {len(events)} akcí")
         return events
 

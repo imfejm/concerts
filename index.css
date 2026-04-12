@@ -594,7 +594,9 @@ code {
   font-family: var(--font-body);
   font-size: 0.85rem;
   cursor: pointer;
-  transition: border-color 0.15s, color 0.15s;
+  transition:
+    border-color 0.15s,
+    color 0.15s;
 }
 .venue-map-btn:hover {
   border-color: var(--accent);
@@ -985,7 +987,7 @@ footer a {
   color: var(--text);
   border: 1px solid var(--border);
   border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 .leaflet-container a {
   color: var(--text);
