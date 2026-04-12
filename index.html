@@ -3,7 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Co hraje v Praze</title>
+    <title>Co hraje v Praze – Koncerty a akce v pražských klubech</title>
+    <meta name="description" content="Přehled všech koncertů a živé hudby v pražských klubech na jednom místě. Jazz, rock, folk, elektronika a další žánry – filtruj podle klubu, data nebo žánru." />
+    <meta name="keywords" content="koncerty Praha, živá hudba Praha, pražské kluby, jazz Praha, rock Praha, akce Praha, program klubů Praha, co hraje v Praze" />
+    <meta name="author" content="imfejm.cz" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://cohrajevpraze.cz/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cohrajevpraze.cz/" />
+    <meta property="og:title" content="Co hraje v Praze – Koncerty a akce v pražských klubech" />
+    <meta property="og:description" content="Přehled všech koncertů a živé hudby v pražských klubech na jednom místě. Jazz, rock, folk, elektronika a další žánry." />
+    <meta property="og:image" content="https://cohrajevpraze.cz/img/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="cs_CZ" />
+    <meta property="og:site_name" content="Co hraje v Praze" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Co hraje v Praze – Koncerty a akce v pražských klubech" />
+    <meta name="twitter:description" content="Přehled všech koncertů a živé hudby v pražských klubech na jednom místě." />
+    <meta name="twitter:image" content="https://cohrajevpraze.cz/img/og-image.jpg" />
+
+    <!-- JSON-LD strukturovaná data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Co hraje v Praze",
+      "url": "https://cohrajevpraze.cz/",
+      "description": "Přehled všech koncertů a živé hudby v pražských klubech na jednom místě.",
+      "inLanguage": "cs",
+      "author": {
+        "@type": "Person",
+        "name": "imfejm",
+        "url": "https://imfejm.cz"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://cohrajevpraze.cz/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500&display=swap"
       rel="stylesheet"
@@ -17,6 +65,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json" />
 
   </head>
   <body>

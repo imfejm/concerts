@@ -1,0 +1,22 @@
+{
+  "name": "Co hraje v Praze",
+  "short_name": "Koncerty Praha",
+  "description": "Přehled všech koncertů a živé hudby v pražských klubech na jednom místě.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "lang": "cs",
+  "icons": [
+    {
+      "src": "img/favicon/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "img/favicon/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
