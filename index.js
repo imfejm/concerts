@@ -172,32 +172,21 @@ function renderCalendar(selectedKey = null, calYear = null, calMonth = null) {
   });
 }
 
-const VENUE_COORDS = {
-  'Rock Café':           [50.0790, 14.4228],
-  'Lucerna Music Bar':   [50.0797, 14.4244],
-  'Klub 007 Strahov':    [50.0806, 14.3886],
-  'Cross Club':          [50.1057, 14.4497],
-  'Palác Akropolis':     [50.0847, 14.4587],
-  'Vagon':               [50.0813, 14.4201],
-  'Café v lese':         [50.0435, 14.4076],
-  'Futurum Music Bar':   [50.0706, 14.4030],
-  'Kaštán':              [50.0990, 14.3710],
-  'MeetFactory':         [50.0543, 14.4030],
-  'Roxy':                [50.0893, 14.4218],
-  'Atrium Žižkov':       [50.0823, 14.4661],
-  'Forum Karlín':        [50.0938, 14.4556],
-  'Jazz Dock':           [50.0593, 14.4101],
-  'Reduta Jazz Club':    [50.0798, 14.4199],
-  'Archa+':              [50.0926, 14.4315],
-  'Energy Pub':          [50.1030, 14.4490],
-  'Areál7 Holešovice':   [50.1030, 14.4508],
-  'Malostranská Beseda': [50.0878, 14.4030],
-  'Sala Terrena':        [50.0836, 14.4082],
-};
+let venueCoords = {};
+
+async function loadVenueCoords() {
+  if (Object.keys(venueCoords).length) return;
+  try {
+    const res = await fetch('venue-coords.json');
+    venueCoords = await res.json();
+  } catch(e) {
+    console.warn('venue-coords.json se nepodařilo načíst', e);
+  }
+}
 
 let mapInstance = null;
 
-function renderMap() {
+async function renderMap() {
   const content = document.getElementById('content');
   content.innerHTML = `<div id="map-container"></div>`;
 
@@ -223,7 +212,8 @@ function renderMap() {
     maxZoom: 19,
   }).addTo(mapInstance);
 
-  Object.entries(VENUE_COORDS).forEach(([venue, coords]) => {
+  await loadVenueCoords();
+  Object.entries(venueCoords).forEach(([venue, coords]) => {
     const evs = byVenue[venue] || [];
     const hasEvents = evs.length > 0;
 
@@ -236,6 +226,9 @@ function renderMap() {
 
     const marker = L.marker(coords, { icon }).addTo(mapInstance);
 
+    const navUrl = `https://www.google.com/maps/dir/?api=1&destination=${coords[0]},${coords[1]}`;
+    const navBtn = `<a class="map-popup-nav" href="${navUrl}" target="_blank" rel="noopener">&#9657; Navigovat</a>`;
+
     const popupContent = hasEvents
       ? `<div class="map-popup">
            <div class="map-popup-venue">${venue}</div>
@@ -245,8 +238,9 @@ function renderMap() {
              ).join('')}
              ${evs.length > 5 ? `<li class="map-popup-more">+ ${evs.length - 5} dalších</li>` : ''}
            </ul>
+           ${navBtn}
          </div>`
-      : `<div class="map-popup"><div class="map-popup-venue">${venue}</div><p class="map-popup-empty">Žádné nadcházející akce</p></div>`;
+      : `<div class="map-popup"><div class="map-popup-venue">${venue}</div><p class="map-popup-empty">Žádné nadcházející akce</p>${navBtn}</div>`;
 
     marker.bindPopup(popupContent, { maxWidth: 280 });
   });
