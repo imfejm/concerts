@@ -44,13 +44,15 @@ function buildFilters(events) {
     btn.textContent = v;
     wrap.appendChild(btn);
   });
+
   wrap.addEventListener('click', e => {
+      // Klik na název klubu
     const btn = e.target.closest('.filter-btn');
     if (!btn) return;
     activeVenue = btn.dataset.venue;
     wrap.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
-    if (activeView === 'kalendar') {
+    if (activeView === 'kalendar' || activeView === 'mapa') {
       activeView = 'all';
       document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
       document.querySelector('.view-btn[data-view="all"]').classList.add('active');
@@ -185,6 +187,7 @@ async function loadVenueCoords() {
 }
 
 let mapInstance = null;
+const mapMarkers = {};
 
 async function renderMap() {
   const content = document.getElementById('content');
@@ -225,6 +228,7 @@ async function renderMap() {
     });
 
     const marker = L.marker(coords, { icon }).addTo(mapInstance);
+    mapMarkers[venue] = marker;
 
     const navUrl = `https://www.google.com/maps/dir/?api=1&destination=${coords[0]},${coords[1]}`;
     const navBtn = `<a class="map-popup-nav" href="${navUrl}" target="_blank" rel="noopener">&#9657; Navigovat</a>`;
@@ -308,7 +312,25 @@ function render() {
     }
   });
 
+  if (activeVenue !== 'vse' && venueCoords[activeVenue]) {
+    html = `<button class="venue-map-btn" id="venue-map-btn">📍 Zobrazit na mapě</button>` + html;
+  }
+
   content.innerHTML = html;
+
+  document.getElementById('venue-map-btn')?.addEventListener('click', () => {
+    const venue = activeVenue;
+    activeView = 'mapa';
+    document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+    document.querySelector('.view-btn[data-view="mapa"]').classList.add('active');
+    render().then(() => {
+      const marker = mapMarkers[venue];
+      if (marker) {
+        mapInstance.setView(marker.getLatLng(), 16, { animate: true });
+        marker.openPopup();
+      }
+    });
+  });
 
   content.querySelectorAll('.section-head--toggle').forEach(head => {
     head.addEventListener('click', () => {
@@ -376,6 +398,7 @@ async function init() {
       ticker.textContent = titles.join('  ·  ');
     }
 
+    await loadVenueCoords();
     buildFilters(allEvents);
     updateStats(allEvents);
     render();

@@ -581,6 +581,26 @@ code {
   padding: 0.75rem 0;
 }
 
+.venue-map-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 1.5rem;
+  padding: 0.45rem 1rem;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--muted);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+.venue-map-btn:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
 .filter-btn {
   background: transparent;
   border: 1px solid var(--border);
