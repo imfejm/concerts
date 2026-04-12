@@ -159,7 +159,7 @@ function renderCalendar(selectedKey = null, calYear = null, calMonth = null) {
     cell.addEventListener('click', () => {
       renderCalendar(cell.dataset.key, year, month);
       const cards = document.querySelector('.cal-day-cards');
-      if (cards) cards.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (cards) scrollBelowHeader(cards);
     });
   });
 

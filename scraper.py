@@ -1694,6 +1694,83 @@ def scrape_sala_terrena():
 
 
 # ─────────────────────────────────────────────────────────────
+#  O2 ARENA  (o2arena.cz)
+# ─────────────────────────────────────────────────────────────
+def scrape_o2arena():
+    print("* O2 Arena...")
+    soup = get_soup("https://www.o2arena.cz/events/")
+    if not soup:
+        return []
+
+    # Klíčová slova nehudebních akcí
+    EXCLUDE_KEYWORDS = [
+        "hc sparta", "hc dynamo", "hc ", " hc ",
+        "florbal", "nohejbal",
+        "prohlídkové okruhy",
+        "fmx",
+        "global champions",
+        "taneční skupina roku",
+        "mistrovství světa",
+        "reinhold messner",
+        "superfinálu",
+        "superfinále",
+    ]
+
+    events = []
+    for ev in soup.select("div.event_preview"):
+        h3 = ev.find("h3")
+        if not h3:
+            continue
+        a_tag = h3.find("a")
+        title = a_tag.get_text(strip=True) if a_tag else h3.get_text(strip=True)
+        if not title:
+            continue
+
+        # Filtruj nehudební akce
+        title_lower = title.lower()
+        if any(kw in title_lower for kw in EXCLUDE_KEYWORDS):
+            continue
+
+        # Datum a čas: "20.4.2026 20:00" nebo "13.4.2026 18:30"
+        time_el = ev.find("p", class_="time")
+        time_text = time_el.get_text(strip=True) if time_el else ""
+        # Vezmi první výskyt datumu (u vícedenních akcí bývají dva)
+        date_match = re.search(r"(\d{1,2}\.\d{1,2}\.\d{4})", time_text)
+        time_match = re.search(r"(\d{2}:\d{2})", time_text)
+        if not date_match:
+            continue
+        date_str = date_match.group(1)
+        # Normalizuj na "d.m.yyyy"
+        parts = date_str.split(".")
+        date_str = f"{int(parts[0])}.{int(parts[1])}.{parts[2]}"
+        time_str = time_match.group(1) if time_match else ""
+
+        url = a_tag.get("href", "") if a_tag else "https://www.o2arena.cz/events/"
+
+        # Obrázek z background-image stylu
+        eye = ev.find("div", class_="eye_catcher")
+        image = ""
+        if eye:
+            style = eye.get("style", "")
+            img_match = re.search(r"url\(([^)]+)\)", style)
+            if img_match:
+                image = img_match.group(1).strip("'\"")
+
+        events.append({
+            "title": title,
+            "date": date_str,
+            "time": time_str,
+            "venue": "O2 Arena",
+            "category": "hudba",
+            "url": url,
+            "image": image,
+        })
+
+    print(f"   [OK] {len(events)} akcí")
+    return events
+
+
+# ─────────────────────────────────────────────────────────────
 #  SASAZU CLUB  (sasazu-club.com)
 # ─────────────────────────────────────────────────────────────
 def scrape_sasazu():
@@ -1878,6 +1955,7 @@ def main():
         scrape_pragueopenair,
         scrape_malostranska,
         scrape_sala_terrena,
+        scrape_o2arena,
         scrape_cargogallery,
         scrape_sasazu,
         scrape_musicclubjizak,
