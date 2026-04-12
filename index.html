@@ -9,6 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   </head>
   <body>
     <header>
@@ -25,6 +26,7 @@
         <div class="view-bar">
           <button class="view-btn active" data-view="all">Všechny</button>
           <button class="view-btn" data-view="dnes">Dnes</button>
+          <button class="view-btn" data-view="zitra">Zítra</button>
           <button class="view-btn" data-view="tyden">Tento týden</button>
           <button class="view-btn" data-view="kalendar">Kalendář</button>
           <button class="view-btn view-btn-mapa" data-view="mapa">Mapa</button>
@@ -94,6 +96,7 @@
       <code>scraper.py</code>
     </footer>
 
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="index.js"></script>
   </body>
 </html>

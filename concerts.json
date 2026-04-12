@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-12T10:08:45.126160",
-  "count": 559,
+  "updated": "2026-04-12T10:45:41.366656",
+  "count": 578,
   "events": [
     {
       "title": "Jozef Mrva ml.: Challenger Escape Plan",
@@ -363,6 +363,15 @@
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/i5ao5v1b61.1282249-800.jpg"
     },
     {
+      "title": "Kampa Jazz Band",
+      "date": "12.4.2026",
+      "time": "16:00",
+      "venue": "Sala Terrena",
+      "category": "hudba",
+      "url": "https://www.kckampa.cz/",
+      "image": "https://www.kckampa.cz/media/jazz_600-600x600.jpg"
+    },
+    {
       "title": "Graabner",
       "date": "13.4.2026",
       "time": "19:30",
@@ -424,6 +433,15 @@
       "category": "hudba",
       "url": "https://goout.net/cs/321-jedem-host-kaskaderka-hana-dvorska/szgyvgy/",
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/fumq12v2lr.440439869-1370393890517963-6071977456448156672-n-2-.jpg"
+    },
+    {
+      "title": "Muzikanti z Kampy",
+      "date": "13.4.2026",
+      "time": "19:00",
+      "venue": "Sala Terrena",
+      "category": "hudba",
+      "url": "https://www.kckampa.cz/",
+      "image": "https://www.kckampa.cz/media/muzikanti-600x600.jpg"
     },
     {
       "title": "PŘESUNUTO: Selection presents: ClockClock (DE)",
@@ -615,6 +633,15 @@
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/j3rt26fhdc.1371307-800.jpg"
     },
     {
+      "title": "Folklor Trio",
+      "date": "15.4.2026",
+      "time": "19:00",
+      "venue": "Sala Terrena",
+      "category": "hudba",
+      "url": "https://www.kckampa.cz/",
+      "image": "https://www.kckampa.cz/media/Folklor-Trio-600x600.jpg"
+    },
+    {
       "title": "The Gripes, Yelling Orangutans, Offbeat 5",
       "date": "16.4.2026",
       "time": "19:00",
@@ -721,6 +748,15 @@
       "category": "hudba",
       "url": "https://goout.net/cs/lorraine-leckie-and-her-demons-krest-alba%2Bspecial-host-nezna-noc/szebjhy/",
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/75wp5jswi4.1386949-383.jpg"
+    },
+    {
+      "title": "Muzikanti z Kampy",
+      "date": "16.4.2026",
+      "time": "19:00",
+      "venue": "Sala Terrena",
+      "category": "hudba",
+      "url": "https://www.kckampa.cz/",
+      "image": "https://www.kckampa.cz/media/muzikanti-600x600.jpg"
     },
     {
       "title": "Groovy & Stinky FEST 2026",
@@ -856,6 +892,15 @@
       "category": "hudba",
       "url": "https://goout.net/cs/souflsou%2Bladislav-bonita/szjelgy/",
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/dsr8f4ha7h.1320259-800.jpg"
+    },
+    {
+      "title": "The Corks",
+      "date": "17.4.2026",
+      "time": "19:00",
+      "venue": "Sala Terrena",
+      "category": "hudba",
+      "url": "https://www.kckampa.cz/",
+      "image": "https://www.kckampa.cz/media/The-Corks-Kampa-Poster-Work1a-Red-pracovni-kopie-600x600.jpg"
     },
     {
       "title": "Groovy & Stinky FEST 2026",
@@ -1117,6 +1162,15 @@
       "category": "hudba",
       "url": "https://www.jitkakeltie.cz/jedinecna-houslova-show-v-malostranske-besede-20-4-2026/",
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/r8qyq8ff0d.plakat-A4-Malostranska-beseda-2-1.jpg"
+    },
+    {
+      "title": "Muzikanti z Kampy",
+      "date": "20.4.2026",
+      "time": "19:00",
+      "venue": "Sala Terrena",
+      "category": "hudba",
+      "url": "https://www.kckampa.cz/",
+      "image": "https://www.kckampa.cz/media/muzikanti-600x600.jpg"
     },
     {
       "title": "Obscure presents: Lansdowne (USA) + support",
@@ -1434,6 +1488,15 @@
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/linmjzv636.1290119-800.jpg"
     },
     {
+      "title": "Jedna ku třem",
+      "date": "23.4.2026",
+      "time": "19:00",
+      "venue": "Sala Terrena",
+      "category": "hudba",
+      "url": "https://www.kckampa.cz/",
+      "image": "https://www.kckampa.cz/media/1ku3-cb-600x600.jpg"
+    },
+    {
       "title": "Selection presents: Natalie Jane (USA)",
       "date": "24.4.2026",
       "time": "20:00",
@@ -1567,6 +1630,15 @@
       "category": "hudba",
       "url": "https://goout.net/cs/ve-svetle-pisni-davida-stypky/szpglgy/",
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/4k1pznhd2p.1384322-800.jpg"
+    },
+    {
+      "title": "Neil Young Tribute",
+      "date": "24.4.2026",
+      "time": "20:00",
+      "venue": "Sala Terrena",
+      "category": "hudba",
+      "url": "https://www.kckampa.cz/",
+      "image": "https://www.kckampa.cz/media/young-600x600.jpg"
     },
     {
       "title": "VPŘEDSKOK x BOLESLAM 2026",
@@ -1767,6 +1839,15 @@
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/xy7k8roohd.storage-emulated-0-Android-data-com.adobe.reader-files-Pictures-Adobe-Acrobat-Exports-PJ-Amsterdam-0.jpg"
     },
     {
+      "title": "Načarej",
+      "date": "26.4.2026",
+      "time": "16:00",
+      "venue": "Sala Terrena",
+      "category": "hudba",
+      "url": "https://www.kckampa.cz/",
+      "image": "https://www.kckampa.cz/media/Profil_Nacarej-600x600.jpg"
+    },
+    {
       "title": "Nanday (křest desky) + hosté",
       "date": "27.4.2026",
       "time": "20:00",
@@ -1846,6 +1927,15 @@
       "category": "hudba",
       "url": "https://goout.net/cs/edith-piaf-dnes-nechci-spat-sama/szffdey",
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/d0hd28539r.1364191-800.jpg"
+    },
+    {
+      "title": "Muzikanti z Kampy",
+      "date": "27.4.2026",
+      "time": "19:00",
+      "venue": "Sala Terrena",
+      "category": "hudba",
+      "url": "https://www.kckampa.cz/",
+      "image": "https://www.kckampa.cz/media/muzikanti-600x600.jpg"
     },
     {
       "title": "Fource presents: Yellow Days (UK) + support: Rekreace",
@@ -2125,6 +2215,15 @@
       "category": "hudba",
       "url": "#",
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/qgowll5xlq.koniny-tour-1-.jpg"
+    },
+    {
+      "title": "Muzikanti z Kampy",
+      "date": "30.4.2026",
+      "time": "19:00",
+      "venue": "Sala Terrena",
+      "category": "hudba",
+      "url": "https://www.kckampa.cz/",
+      "image": "https://www.kckampa.cz/media/muzikanti-600x600.jpg"
     },
     {
       "title": "MAX STYLER (US)",
@@ -2631,6 +2730,15 @@
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/dkb9zmjz8j.77069630-2984026078292741-3538665418220634112-n.jpg"
     },
     {
+      "title": "Kampa Jazz Band",
+      "date": "10.5.2026",
+      "time": "16:00",
+      "venue": "Sala Terrena",
+      "category": "hudba",
+      "url": "https://www.kckampa.cz/",
+      "image": "https://www.kckampa.cz/media/jazz_600-600x600.jpg"
+    },
+    {
       "title": "Ceny Apollo: Idea & James Cole + The Prostitutes + Jakub König",
       "date": "11.5.2026",
       "time": "19:00",
@@ -2782,6 +2890,15 @@
       "category": "hudba",
       "url": "https://goout.net/cs/mucha-v-besede/szigqhy/",
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/6p7kptaock.1360749-800.jpg"
+    },
+    {
+      "title": "Hudební sdružení Petřín",
+      "date": "14.5.2026",
+      "time": "18:00",
+      "venue": "Sala Terrena",
+      "category": "hudba",
+      "url": "https://www.kckampa.cz/",
+      "image": "https://www.kckampa.cz/media/IMG-20220723-WA0000-600x600.jpg"
     },
     {
       "title": "Zllo Fest 4: Cocotte Minute, Anteater, Bound To Break",
@@ -3063,6 +3180,15 @@
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/fgldfwmmsh.1388249-800.jpg"
     },
     {
+      "title": "Folklor Trio",
+      "date": "20.5.2026",
+      "time": "19:00",
+      "venue": "Sala Terrena",
+      "category": "hudba",
+      "url": "https://www.kckampa.cz/",
+      "image": "https://www.kckampa.cz/media/Folklor-Trio-600x600.jpg"
+    },
+    {
       "title": "GUMMY PIG , GALANTI",
       "date": "21.05.2026",
       "time": "19:00",
@@ -3207,6 +3333,15 @@
       "image": "https://cafevlese.cz/wp-content/uploads/2026/01/Moondoggy-DRI-35-scaled-e1769153053435-768x777.jpg"
     },
     {
+      "title": "Storytelling",
+      "date": "25.5.2026",
+      "time": "19:30",
+      "venue": "Sala Terrena",
+      "category": "hudba",
+      "url": "https://www.kckampa.cz/",
+      "image": "https://www.kckampa.cz/media/Khamoro_05-31_storytelling_7-600x600.jpg"
+    },
+    {
       "title": "Blue October / US",
       "date": "26.5.2026",
       "time": "19:00",
@@ -3277,6 +3412,15 @@
       "category": "hudba",
       "url": "https://cafevlese.cz/events/ben-camden-aus/",
       "image": "https://cafevlese.cz/wp-content/uploads/2026/01/Ben-Camden-EU-2026-2.1-ratio-768x384.jpg"
+    },
+    {
+      "title": "Septet Club",
+      "date": "27.5.2026",
+      "time": "19:00",
+      "venue": "Sala Terrena",
+      "category": "hudba",
+      "url": "https://www.kckampa.cz/",
+      "image": "https://www.kckampa.cz/media/Fotka-600x600.jpeg"
     },
     {
       "title": "Tojeon, Love & other cliches, Kristy Hernandez",
@@ -3376,6 +3520,15 @@
       "category": "hudba",
       "url": "https://goout.net/cs/pocta-zuzane-navarove-jazz-elements/szwcfey/",
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/9agkudnfm1.1218619-800-1-.jpg"
+    },
+    {
+      "title": "Načarej",
+      "date": "3.6.2026",
+      "time": "17:00",
+      "venue": "Sala Terrena",
+      "category": "hudba",
+      "url": "https://www.kckampa.cz/",
+      "image": "https://www.kckampa.cz/media/Profil_Nacarej-600x600.jpg"
     },
     {
       "title": "MONIKA NAČEVA – NEBE JE RUDÝ (30 LET) | KŘEST VINYLU",
@@ -3540,6 +3693,15 @@
       "image": ""
     },
     {
+      "title": "Kampa Jazz Band",
+      "date": "14.6.2026",
+      "time": "16:00",
+      "venue": "Sala Terrena",
+      "category": "hudba",
+      "url": "https://www.kckampa.cz/",
+      "image": "https://www.kckampa.cz/media/jazz_600-600x600.jpg"
+    },
+    {
       "title": "P.O.D. / US",
       "date": "16.6.2026",
       "time": "19:00",
@@ -3574,6 +3736,15 @@
       "category": "hudba",
       "url": "https://musicbar.cz/cs/program/touche-amore-us/",
       "image": "https://static.goout.cloud/musicbarcz/2025/11/5e107b4f-touche-amore-300-300x300.jpg"
+    },
+    {
+      "title": "Folklor Trio",
+      "date": "17.6.2026",
+      "time": "19:00",
+      "venue": "Sala Terrena",
+      "category": "hudba",
+      "url": "https://www.kckampa.cz/",
+      "image": "https://www.kckampa.cz/media/Folklor-Trio-600x600.jpg"
     },
     {
       "title": "Mac DeMarco",

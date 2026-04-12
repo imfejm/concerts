@@ -1543,6 +1543,113 @@ def scrape_pragueopenair():
 
 
 # ─────────────────────────────────────────────────────────────
+#  SALA TERRENA / KC KAMPA  (kckampa.cz)
+# ─────────────────────────────────────────────────────────────
+def scrape_sala_terrena():
+    print("* Sala Terrena (KC Kampa)...")
+
+    czech_months = {
+        'ledna': '01', 'února': '02', 'března': '03', 'dubna': '04',
+        'května': '05', 'června': '06', 'července': '07', 'srpna': '08',
+        'září': '09', 'října': '10', 'listopadu': '11', 'prosince': '12',
+    }
+
+    ajax_url = "https://www.kckampa.cz/wp-admin/admin-ajax.php"
+    ZIVA_HUDBA_ID = "75"
+
+    def parse_articles(soup):
+        events = []
+        for art in soup.select("article.event"):
+            # Název
+            h1 = art.find("h1")
+            title = h1.get_text(strip=True) if h1 else ""
+            if not title:
+                continue
+
+            # Datum a čas jsou v <ul><li>
+            lis = art.find("ul")
+            li_texts = [li.get_text(strip=True) for li in lis.find_all("li")] if lis else []
+
+            date_str = ""
+            time_str = ""
+            for li in li_texts:
+                # Datum: "12. dubna 2026, neděle"
+                date_match = re.search(r'(\d{1,2})\.\s+(\w+)\s+(\d{4})', li)
+                if date_match:
+                    day = date_match.group(1).zfill(2)
+                    month_name = date_match.group(2).lower()
+                    year = date_match.group(3)
+                    month = czech_months.get(month_name, "")
+                    if month:
+                        date_str = f"{int(day)}.{int(month)}.{year}"
+                # Čas: "16.00" nebo "19.00"
+                time_match = re.search(r'^(\d{1,2})\.(\d{2})$', li)
+                if time_match:
+                    time_str = f"{time_match.group(1)}:{time_match.group(2)}"
+
+            if not date_str:
+                continue
+
+            # URL (Další info odkaz)
+            a_tag = art.find("a", class_="btn")
+            url = a_tag.get("href", "") if a_tag else "https://www.kckampa.cz/"
+
+            # Obrázek
+            img = art.find("img")
+            image = img.get("src", "") if img else ""
+
+            events.append({
+                "title": title,
+                "date": date_str,
+                "time": time_str,
+                "venue": "Sala Terrena",
+                "category": "hudba",
+                "url": url,
+                "image": image,
+            })
+        return events
+
+    try:
+        events = []
+        # Filtruj podle "živá hudba" (id=75)
+        resp = requests.post(
+            ajax_url,
+            data={"action": "filter", "id": ZIVA_HUDBA_ID, "place": ""},
+            headers=HEADERS,
+            timeout=15,
+        )
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        events.extend(parse_articles(soup))
+
+        # Zjisti celkový počet a dočti další stránky
+        count_inp = soup.find(id="count")
+        total = int(count_inp["value"]) if count_inp else len(events)
+        page = 2
+        while len(events) < total:
+            resp2 = requests.post(
+                ajax_url,
+                data={"action": "loadmore", "id": ZIVA_HUDBA_ID, "place": "", "paged": page},
+                headers=HEADERS,
+                timeout=15,
+            )
+            resp2.raise_for_status()
+            soup2 = BeautifulSoup(resp2.text, "html.parser")
+            new_events = parse_articles(soup2)
+            if not new_events:
+                break
+            events.extend(new_events)
+            page += 1
+
+        print(f"   [OK] {len(events)} akcí")
+        return events
+
+    except Exception as e:
+        print(f"  [WARN] Chyba Sala Terrena: {e}", file=sys.stderr)
+        return []
+
+
+# ─────────────────────────────────────────────────────────────
 #  HLAVNÍ FUNKCE
 # ─────────────────────────────────────────────────────────────
 def main():
@@ -1572,6 +1679,7 @@ def main():
         scrape_archa,
         scrape_pragueopenair,
         scrape_malostranska,
+        scrape_sala_terrena,
     ]
 
     for scraper in scrapers:

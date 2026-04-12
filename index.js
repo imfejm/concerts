@@ -80,6 +80,11 @@ function getFiltered() {
     if (activeView === 'dnes') {
       return isToday(ev.date);
     }
+    if (activeView === 'zitra') {
+      const d = eventDate(ev);
+      if (!d) return false;
+      return Math.round((d - today) / 86400000) === 1;
+    }
     if (activeView === 'tyden') {
       const d = eventDate(ev);
       if (!d) return false;
@@ -167,8 +172,89 @@ function renderCalendar(selectedKey = null, calYear = null, calMonth = null) {
   });
 }
 
+const VENUE_COORDS = {
+  'Rock Café':           [50.0790, 14.4228],
+  'Lucerna Music Bar':   [50.0797, 14.4244],
+  'Klub 007 Strahov':    [50.0806, 14.3886],
+  'Cross Club':          [50.1057, 14.4497],
+  'Palác Akropolis':     [50.0847, 14.4587],
+  'Vagon':               [50.0813, 14.4201],
+  'Café v lese':         [50.0435, 14.4076],
+  'Futurum Music Bar':   [50.0706, 14.4030],
+  'Kaštán':              [50.0990, 14.3710],
+  'MeetFactory':         [50.0543, 14.4030],
+  'Roxy':                [50.0893, 14.4218],
+  'Atrium Žižkov':       [50.0823, 14.4661],
+  'Forum Karlín':        [50.0938, 14.4556],
+  'Jazz Dock':           [50.0593, 14.4101],
+  'Reduta Jazz Club':    [50.0798, 14.4199],
+  'Archa+':              [50.0926, 14.4315],
+  'Energy Pub':          [50.1030, 14.4490],
+  'Areál7 Holešovice':   [50.1030, 14.4508],
+  'Malostranská Beseda': [50.0878, 14.4030],
+  'Sala Terrena':        [50.0836, 14.4082],
+};
+
+let mapInstance = null;
+
+function renderMap() {
+  const content = document.getElementById('content');
+  content.innerHTML = `<div id="map-container"></div>`;
+
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+
+  // Skupiny událostí podle venue (jen budoucí + dnes)
+  const byVenue = {};
+  allEvents.forEach(ev => {
+    const venueOk = activeVenue === 'vse' || ev.venue === activeVenue;
+    if (!venueOk) return;
+    const d = eventDate(ev);
+    if (d && d < today) return;
+    if (!byVenue[ev.venue]) byVenue[ev.venue] = [];
+    byVenue[ev.venue].push(ev);
+  });
+
+  if (mapInstance) { mapInstance.remove(); mapInstance = null; }
+
+  mapInstance = L.map('map-container', { zoomControl: true }).setView([50.0780, 14.4341], 13);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    maxZoom: 19,
+  }).addTo(mapInstance);
+
+  Object.entries(VENUE_COORDS).forEach(([venue, coords]) => {
+    const evs = byVenue[venue] || [];
+    const hasEvents = evs.length > 0;
+
+    const icon = L.divIcon({
+      className: '',
+      html: `<div class="map-marker${hasEvents ? ' map-marker--active' : ''}">${hasEvents ? evs.length : ''}</div>`,
+      iconSize: [36, 36],
+      iconAnchor: [18, 18],
+    });
+
+    const marker = L.marker(coords, { icon }).addTo(mapInstance);
+
+    const popupContent = hasEvents
+      ? `<div class="map-popup">
+           <div class="map-popup-venue">${venue}</div>
+           <ul class="map-popup-list">
+             ${evs.slice(0, 5).map(ev =>
+               `<li><span class="map-popup-date">${formatDate(ev.date, ev.time)}</span> ${escHtml(ev.title)}</li>`
+             ).join('')}
+             ${evs.length > 5 ? `<li class="map-popup-more">+ ${evs.length - 5} dalších</li>` : ''}
+           </ul>
+         </div>`
+      : `<div class="map-popup"><div class="map-popup-venue">${venue}</div><p class="map-popup-empty">Žádné nadcházející akce</p></div>`;
+
+    marker.bindPopup(popupContent, { maxWidth: 280 });
+  });
+}
+
 function render() {
   if (activeView === 'kalendar') { renderCalendar(); return; }
+  if (activeView === 'mapa') { renderMap(); return; }
   const events = getFiltered();
   const content = document.getElementById('content');
 
@@ -186,7 +272,7 @@ function render() {
 
   // Skupiny: Dnes / Tento týden / Brzy
   const today = new Date(); today.setHours(0,0,0,0);
-  const groups = { 'Dnes': [], 'Tento týden': [], 'Brzy': [] };
+  const groups = { 'Dnes': [], 'Zítra': [], 'Tento týden': [], 'Brzy': [] };
 
   events.forEach(ev => {
     const parts = normalizeDate(ev.date).split('.');
@@ -195,25 +281,48 @@ function render() {
     if (!d || isNaN(d)) { groups['Brzy'].push(ev); return; }
     const diff = Math.round((d - today) / 86400000);
     if (diff === 0) groups['Dnes'].push(ev);
-    else if (diff > 0 && diff <= 7) groups['Tento týden'].push(ev);
+    else if (diff === 1) groups['Zítra'].push(ev);
+    else if (diff > 1 && diff <= 7) groups['Tento týden'].push(ev);
     else groups['Brzy'].push(ev);
   });
 
-  const sectionIds = { 'Dnes': 'section-dnes', 'Tento týden': 'section-tyden', 'Brzy': 'section-brzy' };
+  const sectionIds = { 'Dnes': 'section-dnes', 'Zítra': 'section-zitra', 'Tento týden': 'section-tyden', 'Brzy': 'section-brzy' };
+  const collapsible = new Set(['Zítra', 'Tento týden', 'Brzy']);
   let html = '';
   Object.entries(groups).forEach(([label, evs]) => {
     if (!evs.length) return;
-    html += `
-      <div class="section-head" id="${sectionIds[label]}">
-        <h2 class="section-title">${label}</h2>
-        <span class="section-count">${evs.length} ${evs.length === 1 ? 'akce' : 'akcí'}</span>
-      </div>
-      <div class="grid">
-        ${evs.map(ev => cardHTML(ev)).join('')}
-      </div>`;
+    const id = sectionIds[label];
+    if (collapsible.has(label)) {
+      html += `
+        <div class="section-head section-head--toggle is-collapsed" id="${id}" data-body="${id}-body">
+          <h2 class="section-title">${label}</h2>
+          <span class="section-count">${evs.length} ${evs.length === 1 ? 'akce' : 'akcí'}</span>
+          <span class="section-toggle-icon">▾</span>
+        </div>
+        <div class="grid section-body is-collapsed" id="${id}-body">
+          ${evs.map(ev => cardHTML(ev)).join('')}
+        </div>`;
+    } else {
+      html += `
+        <div class="section-head" id="${id}">
+          <h2 class="section-title">${label}</h2>
+          <span class="section-count">${evs.length} ${evs.length === 1 ? 'akce' : 'akcí'}</span>
+        </div>
+        <div class="grid">
+          ${evs.map(ev => cardHTML(ev)).join('')}
+        </div>`;
+    }
   });
 
   content.innerHTML = html;
+
+  content.querySelectorAll('.section-head--toggle').forEach(head => {
+    head.addEventListener('click', () => {
+      const body = document.getElementById(head.dataset.body);
+      const collapsed = head.classList.toggle('is-collapsed');
+      body.classList.toggle('is-collapsed', collapsed);
+    });
+  });
 }
 
 function cardHTML(ev) {
@@ -309,6 +418,16 @@ document.querySelector('.view-bar').addEventListener('click', e => {
   const btn = e.target.closest('.view-btn');
   if (!btn) return;
   const view = btn.dataset.view;
+
+  if (view === 'zitra') {
+    activeView = 'all';
+    document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+    document.querySelector('.view-btn[data-view="all"]').classList.add('active');
+    render();
+    const target = document.getElementById('section-zitra');
+    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    return;
+  }
 
   if (view === 'tyden') {
     activeView = 'all';
