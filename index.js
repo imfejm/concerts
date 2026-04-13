@@ -47,6 +47,34 @@ function buildFilters(events) {
     wrap.appendChild(btn);
   });
 
+  // Toggle tlačítko pro mobilní zobrazení
+  const toggle = document.createElement('button');
+  toggle.className = 'filters-toggle';
+  toggle.id = 'filters-toggle';
+  wrap.parentNode.insertBefore(toggle, wrap);
+
+  function updateToggleLabel() {
+    const n = activeVenues.size;
+    toggle.innerHTML = `<span>Kluby${n > 0 ? ` (${n})` : ''}</span><span class="filters-toggle-icon">▾</span>`;
+    toggle.classList.toggle('has-active', n > 0);
+  }
+  updateToggleLabel();
+
+  toggle.addEventListener('click', () => {
+    wrap.classList.toggle('filters-open');
+    toggle.classList.toggle('open');
+  });
+
+  const showBtn = document.createElement('button');
+  showBtn.className = 'filters-show-btn';
+  showBtn.textContent = 'Zobrazit koncerty';
+  wrap.insertAdjacentElement('afterend', showBtn);
+  showBtn.addEventListener('click', () => {
+    wrap.classList.remove('filters-open');
+    toggle.classList.remove('open');
+    closeMenu();
+  });
+
   wrap.addEventListener('click', e => {
     const btn = e.target.closest('.filter-btn');
     if (!btn) return;
@@ -62,6 +90,7 @@ function buildFilters(events) {
     wrap.querySelectorAll('.filter-btn:not([data-venue="vse"])').forEach(b => {
       b.classList.toggle('active', activeVenues.has(b.dataset.venue));
     });
+    updateToggleLabel();
     if (activeView === 'kalendar' || activeView === 'mapa') {
       activeView = 'all';
       document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));

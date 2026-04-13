@@ -159,11 +159,12 @@ header {
 }
 
 .view-btn-mapa {
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   border-style: dashed;
   color: var(--accent);
   border-color: var(--accent);
   border-radius:0;
+ 
 }
 
 .view-btn-mapa:hover,
@@ -597,6 +598,19 @@ code {
 }
 
 /* FILTERS */
+.filters-toggle {
+  display: none;
+}
+.filters-show-btn {
+  display: none;
+}
+.view-bar-label {
+  display: none;
+}
+.view-bar-break {
+  display: none;
+}
+
 .filters {
   display: flex;
   gap: 0.5rem;
@@ -980,10 +994,55 @@ footer a {
   }
 
   .filters {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    padding-bottom: 0.25rem;
+    display: none;
+    flex-wrap: wrap;
+  }
+  .filters.filters-open {
+    display: flex;
+  }
+  .filters-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    color: var(--muted);
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    padding: 0.4rem 0.85rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .filters-toggle.has-active {
+    border-color: var(--accent);
+    color: var(--text);
+  }
+  .filters-toggle-icon {
+    transition: transform 0.2s;
+  }
+  .filters-toggle.open .filters-toggle-icon {
+    transform: rotate(180deg);
+  }
+  .filters-show-btn {
+    display: none;
+    width: 100%;
+    padding: 0.5rem;
+    background: var(--accent);
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+  }
+  .filters.filters-open ~ .filters-show-btn {
+    display: block;
   }
 
   .header-nav.open {
@@ -992,6 +1051,24 @@ footer a {
 
   .view-bar {
     flex-wrap: wrap;
+    align-items: center;
+  }
+  .view-bar-break {
+    display: block;
+    flex-basis: 100%;
+    height: 0;
+  }
+  .view-btn-mapa {
+    margin-left: 0;
+  }
+  .view-bar-label {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    width: 100%;
+    padding-left: 1rem;
   }
 
   .search-wrap {
