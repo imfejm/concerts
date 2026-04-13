@@ -1694,6 +1694,129 @@ def scrape_sala_terrena():
 
 
 # ─────────────────────────────────────────────────────────────
+#  SPORTOVNÍ HALA FORTUNA  (sportovnihalafortuna.cz)
+# ─────────────────────────────────────────────────────────────
+def scrape_fortuna():
+    print("* Sportovní hala Fortuna...")
+    soup = get_soup("https://www.sportovnihalafortuna.cz/kalendar-akci")
+    if not soup:
+        return []
+
+    base = "https://www.sportovnihalafortuna.cz"
+    events = []
+
+    for slide in soup.select("li.splide__slide"):
+        title_el = slide.find("h2", class_="splide__headline")
+        title = title_el.get_text(strip=True) if title_el else ""
+        if not title:
+            continue
+
+        # Datum: "30/04/2026" → "30.4.2026"
+        date_el = slide.find("p", class_="splide__date")
+        time_el = slide.find("span", class_="splide__time")
+        time_str = time_el.get_text(strip=True) if time_el else ""
+        date_text = date_el.get_text(strip=True).replace(time_str, "").strip() if date_el else ""
+        date_match = re.match(r"(\d{2})/(\d{2})/(\d{4})", date_text)
+        if not date_match:
+            continue
+        date_str = f"{int(date_match.group(1))}.{int(date_match.group(2))}.{date_match.group(3)}"
+
+        # URL
+        a_tag = slide.find("a", class_="splide__button")
+        href = a_tag.get("href", "") if a_tag else ""
+        url = href if href.startswith("http") else base + href
+
+        # Obrázek
+        img = slide.find("img", class_="splide__image")
+        src = img.get("src", "") if img else ""
+        image = src if src.startswith("http") else base + src
+
+        events.append({
+            "title": title,
+            "date": date_str,
+            "time": time_str,
+            "venue": "Sportovní hala Fortuna",
+            "category": "hudba",
+            "url": url,
+            "image": image,
+        })
+
+    print(f"   [OK] {len(events)} akcí")
+    return events
+
+
+# ─────────────────────────────────────────────────────────────
+#  PRAGUE CONGRESS CENTRE  (praguecc.cz)
+# ─────────────────────────────────────────────────────────────
+def scrape_praguecc():
+    print("* Prague Congress Centre...")
+    soup = get_soup("https://www.praguecc.cz/cs/prehled-akci/kultura")
+    if not soup:
+        return []
+
+    # Jen akce, kde popis nebo název obsahuje hudební klíčové slovo
+    MUSIC_KEYWORDS = ["koncert", "hudebn", "zpěv", "zpěvač", "zpěvák", "tour", "tribute", "symphony", "symfonick"]
+
+    events = []
+    base = "https://www.praguecc.cz"
+
+    for card in soup.select("div.blog-item"):
+        title_el = card.find("span", class_="h4")
+        title = title_el.get_text(strip=True) if title_el else ""
+        if not title:
+            continue
+
+        desc_el = card.find("p")
+        desc = desc_el.get_text(strip=True).lower() if desc_el else ""
+        combined = (title + " " + desc).lower()
+
+        if not any(kw in combined for kw in MUSIC_KEYWORDS):
+            continue
+
+        # Datum: "02. 05. 2026" nebo "16. 04. 2026 - 19. 04. 2026" (vezmi první)
+        date_el = card.find("small")
+        date_text = date_el.get_text(strip=True) if date_el else ""
+        date_match = re.search(r"(\d{1,2})\.\s*(\d{2})\.\s*(\d{4})", date_text)
+        if not date_match:
+            continue
+        date_str = f"{int(date_match.group(1))}.{int(date_match.group(2))}.{date_match.group(3)}"
+
+        # URL — preferuj externí odkaz (vstupenky), jinak první absolutní odkaz v kartě
+        url = "https://www.praguecc.cz/cs/prehled-akci/kultura"
+        for a in card.find_all("a", href=True):
+            href = a.get("href", "")
+            if href.startswith("http") and "praguecc.cz" not in href:
+                url = href
+                break
+        if url == "https://www.praguecc.cz/cs/prehled-akci/kultura":
+            for a in card.find_all("a", href=True):
+                href = a.get("href", "")
+                if href.startswith("http"):
+                    url = href
+                    break
+
+        # Obrázek
+        img = card.find("img")
+        image = ""
+        if img:
+            src = img.get("src", "")
+            image = src if src.startswith("http") else base + src
+
+        events.append({
+            "title": title,
+            "date": date_str,
+            "time": "",
+            "venue": "Prague Congress Centre",
+            "category": "hudba",
+            "url": url,
+            "image": image,
+        })
+
+    print(f"   [OK] {len(events)} akcí")
+    return events
+
+
+# ─────────────────────────────────────────────────────────────
 #  O2 ARENA  (o2arena.cz)
 # ─────────────────────────────────────────────────────────────
 def scrape_o2arena():
@@ -1955,6 +2078,8 @@ def main():
         scrape_pragueopenair,
         scrape_malostranska,
         scrape_sala_terrena,
+        scrape_fortuna,
+        scrape_praguecc,
         scrape_o2arena,
         scrape_cargogallery,
         scrape_sasazu,
