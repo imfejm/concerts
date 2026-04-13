@@ -1047,6 +1047,8 @@ footer a {
 
   .header-nav.open {
     display: flex;
+    max-height: 70vh;
+    overflow-y: auto;
   }
 
   .view-bar {
