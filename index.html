@@ -2,29 +2,40 @@
 <html lang="cs">
   <head>
     <!-- Google tag (gtag.js) – načte se až po souhlasu s cookies -->
-<script>
-  function loadGA() {
-    if (document.getElementById('ga-script')) return;
-    var s = document.createElement('script');
-    s.id = 'ga-script';
-    s.async = true;
-    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-1JR6LM1EZX';
-    document.head.appendChild(s);
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    window.gtag = gtag;
-    gtag('js', new Date());
-    gtag('config', 'G-1JR6LM1EZX');
-  }
-  if (localStorage.getItem('cookies_accepted') === 'yes') {
-    loadGA();
-  }
-</script>
+    <script>
+      function loadGA() {
+        if (document.getElementById("ga-script")) return;
+        var s = document.createElement("script");
+        s.id = "ga-script";
+        s.async = true;
+        s.src = "https://www.googletagmanager.com/gtag/js?id=G-1JR6LM1EZX";
+        document.head.appendChild(s);
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        window.gtag = gtag;
+        gtag("js", new Date());
+        gtag("config", "G-1JR6LM1EZX");
+      }
+      if (localStorage.getItem("cookies_accepted") === "yes") {
+        loadGA();
+      }
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Co hraje v Praze – Koncerty a akce v pražských klubech</title>
-    <meta name="description" content="Přehled všech koncertů a živé hudby v pražských klubech na jednom místě. Jazz, rock, folk, elektronika a další žánry – filtruj podle klubu, data nebo žánru." />
-    <meta name="keywords" content="koncerty Praha, živá hudba Praha, pražské kluby, jazz Praha, rock Praha, akce Praha, program klubů Praha, co hraje v Praze" />
+    <title>
+      Co hraje v Praze – Koncerty a akce v pražských klubech, arénách,
+      hospodách...
+    </title>
+    <meta
+      name="description"
+      content="Přehled všech koncertů a živé hudby v pražských klubech na jednom místě. Jazz, rock, folk, elektronika a další žánry – filtruj podle klubu, data nebo žánru."
+    />
+    <meta
+      name="keywords"
+      content="koncerty Praha, živá hudba Praha, pražské kluby, jazz Praha, rock Praha, akce Praha, program klubů Praha, co hraje v Praze"
+    />
     <meta name="author" content="imfejm.cz" />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://cohrajevpraze.cz/" />
@@ -32,9 +43,18 @@
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://cohrajevpraze.cz/" />
-    <meta property="og:title" content="Co hraje v Praze – Koncerty a akce v pražských klubech" />
-    <meta property="og:description" content="Přehled všech koncertů a živé hudby v pražských klubech na jednom místě. Jazz, rock, folk, elektronika a další žánry." />
-    <meta property="og:image" content="https://cohrajevpraze.cz/img/cohrajevpraze.webp" />
+    <meta
+      property="og:title"
+      content="Co hraje v Praze – Koncerty a akce v pražských klubech"
+    />
+    <meta
+      property="og:description"
+      content="Přehled všech koncertů a živé hudby v pražských klubech na jednom místě. Jazz, rock, folk, elektronika a další žánry."
+    />
+    <meta
+      property="og:image"
+      content="https://cohrajevpraze.cz/img/cohrajevpraze.webp"
+    />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:locale" content="cs_CZ" />
@@ -42,33 +62,42 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Co hraje v Praze – Koncerty a akce v pražských klubech" />
-    <meta name="twitter:description" content="Přehled všech koncertů a živé hudby v pražských klubech na jednom místě." />
-    <meta name="twitter:image" content="https://cohrajevpraze.cz/img/cohrajevpraze.webp" />
+    <meta
+      name="twitter:title"
+      content="Co hraje v Praze – Koncerty a akce v pražských klubech"
+    />
+    <meta
+      name="twitter:description"
+      content="Přehled všech koncertů a živé hudby v pražských klubech na jednom místě."
+    />
+    <meta
+      name="twitter:image"
+      content="https://cohrajevpraze.cz/img/cohrajevpraze.webp"
+    />
 
     <!-- JSON-LD strukturovaná data -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Co hraje v Praze",
-      "url": "https://cohrajevpraze.cz/",
-      "description": "Přehled všech koncertů a živé hudby v pražských klubech na jednom místě.",
-      "inLanguage": "cs",
-      "author": {
-        "@type": "Person",
-        "name": "imfejm",
-        "url": "https://imfejm.cz"
-      },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://cohrajevpraze.cz/?q={search_term_string}"
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Co hraje v Praze",
+        "url": "https://cohrajevpraze.cz/",
+        "description": "Přehled všech koncertů a živé hudby v pražských klubech na jednom místě.",
+        "inLanguage": "cs",
+        "author": {
+          "@type": "Person",
+          "name": "imfejm",
+          "url": "https://imfejm.cz"
         },
-        "query-input": "required name=search_term_string"
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://cohrajevpraze.cz/?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
       }
-    }
     </script>
 
     <link
@@ -80,24 +109,45 @@
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     />
-    <link rel="icon" href="img/favicon/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" href="img/favicon/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-touch-icon.png"
+    />
     <link rel="manifest" href="manifest.json" />
-
   </head>
   <body>
     <header>
       <div class="header-top">
-        <a class="logo" href="#">Koncerty v Praze</a>
+        <a class="logo" href="#"
+          >Koncerty v Praze
+          <span class="logo-sub"
+            >všechny koncerty na jednom webu</span
+          ></a
+        >
         <button class="hamburger" id="hamburger" aria-label="Menu">
           <span></span><span></span><span></span>
         </button>
       </div>
       <div class="header-nav" id="header-nav">
-        <div class="filters" id="filters">
-          <button class="filter-btn active" data-venue="vse">Vše</button>
+        <div class="filters-group">
+          <span class="filters-label">kde:</span>
+          <div class="filters" id="filters">
+            <button class="filter-btn active" data-venue="vse">Vše</button>
+          </div>
         </div>
         <div class="view-bar">
           <span class="view-bar-label">kdy:</span>
@@ -208,6 +258,9 @@
 
     <div id="update-badge" class="update-badge"></div>
 
+    <h1 class="visually-hidden">
+      Co hraje v Praze – Koncerty a živá hudba v pražských klubech
+    </h1>
     <main>
       <div id="content">
         <div class="loading">
@@ -255,21 +308,32 @@
           <a href="https://imfejm.cz" target="_blank" rel="noopener noreferrer"
             >imfejm.cz</a
           >
+          &nbsp;&middot;&nbsp;
+          <a href="/privacy.html" class="footer-privacy"
+            >Zásady ochrany osobních údajů</a
+          >
         </p>
       </div>
     </footer>
 
     <!-- Cookie banner -->
-    <div id="cookie-banner" class="cookie-banner" style="display:none">
+    <div id="cookie-banner" class="cookie-banner" style="display: none">
       <div class="cookie-banner-inner">
         <p class="cookie-text">
-          Tento web používá analytické cookies (Google Analytics) pro měření návštěvnosti.
-          Data zpracovává Google LLC. Souhlas můžeš kdykoliv odvolat smazáním cookies v prohlížeči.
-          <a href="/privacy.html" class="cookie-link">Zásady ochrany osobních údajů</a>
+          Tento web používá analytické cookies (Google Analytics) pro měření
+          návštěvnosti. Data zpracovává Google LLC. Souhlas můžeš kdykoliv
+          odvolat smazáním cookies v prohlížeči.
+          <a href="/privacy.html" class="cookie-link"
+            >Zásady ochrany osobních údajů</a
+          >
         </p>
         <div class="cookie-actions">
-          <button id="cookie-accept" class="cookie-btn cookie-btn--accept">Souhlasím</button>
-          <button id="cookie-decline" class="cookie-btn cookie-btn--decline">Odmítnout</button>
+          <button id="cookie-accept" class="cookie-btn cookie-btn--accept">
+            Souhlasím
+          </button>
+          <button id="cookie-decline" class="cookie-btn cookie-btn--decline">
+            Odmítnout
+          </button>
         </div>
       </div>
     </div>
@@ -278,19 +342,23 @@
     <script src="index.js"></script>
     <script>
       (function () {
-        var banner = document.getElementById('cookie-banner');
-        var consent = localStorage.getItem('cookies_accepted');
-        if (!consent) banner.style.display = 'flex';
+        var banner = document.getElementById("cookie-banner");
+        var consent = localStorage.getItem("cookies_accepted");
+        if (!consent) banner.style.display = "flex";
 
-        document.getElementById('cookie-accept').addEventListener('click', function () {
-          localStorage.setItem('cookies_accepted', 'yes');
-          banner.style.display = 'none';
-          loadGA();
-        });
-        document.getElementById('cookie-decline').addEventListener('click', function () {
-          localStorage.setItem('cookies_accepted', 'no');
-          banner.style.display = 'none';
-        });
+        document
+          .getElementById("cookie-accept")
+          .addEventListener("click", function () {
+            localStorage.setItem("cookies_accepted", "yes");
+            banner.style.display = "none";
+            loadGA();
+          });
+        document
+          .getElementById("cookie-decline")
+          .addEventListener("click", function () {
+            localStorage.setItem("cookies_accepted", "no");
+            banner.style.display = "none";
+          });
       })();
     </script>
   </body>
