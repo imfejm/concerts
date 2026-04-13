@@ -1049,6 +1049,18 @@ footer a {
     display: flex;
     height: 100dvh;
     overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent) transparent;
+  }
+  .header-nav.open::-webkit-scrollbar {
+    width: 3px;
+  }
+  .header-nav.open::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .header-nav.open::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    border-radius: 2px;
   }
   .filters.filters-open {
     max-height: 50vh;
