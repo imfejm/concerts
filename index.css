@@ -163,8 +163,7 @@ header {
   border-style: dashed;
   color: var(--accent);
   border-color: var(--accent);
-  border-radius:0;
- 
+  border-radius: 0;
 }
 
 .view-btn-mapa:hover,
@@ -1015,7 +1014,9 @@ footer a {
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    transition: border-color 0.15s, color 0.15s;
+    transition:
+      border-color 0.15s,
+      color 0.15s;
   }
   .filters-toggle.has-active {
     border-color: var(--accent);
