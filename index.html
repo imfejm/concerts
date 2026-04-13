@@ -1,14 +1,24 @@
 <!doctype html>
 <html lang="cs">
   <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1JR6LM1EZX"></script>
+    <!-- Google tag (gtag.js) – načte se až po souhlasu s cookies -->
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-1JR6LM1EZX');
+  function loadGA() {
+    if (document.getElementById('ga-script')) return;
+    var s = document.createElement('script');
+    s.id = 'ga-script';
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-1JR6LM1EZX';
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag;
+    gtag('js', new Date());
+    gtag('config', 'G-1JR6LM1EZX');
+  }
+  if (localStorage.getItem('cookies_accepted') === 'yes') {
+    loadGA();
+  }
 </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -249,7 +259,39 @@
       </div>
     </footer>
 
+    <!-- Cookie banner -->
+    <div id="cookie-banner" class="cookie-banner" style="display:none">
+      <div class="cookie-banner-inner">
+        <p class="cookie-text">
+          Tento web používá analytické cookies (Google Analytics) pro měření návštěvnosti.
+          Data zpracovává Google LLC. Souhlas můžeš kdykoliv odvolat smazáním cookies v prohlížeči.
+          <a href="/privacy.html" class="cookie-link">Zásady ochrany osobních údajů</a>
+        </p>
+        <div class="cookie-actions">
+          <button id="cookie-accept" class="cookie-btn cookie-btn--accept">Souhlasím</button>
+          <button id="cookie-decline" class="cookie-btn cookie-btn--decline">Odmítnout</button>
+        </div>
+      </div>
+    </div>
+
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="index.js"></script>
+    <script>
+      (function () {
+        var banner = document.getElementById('cookie-banner');
+        var consent = localStorage.getItem('cookies_accepted');
+        if (!consent) banner.style.display = 'flex';
+
+        document.getElementById('cookie-accept').addEventListener('click', function () {
+          localStorage.setItem('cookies_accepted', 'yes');
+          banner.style.display = 'none';
+          loadGA();
+        });
+        document.getElementById('cookie-decline').addEventListener('click', function () {
+          localStorage.setItem('cookies_accepted', 'no');
+          banner.style.display = 'none';
+        });
+      })();
+    </script>
   </body>
 </html>
