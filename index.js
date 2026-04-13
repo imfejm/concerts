@@ -516,7 +516,7 @@ document.getElementById('hamburger').addEventListener('click', () => {
 });
 
 document.getElementById('header-nav').addEventListener('click', e => {
-  if (e.target.closest('.filter-btn, .view-btn')) closeMenu();
+  if (e.target.closest('.view-btn')) closeMenu();
 });
 
 document.addEventListener('click', e => {

@@ -5,7 +5,13 @@
       "WebFetch(domain:www.fuchs2.cz)",
       "WebFetch(domain:www.google.com)",
       "WebSearch",
-      "Bash(python -c ':*)"
+      "Bash(python -c ':*)",
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); print\\(list\\(data.keys\\(\\)\\)\\)\")",
+      "Bash(where python3:*)",
+      "Bash(where python:*)",
+      "Bash(schtasks /Create /TN \"KonzertyPrahaScraper\" /TR \"\\\\\"C:\\\\\\\\Users\\\\\\\\nemam\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Python\\\\\\\\bin\\\\\\\\python3.exe\\\\\" \\\\\"c:\\\\\\\\Users\\\\\\\\nemam\\\\\\\\Documents\\\\\\\\VSCode rozpracovano\\\\\\\\koncerty\\\\\\\\scraper.py\\\\\"\" /SC DAILY /ST 07:00 /F)",
+      "Bash(cmd.exe /c \"schtasks /Create /TN \\\\\"KonzertyPrahaScraper\\\\\" /TR \\\\\"\\\\\\\\\\\\\"C:\\\\\\\\Users\\\\\\\\nemam\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Python\\\\\\\\bin\\\\\\\\python3.exe\\\\\\\\\\\\\" \\\\\\\\\\\\\"c:\\\\\\\\Users\\\\\\\\nemam\\\\\\\\Documents\\\\\\\\VSCode rozpracovano\\\\\\\\koncerty\\\\\\\\scraper.py\\\\\\\\\\\\\"\\\\\" /SC DAILY /ST 07:00 /F\")",
+      "Bash(powershell.exe -Command ':*)"
     ]
   }
 }

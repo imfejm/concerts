@@ -977,7 +977,13 @@ footer a {
     padding: 0.75rem 0 1rem;
     border-top: 1px solid var(--border);
     width: 100%;
-    overflow: hidden;
+  }
+
+  .filters {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 0.25rem;
   }
 
   .header-nav.open {
