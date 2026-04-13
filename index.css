@@ -120,6 +120,15 @@ header {
   margin-left: 0.75rem;
 }
 
+@media (max-width: 600px) {
+  .logo-sub {
+    display: block;
+    margin-left: 0;
+    font-size: 0.8rem;
+    line-height: 1.2;
+  }
+}
+
 .search-wrap {
   position: relative;
   flex: 1;
