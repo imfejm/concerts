@@ -1,5 +1,5 @@
 let allEvents = [];
-let activeVenue = 'vse';
+let activeVenues = new Set(); // prázdná = vše
 let searchQuery = '';
 let activeView = 'all';
 
@@ -34,7 +34,9 @@ function formatDate(dateStr, timeStr) {
 }
 
 function buildFilters(events) {
-  const venues = [...new Set(events.map(e => e.venue).filter(Boolean))].sort();
+  const fromEvents = new Set(events.map(e => e.venue).filter(Boolean));
+  const fromCoords = new Set(Object.keys(venueCoords));
+  const venues = [...new Set([...fromEvents, ...fromCoords])].sort();
   const wrap = document.getElementById('filters');
   wrap.innerHTML = '<button class="filter-btn active" data-venue="vse">Vše</button>';
   venues.forEach(v => {
@@ -46,12 +48,20 @@ function buildFilters(events) {
   });
 
   wrap.addEventListener('click', e => {
-      // Klik na název klubu
     const btn = e.target.closest('.filter-btn');
     if (!btn) return;
-    activeVenue = btn.dataset.venue;
-    wrap.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
+    const v = btn.dataset.venue;
+    if (v === 'vse') {
+      activeVenues.clear();
+    } else {
+      if (activeVenues.has(v)) activeVenues.delete(v);
+      else activeVenues.add(v);
+    }
+    // Aktualizuj styly tlačítek
+    wrap.querySelector('[data-venue="vse"]').classList.toggle('active', activeVenues.size === 0);
+    wrap.querySelectorAll('.filter-btn:not([data-venue="vse"])').forEach(b => {
+      b.classList.toggle('active', activeVenues.has(b.dataset.venue));
+    });
     if (activeView === 'kalendar' || activeView === 'mapa') {
       activeView = 'all';
       document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
@@ -73,7 +83,7 @@ function eventDate(ev) {
 function getFiltered() {
   const today = new Date(); today.setHours(0,0,0,0);
   return allEvents.filter(ev => {
-    const venueOk = activeVenue === 'vse' || ev.venue === activeVenue;
+    const venueOk = activeVenues.size === 0 || activeVenues.has(ev.venue);
     const q = searchQuery.toLowerCase();
     const searchOk = !q ||
       (ev.title || '').toLowerCase().includes(q) ||
@@ -198,7 +208,7 @@ async function renderMap() {
   // Skupiny událostí podle venue (jen budoucí + dnes)
   const byVenue = {};
   allEvents.forEach(ev => {
-    const venueOk = activeVenue === 'vse' || ev.venue === activeVenue;
+    const venueOk = activeVenues.size === 0 || activeVenues.has(ev.venue);
     if (!venueOk) return;
     const d = eventDate(ev);
     if (d && d < today) return;
@@ -265,7 +275,11 @@ function render() {
   const content = document.getElementById('content');
 
   if (!events.length) {
-    content.innerHTML = `
+    const _solo = activeVenues.size === 1 ? [...activeVenues][0] : null;
+    const mapBtn = (_solo && venueCoords[_solo])
+      ? `<button class="venue-map-btn" id="venue-map-btn">📍 Zobrazit na mapě</button>`
+      : '';
+    content.innerHTML = mapBtn + `
       <div class="grid">
         <div class="empty">
           <div class="empty-icon">&#9835;</div>
@@ -273,6 +287,16 @@ function render() {
           <p>Zkus jiný filtr nebo hledaný výraz.</p>
         </div>
       </div>`;
+    document.getElementById('venue-map-btn')?.addEventListener('click', () => {
+      const venue = _solo;
+      activeView = 'mapa';
+      document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+      document.querySelector('.view-btn[data-view="mapa"]').classList.add('active');
+      render().then(() => {
+        const marker = mapMarkers[venue];
+        if (marker) { mapInstance.setView(marker.getLatLng(), 16, { animate: true }); marker.openPopup(); }
+      });
+    });
     return;
   }
 
@@ -320,14 +344,15 @@ function render() {
     }
   });
 
-  if (activeVenue !== 'vse' && venueCoords[activeVenue]) {
+  const _soloV = activeVenues.size === 1 ? [...activeVenues][0] : null;
+  if (_soloV && venueCoords[_soloV]) {
     html = `<button class="venue-map-btn" id="venue-map-btn">📍 Zobrazit na mapě</button>` + html;
   }
 
   content.innerHTML = html;
 
   document.getElementById('venue-map-btn')?.addEventListener('click', () => {
-    const venue = activeVenue;
+    const venue = _soloV;
     activeView = 'mapa';
     document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
     document.querySelector('.view-btn[data-view="mapa"]').classList.add('active');
@@ -375,7 +400,7 @@ function escHtml(str) {
 
 function updateStats(events) {
   const todayCount = events.filter(e => isToday(e.date)).length;
-  const venues = new Set(events.map(e => e.venue).filter(Boolean));
+  const venues = new Set([...events.map(e => e.venue).filter(Boolean), ...Object.keys(venueCoords)]);
   [1,2,3,4,5,6].forEach(i => {
     const suffix = i === 1 ? '' : `-${i}`;
     document.getElementById(`stat-total${suffix}`).textContent = events.length;
@@ -431,8 +456,8 @@ document.getElementById('search').addEventListener('input', e => {
     document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
     document.querySelector('.view-btn[data-view="all"]').classList.add('active');
   }
-  if (searchQuery && activeVenue !== 'vse') {
-    activeVenue = 'vse';
+  if (searchQuery && activeVenues.size > 0) {
+    activeVenues.clear();
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
     document.querySelector('.filter-btn[data-venue="vse"]').classList.add('active');
   }
