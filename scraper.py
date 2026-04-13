@@ -22,6 +22,12 @@ from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
 
+try:
+    from playwright.sync_api import sync_playwright
+    HAS_PLAYWRIGHT = True
+except ImportError:
+    HAS_PLAYWRIGHT = False
+
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -2048,6 +2054,98 @@ def scrape_musicclubjizak():
 
 
 # ─────────────────────────────────────────────────────────────
+#  FUCHS2  (fuchs2.cz/shows)  — Wix, vyžaduje Playwright
+# ─────────────────────────────────────────────────────────────
+def scrape_fuchs2():
+    print("* Fuchs2...")
+
+    if not HAS_PLAYWRIGHT:
+        print("  [WARN] Playwright není nainstalován. Spusť: pip install playwright && playwright install chromium", file=sys.stderr)
+        return []
+
+    events = []
+
+    eng_months = {
+        "jan": "01", "feb": "02", "mar": "03", "apr": "04",
+        "may": "05", "jun": "06", "jul": "07", "aug": "08",
+        "sep": "09", "oct": "10", "nov": "11", "dec": "12",
+    }
+
+    def parse_wix_date(text):
+        """Převede 'Wed 15 Apr' na 'DD.MM.YYYY' (rok = aktuální nebo příští)."""
+        # Formát: "DayName D Mon" nebo "DayName DD Mon"
+        m = re.search(r"(\d{1,2})\s+([A-Za-z]{3})", text)
+        if not m:
+            return ""
+        day = int(m.group(1))
+        month_num = eng_months.get(m.group(2).lower())
+        if not month_num:
+            return ""
+        today = datetime.now()
+        year = today.year
+        # Pokud datum (den+měsíc) v tomto roce již minulo, patří do příštího roku
+        try:
+            event_date = datetime(year, int(month_num), day)
+            if event_date.date() < today.date():
+                year += 1
+        except ValueError:
+            pass
+        return f"{day}.{int(month_num)}.{year}"
+
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page(user_agent=HEADERS["User-Agent"])
+            page.goto("https://www.fuchs2.cz/shows", wait_until="load", timeout=45000)
+            page.wait_for_timeout(4000)  # počkej na JS rendering karet
+            html = page.content()
+            browser.close()
+
+        soup = BeautifulSoup(html, "html.parser")
+        cards = soup.select("[data-hook='events-card']")
+
+        for card in cards:
+            title_el = card.select_one("[data-hook='title']")
+            title = title_el.get_text(strip=True) if title_el else ""
+            if not title:
+                continue
+
+            date_el = card.select_one("[data-hook='short-date']")
+            date_str = parse_wix_date(date_el.get_text(strip=True)) if date_el else ""
+
+            # URL — hledej v data-hook nebo první <a>
+            link_el = card.select_one("[data-hook='item-link-wrapper']") or card.find("a")
+            href = link_el.get("href", "") if link_el else ""
+            if href and not href.startswith("http"):
+                href = "https://www.fuchs2.cz" + href
+
+            # Obrázek — z Wix URL odstraň blur a thumbnail parametry
+            img = card.find("img")
+            image_url = img.get("src", "") if img else ""
+            if image_url and "wixstatic.com/media/" in image_url:
+                # Extrahuj čistý název souboru a sestav URL bez transformací
+                m = re.search(r"wixstatic\.com/media/([^/]+)", image_url)
+                if m:
+                    image_url = f"https://static.wixstatic.com/media/{m.group(1)}"
+
+            events.append({
+                "title": title,
+                "date": date_str,
+                "time": "",
+                "venue": "Fuchs2",
+                "category": "hudba",
+                "url": href or "https://www.fuchs2.cz/shows",
+                "image": image_url,
+            })
+
+    except Exception as e:
+        print(f"  [WARN] Fuchs2: {e}", file=sys.stderr)
+
+    print(f"   [OK] {len(events)} akcí")
+    return events
+
+
+# ─────────────────────────────────────────────────────────────
 #  HLAVNÍ FUNKCE
 # ─────────────────────────────────────────────────────────────
 def main():
@@ -2084,6 +2182,7 @@ def main():
         scrape_cargogallery,
         scrape_sasazu,
         scrape_musicclubjizak,
+        scrape_fuchs2,
     ]
 
     for scraper in scrapers:

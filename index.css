@@ -163,6 +163,7 @@ header {
   border-style: dashed;
   color: var(--accent);
   border-color: var(--accent);
+  border-radius:0;
 }
 
 .view-btn-mapa:hover,

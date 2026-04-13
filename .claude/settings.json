@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(.venv/Scripts/python -c ':*)"
+      "Bash(.venv/Scripts/python -c ':*)",
+      "WebFetch(domain:www.fuchs2.cz)",
+      "WebFetch(domain:www.google.com)",
+      "WebSearch",
+      "Bash(python -c ':*)"
     ]
   }
 }
