@@ -1047,7 +1047,11 @@ footer a {
 
   .header-nav.open {
     display: flex;
-    max-height: 70vh;
+    height: 100dvh;
+    overflow-y: auto;
+  }
+  .filters.filters-open {
+    max-height: 50vh;
     overflow-y: auto;
   }
 
