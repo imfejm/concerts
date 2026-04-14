@@ -91,7 +91,7 @@ function buildFilters(events) {
       b.classList.toggle('active', activeVenues.has(b.dataset.venue));
     });
     updateToggleLabel();
-    if (activeView === 'kalendar' || activeView === 'mapa') {
+    if (activeView === 'mapa') {
       activeView = 'all';
       document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
       document.querySelector('.view-btn[data-view="all"]').classList.add('active');
@@ -148,6 +148,7 @@ function renderCalendar(selectedKey = null, calYear = null, calMonth = null) {
 
   const byDate = {};
   allEvents.forEach(ev => {
+    if (activeVenues.size > 0 && !activeVenues.has(ev.venue)) return;
     const d = eventDate(ev);
     if (!d) return;
     const key = `${d.getDate()}.${d.getMonth()+1}.${d.getFullYear()}`;
