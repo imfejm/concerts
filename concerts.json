@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-14T10:11:23.174506",
-  "count": 746,
+  "updated": "2026-04-14T11:06:04.581788",
+  "count": 759,
   "events": [
     {
       "title": "Jozef Mrva ml.: Challenger Escape Plan",
@@ -3747,6 +3747,15 @@
       "image": "https://www.roxy.cz/upload/temp/everglow-prague-01-vt0dxvykmaxi-crop-480-480.png"
     },
     {
+      "title": "Prague Fringe Festival 2026",
+      "date": "26.05.2026",
+      "time": "17:00",
+      "venue": "Malostranská Beseda",
+      "category": "hudba",
+      "url": "https://www.praguefringe.com/programme/#day[]=1779753600&venue[]=308",
+      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/ik1pu48t10.641523546-1517005173764262-6193658993596784110-n.jpg"
+    },
+    {
       "title": "JOHN 5 (USA)",
       "date": "27.5.2026",
       "time": "19:00",
@@ -3772,6 +3781,15 @@
       "category": "hudba",
       "url": "https://cafevlese.cz/events/ben-camden-aus/",
       "image": "https://cafevlese.cz/wp-content/uploads/2026/01/Ben-Camden-EU-2026-2.1-ratio-768x384.jpg"
+    },
+    {
+      "title": "Prague Fringe Festival 2026",
+      "date": "27.05.2026",
+      "time": "17:30",
+      "venue": "Malostranská Beseda",
+      "category": "hudba",
+      "url": "https://www.praguefringe.com/programme/#day[]=1779840000&venue[]=308",
+      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/cqmsw0hnm3.641523546-1517005173764262-6193658993596784110-n.jpg"
     },
     {
       "title": "Septet Club",
@@ -3837,6 +3855,15 @@
       "image": "https://atriumzizkov.cz/wp-content/uploads/2026/04/Chalupski-1-e1776093279976.jpeg"
     },
     {
+      "title": "Prague Fringe Festival 2026",
+      "date": "28.05.2026",
+      "time": "17:15",
+      "venue": "Malostranská Beseda",
+      "category": "hudba",
+      "url": "https://www.praguefringe.com/programme/#day[]=1779926400&venue[]=308",
+      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/wucuvreci5.641523546-1517005173764262-6193658993596784110-n.jpg"
+    },
+    {
       "title": "Beth Hart",
       "date": "28.5.2026",
       "time": "",
@@ -3862,6 +3889,15 @@
       "category": "hudba",
       "url": "https://www.roxy.cz/events/detail/4859/stephan-bodzin-live",
       "image": "https://www.roxy.cz/upload/temp/stephan-bodzin-pxs-r9lfze54c6jh-crop-480-480.jpg"
+    },
+    {
+      "title": "Prague Fringe Festival 2026",
+      "date": "29.05.2026",
+      "time": "16:45",
+      "venue": "Malostranská Beseda",
+      "category": "hudba",
+      "url": "https://www.praguefringe.com/programme/#day[]=1780012800&venue[]=308",
+      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/v55q3mbvl0.641523546-1517005173764262-6193658993596784110-n.jpg"
     },
     {
       "title": "Depeche note",
@@ -3907,6 +3943,15 @@
       "category": "hudba",
       "url": "https://www.roxy.cz/events/detail/4831/bovski",
       "image": "https://www.roxy.cz/upload/temp/bovski-pxs-esvv1dfvf72m-crop-480-480.jpg"
+    },
+    {
+      "title": "Prague Fringe Festival 2026",
+      "date": "30.05.2026",
+      "time": "17:15",
+      "venue": "Malostranská Beseda",
+      "category": "hudba",
+      "url": "https://www.praguefringe.com/programme/#day[]=1780099200&venue[]=308",
+      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/f3txhac0gg.641523546-1517005173764262-6193658993596784110-n.jpg"
     },
     {
       "title": "křest EP: What a Doomsday // Res Publica Porcos + support: Urges, Ztráty v Plusu, Patro",
@@ -4692,6 +4737,15 @@
       "image": "https://images.squarespace-cdn.com/content/v1/67c814a930ff2420d320eabc/365885b2-8bdd-49a9-8527-ec61f610374c/08_08+TLT.png"
     },
     {
+      "title": "HEARTNOIZE present Chat Pile ☆ Ragana",
+      "date": "9.8.2026",
+      "time": "",
+      "venue": "Fuchs2",
+      "category": "hudba",
+      "url": "https://www.fuchs2.cz/events/heartnoize-present-chat-pile-ragana",
+      "image": "https://static.wixstatic.com/media/742259_d09739340f4d4aa29167adf0ea22a7f9~mv2.jpg"
+    },
+    {
       "title": "AIRBOURNE",
       "date": "10.8.2026",
       "time": "",
@@ -4746,6 +4800,24 @@
       "image": "https://cargogallery.cz/wp-content/uploads/2026/04/FUTURUM-WEB-ROZMERY-6-756x454.png"
     },
     {
+      "title": "F2 LIVE OPEN AIR:  Bert and Friends ☆ Madhouse Express ☆ Anna Vaverková",
+      "date": "20.8.2026",
+      "time": "",
+      "venue": "Fuchs2",
+      "category": "hudba",
+      "url": "https://www.fuchs2.cz/events/f2-live-open-air-bert-and-friends-madhouse-express-anna-vaverkova",
+      "image": "https://static.wixstatic.com/media/742259_2411d34b48d34bb0afd29ab22a89a296~mv2.jpg"
+    },
+    {
+      "title": "F2 LIVE OPEN AIR x UGOT",
+      "date": "21.8.2026",
+      "time": "",
+      "venue": "Fuchs2",
+      "category": "hudba",
+      "url": "https://www.fuchs2.cz/events/f2-live-open-air-x-ugot",
+      "image": "https://static.wixstatic.com/media/742259_1c02666aba3c424cb1c7fcb9f2c03916~mv2.jpg"
+    },
+    {
       "title": "Red Leather (US)",
       "date": "22.08.2026",
       "time": "19:30",
@@ -4771,6 +4843,15 @@
       "category": "hudba",
       "url": "https://cargogallery.cz/akce/red-leather-us/",
       "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-1-756x454.png"
+    },
+    {
+      "title": "F2 LIVE OPEN AIR: Shimmi & more",
+      "date": "22.8.2026",
+      "time": "",
+      "venue": "Fuchs2",
+      "category": "hudba",
+      "url": "https://www.fuchs2.cz/events/f2-live-open-air-shimmi-more",
+      "image": "https://static.wixstatic.com/media/742259_a65dd1291b2744d7bf6dcf2154b1df1c~mv2.jpg"
     },
     {
       "title": "Mig 21",
@@ -5547,6 +5628,15 @@
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/09/o2-1080x1080-3.jpg"
     },
     {
+      "title": "RFP CONCERTS present Des Rocs ☆ Finn Forster",
+      "date": "17.10.2026",
+      "time": "",
+      "venue": "Fuchs2",
+      "category": "hudba",
+      "url": "https://www.fuchs2.cz/events/rfp-concerts-present-des-rocs-finn-forster",
+      "image": "https://static.wixstatic.com/media/742259_8d2f3e6bbb474a5e830a4b25a5c571eb~mv2.jpg"
+    },
+    {
       "title": "Simple Plan – Bigger Than You Think! Europe Tour 2026",
       "date": "18.10.2026",
       "time": "19:00",
@@ -5824,6 +5914,15 @@
       "category": "hudba",
       "url": "https://www.o2universum.cz/events/inna-live-prague/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/02/praha-1080x1080-1.jpg"
+    },
+    {
+      "title": "MOVED TO ANOTHER VENUE / ROCK FOR PEOPLE presents Ezhel",
+      "date": "31.10.2026",
+      "time": "",
+      "venue": "Fuchs2",
+      "category": "hudba",
+      "url": "https://www.fuchs2.cz/events/moved-to-another-venue-rock-for-people-presents-ezhel",
+      "image": "https://static.wixstatic.com/media/742259_d9fed272230b4482b00298c5055f95c7~mv2.jpg"
     },
     {
       "title": "Laura a její tygři – 40 let",
@@ -6715,6 +6814,24 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/4-tenori-10-let-na-scene/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/11/4-tenori-o2-1080x1080-1.jpg"
+    },
+    {
+      "title": "POSTPONED / F2 LIVE: Niko B ☆ Supaspicybois",
+      "date": "",
+      "time": "",
+      "venue": "Fuchs2",
+      "category": "hudba",
+      "url": "https://www.fuchs2.cz/events/postponed-f2-live-niko-b-supaspicybois",
+      "image": "https://static.wixstatic.com/media/742259_e7b91b0d1f9e426190abf57a373c4a23~mv2.jpg"
+    },
+    {
+      "title": "POSTPONED / F2 LIVE: Lex Amor",
+      "date": "",
+      "time": "",
+      "venue": "Fuchs2",
+      "category": "hudba",
+      "url": "https://www.fuchs2.cz/events/postponed-f2-live-lex-amor",
+      "image": "https://static.wixstatic.com/media/742259_5b50e2ed14aa449c8be4317492ff9529~mv2.jpg"
     }
   ]
 }

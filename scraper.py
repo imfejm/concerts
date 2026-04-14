@@ -2114,6 +2114,13 @@ def scrape_fuchs2():
             page = browser.new_page(user_agent=HEADERS["User-Agent"])
             page.goto("https://www.fuchs2.cz/shows", wait_until="load", timeout=45000)
             page.wait_for_timeout(4000)  # počkej na JS rendering karet
+            # Klikej na "Load More" dokud existuje
+            for _ in range(20):
+                load_more = page.locator("button:has-text('Load More')")
+                if load_more.count() == 0 or not load_more.first.is_visible():
+                    break
+                load_more.first.click()
+                page.wait_for_timeout(2000)
             html = page.content()
             browser.close()
 
