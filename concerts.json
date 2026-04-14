@@ -1,7 +1,16 @@
 {
-  "updated": "2026-04-14T11:06:04.581788",
-  "count": 759,
+  "updated": "2026-04-14T11:17:37.303073",
+  "count": 935,
   "events": [
+    {
+      "title": "Universal Ticket Universal",
+      "date": "01.01.2026",
+      "time": "00:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/universal-ticket",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/JZD%20web.webp"
+    },
     {
       "title": "Jozef Mrva ml.: Challenger Escape Plan",
       "date": "30.01.2026",
@@ -66,6 +75,15 @@
       "image": "https://static.goout.cloud/musicbarcz/2026/01/ac068e37-kmfdm_thumb-300x300.jpg"
     },
     {
+      "title": "Kirill Yakovlev Trio",
+      "date": "01.04.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/kirill-yakovlev-trio-1-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/kirill-6783747a004cd069282492.webp"
+    },
+    {
       "title": "The Billie Holiday Tribute: A Journey into the Jazz Era",
       "date": "01.04.2026",
       "time": "",
@@ -82,6 +100,15 @@
       "category": "hudba",
       "url": "https://www.vagon.cz/dnes.php",
       "image": ""
+    },
+    {
+      "title": "Dan Bárta & Robert Balzar Trio",
+      "date": "02.04.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/dan-barta-robert-balzar-trio-20",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-dan-barta-2-4-2026-698df39a03b90931824990.webp"
     },
     {
       "title": "The Ultimate Jazz, Soul & Funk Experience with Lee Andrew Davison (USA)",
@@ -120,6 +147,24 @@
       "image": ""
     },
     {
+      "title": "Marta Kloučková Quintet",
+      "date": "03.04.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/marta-klouckova-quintet-5",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/marta-klouckova-foto-katerina-bibrlikova-6593fcf8ea964837353773.webp"
+    },
+    {
+      "title": "Dan Bárta & Robert Balzar Trio",
+      "date": "03.04.2026",
+      "time": "22:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/dan-barta-robert-balzar-trio-21",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-dan-barta-3-4-2026-698df3b2a6000158142468.webp"
+    },
+    {
       "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
       "date": "03.04.2026",
       "time": "",
@@ -145,6 +190,24 @@
       "category": "hudba",
       "url": "https://www.vagon.cz/dnes.php",
       "image": ""
+    },
+    {
+      "title": "Peter Lipa Band",
+      "date": "04.04.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/peter-lipa-band-1-5",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-peter-lipa-4-4-2026-6910e7ea72f49170894276.webp"
+    },
+    {
+      "title": "Yvonne Sanchez Band",
+      "date": "04.04.2026",
+      "time": "22:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/yvonne-sanchez-band-60",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/yvonne-3-65e9efb6c9429577538870.webp"
     },
     {
       "title": "Remembering Sinatra: A Timeless Tribute",
@@ -174,6 +237,24 @@
       "image": ""
     },
     {
+      "title": "Pražská dixielandová společnostNedělní Dixie",
+      "date": "05.04.2026",
+      "time": "16:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/prazska-dixielandova-spolecnost-nedelni-dixie-7",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/dixie_mozaika%20bez%20napisu.webp"
+    },
+    {
+      "title": "Peter Lipa Band",
+      "date": "05.04.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/peter-lipa-band-1-6",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-peter-lipa-5-4-2026-6910e804e249f794478230.webp"
+    },
+    {
       "title": "Melodic Journey with Louis Armstrong, Gershwin, Jobim presented by the Metropolitan Jazz Band",
       "date": "05.04.2026",
       "time": "",
@@ -190,6 +271,15 @@
       "category": "hudba",
       "url": "https://www.redutajazzclub.cz/artists-cs/melodic-journey-metropolitan-jazz-band-10",
       "image": "https://www.redutajazzclub.cz/data/images/tx2842_1_tn.jpg"
+    },
+    {
+      "title": "Buty",
+      "date": "06.04.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/buty-12",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-buty-6-4-2026-691d83e11f2bd584992028.webp"
     },
     {
       "title": "The Essence of French Chanson: A Tribute to Piaf, Aznavour, Brel, and more...",
@@ -210,6 +300,15 @@
       "image": ""
     },
     {
+      "title": "Buty",
+      "date": "07.04.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/buty-13",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-buty-7-4-2026-691d8404afe80788652748.webp"
+    },
+    {
       "title": "Tribute to the Legends of 1950s Hard Bop: Miles Davis, Art Blakey, Cannonball Adderley...",
       "date": "07.04.2026",
       "time": "",
@@ -226,6 +325,15 @@
       "category": "hudba",
       "url": "https://www.vagon.cz/dnes.php",
       "image": ""
+    },
+    {
+      "title": "Larry Goldings / Peter Bernstein / Bill Stewart (USA)",
+      "date": "08.04.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/larry-goldings-peter-bernstein-bill-stewart-usa-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-goldings-bernstein-stewart-8-4-2026-6907236b3221c176222525.webp"
     },
     {
       "title": "VV BRAZIL – HOT LATIN GROOVE",
@@ -255,6 +363,15 @@
       "image": ""
     },
     {
+      "title": "Brian Charette Trio ft. Šoltis / Štveráček",
+      "date": "09.04.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/soltis-charette-stveracek-super-trio-1-2",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-brian-charette-trio-9-4-2026-697ca9138cb0a490897242.webp"
+    },
+    {
       "title": "The Nina Simone Experience: An Unforgettable Jazz Tribute",
       "date": "09.04.2026",
       "time": "",
@@ -271,6 +388,24 @@
       "category": "hudba",
       "url": "https://www.vagon.cz/dnes.php",
       "image": ""
+    },
+    {
+      "title": "Pat Bianchi Trio (USA)",
+      "date": "10.04.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/pat-bianchi-trio-usa-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-pat-bianchi-trio-10-4-2026-690db48c65b95624849937.webp"
+    },
+    {
+      "title": "Jan Kořínek 50ft. Soul Hitchhikers",
+      "date": "10.04.2026",
+      "time": "22:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/jan-korinek-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-jan-korinek-10-4-2026-6982498b369ec477159897.webp"
     },
     {
       "title": "The Golden Voice: A Celebration of Tony Bennett",
@@ -300,6 +435,15 @@
       "image": ""
     },
     {
+      "title": "Ondřej Pivec Organic Quartet",
+      "date": "11.04.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/ondrej-pivec-organic-quartet-17",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-ondrej-pivec-organic-quartet-11-4-2026-6926c2322f4fe417464799.webp"
+    },
+    {
       "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
       "date": "11.04.2026",
       "time": "",
@@ -327,6 +471,24 @@
       "image": ""
     },
     {
+      "title": "J. J. Jazzmen & Barbora VágnerováNedělní Dixie",
+      "date": "12.04.2026",
+      "time": "16:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/j-j-jazzmen-barbora-vagnerova-nedelni-dixie-85",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/dixie_mozaika%20bez%20napisu.webp"
+    },
+    {
+      "title": "Steven’s",
+      "date": "12.04.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/stevens-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/1200x900-stevens-69877ac1c2f14932140242.webp"
+    },
+    {
       "title": "Big Band Trumpets – Kings of Swing Tribute to Duke Ellington, Quincy Jones, Dizzy Gillespie, Glen Miller…",
       "date": "12.04.2026",
       "time": "",
@@ -334,6 +496,15 @@
       "category": "hudba",
       "url": "https://www.redutajazzclub.cz/artists-cs/big-band-trumpets-kings-of-swing-tribute-to-duke",
       "image": "https://www.redutajazzclub.cz/data/images/tx3565_1_tn.jpg"
+    },
+    {
+      "title": "Justin Lavash with David Landštof",
+      "date": "13.04.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/justin-lavash-10",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/justin%20lavash.webp"
     },
     {
       "title": "Queens Sing the Blue Notes: A Tribute to Bessie Smith, Dinah Washington, Etta James, Janis Joplin",
@@ -2055,6 +2226,15 @@
       "image": "https://www.roxy.cz/upload/temp/skynd-x-peterleukhardt-249046-ys2o1dp7s3s2-crop-480-480.jpg"
     },
     {
+      "title": "Klub zadán",
+      "date": "28.04.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-327",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp"
+    },
+    {
       "title": "Piano Legends Unite: A Tribute to Chick Corea, Herbie Hancock, and Oscar Peterson",
       "date": "28.04.2026",
       "time": "",
@@ -2125,6 +2305,15 @@
       "category": "hudba",
       "url": "https://kastan.cz/akce/fenix-ziriab-m-p-m/",
       "image": "https://kastan.cz/wp-content/uploads/2024/10/Fenix-scaled.jpg"
+    },
+    {
+      "title": "Forq (USA)",
+      "date": "29.04.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/forq-1-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-forq-29-4-2026-69354881154a9380628705.webp"
     },
     {
       "title": "Big Band Trumpets – Kings of Swing Tribute to Duke Ellington, Quincy Jones, Dizzy Gillespie, Glen Miller…",
@@ -2244,6 +2433,15 @@
       "image": "https://meetfactory.cz/static/images/dilo-neni-k-dispozici.jpg"
     },
     {
+      "title": "Klub zadán",
+      "date": "30.04.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-328",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp"
+    },
+    {
       "title": "Backside Big Band Plays the Greats: Ellington, Gillespie, Prima & Gershwin",
       "date": "30.04.2026",
       "time": "",
@@ -2352,6 +2550,24 @@
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2026/02/FLYER_MORD_CZECHREPUBLIC_FK_custom_crop_2400x800.jpg"
     },
     {
+      "title": "OTEVŘENÍ STŘECHYRoaring Wild Cats Prague",
+      "date": "01.05.2026",
+      "time": "15:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/roaring-wild-cats-prague-jazz-on-the-roof-1-2",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/roaring-wild-cats-prague-6646d607878a2191888790.webp"
+    },
+    {
+      "title": "United Islands Of Prague",
+      "date": "01.05.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/united-islands-of-prague-8",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/united-island-2026-web-69d0ef88c020d330842512.webp"
+    },
+    {
       "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
       "date": "01.05.2026",
       "time": "",
@@ -2440,6 +2656,33 @@
       "category": "hudba",
       "url": "https://www.forumkarlin.cz/udalost/tina-turner-show-with-rebecca-oconnor",
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2025/10/FK_2400x800-Tina-Prague_fk_custom_crop.jpg"
+    },
+    {
+      "title": "Jamie Marshall TrioJazz On The Roof",
+      "date": "02.05.2026",
+      "time": "15:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/jamie-marshall-1-9",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/jamie-69b912718dfff701873631.webp"
+    },
+    {
+      "title": "Acoustic Needles",
+      "date": "02.05.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/acoustic-needles-1-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/acoustic-needles-67b7308a4643d760461861.webp"
+    },
+    {
+      "title": "Klan Del Caribe",
+      "date": "02.05.2026",
+      "time": "22:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/klan-del-caribe-1-6",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/klan-del-caribe-press-photo-66a60ea852668193662426.webp"
     },
     {
       "title": "Remembering Sinatra: A Timeless Tribute",
@@ -2541,6 +2784,24 @@
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2025/07/Forum-Karlin-2400x800-Alvaro-Soler_fkcrop.jpg"
     },
     {
+      "title": "Revival Swing Band & Lenka MalinováNedělní Dixie",
+      "date": "03.05.2026",
+      "time": "16:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/revival-swing-band-lenka-malinova-nedelni-dixie-8",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/dixie_mozaika%20bez%20napisu.webp"
+    },
+    {
+      "title": "Skety",
+      "date": "03.05.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/skety-20",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/skety-jazz-dock-694563ad9b24a238761775.webp"
+    },
+    {
       "title": "THE BEST JAZZ FROM NEW ORLEANS: JJ JAZZMEN & Barbora Vágnerová",
       "date": "03.05.2026",
       "time": "",
@@ -2566,6 +2827,15 @@
       "category": "hudba",
       "url": "https://palacakropolis.cz/work/33298?event_id=40120",
       "image": "https://palacakropolis.cz/images/photos/0026/1836/3_lndscp_credit-_Murray_Ballard_web_event.jpg"
+    },
+    {
+      "title": "Jakub Tököly Trio",
+      "date": "04.05.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/jakub-tokoly-trio-1-3",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/9.2.Jakub%20T%C5%91k%C5%91ly.webp"
     },
     {
       "title": "The Billie Holiday Tribute: A Journey into the Jazz Era",
@@ -2622,6 +2892,15 @@
       "image": "https://meetfactory.cz/static/images/dilo-neni-k-dispozici.jpg"
     },
     {
+      "title": "Tonya Graves",
+      "date": "05.05.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/tonya-graves-1-8",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-tonya-graves-5-5-2026-69949de225377292223028.webp"
+    },
+    {
       "title": "VV BRAZIL – HOT LATIN GROOVE",
       "date": "05.05.2026",
       "time": "",
@@ -2676,6 +2955,15 @@
       "image": "https://www.roxy.cz/upload/temp/lotl-2025-1-matteo-fabbiani-vdpictures-69r3j7dvszoz-crop-480-480.jpg"
     },
     {
+      "title": "Tonya Graves",
+      "date": "06.05.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/tonya-graves-1-9",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-tonya-graves-6-5-2026-69949df6e4dff876361241.webp"
+    },
+    {
       "title": "Piano Legends Unite: A Tribute to Chick Corea, Herbie Hancock, and Oscar Peterson",
       "date": "06.05.2026",
       "time": "",
@@ -2710,6 +2998,15 @@
       "category": "hudba",
       "url": "https://rockcafe.cz/cs/program/dope-d-o-d-nl/",
       "image": "https://static.goout.cloud/rockcafecz/2026/03/d2feb3db-656187701_1356993669796922_8594214554149622884_n-250x167.jpg"
+    },
+    {
+      "title": "Klub zadán",
+      "date": "07.05.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-310",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp"
     },
     {
       "title": "The Ray Charles Experience by Lee Andrew Davison (USA)",
@@ -2793,6 +3090,24 @@
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2026/01/2400-x-800px.jpg"
     },
     {
+      "title": "Krajina Ró",
+      "date": "08.05.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/krajina-ro-3",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/KrajinaRo2%20%282%29.webp"
+    },
+    {
+      "title": "Laco Deczi & New York Celula",
+      "date": "08.05.2026",
+      "time": "22:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/laco-deczi-new-york-celula-1-20",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/Laco_Deczi_10.webp"
+    },
+    {
       "title": "The Nina Simone Experience: An Unforgettable Jazz Tribute",
       "date": "08.05.2026",
       "time": "",
@@ -2865,6 +3180,33 @@
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2025/09/Skillet-2400x800-1.jpg"
     },
     {
+      "title": "Petra Ernyei TrioJazz On The Roof",
+      "date": "09.05.2026",
+      "time": "15:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/petra-ernyei-trio-8",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/ernyei%20new2.webp"
+    },
+    {
+      "title": "Michael Mayo - Fly (USA)",
+      "date": "09.05.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/michael-mayo-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-michael-mayo-9-5-2026-6913180c7b840035914265.webp"
+    },
+    {
+      "title": "Groove DockJazz To Dance",
+      "date": "09.05.2026",
+      "time": "22:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/groove-dock-jazz-to-dance-univ-30",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/dj.webp"
+    },
+    {
       "title": "The Golden Voice: A Celebration of Tony Bennett",
       "date": "09.05.2026",
       "time": "",
@@ -2908,6 +3250,24 @@
       "category": "hudba",
       "url": "https://klub007strahov.cz/events/glacier-us-the-new-horizons-cz-tengri-cz/",
       "image": ""
+    },
+    {
+      "title": "Swing SessionNedělní Dixie",
+      "date": "10.05.2026",
+      "time": "16:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/swing-session-nedelni-dixie-7",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/dixie%20mozaika.webp"
+    },
+    {
+      "title": "Marta Kloučková & David DorůžkaKřest alba",
+      "date": "10.05.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/marta-klouckova-david-doruzka-krest-alba-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/klouck-doru-69932d46080ec844485939.webp"
     },
     {
       "title": "Big Band Trumpets – Kings of Swing Tribute to Duke Ellington, Quincy Jones, Dizzy Gillespie, Glen Miller…",
@@ -2973,6 +3333,15 @@
       "image": "https://cafevlese.cz/wp-content/uploads/2026/04/Jasmin-Elly-@Simona-Ginzelova-scaled-e1776077048517-768x662.jpg"
     },
     {
+      "title": "Oz Noy Trio (USA/IL)",
+      "date": "11.05.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/oz-noy-trio-1-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/upoutavka-oz-noy-11-5-2026-69073638e9b8e245933165.webp"
+    },
+    {
       "title": "Tribute to the Legends of 1950s Hard Bop: Miles Davis, Art Blakey, Cannonball Adderley...",
       "date": "11.05.2026",
       "time": "",
@@ -3007,6 +3376,15 @@
       "category": "hudba",
       "url": "https://cafevlese.cz/events/bruit-%e2%89%a4-fr/",
       "image": "https://cafevlese.cz/wp-content/uploads/2025/11/horizontal-768x432.jpg"
+    },
+    {
+      "title": "Aaron Parks Little Big (USA)",
+      "date": "12.05.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/aaron-parks-little-big-usa-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-aaron-parks-12-5-2026-oprava-694673688f80d184822249.webp"
     },
     {
       "title": "Legendary Pop Icons in Jazz: Adele / Lady Gaga / Amy Winehouse (Dorota Tóthová)",
@@ -3054,6 +3432,15 @@
       "image": "https://www.roxy.cz/upload/temp/annet-x-800x800-ys7ezhang08a-crop-480-480.jpg"
     },
     {
+      "title": "Milan Svoboda Quartet",
+      "date": "13.05.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/milan-svoboda-quartet-17",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/milan-svoboda-655618cdb7acc944495436.webp"
+    },
+    {
       "title": "Melodic Journey with Louis Armstrong, Gershwin, Jobim presented by the Metropolitan Jazz Band",
       "date": "13.05.2026",
       "time": "",
@@ -3097,6 +3484,15 @@
       "category": "hudba",
       "url": "https://atriumzizkov.cz/predstaveni/hudba/nikol-bokova-a-tomas-jamnik/14-05-26-v-20-00/",
       "image": "https://atriumzizkov.cz/wp-content/uploads/2026/03/L1004265-e1773754645715.jpg"
+    },
+    {
+      "title": "Tomáš Hobzek Quartet",
+      "date": "14.05.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/tomas-hobzek-quartet-17",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/hobzek-new-6557524bcddb4742296425.webp"
     },
     {
       "title": "Jazz Treasures: A Tribute Concert to the American Jazz Masters",
@@ -3160,6 +3556,24 @@
       "category": "hudba",
       "url": "https://www.roxy.cz/events/detail/4835/k-motionz",
       "image": "https://www.roxy.cz/upload/temp/kmotionz-pxs-of8ug2l63un8-crop-480-480.jpg"
+    },
+    {
+      "title": "Markéta Foukalová & Martin Brunner - Zábrana (křest alba)",
+      "date": "15.05.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/marketa-foukalova-martin-brunner-zabrana-krest-alba",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/foukalova-brunner-01-6932fda379f2f903550769.webp"
+    },
+    {
+      "title": "Adam Tvrdý - narozeninový koncert!",
+      "date": "15.05.2026",
+      "time": "22:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/adam-tvrdy-trio-11",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/adam-tvrdy-samolepka-677fcea2d3f34347913022.webp"
     },
     {
       "title": "Bohemia Big Band: Tribute to Glenn Miller, Duke Ellington, Benny Goodman...",
@@ -3243,6 +3657,33 @@
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2025/05/2400x800.jpg"
     },
     {
+      "title": "Petra Vlková QuartetJazz On The Roof",
+      "date": "16.05.2026",
+      "time": "15:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/petra-vlkova-1-2",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/petra-vlkova-trio-69c127ddb6b2b526784690.webp"
+    },
+    {
+      "title": "Hetty Kate Quintet",
+      "date": "16.05.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/hetty-kate-1-2",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-hetty-kate-quintet-16-5-2026-6996d4d076149597961801.webp"
+    },
+    {
+      "title": "Laco Deczi & New York Celula",
+      "date": "16.05.2026",
+      "time": "22:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/laco-deczi-new-york-celula-1-22",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/Laco_Deczi_10.webp"
+    },
+    {
       "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
       "date": "16.05.2026",
       "time": "",
@@ -3324,6 +3765,24 @@
       "image": ""
     },
     {
+      "title": "Pavel Švestka Swing QuartetNedělní Dixie",
+      "date": "17.05.2026",
+      "time": "16:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/pavel-svestka-swing-quartet-nedelni-dixie-15",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/dixie-mozaika-6735d8f7d66fd682098463.webp"
+    },
+    {
+      "title": "František Kop Quartet",
+      "date": "17.05.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/frantisek-kop-quartet-14",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/frantisek-kop-65b27c9bbdc2b703992722.webp"
+    },
+    {
       "title": "The Essence of French Chanson: A Tribute to Piaf, Aznavour, Brel, and more...",
       "date": "17.05.2026",
       "time": "",
@@ -3358,6 +3817,15 @@
       "category": "hudba",
       "url": "https://cafevlese.cz/events/arima-ederra-us/",
       "image": "https://cafevlese.cz/wp-content/uploads/2026/03/1389234-800-768x513.jpg"
+    },
+    {
+      "title": "Jazz Dock Orchestra plays Miles Davis",
+      "date": "18.05.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/jazz-dock-orchestra-86",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/jazzdock-orchestra-upoutavka-kveten-2026-6994a270f1760597981604.webp"
     },
     {
       "title": "The Saxophone Legacy: Tribute to Coltrane, Getz, Rollins & Young",
@@ -3412,6 +3880,15 @@
       "category": "hudba",
       "url": "https://atriumzizkov.cz/predstaveni/hudba/trialog/19-05-26-v-19-30/",
       "image": "https://atriumzizkov.cz/wp-content/uploads/2026/04/P8251487-e1776091964827.jpg"
+    },
+    {
+      "title": "Ida Nielsen & The Funkbots (DK)",
+      "date": "19.05.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/ida-nielsen-dk-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-ida-nielsen-19-5-2026-6911cf3b75c5a298900267.webp"
     },
     {
       "title": "Timeless Legends: Celebrating the Legacy of Michael Jackson, AC Jobim, Herbie Hancock, and Duke Ellington",
@@ -3477,6 +3954,15 @@
       "image": "https://palacakropolis.cz/images/photos/0026/1194/Tom_Skinner_Voices_of_Bishara_web_event.jpg"
     },
     {
+      "title": "Circus Ponorka",
+      "date": "20.05.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/circus-ponorka-41",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/honza-ponocny-foto-simona-amiridu-695698102a0ee478674463.webp"
+    },
+    {
       "title": "Vasilův Rubáš",
       "date": "20.05.2026",
       "time": "20:30",
@@ -3522,6 +4008,15 @@
       "image": "https://palacakropolis.cz/images/photos/0026/3051/Musg__-_Joaquin_Perez_web_event.jpg"
     },
     {
+      "title": "Chris Potter Trio (USA)",
+      "date": "21.05.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/chris-potter-trio-usa-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/upoutavka-chris-potter-trio-21-5-2025-69419c5932576082051199.webp"
+    },
+    {
       "title": "Samir Hauser: Pacient 0",
       "date": "21.05.2026",
       "time": "20:00",
@@ -3565,6 +4060,15 @@
       "category": "hudba",
       "url": "https://www.roxy.cz/events/detail/4857/ascendant-vierge",
       "image": "https://www.roxy.cz/upload/temp/ascendant-vierge-roxy-800-x-800-7zvpco9eugv9-crop-480-480.jpg"
+    },
+    {
+      "title": "Klub zadán",
+      "date": "22.05.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-320",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp"
     },
     {
       "title": "Swingová tančírna s The Mole’s Wing Orchestra",
@@ -3621,6 +4125,33 @@
       "image": "https://cafevlese.cz/wp-content/uploads/2026/03/653362490_825431477248967_6933436318396563914_n-768x768.jpg"
     },
     {
+      "title": "Roman Pokorný Gitan TrioJazz On The Roof",
+      "date": "23.05.2026",
+      "time": "15:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/roman-pokorny-gitan-trio-jazz-on-the-roof-5",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/pokorny-69b55eabb4974926012066.webp"
+    },
+    {
+      "title": "Viklický/Hrubý – Between Us",
+      "date": "23.05.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/viklicky-hruby-between-us-9",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/viklicky-hruby-65733b96d5604390662461.webp"
+    },
+    {
+      "title": "Mezcla Cubana",
+      "date": "23.05.2026",
+      "time": "22:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/mezcla-cubana-16",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/mezcla%20cubana.webp"
+    },
+    {
       "title": "Monotrix + hosté: křest alba: Beaty života",
       "date": "23.05.2026",
       "time": "20:00",
@@ -3657,6 +4188,24 @@
       "image": "https://static.goout.cloud/musicbarcz/2026/02/8e015943-abyssinians-2026-kingston-300x300.jpg"
     },
     {
+      "title": "J. J. Jazzmen & Barbora VágnerováNedělní Dixie",
+      "date": "24.05.2026",
+      "time": "15:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/j-j-jazzmen-barbora-vagnerova-nedelni-dixie-86",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/dixie_mozaika%20bez%20napisu.webp"
+    },
+    {
+      "title": "Nigel Price & Libor Šmoldas",
+      "date": "24.05.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/nigel-price-libor-smoldas-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/nigel-price-690a27df29733253400625.webp"
+    },
+    {
       "title": "Edith Piaf: Dnes nechci spát sama",
       "date": "24.05.2026",
       "time": "20:00",
@@ -3691,6 +4240,15 @@
       "category": "hudba",
       "url": "https://cafevlese.cz/events/moondoggy-ca/",
       "image": "https://cafevlese.cz/wp-content/uploads/2026/01/Moondoggy-DRI-35-scaled-e1769153053435-768x777.jpg"
+    },
+    {
+      "title": "KHAMOROReinhardt Sinti Jazz Ensemble (DE)",
+      "date": "25.05.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/khamoro-reinhardt-sinti-jazz-ensemble-de-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/jazz-ban-khamoro2026-the-reinhardt-1200x900px-1-69d11b6b2c5f0533617135.webp"
     },
     {
       "title": "Prague Fringe Festival 2026",
@@ -3747,6 +4305,15 @@
       "image": "https://www.roxy.cz/upload/temp/everglow-prague-01-vt0dxvykmaxi-crop-480-480.png"
     },
     {
+      "title": "KHAMOROBasily Gipsy Band & Marius Preda (NLD)",
+      "date": "26.05.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/khamoro-basily-gipsy-band-marius-preda-nld-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/jazz-ban-khamoro2026-basily-gypsy-1200x900px-69d4ce9c20b40514637468.webp"
+    },
+    {
       "title": "Prague Fringe Festival 2026",
       "date": "26.05.2026",
       "time": "17:00",
@@ -3781,6 +4348,15 @@
       "category": "hudba",
       "url": "https://cafevlese.cz/events/ben-camden-aus/",
       "image": "https://cafevlese.cz/wp-content/uploads/2026/01/Ben-Camden-EU-2026-2.1-ratio-768x384.jpg"
+    },
+    {
+      "title": "Jazzbit / Mladí ladí jazz 2026",
+      "date": "27.05.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/jazzbit-mladi-ladi-jazz-2026-3",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/mladi%20ladi%20univerzal%20new.webp"
     },
     {
       "title": "Prague Fringe Festival 2026",
@@ -3855,6 +4431,15 @@
       "image": "https://atriumzizkov.cz/wp-content/uploads/2026/04/Chalupski-1-e1776093279976.jpeg"
     },
     {
+      "title": "Downbeatclub",
+      "date": "28.05.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/downbeatclub-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-downbeatclub-28-5-2026-698a1f48e3cb3164781803.webp"
+    },
+    {
       "title": "Prague Fringe Festival 2026",
       "date": "28.05.2026",
       "time": "17:15",
@@ -3889,6 +4474,24 @@
       "category": "hudba",
       "url": "https://www.roxy.cz/events/detail/4859/stephan-bodzin-live",
       "image": "https://www.roxy.cz/upload/temp/stephan-bodzin-pxs-r9lfze54c6jh-crop-480-480.jpg"
+    },
+    {
+      "title": "Sára Lagová – křest EP “Vidím Tam”ft. Dorota Barová",
+      "date": "29.05.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/sara-lagova-krest-ep-vidim-tam-ft-dorota-barova",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/krest-69d3d81af05d1415512442.webp"
+    },
+    {
+      "title": "Laco Deczi & New York Celula",
+      "date": "29.05.2026",
+      "time": "22:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/laco-deczi-new-york-celula-1-21",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/Laco_Deczi_10.webp"
     },
     {
       "title": "Prague Fringe Festival 2026",
@@ -3945,6 +4548,33 @@
       "image": "https://www.roxy.cz/upload/temp/bovski-pxs-esvv1dfvf72m-crop-480-480.jpg"
     },
     {
+      "title": "Voilà!Jazz On The Roof",
+      "date": "30.05.2026",
+      "time": "15:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/voila-13",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/voila-6890893900535637594553.webp"
+    },
+    {
+      "title": "Štěpánka Balcarová & Małgorzata Hutek Quartet (CZ/PL)Zuzanna",
+      "date": "30.05.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/stepanka-balcarova-sextet-malgorzata-hutek-life-and-happiness-of-julian-tuwim-cz-pl-2",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/stepanka-balcarova-malgorzata-hutek-6995618b0a79d279014706.webp"
+    },
+    {
+      "title": "November 2nd",
+      "date": "30.05.2026",
+      "time": "22:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/november-nd-5-6",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/november2-691e1eff21a27874739502.webp"
+    },
+    {
       "title": "Prague Fringe Festival 2026",
       "date": "30.05.2026",
       "time": "17:15",
@@ -3981,6 +4611,24 @@
       "image": "https://palacakropolis.cz/images/photos/0026/1122/fb_event_LAIBACH_2026_praha_web_event.jpg"
     },
     {
+      "title": "Dixieland pražských aviatikůNedělní Dixie",
+      "date": "31.05.2026",
+      "time": "16:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/jazz-friendly-nedelni-dixie-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/dixie-mozaika-6819de65513ba190416420.webp"
+    },
+    {
+      "title": "Jan Spálený & A.S.P.M.",
+      "date": "31.05.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/jan-spaleny-a-s-p-m-25",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/spaleny-jpg-670e3e2fa9179317895411.webp"
+    },
+    {
       "title": "Big band Václava Zelinky: Spring Swing",
       "date": "31.05.2026",
       "time": "20:30",
@@ -3999,6 +4647,15 @@
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/10/o2-arena-400x400-conan-gray-praha-new-venue.jpg"
     },
     {
+      "title": "Itamar Borochov Quartet",
+      "date": "01.06.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/itamar-borochov-quartet-il-usa-2",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/Jaka%20Vinsek%204%20itamar%20boroch.webp"
+    },
+    {
       "title": "Lusaint (UK)",
       "date": "02.06.2026",
       "time": "19:30",
@@ -4006,6 +4663,15 @@
       "category": "hudba",
       "url": "https://cafevlese.cz/events/lusaint-uk/",
       "image": "https://cafevlese.cz/wp-content/uploads/2026/01/1371655-800-768x440.jpg"
+    },
+    {
+      "title": "Klub zadán",
+      "date": "02.06.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-321",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp"
     },
     {
       "title": "Conamara Chaos",
@@ -4024,6 +4690,15 @@
       "category": "hudba",
       "url": "https://cargogallery.cz/akce/susidy-sterplyat-ua/",
       "image": "https://cargogallery.cz/wp-content/uploads/2026/04/FUTURUM-WEB-ROZMERY-1-756x454.png"
+    },
+    {
+      "title": "Jakub Zitko & Orfanik Orchestrafeat. Aneta Langerová  & Dorota Barová",
+      "date": "03.06.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/jakub-zitko-orfanik-orchestra-feat-aneta-langerova-dorota-barova-1-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/upoutavka-jakub-zitko-orfanik-orchestra-3-6-2026-69072e36954c2311697999.webp"
     },
     {
       "title": "Wohnout",
@@ -4080,6 +4755,24 @@
       "image": "https://palacakropolis.cz/images/photos/0026/3124/Nebe_je_rud__CD_cover_web_event.jpg"
     },
     {
+      "title": "Prague4KolektivAbsolventský koncert - Ondřej Vondráček a Daniela Humlová",
+      "date": "04.06.2026",
+      "time": "18:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/absolventsky-koncert-ondrej-vondracek-a-daniela-humlova-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/image2-69c7a96f8aa96071735058.webp"
+    },
+    {
+      "title": "Stef Rosen Trio",
+      "date": "04.06.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/stef-rosen-trio-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/image002-6735e984a2879108875157.webp"
+    },
+    {
       "title": "GLITTER.HIT x SALO LIVE: EQ",
       "date": "4.6.2026",
       "time": "",
@@ -4089,6 +4782,24 @@
       "image": "https://static.wixstatic.com/media/742259_46820c32fb164d37acb7acf53b397492~mv2.jpg"
     },
     {
+      "title": "Kamila Csenge - křest alba",
+      "date": "05.06.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/kamila-csenge-krest-alba",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/kamila-csengeova-kapela-698ee00e9045b899630401.webp"
+    },
+    {
+      "title": "Lara Morr",
+      "date": "05.06.2026",
+      "time": "22:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/lara-morr-7",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/lara-69c54a63c1931104327100.webp"
+    },
+    {
       "title": "Opatoff",
       "date": "5.6.2026",
       "time": "",
@@ -4096,6 +4807,33 @@
       "category": "hudba",
       "url": "https://www.musicclubjizak.cz/program/",
       "image": ""
+    },
+    {
+      "title": "Prague Rhythm KingsJazz On The Roof",
+      "date": "06.06.2026",
+      "time": "15:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/prague-rhythm-kings-jazz-on-the-roof-3",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/180624PragueRhythmKings-212U-web.webp"
+    },
+    {
+      "title": "Sakobi",
+      "date": "06.06.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/sakobi-1-2",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/sakobi-65940451cb929314978865.webp"
+    },
+    {
+      "title": "The Freaky Buds (FR)",
+      "date": "06.06.2026",
+      "time": "22:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/the-freaky-buds-fr-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/upoutavka-the-freaky-buds-6-6-2026-69ad729fc91e5303779347.webp"
     },
     {
       "title": "KRS-One / US",
@@ -4123,6 +4861,15 @@
       "category": "hudba",
       "url": "https://cafevlese.cz/events/prewn-us/",
       "image": "https://cafevlese.cz/wp-content/uploads/2025/12/1377111-800-1-768x432.jpg"
+    },
+    {
+      "title": "Klub zadán",
+      "date": "07.06.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-329",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp"
     },
     {
       "title": "321 Jedem! + host: kuchařka Chilli Ta (Ta Thuy Dung)",
@@ -4161,6 +4908,15 @@
       "image": "https://www.roxy.cz/upload/temp/horizontal-3-t0cw2plk3ufl-crop-480-480.jpg"
     },
     {
+      "title": "Nana Rashid (DK / OM)",
+      "date": "08.06.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/nana-rashid-dk-om-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-nana-rashid-8-6-2026-698df6f73c969745893520.webp"
+    },
+    {
       "title": "Hazmat Modine (USA)",
       "date": "9.6.2026",
       "time": "19:00",
@@ -4168,6 +4924,15 @@
       "category": "hudba",
       "url": "https://rockcafe.cz/cs/program/hazmat-modine-usa/",
       "image": "https://static.goout.cloud/rockcafecz/2026/04/3b1fb22b-3637_260609-hazmat-modine1-250x167.jpg"
+    },
+    {
+      "title": "Klub zadán",
+      "date": "09.06.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-331",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp"
     },
     {
       "title": "ELÁN & Kamarádi",
@@ -4197,6 +4962,15 @@
       "image": ""
     },
     {
+      "title": "Lenka Nová – Letní trojka v Jazz Docku",
+      "date": "10.06.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/lenka-nova-25",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/vyber-3-lenka-banery-sirka-jazz-dock-23-69c51edb86a52724656968.webp"
+    },
+    {
       "title": "MIŘENKA ČECHOVÁ & SPITFIRE COMPANY BALETKY",
       "date": "11.06.2026",
       "time": "",
@@ -4204,6 +4978,24 @@
       "category": "hudba",
       "url": "https://palacakropolis.cz/work/33298?event_id=41015",
       "image": "https://palacakropolis.cz/images/photos/0023/3447/spitfire_baletky_2048px_janhromadko-1087_web_event.jpg"
+    },
+    {
+      "title": "Multižánrový koncert skladatelského oddělení Konzervatoře Jaroslava Ježka",
+      "date": "11.06.2026",
+      "time": "17:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/multizanrovy-koncert-skladatelskeho-oddeleni-konzervatore-jaroslava-jezka",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/obr-2-cz-pu-59-r-40-jirovec-missa-partitura-kopie-3-scaled-69b90cac3fce0078822849.webp"
+    },
+    {
+      "title": "Gabriela Vermelho",
+      "date": "11.06.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/gabriela-vermelho-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/gabriela-vermelho-foto-petra-turkova-small-65f184420f376956576603.webp"
     },
     {
       "title": "Prago Union",
@@ -4242,6 +5034,15 @@
       "image": "https://www.roxy.cz/upload/temp/dombresky-px-cuf1iqdk1974-crop-480-480.png"
     },
     {
+      "title": "Klub zadán",
+      "date": "12.06.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-330",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp"
+    },
+    {
       "title": "LAKESIDE X",
       "date": "12.6.2026",
       "time": "19:00",
@@ -4278,6 +5079,33 @@
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2025/12/joost_klein-FK_2400x800-toto-foto.jpg"
     },
     {
+      "title": "At EaseJazz On The Roof",
+      "date": "13.06.2026",
+      "time": "15:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/at-ease-1-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/AT%20EAS%20FOTO%20OPRAVA.webp"
+    },
+    {
+      "title": "Di Stéffano Group (BRA)",
+      "date": "13.06.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/di-steffano-group-bra-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-di-steffano-group-13-6-2026-69d523c99be42765869517.webp"
+    },
+    {
+      "title": "Groove DockJazz To Dance",
+      "date": "13.06.2026",
+      "time": "22:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/groove-dock-jazz-to-dance-univ-31",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/dj.webp"
+    },
+    {
       "title": "Fat Freddy's Drop",
       "date": "13.06.2026",
       "time": "20:00",
@@ -4296,6 +5124,24 @@
       "image": "https://palacakropolis.cz/images/photos/0026/3734/sta_en__soubor__15__web_event.jpg"
     },
     {
+      "title": "Old Timers Jazz BandNedělní Dixie",
+      "date": "14.06.2026",
+      "time": "16:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/old-timers-jazz-band-nedelni-dixie-22",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/dixie_mozaika%20bez%20napisu.webp"
+    },
+    {
+      "title": "Fanfán Tulipán",
+      "date": "14.06.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/fanfan-tulipan-13",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/fanfan-tulipan-68b5ad7428bd3780467807.webp"
+    },
+    {
       "title": "Kampa Jazz Band",
       "date": "14.6.2026",
       "time": "16:00",
@@ -4303,6 +5149,15 @@
       "category": "hudba",
       "url": "https://www.kckampa.cz/",
       "image": "https://www.kckampa.cz/media/jazz_600-600x600.jpg"
+    },
+    {
+      "title": "Jazz Dock Orchestra",
+      "date": "15.06.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/jazz-dock-orchestra-87",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/jazz-dock-orchestra-na-moste-64f5ceb219626110231940.webp"
     },
     {
       "title": "SHELTER / US",
@@ -4341,6 +5196,15 @@
       "image": "https://palacakropolis.cz/images/photos/0026/2655/LIMA__1__web_event.png"
     },
     {
+      "title": "Michal Pavlíček a Trio",
+      "date": "16.06.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/michal-pavlicek-a-trio-12",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-michal-pavlicek-16-6-2026-6996d5ab13d3e398062179.webp"
+    },
+    {
       "title": "Touché Amoré / US",
       "date": "17.6.2026",
       "time": "18:30",
@@ -4348,6 +5212,15 @@
       "category": "hudba",
       "url": "https://musicbar.cz/cs/program/touche-amore-us/",
       "image": "https://static.goout.cloud/musicbarcz/2025/11/5e107b4f-touche-amore-300-300x300.jpg"
+    },
+    {
+      "title": "Michal Pavlíček a Trio",
+      "date": "17.06.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/michal-pavlicek-a-trio-13",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-michal-pavlicek-17-6-2026-6996d5cb6da98557044162.webp"
     },
     {
       "title": "Folklor Trio",
@@ -4377,6 +5250,15 @@
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2025/10/FK_2400x800-Mac_DeMarco_fk_custom_crop.jpg"
     },
     {
+      "title": "Tutu Puoane (JAR)",
+      "date": "18.06.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/tutu-puoane-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-tutu-puoane-18-6-2026-6996d6da09b5e963682132.webp"
+    },
+    {
       "title": "Nejsjetější trojice: Záviš + Mucha + Baumaxa",
       "date": "18.06.2026",
       "time": "19:30",
@@ -4404,6 +5286,24 @@
       "image": "https://www.roxy.cz/upload/temp/a-trak-pxs-tz2moquqqnt6-crop-480-480.jpg"
     },
     {
+      "title": "Luboš Soukup Quartet",
+      "date": "19.06.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/lubos-soukup-quartet-7",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/lubos-soukup-66ee8fbc4a6c0934891823.webp"
+    },
+    {
+      "title": "Vanua2",
+      "date": "19.06.2026",
+      "time": "22:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/vanua-9-8",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/vanua2-66fd052177643753187914.webp"
+    },
+    {
       "title": "IMANBEK (KZ)",
       "date": "20.06.2026",
       "time": "",
@@ -4413,6 +5313,33 @@
       "image": "https://www.roxy.cz/upload/temp/imanbek-pxs-uk41nlybuloi-crop-480-480.jpg"
     },
     {
+      "title": "Klub zadán",
+      "date": "20.06.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-332",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp"
+    },
+    {
+      "title": "Dixieland MessengersNedělní Dixie",
+      "date": "21.06.2026",
+      "time": "16:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/dixieland-messengers-nedelni-dixie-25",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/dixie_mozaika%20bez%20napisu.webp"
+    },
+    {
+      "title": "Baroš/Kyncl Project ft Max Light & Jesse Simpson (CZ/USA)",
+      "date": "21.06.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/baros-kyncl-project-ft-max-light-jesse-simpson-cz-usa-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/4u7b7575-scaled-69b01baeb165e766394990.webp"
+    },
+    {
       "title": "ALDOUS HARDING (NZ)",
       "date": "22.06.2026",
       "time": "",
@@ -4420,6 +5347,15 @@
       "category": "hudba",
       "url": "https://www.roxy.cz/events/detail/4797/aldous-harding",
       "image": "https://www.roxy.cz/upload/temp/sq-aldous-harding-hc39544ik5ba-crop-480-480.jpg"
+    },
+    {
+      "title": "Klub zadán",
+      "date": "22.06.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-333",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp"
     },
     {
       "title": "FOURCE presents Thaiboy Digital / MOVED TO ANOTHER VENUE",
@@ -4440,6 +5376,15 @@
       "image": "https://static.goout.cloud/musicbarcz/2026/03/3c8a6a16-539367436_1303974257765544_8813565437914257536_n-300x300.jpg"
     },
     {
+      "title": "VOŠ Jazz",
+      "date": "23.06.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/vos-jazz-16",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/kjj.webp"
+    },
+    {
       "title": "MEN I TRUST (CA)",
       "date": "24.06.2026",
       "time": "",
@@ -4447,6 +5392,15 @@
       "category": "hudba",
       "url": "https://www.roxy.cz/events/detail/4759/men-i-trust",
       "image": "https://www.roxy.cz/upload/temp/horizontal-1-y48i45b9x58m-crop-480-480.jpg"
+    },
+    {
+      "title": "Jazzbit / Mladí ladí jazz 2026",
+      "date": "24.06.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/jazzbit-mladi-ladi-jazz-2026-4",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/mladi%20ladi%20univerzal%20new.webp"
     },
     {
       "title": "Duran Duran",
@@ -4465,6 +5419,15 @@
       "category": "hudba",
       "url": "https://www.fuchs2.cz/events/f2-live-debasement",
       "image": "https://static.wixstatic.com/media/742259_9f203b26c7ae4230a3297719030337ca~mv2.jpg"
+    },
+    {
+      "title": "Klub zadán",
+      "date": "25.06.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-334",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp"
     },
     {
       "title": "Matmos",
@@ -4494,6 +5457,69 @@
       "image": "https://cafevlese.cz/wp-content/uploads/2026/03/unnamed-9-e1773058651276-768x595.jpg"
     },
     {
+      "title": "Shahab TolouieCi vediamo, Goldoni! – Křest alba",
+      "date": "26.06.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/shahab-tolouie-ci-vediamo-goldoni-krest-alba",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/shahab-tolouie-jazz-dock-69c10ef2805ba558043373.webp"
+    },
+    {
+      "title": "Jonathan Ramirez & Skeptemistic",
+      "date": "26.06.2026",
+      "time": "22:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/jonathan-ramirez-skeptemistic-1-5",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JonathanRamirezBand_fotobyDanielaSlezakova.webp"
+    },
+    {
+      "title": "Anna Kolingerová QuartetJazz On The Roof",
+      "date": "27.06.2026",
+      "time": "15:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/anna-kolingerova-quartet-4",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/kolingerov%C3%A1.webp"
+    },
+    {
+      "title": "Elena Sonenshine & Jocose Jazz",
+      "date": "27.06.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/elena-sonenshine-jocose-jazz-31",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/elena-sonenshine-foto-2023-651bfa9784453596286545-6654726d23349900532207.webp"
+    },
+    {
+      "title": "Kobra Party Band Universal",
+      "date": "27.06.2026",
+      "time": "22:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/kobra-party-band-universal-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/jazzdock-foto-rozmery-69b01e6a9481e906075377.webp"
+    },
+    {
+      "title": "J. J. Jazzmen & Barbora VágnerováNedělní Dixie",
+      "date": "28.06.2026",
+      "time": "16:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/j-j-jazzmen-barbora-vagnerova-nedelni-dixie-87",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/dixie_mozaika%20bez%20napisu.webp"
+    },
+    {
+      "title": "Los Quemados",
+      "date": "28.06.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/los-quemados-27",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/inshot-20250811-121020567-69b6959893d94883810173.webp"
+    },
+    {
       "title": "Big Band Trumpets: Lady! Trumpets! Swing!",
       "date": "28.06.2026",
       "time": "20:30",
@@ -4501,6 +5527,15 @@
       "category": "hudba",
       "url": "https://goout.net/cs/big-band-trumpets-lady-trumpets-swing/szghqhy/",
       "image": "https://goout.net/i/114/1140499-800.jpg"
+    },
+    {
+      "title": "Epoque Quartet",
+      "date": "29.06.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/epoque-quartet-10",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/epoque%20quartet.webp"
     },
     {
       "title": "Dogstar",
@@ -4530,6 +5565,24 @@
       "image": "https://images.squarespace-cdn.com/content/v1/67c814a930ff2420d320eabc/d30b978e-cb9f-474f-ab48-6b3bfe90e400/MAIN-PRESS_HORIZONTAL_Dogstar_Pic_Horizontal_NoLogo_Credit-Brian-Bowen-Smith-scaled-1.jpg"
     },
     {
+      "title": "Laco Deczi & New York Celula",
+      "date": "30.06.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/laco-deczi-new-york-celula-1-23",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/Laco_Deczi_10.webp"
+    },
+    {
+      "title": "Laco Deczi & New York Celula",
+      "date": "01.07.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/laco-deczi-new-york-celula-1-24",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/Laco_Deczi_10.webp"
+    },
+    {
       "title": "A Perfect Circle",
       "date": "2.7.2026",
       "time": "",
@@ -4537,6 +5590,51 @@
       "category": "hudba",
       "url": "https://www.forumkarlin.cz/udalost/a-perfect-circle",
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2025/10/APC_2400×800_foto.jpg"
+    },
+    {
+      "title": "Laco Deczi & New York Celula",
+      "date": "02.07.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/laco-deczi-new-york-celula-1-25",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/Laco_Deczi_10.webp"
+    },
+    {
+      "title": "Takin’Off",
+      "date": "03.07.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/takinoff-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/takinoff-67347b010717c133099216.webp"
+    },
+    {
+      "title": "O. J. Žlábek Blues BandJazz On The Roof",
+      "date": "04.07.2026",
+      "time": "16:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/o-j-zlabek-blues-band-10",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/%C5%BEl%C3%A1bek.webp"
+    },
+    {
+      "title": "Rene Trossman & Little Big Band",
+      "date": "04.07.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/rene-trossman-little-big-band-3",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/rene-661788dd6ad84879839434.webp"
+    },
+    {
+      "title": "Klub zadán",
+      "date": "06.07.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-306",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp"
     },
     {
       "title": "IDLES",
@@ -4548,6 +5646,24 @@
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2025/12/IDLES_FK_2400x800.jpg"
     },
     {
+      "title": "Ondřej Štveráček Quartet",
+      "date": "07.07.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/ondrej-stveracek-1-8",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/stveracek-663096f334b74403564717.webp"
+    },
+    {
+      "title": "MaBaSo Trio (POL/SK/CZ)Maseli/Balzar/Šoltis",
+      "date": "08.07.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/mabaso-trio-pol-sk-cz-maseli-balzar-soltis-1-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/mabaso.webp"
+    },
+    {
       "title": "The Real McKenzies (CAN) + support: Fail Together",
       "date": "9.7.2026",
       "time": "20:00",
@@ -4557,6 +5673,15 @@
       "image": "https://static.goout.cloud/rockcafecz/2026/02/b9566a72-644339237_1336400251856264_7776713604601199312_n-250x167.jpg"
     },
     {
+      "title": "Klub zadán",
+      "date": "09.07.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-314",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp"
+    },
+    {
       "title": "Iscream Never Ground / JP",
       "date": "9.7.2026",
       "time": "19:00",
@@ -4564,6 +5689,60 @@
       "category": "hudba",
       "url": "https://cargogallery.cz/akce/iscream-never-ground-jp/",
       "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-756x454.png"
+    },
+    {
+      "title": "Charlie Slavík Revue",
+      "date": "10.07.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/charlie-slavik-revue-14",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/charlie-revue-web-01-square-64e77669c302c942287945.webp"
+    },
+    {
+      "title": "Swing MelodyJazz On The Roof",
+      "date": "11.07.2026",
+      "time": "16:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/swing-melody-9",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/zm-smo-007-6853de5b95984104458905.webp"
+    },
+    {
+      "title": "Groove DockJazz To Dance",
+      "date": "11.07.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/groove-dock-jazz-to-dance-univ-32",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/dj.webp"
+    },
+    {
+      "title": "Jamie Marshall's Amplified Acoustic Band",
+      "date": "12.07.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/jamie-marshall-1-10",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/jamiemmm.JPG"
+    },
+    {
+      "title": "Klub zadán",
+      "date": "13.07.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-317",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp"
+    },
+    {
+      "title": "Limbo",
+      "date": "14.07.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/limbo-11",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/limbo%202023.webp"
     },
     {
       "title": "Obscure presents: Eric Johnson (USA)",
@@ -4584,6 +5763,15 @@
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2026/01/forum_karlin-kraftwerk-2400x800-1.jpg"
     },
     {
+      "title": "The Bad Plus (USA)",
+      "date": "15.07.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/the-bad-plus-usa-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-bad-plus-15-7-2026-699c8803ac1dd720648143.webp"
+    },
+    {
       "title": "Suzanne Vega: Flying with Angels tour",
       "date": "15.07.2026",
       "time": "19:30",
@@ -4600,6 +5788,78 @@
       "category": "hudba",
       "url": "https://www.pragueopenair.cz/events/michal-hruza-a-kapela-hruzy-3/",
       "image": "https://www.pragueopenair.cz/wp-content/uploads/2026/02/POA-FOTO-2026-1500x1000-hruza-.jpg"
+    },
+    {
+      "title": "Kristina Barta’s Red Landscape feat. Jure Pukl - křest alba",
+      "date": "16.07.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/kristina-barta-quartet-14",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/kristina-barta-2025-6808afdbbf059996739025.webp"
+    },
+    {
+      "title": "Klub zadán",
+      "date": "17.07.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-324",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp"
+    },
+    {
+      "title": "Petra Ernyei Trio ft. Mattan KleinJazz On The Roof",
+      "date": "18.07.2026",
+      "time": "16:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/petra-ernyei-trio-9",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/ernyei%20new2.webp"
+    },
+    {
+      "title": "Pragasón„la música cubana en Praga“",
+      "date": "18.07.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/pragason-la-musica-cubana-en-praga-1-2",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/jazzdock-august-2025-0330-1200x900-69aac05173e56704125983.webp"
+    },
+    {
+      "title": "Jazz Dock Orchestra",
+      "date": "20.07.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/jazz-dock-orchestra-88",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/jazz-dock-orchestra-na-moste-64f5ceb219626110231940.webp"
+    },
+    {
+      "title": "Czech Jazz WorkshopLive concerts!",
+      "date": "21.07.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/czech-jazz-workshop-live-concerts-10",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/czech-jazz-663106c698bf3877202940.webp"
+    },
+    {
+      "title": "Czech Jazz WorkshopLive concerts!",
+      "date": "22.07.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/czech-jazz-workshop-live-concerts-11",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/czech-jazz-663106c698bf3877202940.webp"
+    },
+    {
+      "title": "Czech Jazz WorkshopLive concerts!",
+      "date": "23.07.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/czech-jazz-workshop-live-concerts-12",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/czech-jazz-663106c698bf3877202940.webp"
     },
     {
       "title": "Rozálie",
@@ -4629,6 +5889,24 @@
       "image": "https://static.goout.cloud/musicbarcz/2026/02/62fa09db-5.1.welshlyarms2630-300x300.jpg"
     },
     {
+      "title": "Czech Jazz WorkshopLive concerts!",
+      "date": "24.07.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/czech-jazz-workshop-live-concerts-13",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/czech-jazz-663106c698bf3877202940.webp"
+    },
+    {
+      "title": "Klub zadán",
+      "date": "25.07.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-326",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp"
+    },
+    {
       "title": "Obscure presents: Lovebites (JAP)",
       "date": "26.7.2026",
       "time": "19:00",
@@ -4636,6 +5914,15 @@
       "category": "hudba",
       "url": "https://rockcafe.cz/cs/program/obscure-presents-lovebites-jap/",
       "image": "https://static.goout.cloud/rockcafecz/2026/04/c3f3c076-600x600-18-250x167.jpg"
+    },
+    {
+      "title": "Three of SevenŠmoldas – Zerna – Simpson",
+      "date": "27.07.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/three-of-seven-smoldas-zerna-simpson-2",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/three-of-seven-7-6643787a78839593190427.webp"
     },
     {
       "title": "Charlie Puth",
@@ -4647,6 +5934,15 @@
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2026/01/Forum-Karlin-2400x800-Charlie-Puth-FOTO-PRAHA.jpg"
     },
     {
+      "title": "Alapar Jazz (ARG)",
+      "date": "28.07.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/alapar-jazz-arg-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-alapar-jazz-28-7-2026-69a734cc7141a176900394.webp"
+    },
+    {
       "title": "Horkýže Slíže",
       "date": "28.07.2026",
       "time": "19:45",
@@ -4654,6 +5950,15 @@
       "category": "hudba",
       "url": "https://www.pragueopenair.cz/events/horkyze-slize-5/",
       "image": "https://www.pragueopenair.cz/wp-content/uploads/2026/02/POA-FOTO-2026-1500x1000-horkyze.jpg"
+    },
+    {
+      "title": "Kateřina Steinerová & Her Swing Boys",
+      "date": "29.07.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/katerina-steinerova-her-swing-boys-1-3",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/katerina-steinerova-656af7b8e8552047691241.webp"
     },
     {
       "title": "DZ Deathrays (AUS) + support",
@@ -4683,6 +5988,15 @@
       "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2FAgnes-Obel.png&width=500&height=500"
     },
     {
+      "title": "Terne Čhave",
+      "date": "01.08.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/terne-chave-28",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/Terne%20%C4%8Chave%20.webp"
+    },
+    {
       "title": "Evergreen Terrace (USA) + support",
       "date": "3.8.2026",
       "time": "20:00",
@@ -4690,6 +6004,15 @@
       "category": "hudba",
       "url": "https://rockcafe.cz/cs/program/evergreen-terrace-usa-support-3/",
       "image": "https://static.goout.cloud/rockcafecz/2026/04/35e010c2-667388292_1371016775061278_1668324942580368028_n-250x167.jpg"
+    },
+    {
+      "title": "Tomáš Liška & Invisible World",
+      "date": "04.08.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/tomas-liska-invisible-world-7",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/li%C5%A1ka%2012.7..webp"
     },
     {
       "title": "Total Chaos (USA), The Rumkicks (KOR)",
@@ -4728,6 +6051,15 @@
       "image": "https://www.pragueopenair.cz/wp-content/uploads/2026/02/POA-FOTO-2026-1500x1000-stozvirat-.jpg"
     },
     {
+      "title": "Yo Soy Indigo",
+      "date": "07.08.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/yo-soy-indigo-1-3",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/ysi-01-68bee4df9f411864174939.webp"
+    },
+    {
       "title": "The Living Tombstone",
       "date": "8.8.2026",
       "time": "",
@@ -4755,6 +6087,15 @@
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2026/01/2400x800.jpg"
     },
     {
+      "title": "Baroš Simpson Wyleżoł Trio (CZ/PL/US)",
+      "date": "13.08.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/baros-simpson-wylezol-trio-cz-pl-us-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/wylezol-simpson-baros-2-69d34a4c8bc1c434248096.webp"
+    },
+    {
       "title": "Hot Water Music / US + support",
       "date": "14.8.2026",
       "time": "19:00",
@@ -4764,6 +6105,24 @@
       "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-1-1-756x454.png"
     },
     {
+      "title": "Ondřej Ruml & Matěj Benko Trio Exclusive Tour",
+      "date": "16.08.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/ondrej-ruml-matej-benko-trio-exclusive-tour-1-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/ruml-69454b184dbee386452917.webp"
+    },
+    {
+      "title": "Libor Šmoldas Organ TrioLive Album Recording!",
+      "date": "18.08.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/libor-smoldas-organ-trio-22",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-libor-smoldas-organ-trio-18-19-8-2026-69c103ed07b49877581463.webp"
+    },
+    {
       "title": "Xindl X",
       "date": "18.08.2026",
       "time": "19:30",
@@ -4771,6 +6130,15 @@
       "category": "hudba",
       "url": "https://www.pragueopenair.cz/events/xindl-x-3/",
       "image": "https://www.pragueopenair.cz/wp-content/uploads/2025/12/POA-FOTO-2026-1500x1000-xindlx-v2.jpg"
+    },
+    {
+      "title": "Libor Šmoldas Organ TrioLive Album Recording!",
+      "date": "19.08.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/libor-smoldas-organ-trio-23",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-libor-smoldas-organ-trio-18-19-8-2026-69c10401692ea011480424.webp"
     },
     {
       "title": "David Koller",
@@ -4809,6 +6177,15 @@
       "image": "https://static.wixstatic.com/media/742259_2411d34b48d34bb0afd29ab22a89a296~mv2.jpg"
     },
     {
+      "title": "Free Balkan Quintet",
+      "date": "21.08.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/free-balkan-quintet-15",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/fbq%20foto%20jzd.webp"
+    },
+    {
       "title": "F2 LIVE OPEN AIR x UGOT",
       "date": "21.8.2026",
       "time": "",
@@ -4825,6 +6202,15 @@
       "category": "hudba",
       "url": "https://cafevlese.cz/events/red-leather-us/",
       "image": "https://cafevlese.cz/wp-content/uploads/2026/01/RedLeather_pressphoto-scaled-e1768849054878-768x490.jpeg"
+    },
+    {
+      "title": "Jazz VolunteersJazz On The Roof",
+      "date": "22.08.2026",
+      "time": "16:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/jazz-volunteers-6",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/jazz%20volunteers.webp"
     },
     {
       "title": "OMD",
@@ -4854,6 +6240,24 @@
       "image": "https://static.wixstatic.com/media/742259_a65dd1291b2744d7bf6dcf2154b1df1c~mv2.jpg"
     },
     {
+      "title": "Andreas Varady Trio",
+      "date": "23.08.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/andreas-varady-trio-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/varady-69ad502db6d12124214122.webp"
+    },
+    {
+      "title": "Lenka Nová – Letní trojka v Jazz Docku",
+      "date": "24.08.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/lenka-nova-26",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/vyber-3-lenka-banery-sirka-jazz-dock-23-69c51f14cef7c758315718.webp"
+    },
+    {
       "title": "Mig 21",
       "date": "25.08.2026",
       "time": "19:45",
@@ -4879,6 +6283,15 @@
       "category": "hudba",
       "url": "https://klub007strahov.cz/events/banane-metalik-fr/",
       "image": ""
+    },
+    {
+      "title": "Lenka Nová – Letní trojka v Jazz Docku",
+      "date": "31.08.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/lenka-nova-27",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/vyber-3-lenka-banery-sirka-jazz-dock-23-69c51f22663ce282219160.webp"
     },
     {
       "title": "Kurt Vile & The Violators",
@@ -4908,6 +6321,15 @@
       "image": ""
     },
     {
+      "title": "Faela",
+      "date": "05.09.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/faela-1-2",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-faela-5-9-2026-698e001b093d9386201780.webp"
+    },
+    {
       "title": "Obscure presents: On Company Time (USA)",
       "date": "6.9.2026",
       "time": "19:00",
@@ -4935,6 +6357,15 @@
       "image": "https://palacakropolis.cz/images/photos/0023/4023/The_Music_Digest_web_event.png"
     },
     {
+      "title": "Imran Musa Zangi & Aqua Congas - křest alba",
+      "date": "08.09.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/imran-musa-zangi-aqua-congas-1-6",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/imran.webp"
+    },
+    {
       "title": "Jasná Páka",
       "date": "08.09.2026",
       "time": "19:30",
@@ -4942,6 +6373,15 @@
       "category": "hudba",
       "url": "https://www.pragueopenair.cz/events/jasna-paka-4/",
       "image": "https://www.pragueopenair.cz/wp-content/uploads/2026/03/POA-FOTO-2026-1500x1000-jasnapaka.jpg"
+    },
+    {
+      "title": "Imran Musa Zangi & Aqua Congas - křest alba",
+      "date": "09.09.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/imran-musa-zangi-aqua-congas-1-5",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/imran.webp"
     },
     {
       "title": "Coubey & Meadow Talks, support: Alex Helsby (UK)",
@@ -5025,6 +6465,15 @@
       "image": "https://palacakropolis.cz/images/photos/0026/4059/1610108877-comingsoon-lm-2256x1376_web_event.jpg"
     },
     {
+      "title": "Futur Swing",
+      "date": "13.09.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/futur-swing-21",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/21.7.%20future%20swing%20jazzdock%20photo%201200x900.webp"
+    },
+    {
       "title": "Mike Oldfield’s TUBULAR BELLS I, II & III in Concert",
       "date": "13.9.2026",
       "time": "19:00",
@@ -5050,6 +6499,24 @@
       "category": "hudba",
       "url": "https://palacakropolis.cz/work/33298?event_id=40484",
       "image": "https://palacakropolis.cz/images/photos/0025/3150/pocketart_web_event.jpg"
+    },
+    {
+      "title": "Mathias Sandberg Trio (FI/CZ/DK)",
+      "date": "15.09.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/mathias-sandberg-trio-fi-cz-dk-1-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-mathias-sandberg-trio-15-9-2026-1-698c603dc4d44221742119.webp"
+    },
+    {
+      "title": "Hetty Kate Quintet - Jazz in Four Seasons",
+      "date": "16.09.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/hetty-kate-1-3",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/hettykate-jazzinfourseasons-jazzdock-680f31ee61e7e029218398.webp"
     },
     {
       "title": "GUITAR GANGSTERS , RAVACHOL",
@@ -5115,6 +6582,15 @@
       "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-2-1-756x454.png"
     },
     {
+      "title": "Renata Drössler",
+      "date": "20.09.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/renata-drossler-9",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/renata-drossler-foto-lenka-hyblova-21-699ef9e86bddd487904085.webp"
+    },
+    {
       "title": "Daniel Sloss",
       "date": "21.9.2026",
       "time": "",
@@ -5169,6 +6645,15 @@
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2026/02/SD-2400x800-2.jpg"
     },
     {
+      "title": "Ana Silvera a Saied SilbakFestival Věčná naděje",
+      "date": "26.09.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/ana-silvera-a-saied-silbak-festival-vecna-nadeje-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/cover-final-hi-res-69831ea886e0a196431331.webp"
+    },
+    {
       "title": "YZO O2 ARENA",
       "date": "26.9.2026",
       "time": "20:00",
@@ -5214,6 +6699,15 @@
       "image": "https://palacakropolis.cz/images/photos/0026/2148/20251202_3577-scaled_web_event.jpg"
     },
     {
+      "title": "Julian Hesse Quartet",
+      "date": "28.09.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/julian-hesse-quartet-1-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/julian-hasse-6857f34f41636313446075.webp"
+    },
+    {
       "title": "Selection presents: ClockClock (DE)",
       "date": "29.9.2026",
       "time": "19:00",
@@ -5257,6 +6751,15 @@
       "category": "hudba",
       "url": "https://palacakropolis.cz/work/33298?event_id=40201",
       "image": "https://palacakropolis.cz/images/photos/0026/4034/000018_web_event.JPG"
+    },
+    {
+      "title": "GA-20",
+      "date": "30.09.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/ga-21",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/ga20-1200x900-699734b089280958584668.webp"
     },
     {
       "title": "HAVOK / US + BLOOD RED THRONE / NO + XONOR / SZ + ERADIKATED / SE",
@@ -5421,6 +6924,15 @@
       "image": "https://palacakropolis.cz/images/photos/0026/2463/parraforcuva-2025-_maxhartmannphoto-web-0236_web_event.jpg"
     },
     {
+      "title": "Top Dream Company",
+      "date": "08.10.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/top-dream-company-14",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-top-dream-company-8-10-2026-6996d7ec340fd726438613.webp"
+    },
+    {
       "title": "Käärijä",
       "date": "8.10.2026",
       "time": "",
@@ -5428,6 +6940,15 @@
       "category": "hudba",
       "url": "https://www.sasazu-club.com/events/kaarija26",
       "image": "https://images.squarespace-cdn.com/content/v1/67c814a930ff2420d320eabc/ed8b2091-e301-4777-b64c-d96c9991455d/Kaa-1080x1080.png"
+    },
+    {
+      "title": "Top Dream Company",
+      "date": "09.10.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/top-dream-company-15",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-top-dream-company-9-10-2026-6996d809b0d4f413908928.webp"
     },
     {
       "title": "Skyline",
@@ -5572,6 +7093,15 @@
       "category": "hudba",
       "url": "https://klub007strahov.cz/events/hiatus-be-sanctus-iuda-pl-narcosa-cz/",
       "image": ""
+    },
+    {
+      "title": "Alf Carlsson/Jiří Kotača Quartet",
+      "date": "16.10.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/alf-carlsson-jiri-kotaca-quartet-1-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/carlsson-kotaca-by-jiri-lubojacky-68c40e3d2daa5758918801.jpg"
     },
     {
       "title": "Jiří Korn - KORNCEPT",
@@ -5835,6 +7365,15 @@
       "image": "https://palacakropolis.cz/images/photos/0024/2740/Credit__Majda_Slamova_02_web_event.jpg"
     },
     {
+      "title": "Sachal Vasandani Trio (USA)« Best Life Now »",
+      "date": "26.10.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/sachal-vasandani-best-life-now-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-sachal-vasandani-26-10-2026-69846baf80d7c770399957.webp"
+    },
+    {
       "title": "Live Nation presents: Triggerfinger (BE)",
       "date": "27.10.2026",
       "time": "19:00",
@@ -5905,6 +7444,15 @@
       "category": "hudba",
       "url": "https://www.o2universum.cz/events/uriah-heep-the-magicians-farewell/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/04/o2u-uriahheep26-1080x1080px.jpg"
+    },
+    {
+      "title": "Fanfán Tulipán",
+      "date": "31.10.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/fanfan-tulipan-14",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/fanfan-tulipan-68b5ad7428bd3780467807.webp"
     },
     {
       "title": "INNA Live – Prague",
@@ -5988,6 +7536,15 @@
       "image": "https://palacakropolis.cz/images/photos/0026/3340/4096-2731-max_web_event.jpg"
     },
     {
+      "title": "Bill Frisell Trio (USA)",
+      "date": "05.11.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/bill-frisell-trio-usa-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-bill-frisell-trio-5-11-2026-69ad4cf4f0d3f413869762.webp"
+    },
+    {
       "title": "Olga Lounová – Sraz Optimistů 2",
       "date": "5.11.2026",
       "time": "19:30",
@@ -6013,6 +7570,15 @@
       "category": "hudba",
       "url": "https://www.forumkarlin.cz/udalost/shinedown",
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2026/02/SD-2400x800-1.jpg"
+    },
+    {
+      "title": "Scott Kinsey Group - Thought Distortions (USA)",
+      "date": "06.11.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/scott-kinsey-group-thought-distortions-usa-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-scott-kinsey-group-6-11-2026-69a02afb0b887605296549.webp"
     },
     {
       "title": "Amon Amarth – The Allfather Awakens: Europe & UK Tour 2026",
@@ -6679,6 +8245,24 @@
       "category": "hudba",
       "url": "https://www.o2universum.cz/events/frank-sinatra-friends-live-show-from-las-vegas/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/03/1080-x1080-sinatra-prague.jpg"
+    },
+    {
+      "title": "Universal Ticket 500",
+      "date": "31.12.2026",
+      "time": "19:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/universal-ticket-500",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/JZD%20web.webp"
+    },
+    {
+      "title": "Universal Ticket 1000",
+      "date": "31.12.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/universal-ticket-1000",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/JZD%20web.webp"
     },
     {
       "title": "Alexandr Misko / RU",

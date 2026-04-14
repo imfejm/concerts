@@ -1230,93 +1230,100 @@ def scrape_forum_karlin():
 def scrape_jazz_dock():
     """Scraper pro Jazz Dock"""
     print("* Jazz Dock...")
-    soup = get_soup("https://www.jazzdock.cz/cs/program")
-    if not soup:
-        return []
-    
+
     events = []
-    program_items = soup.find_all('div', class_='program-item')
-    
-    for item in program_items:
-        try:
-            # Nadpis
-            h2 = item.find('h2')
-            title = h2.get_text(strip=True) if h2 else ''
-            
-            if not title or len(title) < 2:
-                continue
-            
-            # Čas a datum - hledej "DNES HRAJEME od" nebo "ne 12. 04. od"
-            all_text = item.get_text(" ", strip=True)
-            
-            date_str = ''
-            time_str = ''
-            
-            # Extrahuj čas
-            time_match = re.search(r'od\s+(\d{1,2}):(\d{2})', all_text)
-            if time_match:
-                time_str = f"{time_match.group(1)}:{time_match.group(2)}"
-            
-            # Extrahuj datum
-            if "DNES HRAJEME" in all_text:
-                # Dnes
-                today = datetime.now().date()
-                date_str = today.strftime("%d.%m.%Y")
-            else:
-                # Hledej vzor: "ne 12. 04." nebo "po 11. 04." atd.
-                date_match = re.search(r'(po|út|st|čt|pá|so|ne)\s+(\d{1,2})\.\s+(\d{1,2})\.', all_text)
-                if date_match:
-                    day = date_match.group(2)
-                    month = date_match.group(3)
-                    year = "2026"
-                    date_str = f"{day}.{month}.{year}"
-            
-            # Kategorie - v span
-            span = item.find('span', class_='label-gender')
-            category_raw = span.get_text(strip=True) if span else 'hudba'
-            
-            # Mapuj kategorie - všechno je hudba nebo divadlo
-            if "theatre" in category_raw.lower() or "divadlo" in category_raw.lower():
-                category = "divadlo"
-            else:
-                category = "hudba"
-            
-            # Obrázek
-            img = item.find('img')
-            image = ''
-            if img:
-                img_src = img.get('src', '')
-                if img_src:
-                    if not img_src.startswith('http'):
-                        image = 'https://www.jazzdock.cz' + img_src
+    seen_urls = set()
+    today = datetime.now()
+
+    # Procházej aktuální + 8 dalších měsíců
+    months_to_fetch = []
+    y, m = today.year, today.month
+    for _ in range(9):
+        months_to_fetch.append((y, m))
+        m += 1
+        if m > 12:
+            m = 1
+            y += 1
+
+    for (year, month) in months_to_fetch:
+        page_num = 1
+        while True:
+            url_page = f"https://www.jazzdock.cz/cs/program/{year}/{month}"
+            if page_num > 1:
+                url_page += f"?page={page_num}"
+            soup = get_soup(url_page)
+            if not soup:
+                break
+
+            items = soup.find_all('div', class_='program-item')
+            if not items:
+                break
+
+            for item in items:
+                try:
+                    h2 = item.find('h2')
+                    title = h2.get_text(strip=True) if h2 else ''
+                    if not title or len(title) < 2:
+                        continue
+
+                    all_text = item.get_text(" ", strip=True)
+
+                    time_str = ''
+                    time_match = re.search(r'od\s+(\d{1,2}):(\d{2})', all_text)
+                    if time_match:
+                        time_str = f"{time_match.group(1)}:{time_match.group(2)}"
+
+                    date_str = ''
+                    if "DNES HRAJEME" in all_text:
+                        date_str = today.strftime("%d.%m.%Y")
                     else:
-                        image = img_src
-            
-            # Link
-            link = item.find('a', href=True)
-            url = ''
-            if link:
-                href = link.get('href', '')
-                if href:
-                    if not href.startswith('http'):
-                        url = 'https://www.jazzdock.cz' + href
+                        date_match = re.search(r'(po|út|st|čt|pá|so|ne)\s+(\d{1,2})\.\s+(\d{1,2})\.', all_text)
+                        if date_match:
+                            date_str = f"{date_match.group(2)}.{date_match.group(3)}.{year}"
+
+                    span = item.find('span', class_='label-gender')
+                    category_raw = span.get_text(strip=True) if span else 'hudba'
+                    if "theatre" in category_raw.lower() or "divadlo" in category_raw.lower():
+                        category = "divadlo"
                     else:
-                        url = href
-            
-            if date_str:
-                events.append({
-                    "title": title,
-                    "date": date_str,
-                    "time": time_str,
-                    "venue": "Jazz Dock",
-                    "category": category,
-                    "url": url,
-                    "image": image,
-                })
-        
-        except Exception as e:
-            continue
-    
+                        category = "hudba"
+
+                    img = item.find('img')
+                    image = ''
+                    if img:
+                        img_src = img.get('src', '')
+                        if img_src:
+                            image = img_src if img_src.startswith('http') else 'https://www.jazzdock.cz' + img_src
+
+                    link = item.find('a', href=True)
+                    url = ''
+                    if link:
+                        href = link.get('href', '')
+                        if href:
+                            url = href if href.startswith('http') else 'https://www.jazzdock.cz' + href
+
+                    if not date_str or url in seen_urls:
+                        continue
+                    seen_urls.add(url)
+
+                    events.append({
+                        "title": title,
+                        "date": date_str,
+                        "time": time_str,
+                        "venue": "Jazz Dock",
+                        "category": category,
+                        "url": url,
+                        "image": image,
+                    })
+
+                except Exception:
+                    continue
+
+            # Pokud je méně než 20 položek, další stránka neexistuje
+            if len(items) < 20 or not soup.find(class_='btn-next'):
+                break
+            page_num += 1
+
     print(f"   [OK] {len(events)} akcí")
     return events
 
