@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-14T08:43:15.006760",
-  "count": 723,
+  "updated": "2026-04-14T09:32:55.331511",
+  "count": 735,
   "events": [
     {
       "title": "Jozef Mrva ml.: Challenger Escape Plan",
@@ -4206,6 +4206,15 @@
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2025/12/joost_klein-FK_2400x800-toto-foto.jpg"
     },
     {
+      "title": "Fat Freddy's Drop",
+      "date": "13.06.2026",
+      "time": "20:00",
+      "venue": "Archa+",
+      "category": "hudba",
+      "url": "https://archa-plus.cz/cz/program/detail/665/2026-06-13-fat-freddy-s-drop",
+      "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2FFatFreddy2.jpeg&width=500&height=500"
+    },
+    {
       "title": "BORIS GREBENSHIKOV A AKVÁRIUM V PRAZE/RU",
       "date": "14.06.2026",
       "time": "",
@@ -4386,6 +4395,15 @@
       "image": "https://static.wixstatic.com/media/742259_9f203b26c7ae4230a3297719030337ca~mv2.jpg"
     },
     {
+      "title": "Matmos",
+      "date": "25.06.2026",
+      "time": "20:00",
+      "venue": "Archa+",
+      "category": "hudba",
+      "url": "https://archa-plus.cz/cz/program/detail/773/2026-06-25-matmos",
+      "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2FMatmos2.jpeg&width=500&height=500"
+    },
+    {
       "title": "Kateřina Marie Tichá & Bandjeez",
       "date": "25.06.2026",
       "time": "19:30",
@@ -4402,6 +4420,15 @@
       "category": "hudba",
       "url": "https://goout.net/cs/big-band-trumpets-lady-trumpets-swing/szghqhy/",
       "image": "https://goout.net/i/114/1140499-800.jpg"
+    },
+    {
+      "title": "Dogstar",
+      "date": "29.06.2026",
+      "time": "20:00",
+      "venue": "Archa+",
+      "category": "hudba",
+      "url": "https://archa-plus.cz/cz/program/detail/668/2026-06-29-dogstar",
+      "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2FDogstar.jpeg&width=500&height=500"
     },
     {
       "title": "RICKY MARTIN LIVE 2026",
@@ -4474,6 +4501,15 @@
       "category": "hudba",
       "url": "https://www.forumkarlin.cz/udalost/kraftwerk",
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2026/01/forum_karlin-kraftwerk-2400x800-1.jpg"
+    },
+    {
+      "title": "Suzanne Vega: Flying with Angels tour",
+      "date": "15.07.2026",
+      "time": "19:30",
+      "venue": "Archa+",
+      "category": "hudba",
+      "url": "https://archa-plus.cz/cz/program/detail/749/2026-07-15-suzanne-vega-flying-with-angels-tour",
+      "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2FSusanneVega.png&width=500&height=500"
     },
     {
       "title": "Michal Hrůza & Kapela Hrůzy",
@@ -4555,6 +4591,15 @@
       "category": "hudba",
       "url": "https://www.pragueopenair.cz/events/rybicky-48/",
       "image": "https://www.pragueopenair.cz/wp-content/uploads/2026/02/POA-FOTO-2026-1500x1000-r48.jpg"
+    },
+    {
+      "title": "Agnes Obel",
+      "date": "31.07.2026",
+      "time": "19:00",
+      "venue": "Archa+",
+      "category": "hudba",
+      "url": "https://archa-plus.cz/cz/program/detail/701/2026-07-31-agnes-obel",
+      "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2FAgnes-Obel.png&width=500&height=500"
     },
     {
       "title": "Evergreen Terrace (USA) + support",
@@ -4708,6 +4753,15 @@
       "category": "hudba",
       "url": "https://klub007strahov.cz/events/banane-metalik-fr/",
       "image": ""
+    },
+    {
+      "title": "Kurt Vile & The Violators",
+      "date": "02.09.2026",
+      "time": "20:00",
+      "venue": "Archa+",
+      "category": "hudba",
+      "url": "https://archa-plus.cz/cz/program/detail/782/2026-09-02-kurt-vile-the-violators",
+      "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2FKurt-Vile.jpeg&width=500&height=500"
     },
     {
       "title": "Pražský výběr",
@@ -4897,6 +4951,15 @@
       "category": "hudba",
       "url": "https://www.roxy.cz/events/detail/4809/faaschtbankler",
       "image": "https://www.roxy.cz/upload/temp/faaschtis26-bandpic-800x800-pgauwkjt800i-crop-480-480.jpg"
+    },
+    {
+      "title": "HAEVN",
+      "date": "17.09.2026",
+      "time": "20:00",
+      "venue": "Archa+",
+      "category": "hudba",
+      "url": "https://archa-plus.cz/cz/program/detail/597/2026-09-17-haevn",
+      "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2Fhaevn.jpeg&width=500&height=500"
     },
     {
       "title": "Donny Benét / AU",
@@ -5329,6 +5392,15 @@
       "category": "hudba",
       "url": "https://palacakropolis.cz/work/33298?event_id=40223",
       "image": "https://palacakropolis.cz/images/photos/0025/7946/2B7A3310-2_web_event.jpg"
+    },
+    {
+      "title": "The Devil Wears Prada",
+      "date": "14.10.2026",
+      "time": "19:00",
+      "venue": "Archa+",
+      "category": "hudba",
+      "url": "https://archa-plus.cz/cz/program/detail/679/2026-10-14-the-devil-wears-prada",
+      "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2FTheDevilWears-Prada.jpeg&width=500&height=500"
     },
     {
       "title": "HÄMATOM/DE",
@@ -5997,6 +6069,15 @@
       "image": "https://futurum.musicbar.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY.png"
     },
     {
+      "title": "José González",
+      "date": "19.11.2026",
+      "time": "20:00",
+      "venue": "Archa+",
+      "category": "hudba",
+      "url": "https://archa-plus.cz/cz/program/detail/748/2026-11-19-jose-gonzalez",
+      "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2Fgonzalez-press2.jpeg&width=500&height=500"
+    },
+    {
       "title": "VLTAVA - STO LET S VÁMI",
       "date": "20.11.2026",
       "time": "",
@@ -6049,6 +6130,15 @@
       "category": "hudba",
       "url": "https://www.forumkarlin.cz/udalost/stahlzeit",
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2025/09/Stahlzeit_2400x800_fkcrop.jpg"
+    },
+    {
+      "title": "Arlo Parks",
+      "date": "21.11.2026",
+      "time": "20:00",
+      "venue": "Archa+",
+      "category": "hudba",
+      "url": "https://archa-plus.cz/cz/program/detail/755/2026-11-21-arlo-parks",
+      "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2FArloParks-JG-07-Large-9-66.jpeg&width=500&height=500"
     },
     {
       "title": "RADIO KISS MILLENNIUM EXPLOSION – LIVE SHOW",
@@ -6177,6 +6267,15 @@
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2026/02/forum_karlin_resident_evil_custom_crop_2400x800.jpg"
     },
     {
+      "title": "Baby Lasagna",
+      "date": "03.12.2026",
+      "time": "20:00",
+      "venue": "Archa+",
+      "category": "hudba",
+      "url": "https://archa-plus.cz/cz/program/detail/753/2026-12-03-baby-lasagna",
+      "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2FBabyLasagna-2.jpeg&width=500&height=500"
+    },
+    {
       "title": "MIKOLAS – FORUM KARLÍN",
       "date": "4.12.2026",
       "time": "",
@@ -6238,6 +6337,15 @@
       "category": "hudba",
       "url": "https://www.forumkarlin.cz/udalost/olympic",
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2026/02/olympic-forum_karlin-2400x800-custom_crop.jpg"
+    },
+    {
+      "title": "Pocta Radimu Hladíkovi - MÁ HRA",
+      "date": "09.12.2026",
+      "time": "19:30",
+      "venue": "Archa+",
+      "category": "hudba",
+      "url": "https://archa-plus.cz/cz/program/detail/678/2026-12-09-pocta-radimu-hladikovi-ma-hra",
+      "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2FHladik.png&width=500&height=500"
     },
     {
       "title": "NO NAME 30",

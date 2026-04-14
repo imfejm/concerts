@@ -1328,62 +1328,78 @@ def scrape_archa():
     print("* Archa+...")
     from datetime import date as _date
 
-    soup = get_soup("https://archa-plus.cz/cz/program/")
-    if not soup:
-        return []
-
     today = _date.today()
     events = []
+    seen_urls = set()
 
-    for item in soup.find_all('div', class_='program-item'):
-        tags = [t.get_text(strip=True).lower() for t in item.find_all('span', class_='tag')]
-        if 'hudba' not in tags:
+    # Build list of months to scrape: current month + next 8 months
+    months_to_scrape = []
+    y, m = today.year, today.month
+    for _ in range(9):
+        months_to_scrape.append(f"https://archa-plus.cz/cz/program/?dateFrom={y}-{m:02d}-01")
+        m += 1
+        if m > 12:
+            m = 1
+            y += 1
+
+    for url in months_to_scrape:
+        soup = get_soup(url)
+        if not soup:
             continue
 
-        link = item.find('a', href=True)
-        if not link:
-            continue
-        href = link['href']
-        if not href.startswith('http'):
-            href = 'https://archa-plus.cz' + href
+        for item in soup.find_all('div', class_='program-item'):
+            tags = [t.get_text(strip=True).lower() for t in item.find_all('span', class_='tag')]
+            if 'hudba' not in tags:
+                continue
 
-        date_match = re.search(r'(\d{4})-(\d{2})-(\d{2})', href)
-        if not date_match:
-            continue
-        y, m, d = int(date_match.group(1)), int(date_match.group(2)), int(date_match.group(3))
-        if _date(y, m, d) < today:
-            continue
-        date_str = f"{d:02d}.{m:02d}.{y}"
+            link = item.find('a', href=True)
+            if not link:
+                continue
+            href = link['href']
+            if not href.startswith('http'):
+                href = 'https://archa-plus.cz' + href
 
-        date_div = item.find('div', class_='performance-date')
-        time_str = ''
-        if date_div:
-            tm = re.search(r'(\d{2}:\d{2})', date_div.get_text())
-            if tm:
-                time_str = tm.group(1)
+            if href in seen_urls:
+                continue
+            seen_urls.add(href)
 
-        title_div = item.find('div', class_='performance-title')
-        title = title_div.get_text(strip=True) if title_div else ''
-        if not title:
-            continue
+            date_match = re.search(r'(\d{4})-(\d{2})-(\d{2})', href)
+            if not date_match:
+                continue
+            y2, m2, d = int(date_match.group(1)), int(date_match.group(2)), int(date_match.group(3))
+            if _date(y2, m2, d) < today:
+                continue
+            date_str = f"{d:02d}.{m2:02d}.{y2}"
 
-        img = item.find('img')
-        image_url = ''
-        if img:
-            src = img.get('src', '')
-            if src.startswith('/'):
-                src = 'https://archa-plus.cz' + src
-            image_url = src
+            date_div = item.find('div', class_='performance-date')
+            time_str = ''
+            if date_div:
+                tm = re.search(r'(\d{2}:\d{2})', date_div.get_text())
+                if tm:
+                    time_str = tm.group(1)
 
-        events.append({
-            "title": title,
-            "date": date_str,
-            "time": time_str,
-            "venue": "Archa+",
-            "category": "hudba",
-            "url": href,
-            "image": image_url,
-        })
+            title_div = item.find('div', class_='performance-title')
+            title = title_div.get_text(strip=True) if title_div else ''
+            if not title:
+                continue
+
+            img = item.find('img')
+            image_url = ''
+            if img:
+                src = img.get('src', '')
+                if src.startswith('/'):
+                    src = 'https://archa-plus.cz' + src
+                image_url = src
+
+            events.append({
+                "title": title,
+                "date": date_str,
+                "time": time_str,
+                "venue": "Archa+",
+                "category": "hudba",
+                "url": href,
+                "image": image_url,
+            })
 
     print(f"   [OK] {len(events)} akcí")
     return events
