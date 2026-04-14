@@ -11,7 +11,13 @@
       "Bash(where python:*)",
       "Bash(schtasks /Create /TN \"KonzertyPrahaScraper\" /TR \"\\\\\"C:\\\\\\\\Users\\\\\\\\nemam\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Python\\\\\\\\bin\\\\\\\\python3.exe\\\\\" \\\\\"c:\\\\\\\\Users\\\\\\\\nemam\\\\\\\\Documents\\\\\\\\VSCode rozpracovano\\\\\\\\koncerty\\\\\\\\scraper.py\\\\\"\" /SC DAILY /ST 07:00 /F)",
       "Bash(cmd.exe /c \"schtasks /Create /TN \\\\\"KonzertyPrahaScraper\\\\\" /TR \\\\\"\\\\\\\\\\\\\"C:\\\\\\\\Users\\\\\\\\nemam\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Python\\\\\\\\bin\\\\\\\\python3.exe\\\\\\\\\\\\\" \\\\\\\\\\\\\"c:\\\\\\\\Users\\\\\\\\nemam\\\\\\\\Documents\\\\\\\\VSCode rozpracovano\\\\\\\\koncerty\\\\\\\\scraper.py\\\\\\\\\\\\\"\\\\\" /SC DAILY /ST 07:00 /F\")",
-      "Bash(powershell.exe -Command ':*)"
+      "Bash(powershell.exe -Command ':*)",
+      "Bash(schtasks /query /fo LIST)",
+      "Bash(schtasks /create /tn \"KoncertyScraperDaily\" /tr \"\\\\\"C:\\\\\\\\Users\\\\\\\\nemam\\\\\\\\Documents\\\\\\\\VSCode rozpracovano\\\\\\\\koncerty\\\\\\\\.venv\\\\\\\\Scripts\\\\\\\\python.exe\\\\\" \\\\\"C:\\\\\\\\Users\\\\\\\\nemam\\\\\\\\Documents\\\\\\\\VSCode rozpracovano\\\\\\\\koncerty\\\\\\\\scraper.py\\\\\"\" /sc DAILY /st 07:00 /f)",
+      "Bash(powershell.exe -Command \"schtasks /create /tn 'KoncertyScraperDaily' /tr '\\\\\"C:\\\\\\\\Users\\\\\\\\nemam\\\\\\\\Documents\\\\\\\\VSCode rozpracovano\\\\\\\\koncerty\\\\\\\\.venv\\\\\\\\Scripts\\\\\\\\python.exe\\\\\" \\\\\"C:\\\\\\\\Users\\\\\\\\nemam\\\\\\\\Documents\\\\\\\\VSCode rozpracovano\\\\\\\\koncerty\\\\\\\\scraper.py\\\\\"' /sc DAILY /st 07:00 /f\")",
+      "Bash(powershell.exe -Command \"Get-ScheduledTask -TaskName 'KoncertyScraperDaily' | Get-ScheduledTaskInfo | Select-Object LastRunTime, NextRunTime, LastTaskResult\")",
+      "Bash(powershell.exe -Command \"Start-ScheduledTask -TaskName 'KoncertyScraperDaily'\")",
+      "Bash(.venv/Scripts/python.exe scraper.py)"
     ]
   }
 }
