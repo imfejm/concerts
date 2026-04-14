@@ -1150,6 +1150,7 @@ footer a {
   .header-nav.open {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     align-items: stretch;
     flex: 1;
     min-height: 0;
