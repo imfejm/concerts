@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-14T11:39:33.890670",
-  "count": 938,
+  "updated": "2026-04-14T12:32:36.775778",
+  "count": 962,
   "events": [
     {
       "title": "Universal Ticket Universal",
@@ -3252,6 +3252,15 @@
       "image": ""
     },
     {
+      "title": "Oneida + Střešovická kramle",
+      "date": "10.05.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/oneida",
+      "image": "https://meetfactory.cz/media/images/rescaled/20240210_Oneida_346_web.webp-79x111.jpeg"
+    },
+    {
       "title": "Swing SessionNedělní Dixie",
       "date": "10.05.2026",
       "time": "16:00",
@@ -3333,6 +3342,15 @@
       "image": "https://cafevlese.cz/wp-content/uploads/2026/04/Jasmin-Elly-@Simona-Ginzelova-scaled-e1776077048517-768x662.jpg"
     },
     {
+      "title": "Gnod",
+      "date": "11.05.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/gnod",
+      "image": "https://meetfactory.cz/media/images/rescaled/a1165243023_10-320x426.jpg"
+    },
+    {
       "title": "Oz Noy Trio (USA/IL)",
       "date": "11.05.2026",
       "time": "21:00",
@@ -3378,6 +3396,15 @@
       "image": "https://cafevlese.cz/wp-content/uploads/2025/11/horizontal-768x432.jpg"
     },
     {
+      "title": "Acid Mothers Temple",
+      "date": "12.05.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/acid-mothers-temple",
+      "image": "https://meetfactory.cz/media/images/rescaled/ACID_MOTHERS_TEMPLE_2025_instagram_B-320x426.jpg"
+    },
+    {
       "title": "Aaron Parks Little Big (USA)",
       "date": "12.05.2026",
       "time": "21:00",
@@ -3421,6 +3448,15 @@
       "category": "hudba",
       "url": "https://klub007strahov.cz/events/galvanizer-fi-malformed-fi-mocskoshi-cz/",
       "image": ""
+    },
+    {
+      "title": "Jarboe feat. Joy Von Spain + Leila Bordreuil",
+      "date": "13.05.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/jarboe-feat-thor-harris-joy-von-spain",
+      "image": "https://meetfactory.cz/media/images/rescaled/Copy_of_Jarboe_mono_tint-320x426.jpg"
     },
     {
       "title": "VYPRODÁNO: ANNET X (CZ)",
@@ -3882,6 +3918,15 @@
       "image": "https://cafevlese.cz/wp-content/uploads/2026/01/1377183-800-768x460.jpg"
     },
     {
+      "title": "Deerhoof + BearCloud",
+      "date": "19.05.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/deerhoof-1",
+      "image": "https://meetfactory.cz/media/images/rescaled/May_2025_Tour_Photo-320x426.jpg"
+    },
+    {
       "title": "Trialog",
       "date": "19.5.2026",
       "time": "19:30",
@@ -3963,6 +4008,15 @@
       "image": "https://palacakropolis.cz/images/photos/0026/1194/Tom_Skinner_Voices_of_Bishara_web_event.jpg"
     },
     {
+      "title": "Russian Circles + Pelican + Fotocrime",
+      "date": "20.05.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/russian-circles-pelican",
+      "image": "https://meetfactory.cz/media/images/rescaled/0029578983_10-2-320x426.jpg"
+    },
+    {
       "title": "Circus Ponorka",
       "date": "20.05.2026",
       "time": "21:00",
@@ -4015,6 +4069,15 @@
       "category": "hudba",
       "url": "https://palacakropolis.cz/work/33298?event_id=39828",
       "image": "https://palacakropolis.cz/images/photos/0026/3051/Musg__-_Joaquin_Perez_web_event.jpg"
+    },
+    {
+      "title": "Lucrecia Dalt",
+      "date": "21.05.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/lucrecia-dalt-1",
+      "image": "https://meetfactory.cz/media/images/rescaled/RVNGNL118_Cover_no_text-79x111.png"
     },
     {
       "title": "Chris Potter Trio (USA)",
@@ -4359,6 +4422,15 @@
       "image": "https://cafevlese.cz/wp-content/uploads/2026/01/Ben-Camden-EU-2026-2.1-ratio-768x384.jpg"
     },
     {
+      "title": "Glacial – Lee Ranaldo / Tony Buck / David Watson",
+      "date": "27.05.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/glacial-lee-ranaldo-tony-buck-david-watson",
+      "image": "https://meetfactory.cz/media/images/rescaled/GLACIAL-2-79x111.png"
+    },
+    {
       "title": "Jazzbit / Mladí ladí jazz 2026",
       "date": "27.05.2026",
       "time": "21:00",
@@ -4474,6 +4546,15 @@
       "category": "hudba",
       "url": "https://cargogallery.cz/akce/hello-marcel-dj-le-petit-nicolas/",
       "image": "https://cargogallery.cz/wp-content/uploads/2026/04/FUTURUM-WEB-ROZMERY-3-756x454.png"
+    },
+    {
+      "title": "Never Sol: křest desky Rest Your Wound On Mine",
+      "date": "29.05.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/never-sol-krest-desky-rest-your-wound-on-mine",
+      "image": "https://meetfactory.cz/static/images/dilo-neni-k-dispozici.jpg"
     },
     {
       "title": "STEPHAN BODZIN LIVE (DE)",
@@ -4791,6 +4872,15 @@
       "image": "https://static.wixstatic.com/media/742259_46820c32fb164d37acb7acf53b397492~mv2.jpg"
     },
     {
+      "title": "Avalanche Kaito",
+      "date": "05.06.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/avalanche-kaito",
+      "image": "https://meetfactory.cz/media/images/rescaled/avalanchito-320x426.jpg"
+    },
+    {
       "title": "Kamila Csenge - křest alba",
       "date": "05.06.2026",
       "time": "19:00",
@@ -4870,6 +4960,15 @@
       "category": "hudba",
       "url": "https://cafevlese.cz/events/prewn-us/",
       "image": "https://cafevlese.cz/wp-content/uploads/2025/12/1377111-800-1-768x432.jpg"
+    },
+    {
+      "title": "Live Nation: Tricky + Marta Złakowska",
+      "date": "07.06.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/live-nation-tricky",
+      "image": "https://meetfactory.cz/media/images/rescaled/thumb_191292_1200_0_0_0_auto-79x111.jpeg"
     },
     {
       "title": "Klub zadán",
@@ -5178,6 +5277,15 @@
       "image": "https://palacakropolis.cz/images/photos/0026/2655/LIMA__1__web_event.png"
     },
     {
+      "title": "něco něco: křest desky + hosté",
+      "date": "16.06.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/neco-neco-krest-desky-hoste",
+      "image": "https://meetfactory.cz/media/images/rescaled/neco_neco_2025_tana_lvovska-1-320x426.jpg"
+    },
+    {
       "title": "Michal Pavlíček a Trio",
       "date": "16.06.2026",
       "time": "21:00",
@@ -5320,6 +5428,15 @@
       "category": "hudba",
       "url": "https://www.jazzdock.cz/cs/koncert/baros-kyncl-project-ft-max-light-jesse-simpson-cz-usa-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/4u7b7575-scaled-69b01baeb165e766394990.webp"
+    },
+    {
+      "title": "Fource: Thaiboy Digital + Eurohead",
+      "date": "22.06.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/fource-thaiboy-digital",
+      "image": "https://meetfactory.cz/static/images/dilo-neni-k-dispozici.jpg"
     },
     {
       "title": "ALDOUS HARDING (NZ)",
@@ -5754,6 +5871,15 @@
       "image": "https://static.goout.cloud/rockcafecz/2026/02/1f54e2e4-header-2-250x167.jpg"
     },
     {
+      "title": "Windcatcher: Sina Bathaie – White Lotus World Tour 2026",
+      "date": "15.07.2026",
+      "time": "19.30",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/sina-bathaie",
+      "image": "https://meetfactory.cz/media/images/rescaled/sinabathaie-320x426.jpg"
+    },
+    {
       "title": "Kraftwerk",
       "date": "15.7.2026",
       "time": "",
@@ -6121,6 +6247,15 @@
       "category": "hudba",
       "url": "https://www.jazzdock.cz/cs/koncert/ondrej-ruml-matej-benko-trio-exclusive-tour-1-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/ruml-69454b184dbee386452917.webp"
+    },
+    {
+      "title": "Cate Le Bon",
+      "date": "17.08.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/cate-le-bon",
+      "image": "https://meetfactory.cz/static/images/dilo-neni-k-dispozici.jpg"
     },
     {
       "title": "Libor Šmoldas Organ TrioLive Album Recording!",
@@ -6510,6 +6645,15 @@
       "image": "https://palacakropolis.cz/images/photos/0025/3150/pocketart_web_event.jpg"
     },
     {
+      "title": "RFP Concerts: Black Stone Cherry + 10 Years",
+      "date": "15.09.2026",
+      "time": "19.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/rock-for-people-black-stone-cherry",
+      "image": "https://meetfactory.cz/static/images/dilo-neni-k-dispozici.jpg"
+    },
+    {
       "title": "Mathias Sandberg Trio (FI/CZ/DK)",
       "date": "15.09.2026",
       "time": "21:00",
@@ -6852,6 +6996,15 @@
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/09/o2-1080x1080-2.jpg"
     },
     {
+      "title": "Fource: Fink + Angela Autumn",
+      "date": "05.10.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/fource-fink-angela-autumn",
+      "image": "https://meetfactory.cz/static/images/dilo-neni-k-dispozici.jpg"
+    },
+    {
       "title": "The Narrator (DE) + support",
       "date": "6.10.2026",
       "time": "19:30",
@@ -6877,6 +7030,15 @@
       "category": "hudba",
       "url": "https://palacakropolis.cz/work/33298?event_id=40276",
       "image": "https://palacakropolis.cz/images/photos/0024/8124/20240124_1744-min_web_event.jpg"
+    },
+    {
+      "title": "Holy Fuck",
+      "date": "06.10.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/holy-fuck",
+      "image": "https://meetfactory.cz/media/images/rescaled/1379749-800-320x426.jpg"
     },
     {
       "title": "Martina Trchová & band",
@@ -7329,6 +7491,15 @@
       "image": "https://static.goout.cloud/musicbarcz/2026/03/eb5620e2-mg_4358-300x300.jpg"
     },
     {
+      "title": "RFP Concerts: Alpha Wolf",
+      "date": "25.10.2026",
+      "time": "17.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/rfp-concerts-alpha-wolf",
+      "image": "https://meetfactory.cz/static/images/dilo-neni-k-dispozici.jpg"
+    },
+    {
       "title": "THE WORLD OF HANS ZIMMER – A New Dimension",
       "date": "25.10.2026",
       "time": "19:30",
@@ -7446,6 +7617,15 @@
       "image": "https://palacakropolis.cz/images/photos/0026/3436/KvietahFoto2026_CtverecByBarbora_entelov__web_event.jpg"
     },
     {
+      "title": "Charmenko: Kid Francescoli",
+      "date": "30.10.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/charmenko-kid-francescoli",
+      "image": "https://meetfactory.cz/static/images/dilo-neni-k-dispozici.jpg"
+    },
+    {
       "title": "URIAH HEEP – THE MAGICIAN’S FAREWELL",
       "date": "30.10.2026",
       "time": "20:00",
@@ -7453,6 +7633,15 @@
       "category": "hudba",
       "url": "https://www.o2universum.cz/events/uriah-heep-the-magicians-farewell/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/04/o2u-uriahheep26-1080x1080px.jpg"
+    },
+    {
+      "title": "RFP Concerts: Ezhel",
+      "date": "31.10.2026",
+      "time": "18.30",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/rock-for-people-ezhel",
+      "image": "https://meetfactory.cz/media/images/rescaled/Ezhel-320x426.jpg"
     },
     {
       "title": "Fanfán Tulipán",
@@ -7833,6 +8022,15 @@
       "image": ""
     },
     {
+      "title": "Pragokoncert: Allt + Avralize + Bite Down",
+      "date": "19.11.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/pragokoncert-allt-avralize-bite-down",
+      "image": "https://meetfactory.cz/media/images/rescaled/641594356_1522702829865041_178508757578396715_n-320x426.jpg"
+    },
+    {
       "title": "José González",
       "date": "19.11.2026",
       "time": "20:00",
@@ -8004,6 +8202,15 @@
       "image": "https://static.goout.cloud/rockcafecz/2026/02/e7fd50bc-img_4044-250x167.jpeg"
     },
     {
+      "title": "Gutafest 2026",
+      "date": "28.11.2026",
+      "time": "16.30",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/gutafest-2026",
+      "image": "https://meetfactory.cz/media/images/rescaled/4pep0esmtl-gutalax-18-1-930x930-6669a65ac0977-79x111.jpeg"
+    },
+    {
       "title": "SEPAR – 40 BDAY PARTY",
       "date": "28.11.2026",
       "time": "21:00",
@@ -8128,6 +8335,15 @@
       "category": "hudba",
       "url": "https://archa-plus.cz/cz/program/detail/678/2026-12-09-pocta-radimu-hladikovi-ma-hra",
       "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2FHladik.png&width=500&height=500"
+    },
+    {
+      "title": "Selection: Mighty Oaks",
+      "date": "11.12.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/selection-mighty-oaks",
+      "image": "https://meetfactory.cz/media/images/rescaled/Mighty_Oaks_-_Main_Press_Shot-320x426.jpg"
     },
     {
       "title": "NO NAME 30",

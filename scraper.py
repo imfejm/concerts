@@ -997,17 +997,29 @@ def scrape_meetfactory():
     
     all_events = []
     
+    ajax_headers = {**HEADERS, 'X-Requested-With': 'XMLHttpRequest'}
+
+    seen_urls = set()
+
     for path, category in categories:
-        try:
-            url = f"https://meetfactory.cz/{path}"
-            # Zvýšený timeout pro MeetFactory - stránka je pomalejší
-            soup = get_soup(url, timeout=30)
-            if not soup:
-                continue
-            
+        page_num = 1
+        while page_num <= 15:
+            try:
+                page_url = f"https://meetfactory.cz/{path}?page={page_num}"
+                r = requests.get(page_url, headers=ajax_headers, timeout=20)
+                if not r.ok:
+                    break
+                soup = BeautifulSoup(r.text, 'html.parser')
+            except Exception as e:
+                print(f"  [WARN] MeetFactory {path} p.{page_num}: {e}", file=sys.stderr)
+                break
+
             # Hledej všechny ab-box divy (event items)
             event_boxes = soup.find_all('div', class_='ab-box')
-            
+            if not event_boxes:
+                break
+
+            new_on_page = 0
             for box in event_boxes:
                 # Obrázek - seznam vrací miniatury 79x111, detail stránky má 320x426
                 img = box.find('img', class_='program-image')
@@ -1046,14 +1058,15 @@ def scrape_meetfactory():
                 
                 # URL
                 detail_link = box.find('a', class_='abbl-detail')
-                url = detail_link.get('href', '') if detail_link else ''
-                if url and not url.startswith('http'):
-                    url = 'https://meetfactory.cz' + url
-                
-                # Pokud nemáme základní info, přeskočimo
-                if not title or not date_text:
+                ev_url = detail_link.get('href', '') if detail_link else ''
+                if ev_url and not ev_url.startswith('http'):
+                    ev_url = 'https://meetfactory.cz' + ev_url
+
+                # Pokud nemáme základní info nebo jsme to už viděli, přeskočme
+                if not title or not date_text or ev_url in seen_urls:
                     continue
-                
+                seen_urls.add(ev_url)
+
                 # Vytvoř datum ve správném formátu (např. "10. 4." -> "10.04.2026")
                 date_match = re.match(r'(\d{1,2})\.\s*(\d{1,2})', date_text)
                 if date_match:
@@ -1062,22 +1075,24 @@ def scrape_meetfactory():
                     date_formatted = f"{day}.{month}.2026"
                 else:
                     date_formatted = ''
-                
+
                 if date_formatted:
+                    new_on_page += 1
                     all_events.append({
                         "title": title,
                         "date": date_formatted,
                         "time": time_text,
                         "venue": "MeetFactory",
                         "category": actual_category,
-                        "url": url,
+                        "url": ev_url,
                         "image": image_url,
                     })
-        
-        except Exception as e:
-            print(f"  [WARN] Chyba kategorie {category}: {e}", file=sys.stderr)
-            continue
-    
+
+            # Pokud žádné nové akce, jsme na konci
+            if new_on_page == 0:
+                break
+            page_num += 1
+
     print(f"   [OK] {len(all_events)} akcí")
     return all_events
 
