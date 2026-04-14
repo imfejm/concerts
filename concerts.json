@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-14T11:17:37.303073",
-  "count": 935,
+  "updated": "2026-04-14T11:39:33.890670",
+  "count": 938,
   "events": [
     {
       "title": "Universal Ticket Universal",
@@ -3459,6 +3459,15 @@
       "image": "https://static.goout.cloud/rockcafecz/2025/10/5a0fcbff-story-2-e1759410535770-250x167.jpg"
     },
     {
+      "title": "ODDATEEE & ABSTRAL , DR.ŘÍMSA",
+      "date": "14.05.2026",
+      "time": "19:00",
+      "venue": "Klub 007 Strahov",
+      "category": "hudba",
+      "url": "https://klub007strahov.cz/events/oddateee-abstral-us-ch-dr-rimsa-cz/",
+      "image": ""
+    },
+    {
       "title": "Czeching Showcase 2026 Ida The Young/Frankie & The Deadbeats/badfocus",
       "date": "14.05.2026",
       "time": "",
@@ -4890,15 +4899,6 @@
       "image": "https://static.goout.cloud/musicbarcz/2026/03/b9710d21-dsc04447-300x300.jpg"
     },
     {
-      "title": "ZEKE , GARAGE RATTLESNAKES",
-      "date": "08.06.2026",
-      "time": "19:00",
-      "venue": "Klub 007 Strahov",
-      "category": "hudba",
-      "url": "https://klub007strahov.cz/events/zeke-us-garage-rattlesnakes-cz/",
-      "image": ""
-    },
-    {
       "title": "BAXTER DURY (UK)",
       "date": "08.06.2026",
       "time": "",
@@ -4950,15 +4950,6 @@
       "venue": "Klub 007 Strahov",
       "category": "hudba",
       "url": "https://klub007strahov.cz/events/lysis-se-shiver-down-it-distorted-times-se-berhelven-cz/",
-      "image": ""
-    },
-    {
-      "title": "LAST LIGHTNING , PALE",
-      "date": "10.06.2026",
-      "time": "18:00",
-      "venue": "Klub 007 Strahov",
-      "category": "hudba",
-      "url": "https://klub007strahov.cz/events/last-lightning-no-pale-death-cz-krusadist-cz/",
       "image": ""
     },
     {
@@ -5176,15 +5167,6 @@
       "category": "hudba",
       "url": "https://musicbar.cz/cs/program/p-o-d-us/",
       "image": "https://static.goout.cloud/musicbarcz/2026/04/14b92432-4y3a0643-enhanced-nr-2-300x300.jpg"
-    },
-    {
-      "title": "FOXY , HOUBA",
-      "date": "16.06.2026",
-      "time": "19:00",
-      "venue": "Klub 007 Strahov",
-      "category": "hudba",
-      "url": "https://klub007strahov.cz/events/foxy-us-houba-cz/",
-      "image": ""
     },
     {
       "title": "ARBANOVÁ & PUTTNEROVÁ A HOSTÉ TROJAN, KÖNIG, KEMEL, JAVORSKÝ A DALŠÍ",
@@ -5655,6 +5637,15 @@
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/stveracek-663096f334b74403564717.webp"
     },
     {
+      "title": "ZEKE , GARAGE RATTLESNAKES",
+      "date": "08.07.2026",
+      "time": "19:00",
+      "venue": "Klub 007 Strahov",
+      "category": "hudba",
+      "url": "https://klub007strahov.cz/events/zeke-us-garage-rattlesnakes-cz/",
+      "image": ""
+    },
+    {
       "title": "MaBaSo Trio (POL/SK/CZ)Maseli/Balzar/Šoltis",
       "date": "08.07.2026",
       "time": "21:00",
@@ -5689,6 +5680,15 @@
       "category": "hudba",
       "url": "https://cargogallery.cz/akce/iscream-never-ground-jp/",
       "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-756x454.png"
+    },
+    {
+      "title": "LAST LIGHTNING , PALE",
+      "date": "10.07.2026",
+      "time": "18:00",
+      "venue": "Klub 007 Strahov",
+      "category": "hudba",
+      "url": "https://klub007strahov.cz/events/last-lightning-no-pale-death-cz-krusadist-cz/",
+      "image": ""
     },
     {
       "title": "Charlie Slavík Revue",
@@ -5788,6 +5788,15 @@
       "category": "hudba",
       "url": "https://www.pragueopenair.cz/events/michal-hruza-a-kapela-hruzy-3/",
       "image": "https://www.pragueopenair.cz/wp-content/uploads/2026/02/POA-FOTO-2026-1500x1000-hruza-.jpg"
+    },
+    {
+      "title": "FOXY , HOUBA",
+      "date": "16.07.2026",
+      "time": "19:00",
+      "venue": "Klub 007 Strahov",
+      "category": "hudba",
+      "url": "https://klub007strahov.cz/events/foxy-us-houba-cz/",
+      "image": ""
     },
     {
       "title": "Kristina Barta’s Red Landscape feat. Jure Pukl - křest alba",
@@ -7815,6 +7824,15 @@
       "image": "https://futurum.musicbar.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY.png"
     },
     {
+      "title": "URAGGAN ANDREW &",
+      "date": "19.11.2026",
+      "time": "19:00",
+      "venue": "Klub 007 Strahov",
+      "category": "hudba",
+      "url": "https://klub007strahov.cz/events/uraggan-andrew-reggae-orthodox-cz/",
+      "image": ""
+    },
+    {
       "title": "José González",
       "date": "19.11.2026",
       "time": "20:00",
@@ -8263,6 +8281,15 @@
       "category": "hudba",
       "url": "https://www.jazzdock.cz/cs/koncert/universal-ticket-1000",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/JZD%20web.webp"
+    },
+    {
+      "title": "SEARCH AND DESTROY 2027",
+      "date": "09.01.2027",
+      "time": "16:00",
+      "venue": "Klub 007 Strahov",
+      "category": "hudba",
+      "url": "https://klub007strahov.cz/events/search-and-destroy-2027/",
+      "image": ""
     },
     {
       "title": "Alexandr Misko / RU",

@@ -162,35 +162,47 @@ def scrape_klub007():
 
     events = []
     
-    # Czech month mapping
+    # Czech month mapping — nominative i genitiv, červenec musí být před červen
     czech_months = {
-        'leden': '01', 'února': '02', 'březen': '03', 'duben': '04',
-        'květen': '05', 'červen': '06', 'červenec': '07', 'srpen': '08',
-        'září': '09', 'říjen': '10', 'listopadu': '11', 'prosinec': '12'
+        'leden': '01', 'ledna': '01',
+        'únor': '02', 'února': '02',
+        'březen': '03', 'března': '03',
+        'duben': '04', 'dubna': '04',
+        'květen': '05', 'května': '05',
+        'červenec': '07', 'července': '07',
+        'červen': '06', 'června': '06',
+        'srpen': '08', 'srpna': '08',
+        'září': '09',
+        'říjen': '10', 'října': '10',
+        'listopad': '11', 'listopadu': '11',
+        'prosinec': '12', 'prosince': '12',
     }
-    
+    # Pořadí důležité: červenec před červen
+    month_pattern = re.compile(
+        r'(leden|ledna|únor|února|březen|března|duben|dubna|května|květen'
+        r'|červenec|července|červen|června|srpen|srpna|září|října|říjen'
+        r'|listopad|listopadu|prosinec|prosince)', re.I
+    )
+
     # Každá akce je v elementu s třídou .event
     event_divs = soup.select('.event')
-    
+
     for event_div in event_divs:
-        # Získej event ID
-        event_id = event_div.get('data-event_id', '')
-        
         # Získej URL z prvního <a> tagu
         link = event_div.find('a', href=True)
         url = link.get('href', '') if link else ''
-        
+
         image = ''  # klub007strahov.cz blokuje hotlinking
-        
+
         # Získej den z <em class="date">
         date_elem = event_div.find('em', class_='date')
         day = date_elem.get_text(strip=True) if date_elem else ''
-        
+
         # Získej celý text na analýzu
         text = event_div.get_text(' ', strip=True)
-        
-        # Extrahuj měsíc - najdi české jméno měsíce
-        month_match = re.search(r'(leden|února|březen|duben|květen|červen|červenec|srpen|září|říjen|listopadu|prosinec)', text, re.I)
+
+        # Extrahuj měsíc
+        month_match = month_pattern.search(text)
         month_val = ''
         if month_match:
             month_name = month_match.group(1).lower()
@@ -200,9 +212,9 @@ def scrape_klub007():
         time_match = re.search(r'(\d{2}):(\d{2})', text)
         time_str = f"{time_match.group(1)}:{time_match.group(2)}" if time_match else ''
         
-        # Extrahuj titul - text mezi "HH:MM HH:MM " a " Detail akce"
+        # Extrahuj titul - text mezi "HH:MM HH:MM " a " Detail akce" nebo konec
         title = ""
-        title_match = re.search(r'\d{2}:\d{2}\s+\d{2}:\d{2}\s+(.+?)\s+Detail akce', text)
+        title_match = re.search(r'\d{2}:\d{2}\s+\d{2}:\d{2}\s+(.+?)(?:\s+Detail akce|$)', text)
         if title_match:
             title = title_match.group(1)
             
@@ -220,9 +232,14 @@ def scrape_klub007():
             # Vyčisti: normalizuj mezery
             title = ' '.join(title.split()).strip()
         
-        # Sestav datum
+        # Sestav datum — pokud měsíc je dřívější než aktuální, patří do příštího roku
         if day and month_val:
-            date_str = f"{day.zfill(2)}.{month_val}.2026"
+            from datetime import date as _date
+            today_d = _date.today()
+            year = today_d.year
+            if int(month_val) < today_d.month:
+                year += 1
+            date_str = f"{day.zfill(2)}.{month_val}.{year}"
         else:
             date_str = ''
         
