@@ -73,13 +73,13 @@ header {
 }
 
 @media (min-width: 769px) {
-  header .header-nav {
+  header:not(.header--init) .header-nav {
     max-height: 0;
     padding-bottom: 0;
     opacity: 0;
     pointer-events: none;
   }
-  header:hover .header-nav {
+  header:not(.header--init):hover .header-nav {
     max-height: 300px;
     padding-bottom: 0.5rem;
     opacity: 1;
@@ -137,6 +137,25 @@ header {
   color: var(--accent);
   letter-spacing: 0.03em;
   margin-left: 0.75rem;
+}
+
+.logo-arrow {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.3rem;
+  color: var(--accent);
+  transition: transform 0.25s ease, opacity 0.25s ease;
+  opacity: 0.7;
+}
+
+@media (min-width: 769px) {
+  header:not(.header--init):hover .logo-arrow {
+    transform: rotate(180deg);
+    opacity: 1;
+  }
+  header:not(.header--init) .logo-arrow {
+    transform: rotate(0deg);
+  }
 }
 
 @media (max-width: 600px) {

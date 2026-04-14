@@ -3,6 +3,11 @@ let activeVenues = new Set(); // prázdná = vše
 let searchQuery = '';
 let activeView = 'all';
 
+document.addEventListener('click', function removeInit() {
+  document.querySelector('header').classList.remove('header--init');
+  document.removeEventListener('click', removeInit);
+}, { once: true });
+
 const todayStr = (() => {
   const d = new Date();
   return `${d.getDate()}.${d.getMonth()+1}.${d.getFullYear()}`;
