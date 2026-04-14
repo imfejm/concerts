@@ -560,6 +560,7 @@ document.getElementById('hamburger').addEventListener('click', () => {
   document.getElementById('hamburger').classList.toggle('open');
   header.classList.toggle('menu-open', isOpening);
   if (isOpening) {
+    document.documentElement.style.setProperty('--menu-top', header.getBoundingClientRect().bottom + 'px');
     const input = document.getElementById('search');
     input.value = '';
     searchQuery = '';

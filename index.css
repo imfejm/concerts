@@ -1136,31 +1136,30 @@ footer a {
     display: block;
   }
 
-  header.menu-open {
-    height: 100svh;
+  .header-nav.open {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: var(--menu-top, 80px);
     display: flex;
     flex-direction: column;
-  }
-
-  header.menu-open .header-top {
-    flex-shrink: 0;
-  }
-
-  .header-nav.open {
-    display: flex;
-    flex: 1;
-    min-height: 0;
+    align-items: stretch;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem 2rem;
+    background: rgba(13, 13, 13, 0.98);
+    border-top: 1px solid var(--border);
+    z-index: 99;
     max-height: none;
-    overflow: visible;
-    overflow-y: auto;
+    overflow-y: scroll;
     scrollbar-width: thin;
     scrollbar-color: var(--accent) transparent;
   }
   .header-nav.open::-webkit-scrollbar {
-    width: 3px;
+    width: 5px;
   }
   .header-nav.open::-webkit-scrollbar-track {
-    background: transparent;
+    background: var(--surface);
   }
   .header-nav.open::-webkit-scrollbar-thumb {
     background: var(--accent);
