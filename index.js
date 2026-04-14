@@ -480,6 +480,10 @@ async function init() {
   }
 }
 
+document.getElementById('search').addEventListener('keydown', e => {
+  if (e.key === 'Enter') closeMenu();
+});
+
 document.getElementById('search').addEventListener('input', e => {
   searchQuery = e.target.value;
   if (searchQuery && activeView !== 'all') {
@@ -542,8 +546,16 @@ function closeMenu() {
 }
 
 document.getElementById('hamburger').addEventListener('click', () => {
-  document.getElementById('header-nav').classList.toggle('open');
+  const nav = document.getElementById('header-nav');
+  const isOpening = !nav.classList.contains('open');
+  nav.classList.toggle('open');
   document.getElementById('hamburger').classList.toggle('open');
+  if (isOpening) {
+    const input = document.getElementById('search');
+    input.value = '';
+    searchQuery = '';
+    render();
+  }
 });
 
 document.getElementById('header-nav').addEventListener('click', e => {

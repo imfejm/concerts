@@ -131,9 +131,9 @@ header {
 
 .search-wrap {
   position: relative;
+  flex: 1;
   max-width: 400px;
-  margin-top: 0.5rem;
-  margin-left: auto;
+  margin-top: 1rem;
 }
 
 .search-icon {
@@ -611,6 +611,7 @@ code {
 
   .search-wrap {
     max-width: 100%;
+    order: 3;
   }
 
   main {
@@ -1142,11 +1143,9 @@ footer a {
 
   .search-wrap {
     max-width: 100%;
+    order: 10;
     width: 100%;
-    margin-left: 0;
-    margin-top: 0;
-    padding-top: 0.5rem;
-    border-top: 1px solid var(--border);
+    flex: none;
   }
 
   main {
