@@ -430,6 +430,8 @@ function escHtml(str) {
 function updateStats(events) {
   const todayCount = events.filter(e => isToday(e.date)).length;
   const venues = new Set([...events.map(e => e.venue).filter(Boolean), ...Object.keys(venueCoords)]);
+  const welcomeCount = document.getElementById('welcome-venue-count');
+  if (welcomeCount) welcomeCount.textContent = venues.size;
   [1,2,3,4,5,6].forEach(i => {
     const suffix = i === 1 ? '' : `-${i}`;
     document.getElementById(`stat-total${suffix}`).textContent = events.length;

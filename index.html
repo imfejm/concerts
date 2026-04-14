@@ -138,6 +138,7 @@
             >všechny koncerty na jednom webu</span
           ></a
         >
+        <button class="header-help-btn" id="header-help-btn" aria-label="O webu">?</button>
         <button class="hamburger" id="hamburger" aria-label="Menu">
           <span></span><span></span><span></span>
         </button>
@@ -338,9 +339,42 @@
       </div>
     </div>
 
+    <!-- WELCOME POPUP -->
+    <div class="welcome-overlay hidden" id="welcome-overlay">
+      <div class="welcome-modal" role="dialog" aria-modal="true" aria-label="Vítejte">
+        <button class="welcome-close" id="welcome-close" aria-label="Zavřít">&#x2715;</button>
+        <p>Ahoj, vítej,<br>
+        najdeš tu koncerty v zavedených klubech, arénách... aktuálně je tu <span id="welcome-venue-count">…</span> míst!</p>
+        <p><span style="color:#8a9451">Pomoz mi, prosím, tenhle seznam rozšířit.</span><br>
+        Víš o hospodě v sousedství, kde se koncertuje? Pošli mi ji, ať tu máme komplet hudbu z Prahy.</p>
+        <p class="welcome-note">*Promiň, DJ's akce tu nejsou. Ale jestli o ně hodně stojíš, napiš mi to taky.</p>
+        <p class="welcome-email">E-mail: <a href="mailto:ahoj@cohrajevpraze.cz" style="color:inherit">ahoj@cohrajevpraze.cz</a></p>
+        <p style="margin-top:1rem;color:var(--muted)">Díky, marta</p>
+      </div>
+    </div>
+
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="index.js"></script>
     <script>
+      (function () {
+        var overlay = document.getElementById("welcome-overlay");
+        function openWelcome() {
+          overlay.classList.remove("hidden");
+        }
+        function closeWelcome() {
+          overlay.classList.add("hidden");
+          sessionStorage.setItem("welcome_seen", "1");
+        }
+        if (!sessionStorage.getItem("welcome_seen")) {
+          openWelcome();
+        }
+        document.getElementById("welcome-close").addEventListener("click", closeWelcome);
+        overlay.addEventListener("click", function (e) {
+          if (e.target === overlay) closeWelcome();
+        });
+        document.getElementById("header-help-btn").addEventListener("click", openWelcome);
+      })();
+
       (function () {
         var banner = document.getElementById("cookie-banner");
         var consent = localStorage.getItem("cookies_accepted");
