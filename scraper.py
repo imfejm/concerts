@@ -48,6 +48,140 @@ def get_soup(url, timeout=15):
 
 
 # ─────────────────────────────────────────────────────────────
+#  ŽÁNRY — pomocné funkce
+# ─────────────────────────────────────────────────────────────
+
+# Klíčová slova řazená od delších po kratší, aby "black metal" > "metal"
+GENRE_KEYWORDS = [
+    "drum and bass", "drum & bass", "black metal", "death metal", "hard rock",
+    "heavy metal", "post-rock", "post rock", "post punk", "post-punk",
+    "indie pop", "indie rock", "art rock", "nu metal", "glam rock",
+    "singer-songwriter", "world music", "latin jazz", "vocal jazz",
+    "hip hop", "hip-hop", "r&b", "rnb", "electric blues",
+    "psychedelic rock", "psychedelic", "alternative rock", "alternativní rock",
+    "alternativa", "alternative",
+    "electronica", "electronic", "elektronika",
+    "psytrance", "hardstyle", "hardcore", "techno", "house", "trance",
+    "dubstep", "breakbeat", "ambient", "dnb",
+    "prog", "progressive", "fusion",
+    "stoner", "sludge", "doom", "grindcore", "thrash", "screamo",
+    "metal", "rock", "punk", "indie", "pop", "jazz", "blues", "soul",
+    "funk", "swing", "bebop", "dixieland",
+    "folk", "country", "reggae", "ska", "celtic",
+    "písničkářství", "šanson", "chanson",
+    "klasika", "classical", "noise", "experimental",
+    "rap", "trap", "grime",
+]
+
+# URL venues kde žánr není dostupný — přeskočit detail fetch
+_GENRE_SKIP_URLS = {
+    "https://www.vagon.cz/dnes.php",
+}
+
+
+def extract_genre_from_text(text):
+    """Najde žánrová klíčová slova v textu, vrátí čistý string."""
+    if not text:
+        return ""
+    text_lower = text.lower()
+    found = []
+    for kw in GENRE_KEYWORDS:
+        if kw in text_lower and kw not in found:
+            found.append(kw)
+        if len(found) >= 4:
+            break
+    return ", ".join(found)
+
+
+def load_existing_genres():
+    """Načte stávající concerts.json a vrátí dva slovníky pro cache žánrů.
+    Vrací: (url_cache, key_cache)
+    - url_cache:  url -> genre
+    - key_cache:  (title_lower, date, venue) -> genre
+    """
+    url_cache = {}
+    key_cache = {}
+    try:
+        with open("concerts.json", encoding="utf-8") as f:
+            data = json.load(f)
+        for e in data.get("events", []):
+            genre = e.get("genre", "").strip()
+            if not genre:
+                continue
+            url = e.get("url", "")
+            if url:
+                url_cache[url] = genre
+            k = (e.get("title", "").lower().strip(), e.get("date", ""), e.get("venue", ""))
+            key_cache[k] = genre
+    except (FileNotFoundError, json.JSONDecodeError):
+        pass
+    return url_cache, key_cache
+
+
+def fetch_genre_from_detail(url):
+    """Stáhne detail stránku akce a extrahuje žánr. Vrátí string nebo ''."""
+    if not url or url in _GENRE_SKIP_URLS:
+        return ""
+
+    import time
+    time.sleep(0.3)  # zdvořilostní pauza
+
+    soup = get_soup(url)
+    if not soup:
+        return ""
+
+    # Odstraň navigaci a boilerplate
+    for tag in soup(["nav", "header", "footer", "script", "style", "noscript"]):
+        tag.decompose()
+
+    # Speciální případ: Roxy — hashtags (#house #techno)
+    if "roxy.cz" in url:
+        tags = soup.find_all(string=re.compile(r"#\w+"))
+        if tags:
+            raw = " ".join(str(t) for t in tags)
+            genres = re.findall(r"#(\w[\w&-]*)", raw)
+            # Odfiltruj ne-žánrové tagy (live, dj, free...)
+            skip = {"live", "dj", "free", "mondays", "club", "event"}
+            genres = [g for g in genres if g.lower() not in skip]
+            if genres:
+                return ", ".join(genres[:4])
+
+    # Speciální případ: Forum Karlín — "Hudba / Pop / Rock"
+    if "forumkarlin.cz" in url:
+        for el in soup.find_all(string=re.compile(r"Hudba\s*/", re.I)):
+            text = el.strip()
+            # Vrať jen část za "Hudba / "
+            parts = re.split(r"Hudba\s*/\s*", text, flags=re.I)
+            if len(parts) > 1:
+                return parts[1].strip()[:80]
+
+    # Obecný přístup — najdi hlavní textový obsah
+    description = ""
+    for selector in [
+        ".event-description", ".description", ".perex", ".about",
+        "[class*='description']", "[class*='perex']", "[class*='event-text']",
+        "article p", ".event-detail p", ".content p", "main p",
+    ]:
+        els = soup.select(selector)
+        if els:
+            candidate = " ".join(el.get_text(" ", strip=True) for el in els[:5])
+            if len(candidate) > 80:
+                description = candidate
+                break
+
+    if not description:
+        main = (soup.find("main") or soup.find("article")
+                or soup.find(id=re.compile(r"content|main", re.I)))
+        if main:
+            description = main.get_text(" ", strip=True)[:800]
+
+    if not description:
+        description = soup.get_text(" ", strip=True)[:800]
+
+    return extract_genre_from_text(description)
+
+
+# ─────────────────────────────────────────────────────────────
 #  ROCK CAFÉ  (rockcafe.cz)
 # ─────────────────────────────────────────────────────────────
 def scrape_rockcafe():
@@ -214,6 +348,7 @@ def scrape_klub007():
         
         # Extrahuj titul - text mezi "HH:MM HH:MM " a " Detail akce" nebo konec
         title = ""
+        event_genre = ""
         title_match = re.search(r'\d{2}:\d{2}\s+\d{2}:\d{2}\s+(.+?)(?:\s+Detail akce|$)', text)
         if title_match:
             title = title_match.group(1)
@@ -221,9 +356,11 @@ def scrape_klub007():
             # Odstraň kódy zemí: (de), (cz), (fi/gr), (uk/us), atd.
             title = re.sub(r'\s*\([a-z]{2}(?:/[a-z]{2})*\)\s*', ' ', title, flags=re.I)
             
-            # Odstraň žánry - slova jako "Metal", "Rock", "/", atd. včetně těch bez mezery předtím
-            # Pattern: matchuje genre klíčová slova bez/se mezerou a všechno za ním
+            # Zachyť žánr před odstraněním
             genre_pattern = r'(?:\s|(?<=[A-Z]))+(metal|rock|punk|indie|pop|jazz|electronic|sludge|stoner|doom|grind|hardcore|folk|blues|reggae|rap|hip|house|techno|trance|dubstep|drum|bass|country|gospel|classical|experimental|noise|ambient|synth|alternative|screamo|prog|fusion|groove|funk|soul|disco|latin|salsa|tango|world|gothic|industrial|death|post|psychedelic|power|speed|black|heavy|crust|ska|rockroll|soulfunk|psychobilly|benefit).*$'
+            genre_match = re.search(genre_pattern, title, flags=re.I)
+            event_genre = genre_match.group(0).strip().strip('/').strip() if genre_match else ''
+            # Odstraň žánry z titulu
             title = re.sub(genre_pattern, '', title, flags=re.I)
             
             # Odstraň všechno po "/"
@@ -253,6 +390,7 @@ def scrape_klub007():
                 "category": "hudba",
                 "url": url,
                 "image": image,
+                "genre": event_genre,
             })
 
     print(f"   [OK] {len(events)} akcí")
@@ -450,7 +588,7 @@ def scrape_akropolis():
                     "time": time_str,
                     "venue": "Palác Akropolis",
                     "category": category,
-                    "url": f"https://palacakropolis.cz/work/33298?event_id={event_id}",
+                    "url": f"https://palacakropolis.cz/work/33298?event_id={event_id}&no=62&page_id=33824",
                     "image": event_image,
                     "_event_id": event_id,  # dočasně pro stahování obrázků
                 })
@@ -954,10 +1092,20 @@ def scrape_kastan():
                     # Čas
                     time_match = re.search(r'(\d{1,2}):(\d{2})', datum_text)
                     time_str = f"{time_match.group(1)}:{time_match.group(2)}" if time_match else ""
-                    
+
+                    # Žánr: kratší <p> tagy v kontejneru, které nejsou datum ani název
+                    event_genre = ""
+                    for p in koncert.find_all('p'):
+                        p_text = p.get_text(strip=True)
+                        if (p_text and len(p_text) < 80
+                                and p_text.lower() != title.lower()
+                                and not re.search(r'\d{1,2}\.\s*\d{1,2}\.', p_text)):
+                            event_genre = p_text
+                            break
+
                     if not date_str:
                         continue
-                    
+
                     events.append({
                         "title": title,
                         "date": date_str,
@@ -966,6 +1114,7 @@ def scrape_kastan():
                         "category": "hudba",
                         "url": event_url,
                         "image": image_src,
+                        "genre": event_genre,
                     })
                 
                 except Exception as e:
@@ -2253,6 +2402,11 @@ def main():
     print("=" * 40)
     print(f"Spuštěno: {datetime.now().strftime('%d.%m.%Y %H:%M')}\n")
 
+    # Načti cache žánrů z předchozího běhu (inkrementální scraping)
+    print("* Načítám cache žánrů z concerts.json...")
+    genre_url_cache, genre_key_cache = load_existing_genres()
+    print(f"  Cache: {len(genre_url_cache)} URL, {len(genre_key_cache)} klíčů\n")
+
     all_events = []
 
     scrapers = [
@@ -2339,6 +2493,48 @@ def main():
     # Počítáme Atrium eventy po filtrování
     atrium_after_filter = sum(1 for e in unique_events if e.get("venue") == "Atrium Žižkov")
     print(f"Po filtrování divadel: Atrium = {atrium_after_filter}")
+
+    # ── Inkrementální doplňování žánrů ──────────────────────────
+    print("\n* Doplňuji žánry...")
+    genre_fetched = 0
+    genre_from_cache = 0
+    genre_from_scraper = 0
+    genre_missing = 0
+
+    for event in unique_events:
+        # 1) Žánr už má ze scraperu (Klub 007, Kaštan) — zachovat
+        if event.get("genre"):
+            genre_from_scraper += 1
+            continue
+
+        url = event.get("url", "")
+        key = (event.get("title", "").lower().strip(), event.get("date", ""), event.get("venue", ""))
+
+        # 2) Žánr v cache z minulého běhu (podle URL nebo klíče)
+        cached = genre_url_cache.get(url) or genre_key_cache.get(key)
+        if cached:
+            event["genre"] = cached
+            genre_from_cache += 1
+            continue
+
+        # 3) Žánr není k dispozici (Vagon) — přeskočit
+        if url in _GENRE_SKIP_URLS or not url:
+            event["genre"] = ""
+            genre_missing += 1
+            continue
+
+        # 4) Nová akce — stáhnout detail stránku
+        genre = fetch_genre_from_detail(url)
+        event["genre"] = genre
+        if genre:
+            genre_fetched += 1
+        else:
+            genre_missing += 1
+
+    print(f"  Ze scraperu (listing): {genre_from_scraper}")
+    print(f"  Z cache (předchozí běh): {genre_from_cache}")
+    print(f"  Nově staženo: {genre_fetched}")
+    print(f"  Nedostupné: {genre_missing}")
 
     # Ukládáme do JSON
     output = {

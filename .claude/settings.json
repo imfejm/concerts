@@ -17,7 +17,34 @@
       "Bash(powershell.exe -Command \"schtasks /create /tn 'KoncertyScraperDaily' /tr '\\\\\"C:\\\\\\\\Users\\\\\\\\nemam\\\\\\\\Documents\\\\\\\\VSCode rozpracovano\\\\\\\\koncerty\\\\\\\\.venv\\\\\\\\Scripts\\\\\\\\python.exe\\\\\" \\\\\"C:\\\\\\\\Users\\\\\\\\nemam\\\\\\\\Documents\\\\\\\\VSCode rozpracovano\\\\\\\\koncerty\\\\\\\\scraper.py\\\\\"' /sc DAILY /st 07:00 /f\")",
       "Bash(powershell.exe -Command \"Get-ScheduledTask -TaskName 'KoncertyScraperDaily' | Get-ScheduledTaskInfo | Select-Object LastRunTime, NextRunTime, LastTaskResult\")",
       "Bash(powershell.exe -Command \"Start-ScheduledTask -TaskName 'KoncertyScraperDaily'\")",
-      "Bash(.venv/Scripts/python.exe scraper.py)"
+      "Bash(.venv/Scripts/python.exe scraper.py)",
+      "Bash(python3 -c ':*)",
+      "WebFetch(domain:palacakropolis.cz)",
+      "WebFetch(domain:rockcafe.cz)",
+      "WebFetch(domain:klub007strahov.cz)",
+      "WebFetch(domain:meetfactory.cz)",
+      "WebFetch(domain:cafevlese.cz)",
+      "WebFetch(domain:futurum.musicbar.cz)",
+      "WebFetch(domain:kastan.cz)",
+      "WebFetch(domain:musicbar.cz)",
+      "WebFetch(domain:www.vagon.cz)",
+      "WebFetch(domain:www.crossclub.cz)",
+      "WebFetch(domain:www.roxy.cz)",
+      "WebFetch(domain:atriumzizkov.cz)",
+      "WebFetch(domain:www.forumkarlin.cz)",
+      "WebFetch(domain:www.jazzdock.cz)",
+      "WebFetch(domain:archa-plus.cz)",
+      "WebFetch(domain:www.redutajazzclub.cz)",
+      "WebFetch(domain:www.malostranska-beseda.cz)",
+      "WebFetch(domain:www.pragueopenair.cz)",
+      "WebFetch(domain:www.sportovnihalafortuna.cz)",
+      "WebFetch(domain:www.praguecc.cz)",
+      "WebFetch(domain:www.o2arena.cz)",
+      "WebFetch(domain:www.sasazu-club.com)",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('scraper.py', encoding='utf-8'\\).read\\(\\)\\); print\\('OK - žádné syntaktické chyby'\\)\")"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\nemam\\.claude\\projects\\c--Users-nemam-Documents-VSCode-rozpracovano-koncerty\\memory"
     ]
   }
 }

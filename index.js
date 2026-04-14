@@ -424,6 +424,7 @@ function cardHTML(ev) {
       <div class="card-body">
         <div class="card-date">${escHtml(dateLabel)}</div>
         <div class="card-title">${escHtml(ev.title || '???')}</div>
+        <span class="card-genre${ev.genre ? '' : ' card-genre--na'}">${ev.genre ? escHtml(ev.genre) : 'n/a'}</span>
         <div class="card-venue">&#9679; ${escHtml(ev.venue || '')}</div>
       </div>
     </a>`;
