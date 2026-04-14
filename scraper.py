@@ -1450,42 +1450,80 @@ def scrape_archa():
 def scrape_reduta():
     print("* Reduta Jazz Club...")
 
-    soup = get_soup("https://www.redutajazzclub.cz/program-cs")
-    if not soup:
-        return []
-
-    date_pattern = re.compile(r'^d\d{8}$')
+    from datetime import date as _date
+    today = _date.today()
     events = []
+    seen_keys = set()
 
-    for div in soup.find_all('div'):
-        classes = div.get('class', [])
-        date_cls = next((c for c in classes if date_pattern.match(c)), None)
-        if not date_cls:
-            continue
+    api_headers = {**HEADERS, 'Referer': 'https://www.redutajazzclub.cz/program-cs'}
 
-        day = date_cls[1:3]
-        month = date_cls[3:5]
-        year = date_cls[5:9]
-        date_str = f"{day}.{month}.{year}"
+    # API volá web pro každý měsíc zvlášť — procházíme 9 měsíců
+    cur_y, cur_m = today.year, today.month
+    for _ in range(9):
+        try:
+            url = f"https://www.redutajazzclub.cz/core/tools/program.php?year={cur_y}&month={cur_m}&langs=cs"
+            r = requests.get(url, headers=api_headers, timeout=15)
+            r.raise_for_status()
+            days = r.json() or []
+        except Exception as e:
+            print(f"  [WARN] Reduta {cur_y}-{cur_m:02d}: {e}", file=sys.stderr)
+            days = []
 
-        for lnk in div.find_all('a'):
-            img = lnk.find('img')
-            if not img:
+        for day_data in days:
+            if not day_data.get('badge'):
+                continue  # den bez akce
+            date_raw = day_data.get('date', '')
+            body_html = day_data.get('body', '')
+            if not date_raw or not body_html:
                 continue
-            title = img.get('alt', '').strip()
-            if not title:
+
+            dm = re.match(r'(\d{4})-(\d{2})-(\d{2})', date_raw)
+            if not dm:
                 continue
-            href = lnk.get('href', '')
-            image_url = img.get('src', '')
-            events.append({
-                "title": title,
-                "date": date_str,
-                "time": "",
-                "venue": "Reduta Jazz Club",
-                "category": "hudba",
-                "url": href,
-                "image": image_url,
-            })
+            date_str = f"{dm.group(3)}.{dm.group(2)}.{dm.group(1)}"
+
+            soup = BeautifulSoup(body_html, 'html.parser')
+            times = [s.get_text(strip=True) for s in soup.find_all('span', class_='tt-time')]
+            texts = [s.get_text(strip=True) for s in soup.find_all('span', class_='tt-text')]
+
+            if not texts:
+                full_text = soup.get_text(' ', strip=True)
+                if full_text:
+                    key = (date_str, full_text[:60])
+                    if key not in seen_keys:
+                        seen_keys.add(key)
+                        events.append({
+                            "title": full_text[:100],
+                            "date": date_str,
+                            "time": "",
+                            "venue": "Reduta Jazz Club",
+                            "category": "hudba",
+                            "url": "https://www.redutajazzclub.cz/program-cs",
+                            "image": "",
+                        })
+                continue
+
+            for i, title in enumerate(texts):
+                if not title:
+                    continue
+                time_str = times[i] if i < len(times) else ""
+                key = (date_str, title)
+                if key in seen_keys:
+                    continue
+                seen_keys.add(key)
+                events.append({
+                    "title": title,
+                    "date": date_str,
+                    "time": time_str,
+                    "venue": "Reduta Jazz Club",
+                    "category": "hudba",
+                    "url": "https://www.redutajazzclub.cz/program-cs",
+                    "image": "",
+                })
+
+        cur_m += 1
+        if cur_m > 12:
+            cur_m, cur_y = 1, cur_y + 1
 
     print(f"   [OK] {len(events)} akcí")
     return events
