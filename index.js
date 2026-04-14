@@ -549,22 +549,21 @@ function scrollBelowHeader(target) {
 function closeMenu() {
   document.getElementById('header-nav').classList.remove('open');
   document.getElementById('hamburger').classList.remove('open');
+  document.querySelector('header').classList.remove('menu-open');
 }
 
 document.getElementById('hamburger').addEventListener('click', () => {
   const nav = document.getElementById('header-nav');
+  const header = document.querySelector('header');
   const isOpening = !nav.classList.contains('open');
   nav.classList.toggle('open');
   document.getElementById('hamburger').classList.toggle('open');
+  header.classList.toggle('menu-open', isOpening);
   if (isOpening) {
-    const headerTop = document.querySelector('.header-top');
-    nav.style.maxHeight = (window.innerHeight - headerTop.offsetHeight) + 'px';
     const input = document.getElementById('search');
     input.value = '';
     searchQuery = '';
     render();
-  } else {
-    nav.style.maxHeight = '';
   }
 });
 

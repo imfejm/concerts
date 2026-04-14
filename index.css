@@ -1136,9 +1136,20 @@ footer a {
     display: block;
   }
 
+  header.menu-open {
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header.menu-open .header-top {
+    flex-shrink: 0;
+  }
+
   .header-nav.open {
     display: flex;
-    max-height: calc(100dvh - 60px);
+    flex: 1;
+    min-height: 0;
     overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: var(--accent) transparent;
@@ -1154,7 +1165,7 @@ footer a {
     border-radius: 2px;
   }
   .filters.filters-open {
-    max-height: 50vh;
+    max-height: 40vh;
     overflow-y: auto;
   }
 
