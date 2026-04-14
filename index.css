@@ -999,7 +999,7 @@ main {
 .update-badge {
   font-size: 0.72rem;
   color: var(--muted);
-  margin-bottom: 1.5rem;
+  margin: 1rem;
 }
 .update-badge span {
   color: var(--text);
