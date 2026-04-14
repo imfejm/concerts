@@ -164,6 +164,9 @@ header {
 }
 
 @media (max-width: 600px) {
+  .logo-arrow {
+    display: none;
+  }
   .logo-sub {
     display: block;
     margin-left: 0;
@@ -1453,7 +1456,7 @@ footer a {
 
 .welcome-modal {
   background: var(--surface);
-  border: 1px solid var(--border);
+  border: 2px solid var(--accent);
   border-radius: 10px;
   padding: 2rem 2rem 1.75rem;
   max-width: 480px;
@@ -1499,7 +1502,11 @@ footer a {
 }
 
 @media (max-width: 480px) {
+  .welcome-overlay {
+    padding-top: 1.5rem;
+  }
   .welcome-modal {
     padding: 1.5rem 1.25rem 1.25rem;
+    border: 2px solid var(--accent);
   }
 }

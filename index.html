@@ -359,6 +359,12 @@
       (function () {
         var overlay = document.getElementById("welcome-overlay");
         function openWelcome() {
+          if (window.innerWidth <= 480) {
+            var headerH = document.querySelector('header').offsetHeight;
+            overlay.style.paddingTop = (headerH + 8) + 'px';
+          } else {
+            overlay.style.paddingTop = '';
+          }
           overlay.classList.remove("hidden");
         }
         function closeWelcome() {
