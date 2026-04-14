@@ -68,7 +68,10 @@ header {
   padding-bottom: 0.5rem;
   max-height: 300px;
   overflow: hidden;
-  transition: max-height 0.25s ease, padding-bottom 0.25s ease, opacity 0.2s ease;
+  transition:
+    max-height 0.25s ease,
+    padding-bottom 0.25s ease,
+    opacity 0.2s ease;
   opacity: 1;
 }
 
@@ -144,7 +147,9 @@ header {
   vertical-align: middle;
   margin-left: 0.3rem;
   color: var(--accent);
-  transition: transform 0.25s ease, opacity 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    opacity 0.25s ease;
   opacity: 0.7;
 }
 
@@ -1133,7 +1138,7 @@ footer a {
 
   .header-nav.open {
     display: flex;
-    height: 100dvh;
+    max-height: calc(100dvh - 60px);
     overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: var(--accent) transparent;
@@ -1402,7 +1407,9 @@ footer a {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: color 0.15s, border-color 0.15s;
+  transition:
+    color 0.15s,
+    border-color 0.15s;
   flex-shrink: 0;
 }
 

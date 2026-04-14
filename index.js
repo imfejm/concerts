@@ -557,10 +557,14 @@ document.getElementById('hamburger').addEventListener('click', () => {
   nav.classList.toggle('open');
   document.getElementById('hamburger').classList.toggle('open');
   if (isOpening) {
+    const headerTop = document.querySelector('.header-top');
+    nav.style.maxHeight = (window.innerHeight - headerTop.offsetHeight) + 'px';
     const input = document.getElementById('search');
     input.value = '';
     searchQuery = '';
     render();
+  } else {
+    nav.style.maxHeight = '';
   }
 });
 
