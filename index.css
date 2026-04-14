@@ -133,7 +133,7 @@ header {
   position: relative;
   flex: 1;
   max-width: 400px;
-  margin: 1rem;
+  margin-top: 1rem;
 }
 
 .search-icon {
@@ -612,7 +612,6 @@ code {
   .search-wrap {
     max-width: 100%;
     order: 3;
-    flex-basis: 100%;
   }
 
   main {
@@ -1127,6 +1126,7 @@ footer a {
   }
   .view-btn-mapa {
     margin-left: 0;
+    margin-top: 0.75rem;
   }
   .view-bar-label {
     display: block;
@@ -1143,6 +1143,9 @@ footer a {
 
   .search-wrap {
     max-width: 100%;
+    order: 10;
+    width: 100%;
+    flex: none;
   }
 
   main {
