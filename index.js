@@ -448,7 +448,7 @@ function updateStats(events) {
 
 async function init() {
   try {
-    const res = await fetch('concerts.json');
+    const res = await fetch('concerts.json?v=' + Date.now());
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     allEvents = data.events || [];

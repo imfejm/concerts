@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-14T09:32:55.331511",
-  "count": 735,
+  "updated": "2026-04-14T10:11:23.174506",
+  "count": 746,
   "events": [
     {
       "title": "Jozef Mrva ml.: Challenger Escape Plan",
@@ -3693,6 +3693,15 @@
       "image": "https://cafevlese.cz/wp-content/uploads/2026/01/Moondoggy-DRI-35-scaled-e1769153053435-768x777.jpg"
     },
     {
+      "title": "Prague Fringe Festival 2026",
+      "date": "25.05.2026",
+      "time": "17:00",
+      "venue": "Malostranská Beseda",
+      "category": "hudba",
+      "url": "https://www.praguefringe.com/programme/#day[]=1779667200&venue[]=308",
+      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/u8jyxf9zd8.641523546-1517005173764262-6193658993596784110-n.jpg"
+    },
+    {
       "title": "Storytelling",
       "date": "25.5.2026",
       "time": "19:30",
@@ -3945,6 +3954,15 @@
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/10/o2-arena-400x400-conan-gray-praha-new-venue.jpg"
     },
     {
+      "title": "Lusaint (UK)",
+      "date": "02.06.2026",
+      "time": "19:30",
+      "venue": "Café v lese",
+      "category": "hudba",
+      "url": "https://cafevlese.cz/events/lusaint-uk/",
+      "image": "https://cafevlese.cz/wp-content/uploads/2026/01/1371655-800-768x440.jpg"
+    },
+    {
       "title": "Conamara Chaos",
       "date": "02.06.2026",
       "time": "19:30",
@@ -4051,6 +4069,15 @@
       "category": "hudba",
       "url": "https://klub007strahov.cz/events/wet-dream-war-machine-de-otras-sk-stres-cz/",
       "image": ""
+    },
+    {
+      "title": "Prewn (US)",
+      "date": "07.06.2026",
+      "time": "19:30",
+      "venue": "Café v lese",
+      "category": "hudba",
+      "url": "https://cafevlese.cz/events/prewn-us/",
+      "image": "https://cafevlese.cz/wp-content/uploads/2025/12/1377111-800-1-768x432.jpg"
     },
     {
       "title": "321 Jedem! + host: kuchařka Chilli Ta (Ta Thuy Dung)",
@@ -4413,6 +4440,15 @@
       "image": "https://www.pragueopenair.cz/wp-content/uploads/2024/03/POA-FOTO-1500x1000-ticha.jpg"
     },
     {
+      "title": "Ocean Sleeper (AU)",
+      "date": "26.06.2026",
+      "time": "19:30",
+      "venue": "Café v lese",
+      "category": "hudba",
+      "url": "https://cafevlese.cz/events/ocean-sleeper-au/",
+      "image": "https://cafevlese.cz/wp-content/uploads/2026/03/unnamed-9-e1773058651276-768x595.jpg"
+    },
+    {
       "title": "Big Band Trumpets: Lady! Trumpets! Swing!",
       "date": "28.06.2026",
       "time": "20:30",
@@ -4699,6 +4735,15 @@
       "category": "hudba",
       "url": "https://www.pragueopenair.cz/events/vypsana-fixa-3/",
       "image": "https://www.pragueopenair.cz/wp-content/uploads/2025/03/POA-FOTO-2025-1500x1000-fixa.jpg"
+    },
+    {
+      "title": "MISSIO / US",
+      "date": "20.8.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/missio-us/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/04/FUTURUM-WEB-ROZMERY-6-756x454.png"
     },
     {
       "title": "Red Leather (US)",
@@ -5376,6 +5421,15 @@
       "image": "https://palacakropolis.cz/images/photos/0009/3951/1_web_event.JPG"
     },
     {
+      "title": "Tender (UK)",
+      "date": "13.10.2026",
+      "time": "19:30",
+      "venue": "Café v lese",
+      "category": "hudba",
+      "url": "https://cafevlese.cz/events/tender-uk/",
+      "image": "https://cafevlese.cz/wp-content/uploads/2026/02/ygjtFusw-768x432.jpeg"
+    },
+    {
       "title": "O5 a Radeček",
       "date": "14.10.2026",
       "time": "19:00",
@@ -5410,6 +5464,15 @@
       "category": "hudba",
       "url": "https://palacakropolis.cz/work/33298?event_id=39751",
       "image": "https://palacakropolis.cz/images/photos/0025/8858/fb_event_HAMATOM_2026_praha_web_event.jpg"
+    },
+    {
+      "title": "Declan Welsh & The Decadent West (UK)",
+      "date": "15.10.2026",
+      "time": "19:30",
+      "venue": "Café v lese",
+      "category": "hudba",
+      "url": "https://cafevlese.cz/events/declan-welsh-the-decadent-west-uk/",
+      "image": "https://cafevlese.cz/wp-content/uploads/2026/04/IMG_1501-scaled-e1775818791626-768x722.jpeg"
     },
     {
       "title": "My New Band Believe",
@@ -5871,6 +5934,15 @@
       "image": "https://palacakropolis.cz/images/photos/0026/3208/horizontal_web_event.jpg"
     },
     {
+      "title": "K-POP FOREVER!",
+      "date": "7.11.2026",
+      "time": "",
+      "venue": "Prague Congress Centre",
+      "category": "hudba",
+      "url": "https://goout.net/cs/k-pop-tribute-prague/szldfiy/",
+      "image": "https://www.praguecc.cz/users_data/images/fotky_akce/26122_cs.png"
+    },
+    {
       "title": "Robert Křesťan & Druhá tráva – 35 let na scéně",
       "date": "7.11.2026",
       "time": "19:00",
@@ -5914,6 +5986,15 @@
       "category": "hudba",
       "url": "https://musicbar.cz/cs/program/angelo-kelly-band-ie/",
       "image": "https://static.goout.cloud/musicbarcz/2025/09/24ed1445-angelo-kelly-300-300x300.jpg"
+    },
+    {
+      "title": "Jack And The Weatherman (NL)",
+      "date": "10.11.2026",
+      "time": "19:30",
+      "venue": "Café v lese",
+      "category": "hudba",
+      "url": "https://cafevlese.cz/events/jack-and-the-weatherman-nl/",
+      "image": "https://cafevlese.cz/wp-content/uploads/2026/01/1379617-800-768x763.jpg"
     },
     {
       "title": "KABÁT – TURNÉ 2026",
@@ -6168,6 +6249,15 @@
       "image": "https://static.goout.cloud/musicbarcz/2025/12/76e3eec3-thomartway-300-300x300.jpg"
     },
     {
+      "title": "The Veils (NZ)",
+      "date": "22.11.2026",
+      "time": "19:30",
+      "venue": "Café v lese",
+      "category": "hudba",
+      "url": "https://cafevlese.cz/events/the-veils-nz/",
+      "image": "https://cafevlese.cz/wp-content/uploads/2026/02/theveils_pressphoto2-768x432.jpeg"
+    },
+    {
       "title": "Pitbull – I’m Back!",
       "date": "22.11.2026",
       "time": "20:00",
@@ -6274,6 +6364,15 @@
       "category": "hudba",
       "url": "https://archa-plus.cz/cz/program/detail/753/2026-12-03-baby-lasagna",
       "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2FBabyLasagna-2.jpeg&width=500&height=500"
+    },
+    {
+      "title": "sace6 (US)",
+      "date": "04.12.2026",
+      "time": "19:30",
+      "venue": "Café v lese",
+      "category": "hudba",
+      "url": "https://cafevlese.cz/events/sace6-us/",
+      "image": "https://cafevlese.cz/wp-content/uploads/2026/03/unnamed-21-768x658.jpg"
     },
     {
       "title": "MIKOLAS – FORUM KARLÍN",

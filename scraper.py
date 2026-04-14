@@ -561,7 +561,7 @@ def scrape_cafevlese():
 
     czech_months_short = {
         'led': '01', 'úno': '02', 'břě': '03', 'dub': '04',
-        'kvě': '05', 'čer': '06', 'čvc': '07', 'srp': '08',
+        'kvě': '05', 'čvn': '06', 'čer': '06', 'čvc': '07', 'srp': '08',
         'zář': '09', 'říj': '10', 'lis': '11', 'pro': '12'
     }
 
@@ -638,7 +638,7 @@ def scrape_cafevlese():
 
     # Načti další měsíce přes AJAX (stejně jako klik na šipku)
     months_to_fetch = []
-    for i in range(1, 4):
+    for i in range(1, 9):
         m = (today.month - 1 + i) % 12 + 1
         y = today.year + ((today.month - 1 + i) // 12)
         months_to_fetch.append((y, m))
