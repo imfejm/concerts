@@ -78,9 +78,55 @@ _GENRE_SKIP_URLS = {
     "https://www.vagon.cz/dnes.php",
 }
 
+# Slova která nejsou žánr — výsledek se nahradí prázdným stringem
+_GENRE_BLACKLIST = {
+    "concert", "koncert", "koncertní", "festival / koncertní přehlídka",
+    "literárně-hudební večer", "benefit",
+}
+
+# Normalizace variant na kanonický tvar
+_GENRE_NORMALIZE = {
+    "hip hop":          "hip-hop",
+    "hiphop":           "hip-hop",
+    "drum and bass":    "drum & bass",
+    "drum&bass":        "drum & bass",
+    "dnb":              "drum & bass",
+    "electronic":       "elektronika",
+    "elektronické":     "elektronika",
+    "elektronická":     "elektronika",
+    "elektronická hudba": "elektronika",
+    "alternative":      "alternativa",
+    "alternativní rock": "alternativa",
+    "post punk":        "post-punk",
+    "post rock":        "post-rock",
+    "klasická hudba":   "klasika",
+    "r&b":              "r&b",
+    "rnb":              "r&b",
+}
+
+
+def normalize_genre(genre_str):
+    """Normalizuje žánrový string — sloučí varianty, odstraní false positives."""
+    if not genre_str:
+        return ""
+    parts = [p.strip().lower() for p in genre_str.split(",") if p.strip()]
+    normalized = []
+    for part in parts:
+        # Blacklist
+        if part in _GENRE_BLACKLIST:
+            continue
+        # Přeskoč příliš dlouhé nebo nesmyslné hodnoty
+        if len(part) > 50:
+            continue
+        # Normalizuj varianty
+        part = _GENRE_NORMALIZE.get(part, part)
+        if part and part not in normalized:
+            normalized.append(part)
+    return ", ".join(normalized)
+
 
 def extract_genre_from_text(text):
-    """Najde žánrová klíčová slova v textu, vrátí čistý string."""
+    """Najde žánrová klíčová slova v textu, vrátí normalizovaný string."""
     if not text:
         return ""
     text_lower = text.lower()
@@ -90,7 +136,7 @@ def extract_genre_from_text(text):
             found.append(kw)
         if len(found) >= 4:
             break
-    return ", ".join(found)
+    return normalize_genre(", ".join(found))
 
 
 def load_existing_genres():
