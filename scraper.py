@@ -55,22 +55,25 @@ def get_soup(url, timeout=15):
 GENRE_KEYWORDS = [
     "drum and bass", "drum & bass", "black metal", "death metal", "hard rock",
     "heavy metal", "post-rock", "post rock", "post punk", "post-punk",
+    "post-metal", "post metal", "noise rock", "dark ambient",
     "indie pop", "indie rock", "art rock", "nu metal", "glam rock",
     "singer-songwriter", "world music", "latin jazz", "vocal jazz",
-    "hip hop", "hip-hop", "r&b", "rnb", "electric blues",
+    "trip-hop", "trip hop", "hip hop", "hip-hop", "r&b", "rnb", "electric blues",
+    "electro-pop", "electro pop",
     "psychedelic rock", "psychedelic", "alternative rock", "alternativní rock",
-    "alternativa", "alternative",
+    "alternativa", "alternative", "alternativní",
     "electronica", "electronic", "elektronika",
     "psytrance", "hardstyle", "hardcore", "techno", "house", "trance",
     "dubstep", "breakbeat", "ambient", "dnb",
     "prog", "progressive", "fusion",
-    "stoner", "sludge", "doom", "grindcore", "thrash", "screamo",
+    "industrial", "noise rock", "shoegaze", "drone",
+    "stoner", "sludge", "doom", "grindcore", "grind", "thrash", "screamo",
     "metal", "rock", "punk", "indie", "pop", "jazz", "blues", "soul",
     "funk", "swing", "bebop", "dixieland",
     "folk", "country", "reggae", "ska", "celtic",
-    "písničkářství", "šanson", "chanson",
+    "písničkářství", "písničkář", "šanson", "chanson",
     "klasika", "classical", "noise", "experimental",
-    "rap", "trap", "grime",
+    "electro", "rap", "trap", "grime",
 ]
 
 # URL venues kde žánr není dostupný — přeskočit detail fetch
@@ -97,8 +100,15 @@ _GENRE_NORMALIZE = {
     "elektronická hudba": "elektronika",
     "alternative":      "alternativa",
     "alternativní rock": "alternativa",
+    "alternativní":     "alternativa",
     "post punk":        "post-punk",
     "post rock":        "post-rock",
+    "post metal":       "post-metal",
+    "trip hop":         "trip-hop",
+    "electro-pop":      "electro",
+    "electro pop":      "electro",
+    "grind":            "grindcore",
+    "písničkář":        "písničkářství",
     "klasická hudba":   "klasika",
     "r&b":              "r&b",
     "rnb":              "r&b",
@@ -132,7 +142,7 @@ def extract_genre_from_text(text):
     text_lower = text.lower()
     found = []
     for kw in GENRE_KEYWORDS:
-        if kw in text_lower and kw not in found:
+        if re.search(r'\b' + re.escape(kw) + r'\b', text_lower) and kw not in found:
             found.append(kw)
         if len(found) >= 4:
             break
@@ -191,6 +201,12 @@ def fetch_genre_from_detail(url):
             genres = [g for g in genres if g.lower() not in skip]
             if genres:
                 return ", ".join(genres[:4])
+
+    # Speciální případ: MeetFactory — popis je v #text_equal uvnitř .main-detail
+    if "meetfactory.cz" in url:
+        el = soup.select_one("#text_equal") or soup.select_one(".main-detail .md-right")
+        if el:
+            return extract_genre_from_text(el.get_text(" ", strip=True))
 
     # Speciální případ: Forum Karlín — "Hudba / Pop / Rock"
     if "forumkarlin.cz" in url:
@@ -2533,8 +2549,8 @@ def main():
     atrium_after_dedup = sum(1 for e in unique_events if e.get("venue") == "Atrium Žižkov")
     print(f"Před filtrováním divadel: Atrium = {atrium_after_dedup}")
 
-    # Filtrujeme divadlo
-    unique_events = [e for e in unique_events if e.get("category", "").lower() != "divadlo"]
+    # Filtrujeme nehudební kategorie (divadlo, galerie, rezidence)
+    unique_events = [e for e in unique_events if e.get("category", "").lower() not in ("divadlo", "galerie", "rezidence")]
     
     # Počítáme Atrium eventy po filtrování
     atrium_after_filter = sum(1 for e in unique_events if e.get("venue") == "Atrium Žižkov")

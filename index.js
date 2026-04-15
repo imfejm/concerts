@@ -2,6 +2,25 @@ let allEvents = [];
 let activeVenues = new Set(); // prázdná = vše
 let searchQuery = '';
 let activeView = 'all';
+let activeGenres = new Set(); // prázdná = vše
+
+const GENRE_MAP = {
+  jazz:        ['jazz', 'swing', 'dixieland', 'bebop', 'vocal jazz', 'fusion'],
+  soul:        ['soul', 'funk', 'r&b', 'reggae'],
+  rock:        ['rock', 'hard rock', 'indie', 'indie rock', 'alternativa', 'psychedelic rock', 'psychedelic', 'art rock', 'post-rock', 'blues'],
+  punk:        ['punk', 'post-punk', 'hardcore', 'noise', 'ska', 'psychobilly'],
+  metal:       ['metal', 'death metal', 'black metal', 'heavy metal', 'doom', 'thrash', 'sludge', 'stoner', 'grindcore', 'hardcore', 'prog'],
+  elektronika: ['house', 'electro', 'drum & bass', 'elektronika', 'techno', 'dubstep', 'trance', 'breakbeat', 'ambient', 'industrial', 'trip-hop'],
+  hiphop:      ['hip-hop', 'rap', 'grime', 'trap'],
+  folk:        ['folk', 'country', 'celtic', 'world music', 'písničkářství', 'šanson', 'klasika'],
+  pop:         ['pop', 'indie pop', 'disco'],
+};
+
+function eventMatchesGenre(ev) {
+  if (activeGenres.size === 0) return true;
+  const genres = (ev.genre || '').toLowerCase().split(',').map(g => g.trim());
+  return [...activeGenres].some(cat => (GENRE_MAP[cat] || []).some(g => genres.includes(g)));
+}
 
 document.addEventListener('click', function removeInit() {
   document.querySelector('header').classList.remove('header--init');
@@ -122,7 +141,7 @@ function getFiltered() {
     const searchOk = !q ||
       (ev.title || '').toLowerCase().includes(q) ||
       (ev.venue || '').toLowerCase().includes(q);
-    if (!venueOk || !searchOk) return false;
+    if (!venueOk || !searchOk || !eventMatchesGenre(ev)) return false;
     if (activeView === 'dnes') {
       return isToday(ev.date);
     }
@@ -154,6 +173,7 @@ function renderCalendar(selectedKey = null, calYear = null, calMonth = null) {
   const byDate = {};
   allEvents.forEach(ev => {
     if (activeVenues.size > 0 && !activeVenues.has(ev.venue)) return;
+    if (!eventMatchesGenre(ev)) return;
     const d = eventDate(ev);
     if (!d) return;
     const key = `${d.getDate()}.${d.getMonth()+1}.${d.getFullYear()}`;
@@ -244,7 +264,7 @@ async function renderMap() {
   const byVenue = {};
   allEvents.forEach(ev => {
     const venueOk = activeVenues.size === 0 || activeVenues.has(ev.venue);
-    if (!venueOk) return;
+    if (!venueOk || !eventMatchesGenre(ev)) return;
     const d = eventDate(ev);
     if (d && d < today) return;
     if (!byVenue[ev.venue]) byVenue[ev.venue] = [];
@@ -539,6 +559,23 @@ document.querySelector('.view-bar').addEventListener('click', e => {
     const target = document.getElementById('content');
     if (target) scrollBelowHeader(target);
   }
+});
+
+document.getElementById('genre-bar').addEventListener('click', e => {
+  const btn = e.target.closest('.genre-btn');
+  if (!btn) return;
+  const g = btn.dataset.genre;
+  if (g === 'vse') {
+    activeGenres.clear();
+  } else {
+    if (activeGenres.has(g)) activeGenres.delete(g);
+    else activeGenres.add(g);
+  }
+  document.querySelector('.genre-btn[data-genre="vse"]').classList.toggle('active', activeGenres.size === 0);
+  document.querySelectorAll('.genre-btn:not([data-genre="vse"])').forEach(b => {
+    b.classList.toggle('active', activeGenres.has(b.dataset.genre));
+  });
+  render();
 });
 
 function scrollBelowHeader(target) {
