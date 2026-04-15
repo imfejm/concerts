@@ -254,8 +254,19 @@ header {
 /* GENRE BAR */
 .genre-bar {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 0.35rem;
+  position: relative;
+}
+
+.genre-bar-header {
+  display: flex;
   align-items: center;
+}
+
+.genre-bar-buttons {
+  display: flex;
+  flex-wrap: wrap;
   gap: 0.4rem;
 }
 
@@ -266,6 +277,36 @@ header {
   letter-spacing: 0.04em;
   white-space: nowrap;
 }
+
+.genre-hint {
+  color: var(--accent);
+  font-size: 0.7rem;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+#genre-tooltip {
+  display: none;
+  position: absolute;
+  background: var(--accent);
+  border: 1px solid var(--accent);
+  color: #fff;
+  font-size: 0.72rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: 0.4rem;
+  white-space: normal;
+  max-width: 18rem;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+#genre-tooltip.visible {
+  display: block;
+  opacity: 1;
+}
+
 
 .genre-btn {
   background: none;

@@ -561,7 +561,26 @@ document.querySelector('.view-bar').addEventListener('click', e => {
   }
 });
 
+let genreInfoTimer = null;
 document.getElementById('genre-bar').addEventListener('click', e => {
+  const info = e.target.closest('.genre-bar-label');
+  if (info) {
+    e.stopPropagation();
+    let tip = document.getElementById('genre-tooltip');
+    if (!tip) {
+      tip = document.createElement('div');
+      tip.id = 'genre-tooltip';
+      tip.textContent = 'žánry ber s velkou rezervou, nemusí přesně odpovídat';
+      document.body.appendChild(tip);
+    }
+    const rect = info.getBoundingClientRect();
+    tip.style.top = (rect.bottom + window.scrollY + 6) + 'px';
+    tip.style.left = rect.left + 'px';
+    tip.classList.add('visible');
+    clearTimeout(genreInfoTimer);
+    genreInfoTimer = setTimeout(() => tip.classList.remove('visible'), 2000);
+    return;
+  }
   const btn = e.target.closest('.genre-btn');
   if (!btn) return;
   const g = btn.dataset.genre;
