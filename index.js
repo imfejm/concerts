@@ -570,7 +570,7 @@ document.getElementById('genre-bar').addEventListener('click', e => {
     if (!tip) {
       tip = document.createElement('div');
       tip.id = 'genre-tooltip';
-      tip.textContent = 'žánry ber s velkou rezervou, nemusí přesně odpovídat';
+      tip.textContent = 'žánry jsou jen orientační, nemusí přesně odpovídat';
       document.body.appendChild(tip);
     }
     const rect = info.getBoundingClientRect();
