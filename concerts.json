@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-18T17:27:00.893329",
-  "count": 1136,
+  "updated": "2026-04-18T18:16:46.790686",
+  "count": 1150,
   "events": [
     {
       "title": "Universal Ticket Universal",
@@ -899,7 +899,7 @@
       "venue": "Bike Jesus",
       "category": "hudba",
       "url": "https://fb.me/e/8Oe3TnnmZ",
-      "image": "",
+      "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=848459358028438",
       "genre": ""
     },
     {
@@ -911,6 +911,16 @@
       "url": "https://bikejesus.com/#program",
       "image": "",
       "genre": "alternativa, elektronika, hardcore, indie"
+    },
+    {
+      "title": "MALÝ KAREL Z VELKÉHO MĚSTA VOL.2",
+      "date": "18.4.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-154/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/06/plakat-3.jpg",
+      "genre": "hard rock, rock, punk, folk"
     },
     {
       "title": "MUSIC BAR – vstup zdarma!",
@@ -1001,6 +1011,16 @@
       "url": "https://www.sasazu-club.com/events/lloyd",
       "image": "https://images.squarespace-cdn.com/content/v1/67c814a930ff2420d320eabc/eda39939-97e1-439f-ae57-73e51dcad2f4/19_04+LLOYD+BANKS+.jpg",
       "genre": "hip-hop, pop, rap"
+    },
+    {
+      "title": "NEUROSIS UNBOUND RELEASE PARTY",
+      "date": "19.4.2026",
+      "time": "18:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-195/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2026/01/640694458_1593698989093909_5572356970257758701_n.jpg",
+      "genre": ""
     },
     {
       "title": "FreeZone: Art Kills Me, Čihy, Alltgaze",
@@ -1191,6 +1211,16 @@
       "url": "https://goout.net/cs/vladimir-merta-duo-s-o-fenclem/szifdgy/",
       "image": "https://goout.net/i/138/1383039-800.jpg",
       "genre": "písničkářství"
+    },
+    {
+      "title": "KONCERT",
+      "date": "21.4.2026",
+      "time": "19:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-116/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/06/IOTUNN-INSTA.jpg",
+      "genre": "death metal, progressive, metal"
     },
     {
       "title": "Fource presents: Kiki Rockwell (USA) + support: Finnegan …",
@@ -1693,6 +1723,16 @@
       "genre": "alternativa, elektronika, hardcore, indie"
     },
     {
+      "title": "ČÍRO FEST 2026",
+      "date": "24.4.2026",
+      "time": "14:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/ciro-fest-2026/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/09/542751358_25431315259801854_9105163399404633482_n.jpg",
+      "genre": ""
+    },
+    {
       "title": "VPŘEDSKOK x BOLESLAM 2026",
       "date": "25.4.2026",
       "time": "16:30",
@@ -1859,7 +1899,7 @@
       "venue": "Bike Jesus",
       "category": "hudba",
       "url": "https://fb.me/e/6NBCLKfDd",
-      "image": "",
+      "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=931864499737478",
       "genre": ""
     },
     {
@@ -1869,8 +1909,18 @@
       "venue": "Bike Jesus",
       "category": "hudba",
       "url": "https://fb.me/e/8ES9j2LKT",
-      "image": "",
+      "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=900131012852634",
       "genre": ""
+    },
+    {
+      "title": "ČÍRO FEST 2026",
+      "date": "25.4.2026",
+      "time": "13:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/ciro-fest/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/09/542751358_25431315259801854_9105163399404633482_n.jpg",
+      "genre": "punk"
     },
     {
       "title": "The Virginmarys (UK) + support: Atomy nevadí",
@@ -2539,8 +2589,18 @@
       "venue": "Bike Jesus",
       "category": "hudba",
       "url": "https://fb.me/e/5Ysr0kZdm",
-      "image": "",
+      "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=959757393107344",
       "genre": ""
+    },
+    {
+      "title": "ČÁRY MÁRY - VOL.8",
+      "date": "30.4.2026",
+      "time": "19:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-209/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/12/670407987_26629601449967321_9138544971152175164_n.jpg",
+      "genre": "death metal, nu metal, thrash, metal"
     },
     {
       "title": "MAX STYLER (US)",
@@ -2783,6 +2843,16 @@
       "genre": "alternativa, techno, house"
     },
     {
+      "title": "KONCERT",
+      "date": "2.5.2026",
+      "time": "18:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-214/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2026/01/ModraVopice.png",
+      "genre": "death metal, thrash, metal"
+    },
+    {
       "title": "Opal In Sky (CAN), Sharks In Your Mouth (USA), Sharks In …",
       "date": "3.5.2026",
       "time": "19:30",
@@ -2950,6 +3020,16 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/eric-clapton-2026/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/10/eric-clapton-1080x1080-1.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Vernisáž: Jiří 231 – Climate Revolution",
+      "date": "5.5.2026",
+      "time": "18:00",
+      "venue": "Rock Café",
+      "category": "hudba",
+      "url": "https://rockcafe.cz/cs/program/vystava-jiri-231-climate-revolution-2/",
+      "image": "https://static.goout.cloud/rockcafecz/2026/04/02408d7a-dsc_4466-250x167.jpg",
       "genre": ""
     },
     {
@@ -3659,7 +3739,7 @@
       "venue": "Bike Jesus",
       "category": "hudba",
       "url": "https://fb.me/e/1Yy1KHko2G",
-      "image": "",
+      "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=26541297545490446",
       "genre": ""
     },
     {
@@ -4799,7 +4879,7 @@
       "venue": "Bike Jesus",
       "category": "hudba",
       "url": "https://fb.me/e/jpGzOlvUG",
-      "image": "",
+      "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1264155428974846",
       "genre": ""
     },
     {
@@ -6049,7 +6129,7 @@
       "venue": "Bike Jesus",
       "category": "hudba",
       "url": "https://fb.me/e/76ycrCCHw",
-      "image": "",
+      "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=921333353731408",
       "genre": ""
     },
     {
@@ -6189,7 +6269,7 @@
       "venue": "Bike Jesus",
       "category": "hudba",
       "url": "https://fb.me/e/6G7F7aiUY",
-      "image": "",
+      "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=971784975508894",
       "genre": ""
     },
     {
@@ -6471,6 +6551,16 @@
       "url": "https://www.redutajazzclub.cz/program-cs",
       "image": "",
       "genre": "jazz, soul, funk"
+    },
+    {
+      "title": "Festival Rebirth of the Death vol. III",
+      "date": "20.6.2026",
+      "time": "15:30",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-117/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/03/618877741_122187241052790057_1218420797408895317_n.jpg",
+      "genre": ""
     },
     {
       "title": "Dixieland MessengersNedělní Dixie",
@@ -6981,6 +7071,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/rene-trossman-little-big-band-3",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/rene-661788dd6ad84879839434.webp",
       "genre": "jazz, blues"
+    },
+    {
+      "title": "KONCERT",
+      "date": "4.7.2026",
+      "time": "13:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-142/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/05/plakat-2.jpg",
+      "genre": ""
     },
     {
       "title": "Timeless Legends: Celebrating the Legacy of Michael Jackson, AC Jobim, Herbie Hancock, and Duke Ellington",
@@ -8073,6 +8173,16 @@
       "genre": ""
     },
     {
+      "title": "RITUAL OF BONECRUSHER",
+      "date": "21.8.2026",
+      "time": "17:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-235/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2026/03/ROBC.jpg",
+      "genre": ""
+    },
+    {
       "title": "Red Leather (US)",
       "date": "22.08.2026",
       "time": "19:30",
@@ -8321,6 +8431,16 @@
       "url": "https://www.redutajazzclub.cz/program-cs",
       "image": "",
       "genre": "jazz, soul, funk"
+    },
+    {
+      "title": "Swetřík – 10 let na scéně + Duhaj, Broučky",
+      "date": "5.9.2026",
+      "time": "18:00",
+      "venue": "Rock Café",
+      "category": "hudba",
+      "url": "https://rockcafe.cz/cs/program/swetrik-10-let-na-scene-duhaj-broucky/",
+      "image": "https://static.goout.cloud/rockcafecz/2026/04/f500ebc9-672439898_1542555374544136_9074055408734351887_n-250x167.jpg",
+      "genre": "rock"
     },
     {
       "title": "TANKZILLA , UNDERTONG",
@@ -8611,6 +8731,16 @@
       "url": "https://www.redutajazzclub.cz/program-cs",
       "image": "",
       "genre": "jazz, soul, funk"
+    },
+    {
+      "title": "Punkový Nářez v Modré Vopici",
+      "date": "12.9.2026",
+      "time": "18:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-128/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/04/modra-vopice-1.jpg",
+      "genre": ""
     },
     {
       "title": "Futur Swing",
@@ -9911,6 +10041,16 @@
       "url": "https://www.o2universum.cz/events/dymytry-arakain/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/11/02-dm3a-1200x1200-1.jpg",
       "genre": ""
+    },
+    {
+      "title": "Obscure presents: And So I Watch You From Afar (UK), …",
+      "date": "24.10.2026",
+      "time": "19:00",
+      "venue": "Rock Café",
+      "category": "hudba",
+      "url": "https://rockcafe.cz/cs/program/obscure-presents-and-so-i-watch-you-from-afar-uk-caspian-usa-otayonii-cn/",
+      "image": "https://static.goout.cloud/rockcafecz/2026/04/d7c20448-6x6-1-250x167.png",
+      "genre": "rock"
     },
     {
       "title": "Clawfinger / SWE",

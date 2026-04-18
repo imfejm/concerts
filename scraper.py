@@ -2564,6 +2564,93 @@ def scrape_bikejesus():
     return events
 
 
+def scrape_modravopice():
+    print("* Modrá Vopice...")
+    events = []
+
+    if not HAS_PLAYWRIGHT:
+        print("  [WARN] Playwright není nainstalován.", file=sys.stderr)
+        return events
+
+    def parse_events(html):
+        result = []
+        seen = set()
+        today = datetime.now().date()
+        soup = BeautifulSoup(html, "html.parser")
+        for ev_div in soup.find_all(class_="eventon_list_event"):
+            ld_tag = ev_div.find("script", type="application/ld+json")
+            if not ld_tag or not ld_tag.string:
+                continue
+            try:
+                ld = json.loads(ld_tag.string)
+            except (json.JSONDecodeError, ValueError):
+                continue
+
+            title = ld.get("name", "").strip()
+            if not title:
+                continue
+
+            url = ld.get("url", "https://www.modravopice.cz/program/")
+            image = ld.get("image", "")
+
+            start = ld.get("startDate", "")
+            date_str = ""
+            time_str = ""
+            if start:
+                m = re.match(r"(\d{4})-(\d{1,2})-(\d{1,2})T(\d{2}:\d{2})", start)
+                if m:
+                    y, mo, d, t = m.group(1), m.group(2), m.group(3), m.group(4)
+                    date_str = f"{int(d)}.{int(mo)}.{y}"
+                    time_str = t
+
+            # Filtruj minulé a duplikáty
+            if date_str:
+                try:
+                    parts = date_str.split(".")
+                    ev_date = datetime(int(parts[2]), int(parts[1]), int(parts[0])).date()
+                    if ev_date < today:
+                        continue
+                except (ValueError, IndexError):
+                    pass
+            key = (title.lower(), date_str)
+            if key in seen:
+                continue
+            seen.add(key)
+
+            desc_html = ld.get("description", "")
+            desc_text = BeautifulSoup(desc_html, "html.parser").get_text(" ") if desc_html else ""
+            genres_in_parens = re.findall(r"\(([^)]{3,60})\)", desc_text)
+            genre_text = " ".join(genres_in_parens)
+            genre = extract_genre_from_text(genre_text or title)
+
+            result.append({
+                "title": title,
+                "date": date_str,
+                "time": time_str,
+                "venue": "Modrá Vopice",
+                "category": "hudba",
+                "url": url,
+                "image": image,
+                "genre": genre,
+            })
+        return result
+
+    try:
+        from playwright.sync_api import sync_playwright
+        with sync_playwright() as pw:
+            browser = pw.chromium.launch(headless=True)
+            page = browser.new_page(user_agent=HEADERS["User-Agent"])
+            page.goto("https://www.modravopice.cz/program/", wait_until="networkidle", timeout=30000)
+            page.wait_for_timeout(2000)
+            events = parse_events(page.content())
+            browser.close()
+    except Exception as e:
+        print(f"  [WARN] Modrá Vopice: {e}", file=sys.stderr)
+
+    print(f"   [OK] {len(events)} akcí")
+    return events
+
+
 # ─────────────────────────────────────────────────────────────
 #  HLAVNÍ FUNKCE
 # ─────────────────────────────────────────────────────────────
@@ -2608,6 +2695,7 @@ def main():
         scrape_musicclubjizak,
         scrape_fuchs2,
         scrape_bikejesus,
+        scrape_modravopice,
     ]
 
     for scraper in scrapers:
