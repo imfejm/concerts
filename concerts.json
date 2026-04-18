@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-18T18:16:46.790686",
-  "count": 1150,
+  "updated": "2026-04-18T20:27:58.611616",
+  "count": 1248,
   "events": [
     {
       "title": "Universal Ticket Universal",
@@ -2713,6 +2713,16 @@
       "genre": "hip-hop, pop, rap"
     },
     {
+      "title": "KONCERT",
+      "date": "1.5.2026",
+      "time": "18:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-225/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2026/02/641264398_1491086509685274_5989255598480997539_n.jpg",
+      "genre": "hard rock, metal, rock"
+    },
+    {
       "title": "Joshua Curran & The Rubberdux",
       "date": "2.5.2026",
       "time": "20:00",
@@ -3243,6 +3253,16 @@
       "genre": ""
     },
     {
+      "title": "PROCESSIO MISERIAE PRAGENSIS 2",
+      "date": "7.5.2026",
+      "time": "18:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-109/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/11/627666467_742771445569894_4326030701126483280_n.jpg",
+      "genre": "black metal, metal"
+    },
+    {
       "title": "Simon Kornél and the Boughris (HU)",
       "date": "8.5.2026",
       "time": "20:00",
@@ -3351,6 +3371,16 @@
       "url": "https://www.fuchs2.cz/events/brvtal-vision-melanie-havens-the-brvtalist-the-undertakers-tapes-pornstar-martini-discothek-rena-vol",
       "image": "https://static.wixstatic.com/media/742259_3a1fd4e93f86469fa4b32da2c993feea~mv2.jpg",
       "genre": "house"
+    },
+    {
+      "title": "SOUKROMÁ PARTY",
+      "date": "8.5.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-200/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/11/colorful-balloons-confetti-celebration-background.jpg",
+      "genre": ""
     },
     {
       "title": "REMDIK , PAKOSTEŇ ,",
@@ -3481,6 +3511,16 @@
       "url": "https://www.fuchs2.cz/events/techno-alliance-aocram-yo-haan-midirama-nicole-olinstvi",
       "image": "https://static.wixstatic.com/media/742259_a6e3a9845aec4f6fa3da82d0b818cbfd~mv2.jpg",
       "genre": "techno, house"
+    },
+    {
+      "title": "LEGANDÁRNÍ FEST - 22 LET PARAGRAFU 219",
+      "date": "9.5.2026",
+      "time": "16:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-91/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/02/WhatsApp-Image-2026-02-03-at-08.19.14.jpeg",
+      "genre": "alternativa, rock, punk"
     },
     {
       "title": "Trio Mandili (GE)",
@@ -4043,6 +4083,16 @@
       "genre": ""
     },
     {
+      "title": "KONCERT",
+      "date": "15.5.2026",
+      "time": "19:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-226/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2026/02/plakat_15.5.2026.jpg",
+      "genre": "rock, pop"
+    },
+    {
       "title": "Berem Všechno",
       "date": "16.5.2026",
       "time": "21:00",
@@ -4191,6 +4241,16 @@
       "url": "https://www.fuchs2.cz/events/f2-live-x-dcp-the-bug-ft-warrior-queen",
       "image": "https://static.wixstatic.com/media/742259_608b5f86d40e4829835f3c1db26d1952~mv2.jpg",
       "genre": "industrial, reggae"
+    },
+    {
+      "title": "KONCERT",
+      "date": "16.5.2026",
+      "time": "19:30",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-93/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/02/2026-MV-solar_system-2.jpg",
+      "genre": "heavy metal, thrash, metal"
     },
     {
       "title": "Hang Massive / UK+SWE",
@@ -4693,6 +4753,16 @@
       "genre": "post-punk, rock, punk, pop"
     },
     {
+      "title": "NOCHE INFERNAL",
+      "date": "22.5.2026",
+      "time": "19:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-159/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/07/557633112_1448352723502707_1479538187545527286_n.jpg",
+      "genre": "death metal, thrash, metal"
+    },
+    {
       "title": "Coremusic slaví 15 let",
       "date": "23.5.2026",
       "time": "17:30",
@@ -4801,6 +4871,16 @@
       "url": "https://www.facebook.com/events/941928401652637",
       "image": "",
       "genre": ""
+    },
+    {
+      "title": "INFERNO FEST VOL. 4",
+      "date": "23.5.2026",
+      "time": "17:30",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-143/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/05/inferno_plagat.jpg",
+      "genre": "hardcore, progressive, thrash, metal"
     },
     {
       "title": "The Abyssinians + Big Youth / JAM",
@@ -5021,6 +5101,16 @@
       "url": "https://www.kckampa.cz/",
       "image": "https://www.kckampa.cz/media/spolecne-foto-Tria-Jalumar-26.6.2025-600x600.jpg",
       "genre": "blues, folk"
+    },
+    {
+      "title": "KONCERT",
+      "date": "26.5.2026",
+      "time": "19:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-250/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2026/03/652331852_1407874858019875_5155396823866385691_n.jpg",
+      "genre": "psychedelic, stoner, rock"
     },
     {
       "title": "Obscure presents: JOHN 5 (USA) + support: South of Salem (UK)",
@@ -5343,6 +5433,16 @@
       "genre": ""
     },
     {
+      "title": "PUNK ZA DVACKU",
+      "date": "29.5.2026",
+      "time": "18:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-92/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/02/PZD-2026-05-29a30-A3.jpg",
+      "genre": "punk"
+    },
+    {
       "title": "PATOČKA FEST",
       "date": "30.05.2026",
       "time": "",
@@ -5431,6 +5531,16 @@
       "url": "https://www.facebook.com/events/s/krest-ep-what-a-doomsday-res-p/1666515618126052/",
       "image": "",
       "genre": ""
+    },
+    {
+      "title": "PUNK ZA DVACKU",
+      "date": "30.5.2026",
+      "time": "18:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-181/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/02/PZD-2026-05-29a30-A3.jpg",
+      "genre": "punk"
     },
     {
       "title": "Cock Sparrer / UK",
@@ -5643,6 +5753,16 @@
       "genre": "folk"
     },
     {
+      "title": "KONCERT",
+      "date": "3.6.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-204/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "MONIKA NAČEVA – NEBE JE RUDÝ (30 LET) | KŘEST VINYLU",
       "date": "04.06.2026",
       "time": "",
@@ -5753,6 +5873,16 @@
       "genre": "doom, noise"
     },
     {
+      "title": "KONCERT",
+      "date": "5.6.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-205/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "Prague Rhythm KingsJazz On The Roof",
       "date": "06.06.2026",
       "time": "15:00",
@@ -5801,6 +5931,16 @@
       "url": "https://www.redutajazzclub.cz/program-cs",
       "image": "",
       "genre": "jazz, soul, funk"
+    },
+    {
+      "title": "KONCERT",
+      "date": "6.6.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-257/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
     },
     {
       "title": "KRS-One / US",
@@ -6053,6 +6193,16 @@
       "genre": ""
     },
     {
+      "title": "3. ročník festivalu IT kapel",
+      "date": "11.6.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-165/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "DJ JOSEF SEDLOŇ 90´s HITS RETRO PARTY",
       "date": "12.06.2026",
       "time": "19:00",
@@ -6130,6 +6280,16 @@
       "category": "hudba",
       "url": "https://fb.me/e/76ycrCCHw",
       "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=921333353731408",
+      "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "12.6.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-202/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
       "genre": ""
     },
     {
@@ -6213,6 +6373,16 @@
       "genre": "jazz, soul, reggae"
     },
     {
+      "title": "KONCERT",
+      "date": "13.6.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-176/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "BORIS GREBENSHIKOV A AKVÁRIUM V PRAZE/RU",
       "date": "14.06.2026",
       "time": "",
@@ -6270,6 +6440,16 @@
       "category": "hudba",
       "url": "https://fb.me/e/6G7F7aiUY",
       "image": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=971784975508894",
+      "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "14.6.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-233/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
       "genre": ""
     },
     {
@@ -6361,6 +6541,16 @@
       "url": "https://goout.net/cs/svet-je-bajecne-misto-vecer-jazzu-a-poezie/szypiiy/",
       "image": "https://goout.net/i/139/1390890-800.jpg",
       "genre": "jazz"
+    },
+    {
+      "title": "SOUKROMÁ PARTY",
+      "date": "16.6.2026",
+      "time": "16:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/soukroma-party-8/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/11/colorful-balloons-confetti-celebration-background.jpg",
+      "genre": ""
     },
     {
       "title": "Touché Amoré / US",
@@ -6463,6 +6653,16 @@
       "genre": ""
     },
     {
+      "title": "ZA KOULE PUNK FEST 2026",
+      "date": "18.6.2026",
+      "time": "15:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-153/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/06/627040580_1468362077992166_5862738805158346201_n.jpg",
+      "genre": "punk"
+    },
+    {
       "title": "A-TRAK: 3 HOUR SET (CA)",
       "date": "19.06.2026",
       "time": "",
@@ -6511,6 +6711,16 @@
       "url": "https://www.redutajazzclub.cz/program-cs",
       "image": "",
       "genre": "jazz, soul, funk"
+    },
+    {
+      "title": "VOLNÝM PÁDEM TOUR 2026",
+      "date": "19.6.2026",
+      "time": "19:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-218/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2026/01/657952624_1585814313550319_2987052290040556676_n.jpg",
+      "genre": "heavy metal, electronica, metal, rock"
     },
     {
       "title": "IMANBEK (KZ)",
@@ -6763,6 +6973,16 @@
       "genre": ""
     },
     {
+      "title": "KONCERT",
+      "date": "25.6.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-249/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "Ocean Sleeper (AU)",
       "date": "26.06.2026",
       "time": "19:30",
@@ -6813,6 +7033,16 @@
       "genre": "jazz, soul, funk"
     },
     {
+      "title": "KONCERT",
+      "date": "26.6.2026",
+      "time": "19:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-198/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/12/0BB05137-C49C-4456-8DC9-9EC08C11C1D4-1.png",
+      "genre": ""
+    },
+    {
       "title": "Anna Kolingerová QuartetJazz On The Roof",
       "date": "27.06.2026",
       "time": "15:00",
@@ -6861,6 +7091,16 @@
       "url": "https://www.redutajazzclub.cz/program-cs",
       "image": "",
       "genre": "jazz, soul, funk"
+    },
+    {
+      "title": "KONCERT",
+      "date": "27.6.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-207/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
     },
     {
       "title": "J. J. Jazzmen & Barbora VágnerováNedělní Dixie",
@@ -6971,6 +7211,16 @@
       "url": "https://www.redutajazzclub.cz/program-cs",
       "image": "",
       "genre": "jazz, soul, funk"
+    },
+    {
+      "title": "THIRST FOR GRIND VOL. 17",
+      "date": "30.6.2026",
+      "time": "17:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-221/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2026/01/629672851_10163166797929205_5216029068313221854_n.jpg",
+      "genre": "grindcore"
     },
     {
       "title": "Laco Deczi & New York Celula",
@@ -7243,6 +7493,16 @@
       "genre": "jazz, soul, funk"
     },
     {
+      "title": "SOUKROMÁ PARTY",
+      "date": "10.7.2026",
+      "time": "15:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/soukroma-party-4/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "Swing MelodyJazz On The Roof",
       "date": "11.07.2026",
       "time": "16:00",
@@ -7341,6 +7601,16 @@
       "url": "https://www.redutajazzclub.cz/program-cs",
       "image": "",
       "genre": "jazz, soul, funk"
+    },
+    {
+      "title": "KONCERT",
+      "date": "14.7.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-174/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
     },
     {
       "title": "Obscure presents: Eric Johnson (USA)",
@@ -7483,6 +7753,16 @@
       "genre": "pop, jazz"
     },
     {
+      "title": "KONCERT",
+      "date": "18.7.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-88/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "Jazz Dock Orchestra",
       "date": "20.07.2026",
       "time": "21:00",
@@ -7621,6 +7901,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-326",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "KONCERT",
+      "date": "25.7.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-175/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
     },
     {
       "title": "Obscure presents: Lovebites (JAP)",
@@ -7913,6 +8203,16 @@
       "genre": "elektronika"
     },
     {
+      "title": "KONCERT PRO KAŠTÁNKA",
+      "date": "8.8.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-pro-kastanka/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "Big Band Trumpets – Kings of Swing Tribute to Duke Ellington, Quincy Jones, Dizzy Gillespie, Glen Miller…",
       "date": "09.08.2026",
       "time": "20:00",
@@ -7931,6 +8231,16 @@
       "url": "https://www.fuchs2.cz/events/heartnoize-present-chat-pile-ragana",
       "image": "https://static.wixstatic.com/media/742259_d09739340f4d4aa29167adf0ea22a7f9~mv2.jpg",
       "genre": "rock, noise"
+    },
+    {
+      "title": "BRUTAL ASSAULT - AFTERPARTY",
+      "date": "9.8.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-94/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
     },
     {
       "title": "AIRBOURNE",
@@ -8041,6 +8351,16 @@
       "url": "https://www.redutajazzclub.cz/program-cs",
       "image": "",
       "genre": "jazz, soul, funk"
+    },
+    {
+      "title": "KONCERT",
+      "date": "15.8.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-220/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
     },
     {
       "title": "Ondřej Ruml & Matěj Benko Trio Exclusive Tour",
@@ -8233,6 +8553,16 @@
       "genre": ""
     },
     {
+      "title": "Dismal Fest 2026",
+      "date": "22.8.2026",
+      "time": "15:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-193/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/11/621583130_122164188602874824_8025357320418569811_n.jpg",
+      "genre": ""
+    },
+    {
       "title": "Andreas Varady Trio",
       "date": "23.08.2026",
       "time": "20:00",
@@ -8343,6 +8673,16 @@
       "genre": "jazz, soul, funk"
     },
     {
+      "title": "BENEFICE PRO SOLIDRONES",
+      "date": "28.8.2026",
+      "time": "15:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-227/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2026/02/a308dafe-fdfa-417e-b40f-a48631b00a6d.jpeg",
+      "genre": "doom, grindcore, punk"
+    },
+    {
       "title": "Remembering Sinatra: A Timeless Tribute",
       "date": "29.08.2026",
       "time": "19:00",
@@ -8363,6 +8703,16 @@
       "genre": "jazz, soul, funk"
     },
     {
+      "title": "Grind Deal Open Air",
+      "date": "29.8.2026",
+      "time": "15:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-167/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/08/650530309_1532349802229693_2716426445133858599_n.jpg",
+      "genre": "grindcore"
+    },
+    {
       "title": "Louis Armstrong Forever: Celebrating a Jazz Icon with Old Timers Jazz Band",
       "date": "30.08.2026",
       "time": "20:00",
@@ -8371,6 +8721,16 @@
       "url": "https://www.redutajazzclub.cz/program-cs",
       "image": "",
       "genre": "jazz, soul, funk"
+    },
+    {
+      "title": "KONCERT",
+      "date": "30.8.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-146/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
     },
     {
       "title": "Lenka Nová – Letní trojka v Jazz Docku",
@@ -8433,6 +8793,16 @@
       "genre": "jazz, soul, funk"
     },
     {
+      "title": "KONCERT",
+      "date": "4.9.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-140/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "Swetřík – 10 let na scéně + Duhaj, Broučky",
       "date": "5.9.2026",
       "time": "18:00",
@@ -8481,6 +8851,16 @@
       "url": "https://www.redutajazzclub.cz/program-cs",
       "image": "",
       "genre": "jazz, soul, funk"
+    },
+    {
+      "title": "KONCERT",
+      "date": "5.9.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-95/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
     },
     {
       "title": "Obscure presents: On Company Time (USA)",
@@ -8701,6 +9081,16 @@
       "url": "https://cargogallery.cz/akce/l1nkn-p4rk-the-linkin-park-experience-wirefall/",
       "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-5-756x454.png",
       "genre": "metal, rock"
+    },
+    {
+      "title": "Carnage party vol. 4.",
+      "date": "11.9.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/carnage-party-vol-4/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
     },
     {
       "title": "LATERNA MAGIKA PERPETUUM HAVEL",
@@ -8973,6 +9363,26 @@
       "genre": "r&b, pop, písničkářství, rap"
     },
     {
+      "title": "KAFEST WELCOME PARTY",
+      "date": "18.9.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/kafest-welcome-party-2/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KAFEST 9 - OPEN AIR",
+      "date": "19.9.2026",
+      "time": "15:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/kafest-9-open-air/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/02/613519278_1346741670584379_2462006326315267252_n.jpg",
+      "genre": ""
+    },
+    {
       "title": "Renata Drössler",
       "date": "20.09.2026",
       "time": "20:00",
@@ -9033,6 +9443,16 @@
       "genre": "jazz, soul, funk"
     },
     {
+      "title": "PUNK ZA DVACKU",
+      "date": "22.9.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/punk-za-dvacku-3/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": "punk"
+    },
+    {
       "title": "STRAHOV OPENAIR 2026 STUDENTSKÝ FESTIVAL",
       "date": "23.09.2026",
       "time": "19:00",
@@ -9061,6 +9481,16 @@
       "url": "https://www.o2arena.cz/events/the-pussycat-dolls-pcd-forever-tour/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/03/1080x1080-pussycatdolls-1.jpg",
       "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "23.9.2026",
+      "time": "19:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-98/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2026/02/POSTER-58.jpg",
+      "genre": "death metal, metal"
     },
     {
       "title": "Melodic Journey with Louis Armstrong, Gershwin, Jobim presented by the Metropolitan Jazz Band",
@@ -9133,6 +9563,16 @@
       "genre": "jazz, soul, funk"
     },
     {
+      "title": "KONCERT",
+      "date": "25.9.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-206/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "Ana Silvera a Saied SilbakFestival Věčná naděje",
       "date": "26.09.2026",
       "time": "19:00",
@@ -9183,6 +9623,16 @@
       "genre": "rap"
     },
     {
+      "title": "KONCERT",
+      "date": "26.9.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-102/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "EMPTY HALL OF FAME , THALIDOMIDE , SOMETHING LIKE Hard Core",
       "date": "27.09.2026",
       "time": "19:00",
@@ -9223,6 +9673,16 @@
       "genre": "jazz, soul, funk"
     },
     {
+      "title": "Goreggressive vol. III",
+      "date": "27.9.2026",
+      "time": "19:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-211/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "Obscure presents: Humanity’s Last Breath (SWE), …",
       "date": "28.9.2026",
       "time": "17:30",
@@ -9251,6 +9711,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/julian-hesse-quartet-1-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/julian-hasse-6857f34f41636313446075.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "KONCERT",
+      "date": "28.9.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-246/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
     },
     {
       "title": "Selection presents: ClockClock (DE)",
@@ -9291,6 +9761,16 @@
       "url": "https://cargogallery.cz/akce/blockhead-us-proleter-fr-support-arms-and-sleepers-de/",
       "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-11-756x454.png",
       "genre": "post-rock, rock, jazz, soul"
+    },
+    {
+      "title": "KONCERT",
+      "date": "29.9.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-72/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
     },
     {
       "title": "Obscure presents: The Dear Hunter (USA) + special guest",
@@ -9373,6 +9853,16 @@
       "genre": "drum & bass, electro, grime"
     },
     {
+      "title": "KONCERT",
+      "date": "1.10.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-199/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "Tom Gregory (UK)",
       "date": "2.10.2026",
       "time": "20:00",
@@ -9413,6 +9903,16 @@
       "genre": ""
     },
     {
+      "title": "KONCERT",
+      "date": "2.10.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-147/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "Remembering Sinatra: A Timeless Tribute",
       "date": "03.10.2026",
       "time": "19:00",
@@ -9450,6 +9950,16 @@
       "category": "hudba",
       "url": "https://www.o2universum.cz/events/monika-slavi-50-let/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/09/o2-1080x1080-2.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "3.10.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-148/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
       "genre": ""
     },
     {
@@ -9623,6 +10133,16 @@
       "genre": "drum & bass, rock, rap"
     },
     {
+      "title": "KONCERT",
+      "date": "9.10.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-158/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "Kaizers Orchestra / NO",
       "date": "10.10.2026",
       "time": "18:00",
@@ -9693,6 +10213,16 @@
       "genre": "rock"
     },
     {
+      "title": "PUNKDISTROFEST VOL.II",
+      "date": "10.10.2026",
+      "time": "13:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-137/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/04/656047260_930951613022170_1444030262183104702_n.jpg",
+      "genre": ""
+    },
+    {
       "title": "FAINTEST IDEA , JET8",
       "date": "11.10.2026",
       "time": "19:00",
@@ -9731,6 +10261,16 @@
       "url": "https://www.redutajazzclub.cz/program-cs",
       "image": "",
       "genre": "jazz, soul, funk"
+    },
+    {
+      "title": "KONCERT",
+      "date": "12.10.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-251/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
     },
     {
       "title": "Tender (UK)",
@@ -9853,6 +10393,16 @@
       "genre": ""
     },
     {
+      "title": "KONCERT",
+      "date": "16.10.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-197/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "LEÆTHER STRIP / DK + FÏX8:SËD8 / DE",
       "date": "17.10.2026",
       "time": "19:00",
@@ -9913,6 +10463,16 @@
       "genre": "r&b, rock, soul"
     },
     {
+      "title": "BARBARSKÝ ČOCH ŘÍJNOVÝ V PRAZE",
+      "date": "17.10.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-123/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2025/03/670474376_1009954218268187_6826453246122818454_n.jpg",
+      "genre": "hard rock, rock"
+    },
+    {
       "title": "Simple Plan – Bigger Than You Think! Europe Tour 2026",
       "date": "18.10.2026",
       "time": "19:00",
@@ -9920,6 +10480,16 @@
       "category": "hudba",
       "url": "https://www.o2universum.cz/events/simple-plan-bigger-than-you-think-europe-tour-2026/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/11/sp-400x400-1.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "18.10.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-234/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
       "genre": ""
     },
     {
@@ -9951,6 +10521,16 @@
       "url": "https://palacakropolis.cz/work/33298?event_id=40587&no=62&page_id=33824",
       "image": "https://palacakropolis.cz/images/photos/0023/3507/spitfire_baletky_2048px_janhromadko-1048_web_event.jpg",
       "genre": "house"
+    },
+    {
+      "title": "PUNK ZA DVACKU",
+      "date": "20.10.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/punk-za-dvacku-4/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": "punk"
     },
     {
       "title": "KARMAFEST 2026: REFLECTIONS OF KARMA, IMODIUM & POST-IT",
@@ -10043,6 +10623,16 @@
       "genre": ""
     },
     {
+      "title": "KONCERT",
+      "date": "23.10.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-194/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "Obscure presents: And So I Watch You From Afar (UK), …",
       "date": "24.10.2026",
       "time": "19:00",
@@ -10090,6 +10680,16 @@
       "category": "hudba",
       "url": "https://www.o2universum.cz/events/90s-winter-explosion/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/12/1080x1080-1.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "24.10.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-180/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
       "genre": ""
     },
     {
@@ -10233,6 +10833,16 @@
       "genre": ""
     },
     {
+      "title": "KONCERT",
+      "date": "27.10.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-254/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "Maggie Reilly / UK",
       "date": "28.10.2026",
       "time": "19:00",
@@ -10283,6 +10893,16 @@
       "genre": "rock"
     },
     {
+      "title": "KONCERT",
+      "date": "30.10.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-228/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "RFP Concerts: Ezhel",
       "date": "31.10.2026",
       "time": "18.30",
@@ -10321,6 +10941,16 @@
       "url": "https://www.fuchs2.cz/events/moved-to-another-venue-rock-for-people-presents-ezhel",
       "image": "https://static.wixstatic.com/media/742259_d9fed272230b4482b00298c5055f95c7~mv2.jpg",
       "genre": "house, country, reggae, rap"
+    },
+    {
+      "title": "KONCERT",
+      "date": "31.10.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-192/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
     },
     {
       "title": "Laura a její tygři – 40 let",
@@ -10473,6 +11103,16 @@
       "genre": ""
     },
     {
+      "title": "KONCERT",
+      "date": "6.11.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-224/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "FOURCE PRESENTS ZIMMER90/DE",
       "date": "07.11.2026",
       "time": "",
@@ -10500,6 +11140,16 @@
       "category": "hudba",
       "url": "https://www.o2universum.cz/events/robert-krestan-druha-trava-35-let-na-scene/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/10/rkdt35-1080x1080-1.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Melodies of Death 4",
+      "date": "7.11.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/melodies-of-death-4/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
       "genre": ""
     },
     {
@@ -10653,6 +11303,16 @@
       "genre": ""
     },
     {
+      "title": "KONCERT",
+      "date": "13.11.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-130/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "SOČR & Monkey Business",
       "date": "14.11.2026",
       "time": "",
@@ -10670,6 +11330,16 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/lord-of-the-dance-2026/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2024/12/o2-1080x1080-lotr-2026-matt-10.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "14.11.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-208/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
       "genre": ""
     },
     {
@@ -10803,6 +11473,16 @@
       "genre": ""
     },
     {
+      "title": "KONCERT",
+      "date": "20.11.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-196/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "ITCHY (DE) + special guest: Rat Boy (UK)",
       "date": "21.11.2026",
       "time": "19:00",
@@ -10860,6 +11540,16 @@
       "category": "hudba",
       "url": "https://www.o2universum.cz/events/kristian-sebek-muj-vzor-bozsky-karel/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/11/1080-x-1080-sebek.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "21.11.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-216/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
       "genre": ""
     },
     {
@@ -10923,6 +11613,16 @@
       "genre": ""
     },
     {
+      "title": "PUNK ZA DVACKU",
+      "date": "24.11.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/punk-za-dvacku-5/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": "punk"
+    },
+    {
       "title": "Roy Ellis aka Mr. Symarip (JAM)",
       "date": "26.11.2026",
       "time": "20:00",
@@ -10940,6 +11640,16 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/sarah-brightman-a-winter-symphony/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/12/1080x1080-sarah-brightman-2026-praha-o2.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "26.11.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-244/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
       "genre": ""
     },
     {
@@ -10973,6 +11683,16 @@
       "genre": "rock"
     },
     {
+      "title": "KONCERT",
+      "date": "27.11.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-215/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "Depeche Mode Generation Party",
       "date": "28.11.2026",
       "time": "19:00",
@@ -11000,6 +11720,16 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/separ-40-bday-party/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/03/separ-o2-1080x1080-1.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "28.11.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-135/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
       "genre": ""
     },
     {
@@ -11053,6 +11783,16 @@
       "genre": ""
     },
     {
+      "title": "KONCERT",
+      "date": "3.12.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-201/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "sace6 (US)",
       "date": "04.12.2026",
       "time": "19:30",
@@ -11071,6 +11811,16 @@
       "url": "https://www.forumkarlin.cz/udalost/mikolas-forum-karlin",
       "image": "https://www.forumkarlin.cz/wp-content/uploads/2025/11/mikolas-forum_karlin-2400-x-800.jpg",
       "genre": "hip-hop, pop, r&b"
+    },
+    {
+      "title": "KONCERT",
+      "date": "4.12.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-252/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
     },
     {
       "title": "MASTER BOOT RECORD / IT + FULCI / IT + AROTTENBIT / IT",
@@ -11153,6 +11903,16 @@
       "genre": "indie, folk"
     },
     {
+      "title": "KONCERT",
+      "date": "11.12.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-219/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "NO NAME 30",
       "date": "12.12.2026",
       "time": "20:00",
@@ -11160,6 +11920,16 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/no-name-30/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2024/10/o2-nn30-2026-1200x1200-1.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "12.12.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-122/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
       "genre": ""
     },
     {
@@ -11263,6 +12033,16 @@
       "genre": ""
     },
     {
+      "title": "KONCERT",
+      "date": "18.12.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-229/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "GREEN MONSTER , PSYCHO BEETS",
       "date": "19.12.2026",
       "time": "18:00",
@@ -11271,6 +12051,16 @@
       "url": "https://klub007strahov.cz/events/green-monster-cz-psycho-beets-pl/",
       "image": "",
       "genre": "psychobilly"
+    },
+    {
+      "title": "KONCERT",
+      "date": "19.12.2026",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-230/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
     },
     {
       "title": "DAMICHI 25 let",
@@ -11333,6 +12123,36 @@
       "genre": "NOISE HC PV Čas 9. 1. 2027 16:00 - 22:00 (GMT+01:00) FB Event Kalendář Google kalendář"
     },
     {
+      "title": "KONCERT",
+      "date": "15.1.2027",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-256/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "16.1.2027",
+      "time": "18:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-247/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2026/03/671550817_1628236619309468_7073522361870071298_n.jpg",
+      "genre": "black metal, metal"
+    },
+    {
+      "title": "KONCERT",
+      "date": "23.1.2027",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-222/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "Alexandr Misko / RU",
       "date": "24.1.2027",
       "time": "19:00",
@@ -11371,6 +12191,26 @@
       "url": "https://www.o2universum.cz/events/lednacek-fest/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/01/1080x1080-1.jpg",
       "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "6.2.2027",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-151/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
+      "title": "5 Let Alternative Stuff Production",
+      "date": "13.2.2027",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-258/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": "alternativa"
     },
     {
       "title": "THE UNOFFICIAL ERAS TOUR (Prague's Version) LOVER – Taylor Swift Tribute by Charity Eden",
@@ -11433,6 +12273,36 @@
       "genre": "pop, rock"
     },
     {
+      "title": "KONCERT",
+      "date": "9.3.2027",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-248/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "13.3.2027",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-240/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "20.3.2027",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-253/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "The World of Hans Zimmer – A New Dimension",
       "date": "16.4.2027",
       "time": "19:30",
@@ -11440,6 +12310,16 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/the-world-of-hans-zimmer-a-new-dimension-2027/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/03/wohz-o2-1080x1080-1.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "17.4.2027",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-239/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
       "genre": ""
     },
     {
@@ -11453,6 +12333,36 @@
       "genre": ""
     },
     {
+      "title": "KONCERT",
+      "date": "23.4.2027",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-241/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "24.4.2027",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-242/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "9.5.2027",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-245/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "Richard Krajčo „50“ – Narozeninový koncert",
       "date": "29.5.2027",
       "time": "19:00",
@@ -11460,6 +12370,76 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/richard-krajco-50-narozeninovy-koncert/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/02/1080x1080-1.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "12.6.2027",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-69/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "17.6.2027",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-223/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "19.6.2027",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-183/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "28.8.2027",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-184/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KONCERT",
+      "date": "11.9.2027",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-237/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KAFEST WELCOME PARTY",
+      "date": "17.9.2027",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/kafest-welcome-party/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
+      "title": "KAFEST 10 - OPEN AIR",
+      "date": "18.9.2027",
+      "time": "15:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-236/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
       "genre": ""
     },
     {

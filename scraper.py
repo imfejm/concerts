@@ -2564,89 +2564,156 @@ def scrape_bikejesus():
     return events
 
 
+def _load_cached_modravopice():
+    """Načte existující Modrá Vopice akce z concerts.json jako slovník url -> event."""
+    cache = {}
+    try:
+        with open("concerts.json", encoding="utf-8") as f:
+            data = json.load(f)
+        for e in data.get("events", []):
+            if e.get("venue") == "Modrá Vopice" and e.get("url"):
+                cache[e["url"]] = e
+    except (FileNotFoundError, json.JSONDecodeError):
+        pass
+    return cache
+
+
 def scrape_modravopice():
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
     print("* Modrá Vopice...")
+    today = datetime.now().date()
+    seen = set()
     events = []
 
-    if not HAS_PLAYWRIGHT:
-        print("  [WARN] Playwright není nainstalován.", file=sys.stderr)
-        return events
+    existing = _load_cached_modravopice()
 
-    def parse_events(html):
-        result = []
-        seen = set()
-        today = datetime.now().date()
-        soup = BeautifulSoup(html, "html.parser")
-        for ev_div in soup.find_all(class_="eventon_list_event"):
-            ld_tag = ev_div.find("script", type="application/ld+json")
-            if not ld_tag or not ld_tag.string:
-                continue
-            try:
-                ld = json.loads(ld_tag.string)
-            except (json.JSONDecodeError, ValueError):
-                continue
-
-            title = ld.get("name", "").strip()
-            if not title:
-                continue
-
-            url = ld.get("url", "https://www.modravopice.cz/program/")
-            image = ld.get("image", "")
-
-            start = ld.get("startDate", "")
-            date_str = ""
-            time_str = ""
-            if start:
-                m = re.match(r"(\d{4})-(\d{1,2})-(\d{1,2})T(\d{2}:\d{2})", start)
-                if m:
-                    y, mo, d, t = m.group(1), m.group(2), m.group(3), m.group(4)
-                    date_str = f"{int(d)}.{int(mo)}.{y}"
-                    time_str = t
-
-            # Filtruj minulé a duplikáty
-            if date_str:
+    def fetch_event_page(link):
+        try:
+            resp = requests.get(link, headers=HEADERS, timeout=10)
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
+            for script in soup.find_all("script", type="application/ld+json"):
+                if not script.string:
+                    continue
                 try:
-                    parts = date_str.split(".")
-                    ev_date = datetime(int(parts[2]), int(parts[1]), int(parts[0])).date()
-                    if ev_date < today:
-                        continue
-                except (ValueError, IndexError):
-                    pass
-            key = (title.lower(), date_str)
-            if key in seen:
-                continue
-            seen.add(key)
+                    ld = json.loads(script.string)
+                except (json.JSONDecodeError, ValueError):
+                    continue
+                if "startDate" not in ld:
+                    continue
+                return ld
+        except Exception:
+            pass
+        return None
 
-            desc_html = ld.get("description", "")
-            desc_text = BeautifulSoup(desc_html, "html.parser").get_text(" ") if desc_html else ""
-            genres_in_parens = re.findall(r"\(([^)]{3,60})\)", desc_text)
-            genre_text = " ".join(genres_in_parens)
-            genre = extract_genre_from_text(genre_text or title)
-
-            result.append({
-                "title": title,
-                "date": date_str,
-                "time": time_str,
-                "venue": "Modrá Vopice",
-                "category": "hudba",
-                "url": url,
-                "image": image,
-                "genre": genre,
-            })
-        return result
+    def make_event(ld, link):
+        title = ld.get("name", "").strip()
+        if not title:
+            return None
+        start = ld.get("startDate", "")
+        date_str = ""
+        time_str = ""
+        if start:
+            m = re.match(r"(\d{4})-(\d{1,2})-(\d{1,2})T(\d{2}:\d{2})", start)
+            if m:
+                y, mo, d, t = m.group(1), m.group(2), m.group(3), m.group(4)
+                date_str = f"{int(d)}.{int(mo)}.{y}"
+                time_str = t
+        if date_str:
+            try:
+                parts = date_str.split(".")
+                ev_date = datetime(int(parts[2]), int(parts[1]), int(parts[0])).date()
+                if ev_date < today:
+                    return None
+            except (ValueError, IndexError):
+                pass
+        image = ld.get("image", "")
+        if isinstance(image, dict):
+            image = image.get("url", "")
+        url = ld.get("url", link)
+        desc_html = ld.get("description", "")
+        desc_text = BeautifulSoup(desc_html, "html.parser").get_text(" ") if desc_html else ""
+        genres_in_parens = re.findall(r"\(([^)]{3,60})\)", desc_text)
+        genre_text = " ".join(genres_in_parens)
+        genre = extract_genre_from_text(genre_text or title)
+        return {
+            "title": title,
+            "date": date_str,
+            "time": time_str,
+            "venue": "Modrá Vopice",
+            "category": "hudba",
+            "url": url,
+            "image": image,
+            "genre": genre,
+        }
 
     try:
-        from playwright.sync_api import sync_playwright
-        with sync_playwright() as pw:
-            browser = pw.chromium.launch(headless=True)
-            page = browser.new_page(user_agent=HEADERS["User-Agent"])
-            page.goto("https://www.modravopice.cz/program/", wait_until="networkidle", timeout=30000)
-            page.wait_for_timeout(2000)
-            events = parse_events(page.content())
-            browser.close()
+        # Get all event links via WP REST API (paginated)
+        all_links = []
+        page = 1
+        while True:
+            resp = requests.get(
+                "https://www.modravopice.cz/wp-json/wp/v2/ajde_events",
+                params={"per_page": 100, "page": page, "_fields": "link"},
+                headers=HEADERS,
+                timeout=15,
+            )
+            if resp.status_code == 400:
+                break
+            resp.raise_for_status()
+            batch = resp.json()
+            if not batch:
+                break
+            all_links.extend(ev["link"] for ev in batch)
+            total_pages = int(resp.headers.get("X-WP-TotalPages", 1))
+            if page >= total_pages:
+                break
+            page += 1
+
+        new_links = [l for l in all_links if l not in existing]
+        print(f"  Celkem {len(all_links)} záznamů, z toho {len(new_links)} nových (stahuju detaily)...")
+
+        # Reuse cached future events
+        for link, ev in existing.items():
+            if link not in all_links:
+                continue  # zmizelo z webu
+            if not ev.get("date"):
+                continue
+            try:
+                parts = ev["date"].split(".")
+                ev_date = datetime(int(parts[2]), int(parts[1]), int(parts[0])).date()
+                if ev_date < today:
+                    continue
+            except (ValueError, IndexError):
+                pass
+            key = (ev.get("title", "").lower(), ev.get("date", ""))
+            if key not in seen:
+                seen.add(key)
+                events.append(ev)
+
+        # Fetch only new event pages in parallel
+        with ThreadPoolExecutor(max_workers=10) as ex:
+            futures = {ex.submit(fetch_event_page, link): link for link in new_links}
+            for fut in as_completed(futures):
+                link = futures[fut]
+                ld = fut.result()
+                if not ld:
+                    continue
+                ev = make_event(ld, link)
+                if not ev:
+                    continue
+                key = (ev["title"].lower(), ev["date"])
+                if key not in seen:
+                    seen.add(key)
+                    events.append(ev)
+
     except Exception as e:
         print(f"  [WARN] Modrá Vopice: {e}", file=sys.stderr)
 
+    events.sort(key=lambda x: (
+        [int(p) for p in reversed(x["date"].split("."))] if x["date"] else [0, 0, 0]
+    ))
     print(f"   [OK] {len(events)} akcí")
     return events
 
