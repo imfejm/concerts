@@ -2719,6 +2719,145 @@ def scrape_modravopice():
 
 
 # ─────────────────────────────────────────────────────────────
+#  KLUB VARŠAVA  (klubvarsava.cz)
+# ─────────────────────────────────────────────────────────────
+def scrape_varsava():
+    print("* Klub Varšava...")
+    events = []
+    today = datetime.now().date()
+
+    try:
+        r = requests.get("https://www.klubvarsava.cz/", headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        for script in soup.find_all("script", type="application/ld+json"):
+            if not script.string or '"Event"' not in script.string:
+                continue
+            try:
+                ld = json.loads(script.string)
+            except (json.JSONDecodeError, ValueError):
+                continue
+            if ld.get("@type") != "Event":
+                continue
+
+            title = ld.get("name", "").strip()
+            if not title:
+                continue
+
+            start = ld.get("startDate", "")
+            date_text = ""
+            time_text = ""
+            if start:
+                try:
+                    # Format: 2026-4-20T18:15+2:00
+                    m = re.match(r"(\d{4})-(\d{1,2})-(\d{1,2})T(\d{2}:\d{2})", start)
+                    if m:
+                        y, mo, d, t = m.group(1), m.group(2), m.group(3), m.group(4)
+                        ev_date = datetime(int(y), int(mo), int(d)).date()
+                        if ev_date < today:
+                            continue
+                        date_text = f"{int(d)}.{int(mo)}.{y}"
+                        time_text = t
+                except Exception:
+                    pass
+
+            events.append({
+                "title": title,
+                "date": date_text,
+                "time": time_text,
+                "venue": "Klub Varšava",
+                "category": "hudba",
+                "url": ld.get("url", "https://www.klubvarsava.cz/"),
+                "image": ld.get("image", ""),
+            })
+
+    except Exception as e:
+        print(f"  [WARN] Klub Varšava: {e}", file=sys.stderr)
+
+    print(f"   [OK] {len(events)} akcí")
+    return events
+
+
+# ─────────────────────────────────────────────────────────────
+#  SUBZERO  (goout.net/cs/subzero/vzraeg/events/)
+# ─────────────────────────────────────────────────────────────
+def scrape_subzero():
+    """GoOut entities API s venueId=96267 (Subzero Praha)"""
+    print("* Subzero...")
+    events = []
+    today = datetime.now().date()
+
+    try:
+        r = requests.get(
+            "https://goout.net/services/entities/v1/schedules",
+            params={
+                "languages[]": "cs",
+                "venueIds[]": "96267",
+                "grouped": "true",
+                "limit": "50",
+                "include": "events,images,venues,cities,sales,performers,parents",
+            },
+            headers=HEADERS,
+            timeout=15,
+        )
+        r.raise_for_status()
+        data = r.json()
+
+        included = data.get("included", {})
+        events_map = {e["id"]: e for e in included.get("events", [])}
+        images_map = {i["id"]: i for i in included.get("images", [])}
+
+        for sched in data.get("schedules", []):
+            attrs = sched.get("attributes", {})
+            start = attrs.get("startAt", "")
+            date_text = ""
+            time_text = ""
+            if start:
+                try:
+                    dt = datetime.fromisoformat(start)
+                    if dt.date() < today:
+                        continue
+                    date_text = f"{dt.day}.{dt.month}.{dt.year}"
+                    time_text = dt.strftime("%H:%M")
+                except Exception:
+                    pass
+
+            # Název z included event
+            event_id = (sched.get("relationships", {}).get("event") or {}).get("id")
+            evt = events_map.get(event_id, {})
+            title = (evt.get("locales", {}).get("cs", {}).get("name") or "").strip()
+            if not title:
+                continue
+
+            # URL akce
+            url = sched.get("locales", {}).get("cs", {}).get("siteUrl") or sched.get("url", "")
+
+            # Obrázek: první image napojená na event
+            image = ""
+            img_refs = evt.get("relationships", {}).get("images", [])
+            if img_refs:
+                img = images_map.get(img_refs[0]["id"], {})
+                image = img.get("attributes", {}).get("url", "")
+
+            events.append({
+                "title": title,
+                "date": date_text,
+                "time": time_text,
+                "venue": "Subzero",
+                "category": "hudba",
+                "url": url,
+                "image": image,
+            })
+
+    except Exception as e:
+        print(f"  [WARN] Subzero: {e}", file=sys.stderr)
+
+    print(f"   [OK] {len(events)} akcí")
+    return events
+
+
+# ─────────────────────────────────────────────────────────────
 #  HLAVNÍ FUNKCE
 # ─────────────────────────────────────────────────────────────
 def main():
@@ -2763,6 +2902,8 @@ def main():
         scrape_fuchs2,
         scrape_bikejesus,
         scrape_modravopice,
+        scrape_subzero,
+        scrape_varsava,
     ]
 
     for scraper in scrapers:
