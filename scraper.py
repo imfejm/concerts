@@ -179,6 +179,10 @@ def fetch_genre_from_detail(url):
     if not url or url in _GENRE_SKIP_URLS:
         return ""
 
+    # Facebook blokuje boty — popis akce je za přihlášením, zbytečné zkoušet
+    if "facebook.com" in url or "fb.me" in url:
+        return ""
+
     import time
     time.sleep(0.3)  # zdvořilostní pauza
 
@@ -2456,6 +2460,110 @@ def scrape_fuchs2():
     return events
 
 
+def scrape_bikejesus():
+    print("* Bike Jesus...")
+    events = []
+
+    def fetch_og_image(url):
+        """Stáhne og:image ze statické stránky (GoOut, RA)."""
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=10)
+            soup = BeautifulSoup(r.text, "html.parser")
+            tag = soup.find("meta", property="og:image")
+            return tag.get("content", "") if tag else ""
+        except Exception:
+            return ""
+
+    def fetch_fb_image(url, pw_browser):
+        """Stáhne og:image z FB eventu přes Playwright (FB blokuje requests)."""
+        try:
+            page = pw_browser.new_page(user_agent=HEADERS["User-Agent"])
+            page.goto(url, wait_until="domcontentloaded", timeout=20000)
+            page.wait_for_timeout(1500)
+            soup = BeautifulSoup(page.content(), "html.parser")
+            page.close()
+            tag = soup.find("meta", property="og:image")
+            return tag.get("content", "") if tag else ""
+        except Exception:
+            return ""
+
+    try:
+        r = requests.get("https://bikejesus.com/events", headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        data = r.json()
+        today = datetime.now().date()
+
+        # Zjisti, které eventy budou potřebovat Playwright (FB-only bez GoOut/RA)
+        raw_events = []
+        needs_playwright = False
+        for item in data:
+            date_raw = item.get("Date", "")
+            try:
+                d = datetime.strptime(date_raw, "%Y-%m-%d").date()
+                if d < today:
+                    continue
+                date_str = f"{d.day}.{d.month}.{d.year}"
+            except (ValueError, TypeError):
+                continue
+            title = item.get("Title", "").strip()
+            if not title:
+                continue
+            tickets = item.get("Tickets") or ""
+            link = item.get("Link") or ""
+            is_fb_only = bool(link and ("facebook.com" in link or "fb.me" in link)
+                              and not ("goout.net" in tickets or "ra.co" in tickets))
+            if is_fb_only:
+                needs_playwright = True
+            raw_events.append((item, date_str, title, tickets, link, is_fb_only))
+
+        # Spusť Playwright jednou pro všechny FB eventy
+        fb_images = {}
+        if needs_playwright and HAS_PLAYWRIGHT:
+            try:
+                from playwright.sync_api import sync_playwright
+                with sync_playwright() as pw:
+                    browser = pw.chromium.launch(headless=True)
+                    for item, date_str, title, tickets, link, is_fb_only in raw_events:
+                        if is_fb_only and link:
+                            fb_images[link] = fetch_fb_image(link, browser)
+                    browser.close()
+            except Exception as e:
+                print(f"  [WARN] Bike Jesus Playwright: {e}", file=sys.stderr)
+
+        for item, date_str, title, tickets, link, is_fb_only in raw_events:
+            # URL: preferuj tickets (GoOut/RA), jinak FB link
+            if tickets and any(d in tickets for d in ("goout.net", "ra.co")):
+                url = tickets
+            elif link:
+                url = link
+            else:
+                url = tickets or "https://bikejesus.com/#program"
+
+            # Obrázek: GoOut/RA staticky, FB přes Playwright
+            image = ""
+            if tickets and ("goout.net" in tickets or "ra.co" in tickets):
+                image = fetch_og_image(tickets)
+            elif is_fb_only and link:
+                image = fb_images.get(link, "")
+
+            genre = extract_genre_from_text(title)
+
+            events.append({
+                "title": title,
+                "date": date_str,
+                "time": "",
+                "venue": "Bike Jesus",
+                "category": "hudba",
+                "url": url,
+                "image": image,
+                "genre": genre,
+            })
+    except Exception as e:
+        print(f"  [WARN] Bike Jesus: {e}", file=sys.stderr)
+    print(f"   [OK] {len(events)} akcí")
+    return events
+
+
 # ─────────────────────────────────────────────────────────────
 #  HLAVNÍ FUNKCE
 # ─────────────────────────────────────────────────────────────
@@ -2499,6 +2607,7 @@ def main():
         scrape_sasazu,
         scrape_musicclubjizak,
         scrape_fuchs2,
+        scrape_bikejesus,
     ]
 
     for scraper in scrapers:
