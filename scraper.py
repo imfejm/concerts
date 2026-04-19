@@ -3061,6 +3061,105 @@ def scrape_citarna():
 
 
 # ─────────────────────────────────────────────────────────────
+#  KLUBOVNA POVALEC  (klubovna.povalec.cz)
+# ─────────────────────────────────────────────────────────────
+def scrape_klubovnapovalec():
+    print("* Klubovna Povalec...")
+    BASE = "https://www.klubovna.povalec.cz"
+    MUSIC_CATS = {"koncert", "djs"}
+    events = []
+    seen_urls = set()
+
+    def get_max_page(soup):
+        """Zjistí počet stránek z paginačních tlačítek."""
+        buttons = soup.find_all("button", attrs={"data-path": re.compile(r"/ajax/filter/program/\d+")})
+        nums = []
+        for btn in buttons:
+            m = re.search(r"/program/(\d+)$", btn.get("data-path", ""))
+            if m:
+                nums.append(int(m.group(1)))
+        return max(nums) if nums else 1
+
+    def parse_page(soup):
+        """Vrátí seznam akcí z jedné stránky listingu."""
+        page_events = []
+        for row in soup.find_all("tr"):
+            day_cell = row.find("td", class_="day-cell")
+            content_cell = row.find("td", class_="content-cell")
+            cat_cell = row.find("td", class_="category-cell")
+            if not (day_cell and content_cell and cat_cell):
+                continue
+
+            # Kategorie
+            cat_span = cat_cell.find("span")
+            category_raw = cat_span.get_text(strip=True).lower() if cat_span else ""
+            if category_raw not in MUSIC_CATS:
+                continue
+
+            # URL a datum z odkazu obrázku
+            img_link = day_cell.find("a", href=re.compile(r"^/\d+/program/"))
+            if not img_link:
+                continue
+            href = img_link["href"]
+            full_url = BASE + href
+            if full_url in seen_urls:
+                continue
+            seen_urls.add(full_url)
+
+            dm = re.search(r"-(\d{2})-(\d{2})-(\d{4})-(\d{2})-(\d{2})$", href)
+            if not dm:
+                continue
+            day, month, year, hh, mm = dm.groups()
+            date_str = f"{int(day)}.{int(month)}.{year}"
+            time_str = f"{hh}:{mm}"
+
+            # Obrázek
+            img_el = img_link.find("img")
+            image = ""
+            if img_el:
+                src = img_el.get("src", "")
+                image = src if src.startswith("http") else BASE + src
+
+            # Název — odkaz s class no-decoration v content-cell
+            title_link = content_cell.find("a", class_="no-decoration")
+            if not title_link:
+                continue
+            title = title_link.get_text(strip=True)
+            if not title:
+                continue
+
+            page_events.append({
+                "title": title,
+                "date": date_str,
+                "time": time_str,
+                "venue": "Klubovna Povaleč",
+                "category": "hudba",
+                "url": full_url,
+                "image": image,
+            })
+        return page_events
+
+    # Stránka 1
+    soup1 = get_soup(BASE + "/program")
+    if not soup1:
+        print(f"   [OK] {len(events)} akcí")
+        return events
+
+    events.extend(parse_page(soup1))
+    max_page = get_max_page(soup1)
+
+    # Další stránky
+    for page in range(2, max_page + 1):
+        soup = get_soup(f"{BASE}/program/{page}")
+        if not soup:
+            break
+        events.extend(parse_page(soup))
+
+    print(f"   [OK] {len(events)} akcí")
+    return events
+
+
+# ─────────────────────────────────────────────────────────────
 #  HLAVNÍ FUNKCE
 # ─────────────────────────────────────────────────────────────
 def main():
@@ -3110,6 +3209,7 @@ def main():
         scrape_varsava,
         scrape_kczahrada,
         scrape_citarna,
+        scrape_klubovnapovalec,
     ]
 
     for scraper in scrapers:

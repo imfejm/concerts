@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-19T10:59:42.845987",
-  "count": 1280,
+  "updated": "2026-04-19T11:22:38.037634",
+  "count": 1291,
   "events": [
     {
       "title": "Universal Ticket Universal",
@@ -1013,6 +1013,16 @@
       "genre": "death / doom metal"
     },
     {
+      "title": "Dvouhlavej Kluk + Představy postavy",
+      "date": "21.4.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/dvouhlavej-kluk-predstavy-postavy/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/03/1275957-800.jpg",
+      "genre": "alternativa, rock"
+    },
+    {
       "title": "TANTEHORSE IRIS",
       "date": "21.04.2026",
       "time": "",
@@ -1103,14 +1113,14 @@
       "genre": "death metal, progressive, metal"
     },
     {
-      "title": "Dvouhlavej Kluk + Představy postavy",
+      "title": "Tengri, Atmotic, Sladkobol",
       "date": "21.4.2026",
-      "time": "20:00",
-      "venue": "Čítárna Unijazz",
+      "time": "19:00",
+      "venue": "Klubovna Povaleč",
       "category": "hudba",
-      "url": "https://citarna.unijazz.cz/events/dvouhlavej-kluk-predstavy-postavy/",
-      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/03/1275957-800.jpg",
-      "genre": "alternativa, rock"
+      "url": "https://www.klubovna.povalec.cz/8290/program/tengri-atmotic-sladkobol-21-04-2026-19-00",
+      "image": "https://www.klubovna.povalec.cz/uploads/Klubovna/000093(35).jpg",
+      "genre": ""
     },
     {
       "title": "Fource presents: Kiki Rockwell (USA) + support: Finnegan …",
@@ -1140,6 +1150,16 @@
       "category": "hudba",
       "url": "https://klub007strahov.cz/events/silicon-hill-open-wednesday/",
       "image": "",
+      "genre": ""
+    },
+    {
+      "title": "Something in the Way: Grunge Music Party",
+      "date": "22.4.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/something-in-the-way-grunge-music-party/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/03/uni-grunge-2b-mensi-scaled.jpg",
       "genre": ""
     },
     {
@@ -1273,16 +1293,6 @@
       "genre": "death metal, hardcore, industrial, sludge"
     },
     {
-      "title": "Something in the Way: Grunge Music Party",
-      "date": "22.4.2026",
-      "time": "20:00",
-      "venue": "Čítárna Unijazz",
-      "category": "hudba",
-      "url": "https://citarna.unijazz.cz/events/something-in-the-way-grunge-music-party/",
-      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/03/uni-grunge-2b-mensi-scaled.jpg",
-      "genre": ""
-    },
-    {
       "title": "Fource presents: Aries (USA) + support: Ray Sequoya (USA)",
       "date": "23.4.2026",
       "time": "20:00",
@@ -1311,6 +1321,16 @@
       "url": "https://klub007strahov.cz/events/seldom-pretty-it-cosmobrigade-cz/",
       "image": "",
       "genre": "Post Punk"
+    },
+    {
+      "title": "Oswald Schneider",
+      "date": "23.4.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/oswald-schneider-2/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/03/1342449-800.jpg",
+      "genre": "art rock, rock, jazz"
     },
     {
       "title": "ZRUŠENO - AFEL BOCOUM/ML",
@@ -1433,14 +1453,14 @@
       "genre": ""
     },
     {
-      "title": "Oswald Schneider",
+      "title": "Bubble Wrap Trap",
       "date": "23.4.2026",
-      "time": "20:00",
-      "venue": "Čítárna Unijazz",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
       "category": "hudba",
-      "url": "https://citarna.unijazz.cz/events/oswald-schneider-2/",
-      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/03/1342449-800.jpg",
-      "genre": "art rock, rock, jazz"
+      "url": "https://www.klubovna.povalec.cz/8291/program/bubble-wrap-trap-23-04-2026-19-30",
+      "image": "https://www.klubovna.povalec.cz/uploads/Klubovna/000093(36).jpg",
+      "genre": "alternativa, rock, jazz, trap"
     },
     {
       "title": "Selection presents: Natalie Jane (USA)",
@@ -1723,6 +1743,16 @@
       "genre": "HIP HOP / RAP"
     },
     {
+      "title": "Marek Bero - Funky basovej večírek",
+      "date": "25.4.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/marek-bero-funky-basovej-vecirek/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/01/1379935-800.jpg",
+      "genre": "rock, soul, funk"
+    },
+    {
       "title": "PROFESSOR(Beatles, Lennon, Deep Purple, Queen, AC/DC, etc...)",
       "date": "25.4.2026",
       "time": "24:00",
@@ -1873,14 +1903,24 @@
       "genre": ""
     },
     {
-      "title": "Marek Bero - Funky basovej večírek",
+      "title": "Neon Nostalgia",
       "date": "25.4.2026",
-      "time": "20:00",
-      "venue": "Čítárna Unijazz",
+      "time": "21:00",
+      "venue": "Klubovna Povaleč",
       "category": "hudba",
-      "url": "https://citarna.unijazz.cz/events/marek-bero-funky-basovej-vecirek/",
-      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/01/1379935-800.jpg",
-      "genre": "rock, soul, funk"
+      "url": "https://www.klubovna.povalec.cz/8293/program/neon-nostalgia-25-04-2026-21-00",
+      "image": "https://www.klubovna.povalec.cz/uploads/Klubovna/Use/vinyl-universe.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Evergreen Mars, River House, Ikad (SRB)",
+      "date": "25.4.2026",
+      "time": "19:00",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.klubovna.povalec.cz/8292/program/-----srb-25-04-2026-19-00",
+      "image": "https://www.klubovna.povalec.cz/uploads/Klubovna/000093(37).jpg",
+      "genre": "house"
     },
     {
       "title": "The Virginmarys (UK) + support: Atomy nevadí",
@@ -2113,6 +2153,16 @@
       "genre": ""
     },
     {
+      "title": "Přetlak věku, Orchestr posledního dne",
+      "date": "27.4.2026",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.klubovna.povalec.cz/8294/program/pretlak-veku-27-04-2026-19-30",
+      "image": "https://www.klubovna.povalec.cz/uploads/Klubovna/_Orezane_obrazky/000093(38)1770043119.jpg",
+      "genre": "punk, funk, folk"
+    },
+    {
       "title": "Fource presents: Yellow Days (UK) + support: Rekreace",
       "date": "28.4.2026",
       "time": "20:00",
@@ -2131,6 +2181,16 @@
       "url": "https://musicbar.cz/cs/program/lubos-pospisil-5p-75-let/",
       "image": "https://static.goout.cloud/musicbarcz/2020/08/239e7d18-lubos-pospisil_300-300x300.jpg",
       "genre": ""
+    },
+    {
+      "title": "HLAVEC: Nohaband + Původní Bureš",
+      "date": "28.4.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/hlavec-nohaband-puvodni-bures/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/03/1306495-800.jpg",
+      "genre": "alternativa"
     },
     {
       "title": "MONK’S CASINO/DEAlexander von Schlippenbach, Axel Dörner, Rudi Mahal, Jan Roder, Kasper Tom",
@@ -2253,14 +2313,14 @@
       "genre": ""
     },
     {
-      "title": "HLAVEC: Nohaband + Původní Bureš",
+      "title": "BTNJ",
       "date": "28.4.2026",
-      "time": "20:00",
-      "venue": "Čítárna Unijazz",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
       "category": "hudba",
-      "url": "https://citarna.unijazz.cz/events/hlavec-nohaband-puvodni-bures/",
-      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/03/1306495-800.jpg",
-      "genre": "alternativa"
+      "url": "https://www.klubovna.povalec.cz/8295/program/btnj-28-04-2026-19-30",
+      "image": "https://www.klubovna.povalec.cz/uploads/Klubovna/_Orezane_obrazky/000093(39)1770043255.jpg",
+      "genre": ""
     },
     {
       "title": "Fource presents: Ásgeir (IS) + support: Bríet (IS)",
@@ -2381,6 +2441,16 @@
       "url": "https://www.sasazu-club.com/events/miguel25",
       "image": "https://images.squarespace-cdn.com/content/v1/67c814a930ff2420d320eabc/cd417cf7-f46d-4af9-846e-dc2f56dacc65/571228287_1262887235856419_8990578941119922488_n.jpg",
       "genre": "r&b, pop, soul, funk"
+    },
+    {
+      "title": "Aurelius + DIIST",
+      "date": "29.4.2026",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.klubovna.povalec.cz/8296/program/aurelius-vertigo-29-04-2026-19-30",
+      "image": "https://www.klubovna.povalec.cz/uploads/Klubovna/_Orezane_obrazky/000093(40)1770043536.jpg",
+      "genre": "elektronika"
     },
     {
       "title": "Psycho čarodky: Demented Are Go + The Gangnails",
@@ -3213,6 +3283,16 @@
       "genre": "hip-hop, hardcore, dubstep, rock"
     },
     {
+      "title": "Alternativa x Čítárna: Grandmothers Favourite (AT/CZ)",
+      "date": "7.5.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/alternativa-x-citarna-grandmothers-favourite-at-cz/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/04/GZ8_1073.jpg",
+      "genre": "elektronika"
+    },
+    {
       "title": "Klub zadán",
       "date": "07.05.2026",
       "time": "19:00",
@@ -3303,16 +3383,6 @@
       "genre": ""
     },
     {
-      "title": "Alternativa x Čítárna: Grandmothers Favourite (AT/CZ)",
-      "date": "7.5.2026",
-      "time": "20:00",
-      "venue": "Čítárna Unijazz",
-      "category": "hudba",
-      "url": "https://citarna.unijazz.cz/events/alternativa-x-citarna-grandmothers-favourite-at-cz/",
-      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/04/GZ8_1073.jpg",
-      "genre": "elektronika"
-    },
-    {
       "title": "Simon Kornél and the Boughris (HU)",
       "date": "8.5.2026",
       "time": "20:00",
@@ -3331,6 +3401,16 @@
       "url": "https://klub007strahov.cz/events/zemezluc-cz-woundead-knee-cz-prasklep-cz-locura-cz/",
       "image": "",
       "genre": "benefit sos ukrajina"
+    },
+    {
+      "title": "Sukkhu + Absent God + Ravens Agony",
+      "date": "8.5.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/sukkhu-absent-god-ravens-agony/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/04/uni_a4_png-scaled.png",
+      "genre": "black metal, metal"
     },
     {
       "title": "FRANCIS MERCIER (US)",
@@ -3431,16 +3511,6 @@
       "url": "https://www.modravopice.cz/akce/koncert-200/",
       "image": "https://www.modravopice.cz/wp-content/uploads/2025/11/colorful-balloons-confetti-celebration-background.jpg",
       "genre": ""
-    },
-    {
-      "title": "Sukkhu + Absent God + Ravens Agony",
-      "date": "8.5.2026",
-      "time": "20:00",
-      "venue": "Čítárna Unijazz",
-      "category": "hudba",
-      "url": "https://citarna.unijazz.cz/events/sukkhu-absent-god-ravens-agony/",
-      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/04/uni_a4_png-scaled.png",
-      "genre": "black metal, metal"
     },
     {
       "title": "REMDIK , PAKOSTEŇ ,",
@@ -3591,6 +3661,16 @@
       "url": "https://goout.net/cs/weatherday/sziupfy/",
       "image": "https://goout.net/i/134/1349629-383.jpg",
       "genre": "pop, noise"
+    },
+    {
+      "title": "Laments And Whispers: Insinistra + After Evolution + Sarkonia",
+      "date": "9.5.2026",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.klubovna.povalec.cz/8309/program/insistra-09-05-2026-19-30",
+      "image": "https://www.klubovna.povalec.cz/uploads/Klubovna/_Orezane_obrazky/0000000 Insinistra1770814571.jpg",
+      "genre": ""
     },
     {
       "title": "Trio Mandili (GE)",
@@ -3863,6 +3943,16 @@
       "genre": ""
     },
     {
+      "title": "Castilho (PT)",
+      "date": "12.5.2026",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.klubovna.povalec.cz/8298/program/castilho-por-12-05-2026-19-30",
+      "image": "https://www.klubovna.povalec.cz/uploads/Klubovna/_Orezane_obrazky/000093(42)1770044009.jpg",
+      "genre": "pop"
+    },
+    {
       "title": "The Agony, Janet A, Natty",
       "date": "13.5.2026",
       "time": "19:30",
@@ -3881,6 +3971,16 @@
       "url": "https://klub007strahov.cz/events/galvanizer-fi-malformed-fi-mocskoshi-cz/",
       "image": "",
       "genre": "DEATH METAL / gore grind"
+    },
+    {
+      "title": "Milli Janatková & Jaroslav Kořán (křest dvojalba)",
+      "date": "13.5.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/milli-janatkova-jaroslav-koran-krest-dvojalba/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/04/07-Milli-Jarda-unor-2026-scaled.jpeg",
+      "genre": "indie"
     },
     {
       "title": "Algis Fediajevas (LT), HoŠi, Čauvykrosny",
@@ -3941,16 +4041,6 @@
       "url": "https://goout.net/cs/krajina-a-nauzea-orchestra/szktiiy/",
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/89s8idmhh7.672675304-1239079088211909-2348486566289370024-n.jpg",
       "genre": "post-punk, alternativa, elektronika, rock"
-    },
-    {
-      "title": "Milli Janatková & Jaroslav Kořán (křest dvojalba)",
-      "date": "13.5.2026",
-      "time": "20:00",
-      "venue": "Čítárna Unijazz",
-      "category": "hudba",
-      "url": "https://citarna.unijazz.cz/events/milli-janatkova-jaroslav-koran-krest-dvojalba/",
-      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/04/07-Milli-Jarda-unor-2026-scaled.jpeg",
-      "genre": "indie"
     },
     {
       "title": "Obscure presents: Crippled Black Phoenix (UK), Temple Fang (NL)",
@@ -4063,6 +4153,16 @@
       "genre": "house, reggae, ska, rap"
     },
     {
+      "title": "Rajtaraj",
+      "date": "14.5.2026",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.klubovna.povalec.cz/8327/program/rajtaraj-14-05-2026-19-30",
+      "image": "https://www.klubovna.povalec.cz/img/frontend/logo.png",
+      "genre": ""
+    },
+    {
       "title": "Zllo Fest 4: Cocotte Minute, Anteater, Bound To Break",
       "date": "15.5.2026",
       "time": "18:30",
@@ -4081,6 +4181,16 @@
       "url": "https://klub007strahov.cz/events/rumble-ansamble-cz-inkoust-pana-boucka-cz/",
       "image": "",
       "genre": "PUNK ROCK"
+    },
+    {
+      "title": "František Skála & Třaskavá směs",
+      "date": "15.5.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/frantisek-skala-traskava-smes-4/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2025/03/DSC1306-1.jpg",
+      "genre": "rock, blues, country, šanson"
     },
     {
       "title": "Yo Soy Indigo",
@@ -4193,14 +4303,14 @@
       "genre": "alternativa, metal, rock, punk"
     },
     {
-      "title": "František Skála & Třaskavá směs",
+      "title": "Monsterwatch (USA)",
       "date": "15.5.2026",
-      "time": "20:00",
-      "venue": "Čítárna Unijazz",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
       "category": "hudba",
-      "url": "https://citarna.unijazz.cz/events/frantisek-skala-traskava-smes-4/",
-      "image": "https://citarna.unijazz.cz/wp-content/uploads/2025/03/DSC1306-1.jpg",
-      "genre": "rock, blues, country, šanson"
+      "url": "https://www.klubovna.povalec.cz/8297/program/monsterwatch-usa-15-05-2026-19-30",
+      "image": "https://www.klubovna.povalec.cz/uploads/Klubovna/000093(41).jpg",
+      "genre": "punk"
     },
     {
       "title": "Berem Všechno",
@@ -4623,6 +4733,16 @@
       "genre": "pop"
     },
     {
+      "title": "DISCOBILLY NIGHT",
+      "date": "20.5.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/discobilly-night/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/04/JANNY-RICHTER-LIVE-SHOT-scaled.jpg",
+      "genre": "rock, blues, soul, funk"
+    },
+    {
       "title": "IBERIAN WAVES - BRNO",
       "date": "20.05.2026",
       "time": "",
@@ -4691,16 +4811,6 @@
       "url": "https://cargogallery.cz/akce/dead-finks-nz-de-amen-break/",
       "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-10-756x454.png",
       "genre": "post-punk, rock, punk, pop"
-    },
-    {
-      "title": "DISCOBILLY NIGHT",
-      "date": "20.5.2026",
-      "time": "20:00",
-      "venue": "Čítárna Unijazz",
-      "category": "hudba",
-      "url": "https://citarna.unijazz.cz/events/discobilly-night/",
-      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/04/JANNY-RICHTER-LIVE-SHOT-scaled.jpg",
-      "genre": "rock, blues, soul, funk"
     },
     {
       "title": "GUMMY PIG , GALANTI",
@@ -5263,6 +5373,16 @@
       "genre": "metal, rock"
     },
     {
+      "title": "Souvrat + Petr Onufer",
+      "date": "27.5.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/souvrat-petr-onufer/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2022/11/DSC_0040-scaled.jpg",
+      "genre": ""
+    },
+    {
       "title": "U-PRAG (KŘEST)",
       "date": "27.05.2026",
       "time": "",
@@ -5353,16 +5473,6 @@
       "genre": "prog, rock, indie"
     },
     {
-      "title": "Souvrat + Petr Onufer",
-      "date": "27.5.2026",
-      "time": "20:00",
-      "venue": "Čítárna Unijazz",
-      "category": "hudba",
-      "url": "https://citarna.unijazz.cz/events/souvrat-petr-onufer/",
-      "image": "https://citarna.unijazz.cz/wp-content/uploads/2022/11/DSC_0040-scaled.jpg",
-      "genre": ""
-    },
-    {
       "title": "Tojeon, Love & other cliches, Kristy Hernandez",
       "date": "28.5.2026",
       "time": "20:00",
@@ -5381,6 +5491,16 @@
       "url": "https://klub007strahov.cz/events/guitar-wolf-ja/",
       "image": "",
       "genre": "power rock´n´roll"
+    },
+    {
+      "title": "Band Of Heysek acoustic + Domalis&Oralis feat. Tubalis",
+      "date": "28.5.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/band-of-heysek-acoustic-domalisoralis-feat-tubalis/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2022/11/DSC_0040-scaled.jpg",
+      "genre": "alternativa, blues"
     },
     {
       "title": "BRATŘI ORFFOVÉ",
@@ -5481,16 +5601,6 @@
       "url": "https://kczahrada.cz/?post_type=tribe_events&p=14730",
       "image": "https://kczahrada.cz/wp-content/uploads/2026/04/plakaty_kveten_A26.jpg",
       "genre": ""
-    },
-    {
-      "title": "Band Of Heysek acoustic + Domalis&Oralis feat. Tubalis",
-      "date": "28.5.2026",
-      "time": "20:00",
-      "venue": "Čítárna Unijazz",
-      "category": "hudba",
-      "url": "https://citarna.unijazz.cz/events/band-of-heysek-acoustic-domalisoralis-feat-tubalis/",
-      "image": "https://citarna.unijazz.cz/wp-content/uploads/2022/11/DSC_0040-scaled.jpg",
-      "genre": "alternativa, blues"
     },
     {
       "title": "Never Sol: křest desky Rest Your Wound On Mine",
