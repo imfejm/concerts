@@ -60,7 +60,8 @@ function formatDate(dateStr, timeStr) {
 function buildFilters(events) {
   const fromEvents = new Set(events.map(e => e.venue).filter(Boolean));
   const fromCoords = new Set(Object.keys(venueCoords));
-  const venues = [...new Set([...fromEvents, ...fromCoords])].sort();
+  const venues = [...new Set([...fromEvents, ...fromCoords])].sort((a, b) =>
+    a.localeCompare(b, 'cs', { sensitivity: 'base' }));
   const wrap = document.getElementById('filters');
   wrap.innerHTML = '<button class="filter-btn active" data-venue="vse">Vše</button>';
   venues.forEach(v => {

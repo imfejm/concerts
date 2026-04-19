@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-19T00:37:26.096607",
-  "count": 1255,
+  "updated": "2026-04-19T10:59:42.845987",
+  "count": 1280,
   "events": [
     {
       "title": "Universal Ticket Universal",
@@ -723,36 +723,6 @@
       "genre": "drum & bass"
     },
     {
-      "title": "Groovy & Stinky FEST 2026",
-      "date": "18.4.2026",
-      "time": "15:30",
-      "venue": "Rock Café",
-      "category": "hudba",
-      "url": "https://rockcafe.cz/cs/program/groovy-stinky-fest-2026-2/",
-      "image": "https://static.goout.cloud/rockcafecz/2026/03/f20a493f-647131716_1422577176333998_65219869415455493_n-250x167.jpg",
-      "genre": "death metal, grindcore, metal, rock"
-    },
-    {
-      "title": "Pop 80’s & 90’s video party DJ Jirka Neumann",
-      "date": "18.4.2026",
-      "time": "21:00",
-      "venue": "Lucerna Music Bar",
-      "category": "hudba",
-      "url": "https://musicbar.cz/cs/program/pop-80s-90s-video-party-dj-jirka-neumann-893/",
-      "image": "https://static.goout.cloud/musicbarcz/2021/08/ca8fa3b2-80s-zluta_300-300x300.jpg",
-      "genre": "pop"
-    },
-    {
-      "title": "SOLENCE / SE + DREAM STATE / UK + WRITTEN BY WOLVES / NZ",
-      "date": "18.04.2026",
-      "time": "19:00",
-      "venue": "Futurum Music Bar",
-      "category": "hudba",
-      "url": "https://futurum.musicbar.cz/program/solence-se-dream-state-uk-written-by-wolves-nz/",
-      "image": "https://futurum.musicbar.cz/wp-content/uploads/2025/12/FUTURUM-WEB-ROZMERY-1.png",
-      "genre": ""
-    },
-    {
       "title": "RED HOT CHILI PEPPERS Revival - PAPRIKACZE",
       "date": "18.4.2026",
       "time": "24:00",
@@ -771,26 +741,6 @@
       "url": "https://cafevlese.cz/events/more-dni-jan-vana/",
       "image": "https://cafevlese.cz/wp-content/uploads/2026/02/641325844_855432717521485_8415958699309931982_n-e1772016976844-768x447.jpg",
       "genre": ""
-    },
-    {
-      "title": "Tak co?, Jura Juráň",
-      "date": "18.4.2026",
-      "time": "",
-      "venue": "Kaštan",
-      "category": "hudba",
-      "url": "https://kastan.cz/akce/tak-co-jura-juran/",
-      "image": "https://kastan.cz/wp-content/uploads/2026/03/180426_plakatek.jpg",
-      "genre": "Koncert,Literárně-hudební večer"
-    },
-    {
-      "title": "MHD THERAPY (DOORS 20:30)",
-      "date": "18.04.2026",
-      "time": "",
-      "venue": "Roxy",
-      "category": "hudba",
-      "url": "https://www.roxy.cz/events/detail/4871/mhd-therapy",
-      "image": "https://www.roxy.cz/upload/temp/800x800-o6nl5lvpdegv-crop-480-480.jpg",
-      "genre": "drum & bass, electro, grime"
     },
     {
       "title": "Ondřej Štveráček Quartet",
@@ -1023,6 +973,16 @@
       "genre": ""
     },
     {
+      "title": "witch fever",
+      "date": "20.4.2026",
+      "time": "18:15",
+      "venue": "Klub Varšava",
+      "category": "hudba",
+      "url": "https://www.klubvarsava.cz/?ajde_events=witch-fever",
+      "image": "https://www.klubvarsava.cz/wp-content/uploads/2026/04/26_04_20-Witch-fever.png",
+      "genre": ""
+    },
+    {
       "title": "Obscure presents: Lansdowne (USA) + support",
       "date": "21.4.2026",
       "time": "19:00",
@@ -1141,6 +1101,16 @@
       "url": "https://www.modravopice.cz/akce/koncert-116/",
       "image": "https://www.modravopice.cz/wp-content/uploads/2025/06/IOTUNN-INSTA.jpg",
       "genre": "death metal, progressive, metal"
+    },
+    {
+      "title": "Dvouhlavej Kluk + Představy postavy",
+      "date": "21.4.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/dvouhlavej-kluk-predstavy-postavy/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/03/1275957-800.jpg",
+      "genre": "alternativa, rock"
     },
     {
       "title": "Fource presents: Kiki Rockwell (USA) + support: Finnegan …",
@@ -1303,6 +1273,16 @@
       "genre": "death metal, hardcore, industrial, sludge"
     },
     {
+      "title": "Something in the Way: Grunge Music Party",
+      "date": "22.4.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/something-in-the-way-grunge-music-party/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/03/uni-grunge-2b-mensi-scaled.jpg",
+      "genre": ""
+    },
+    {
       "title": "Fource presents: Aries (USA) + support: Ray Sequoya (USA)",
       "date": "23.4.2026",
       "time": "20:00",
@@ -1431,6 +1411,36 @@
       "url": "https://cargogallery.cz/akce/kill-the-dandies-frankie-the-deadbeats-caulichute/",
       "image": "https://cargogallery.cz/wp-content/uploads/2026/02/FUTURUM-WEB-ROZMERY-3-756x454.png",
       "genre": "post-punk, psychedelic, rock, punk"
+    },
+    {
+      "title": "firebolts",
+      "date": "23.4.2026",
+      "time": "16:00",
+      "venue": "Klub Varšava",
+      "category": "hudba",
+      "url": "https://www.klubvarsava.cz/?ajde_events=503",
+      "image": "https://www.klubvarsava.cz/wp-content/uploads/2026/04/26_04_23-firebolts.png",
+      "genre": ""
+    },
+    {
+      "title": "MELODIE PRO KAŽDÉHO",
+      "date": "23.4.2026",
+      "time": "19:00",
+      "venue": "Chodovská tvrz",
+      "category": "hudba",
+      "url": "https://kczahrada.cz/?post_type=tribe_events&p=14584",
+      "image": "https://kczahrada.cz/wp-content/uploads/2026/03/Snimek-obrazovky-2026-03-17-143631.png",
+      "genre": ""
+    },
+    {
+      "title": "Oswald Schneider",
+      "date": "23.4.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/oswald-schneider-2/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/03/1342449-800.jpg",
+      "genre": "art rock, rock, jazz"
     },
     {
       "title": "Selection presents: Natalie Jane (USA)",
@@ -1653,6 +1663,16 @@
       "genre": ""
     },
     {
+      "title": "charta",
+      "date": "24.4.2026",
+      "time": "17:01",
+      "venue": "Klub Varšava",
+      "category": "hudba",
+      "url": "https://www.klubvarsava.cz/?ajde_events=charta",
+      "image": "https://www.klubvarsava.cz/wp-content/uploads/2026/04/26_04_24-charta.png",
+      "genre": ""
+    },
+    {
       "title": "VPŘEDSKOK x BOLESLAM 2026",
       "date": "25.4.2026",
       "time": "16:30",
@@ -1841,6 +1861,26 @@
       "url": "https://www.modravopice.cz/akce/ciro-fest/",
       "image": "https://www.modravopice.cz/wp-content/uploads/2025/09/542751358_25431315259801854_9105163399404633482_n.jpg",
       "genre": "punk"
+    },
+    {
+      "title": "johanela",
+      "date": "25.4.2026",
+      "time": "16:14",
+      "venue": "Klub Varšava",
+      "category": "hudba",
+      "url": "https://www.klubvarsava.cz/?ajde_events=johanela",
+      "image": "https://www.klubvarsava.cz/wp-content/uploads/2026/04/26_04_25-Johanela.png",
+      "genre": ""
+    },
+    {
+      "title": "Marek Bero - Funky basovej večírek",
+      "date": "25.4.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/marek-bero-funky-basovej-vecirek/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/01/1379935-800.jpg",
+      "genre": "rock, soul, funk"
     },
     {
       "title": "The Virginmarys (UK) + support: Atomy nevadí",
@@ -2063,6 +2103,16 @@
       "genre": ""
     },
     {
+      "title": "PRAŽSKÝ SALONNÍ ORCHESTR",
+      "date": "27.4.2026",
+      "time": "15:00",
+      "venue": "KC Zahrada",
+      "category": "hudba",
+      "url": "https://kczahrada.cz/?post_type=tribe_events&p=14638",
+      "image": "https://kczahrada.cz/wp-content/uploads/2026/01/PSO.jpg",
+      "genre": ""
+    },
+    {
       "title": "Fource presents: Yellow Days (UK) + support: Rekreace",
       "date": "28.4.2026",
       "time": "20:00",
@@ -2201,6 +2251,16 @@
       "url": "https://goout.net/cs/lamp-of-murmuur+one-of-nine/szadtdy/",
       "image": "https://goout.net/i/123/1237905-383.jpg",
       "genre": ""
+    },
+    {
+      "title": "HLAVEC: Nohaband + Původní Bureš",
+      "date": "28.4.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/hlavec-nohaband-puvodni-bures/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/03/1306495-800.jpg",
+      "genre": "alternativa"
     },
     {
       "title": "Fource presents: Ásgeir (IS) + support: Bríet (IS)",
@@ -2349,7 +2409,7 @@
       "venue": "Palác Akropolis",
       "category": "hudba",
       "url": "https://palacakropolis.cz/work/33298?event_id=40192&no=62&page_id=33824",
-      "image": "https://palacakropolis.cz/images/photos/0026/0666/8A6A4288_web_hp.jpg",
+      "image": "https://palacakropolis.cz/images/photos/0026/0666/8A6A4288_web_event.jpg",
       "genre": "house"
     },
     {
@@ -2541,6 +2601,16 @@
       "url": "https://goout.net/cs/through-the-clashing-rocks-tour-2026-khirki/szgqufy/",
       "image": "https://goout.net/i/138/1381954-383.jpg",
       "genre": "metal, rock"
+    },
+    {
+      "title": "unseen.in4K",
+      "date": "30.4.2026",
+      "time": "17:59",
+      "venue": "Klub Varšava",
+      "category": "hudba",
+      "url": "https://www.klubvarsava.cz/?ajde_events=unseen-in4k",
+      "image": "https://www.klubvarsava.cz/wp-content/uploads/2026/04/26_04_30-unseen.in4k-1.png",
+      "genre": ""
     },
     {
       "title": "MAX STYLER (US)",
@@ -3223,6 +3293,26 @@
       "genre": "black metal, metal"
     },
     {
+      "title": "Šansony na Chodovské tvrzi s Janou Rychterovou",
+      "date": "7.5.2026",
+      "time": "19:00",
+      "venue": "Chodovská tvrz",
+      "category": "hudba",
+      "url": "https://kczahrada.cz/?post_type=tribe_events&p=14686",
+      "image": "https://kczahrada.cz/wp-content/uploads/2026/04/Snimek-obrazovky-2026-04-10-110846.png",
+      "genre": ""
+    },
+    {
+      "title": "Alternativa x Čítárna: Grandmothers Favourite (AT/CZ)",
+      "date": "7.5.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/alternativa-x-citarna-grandmothers-favourite-at-cz/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/04/GZ8_1073.jpg",
+      "genre": "elektronika"
+    },
+    {
       "title": "Simon Kornél and the Boughris (HU)",
       "date": "8.5.2026",
       "time": "20:00",
@@ -3341,6 +3431,16 @@
       "url": "https://www.modravopice.cz/akce/koncert-200/",
       "image": "https://www.modravopice.cz/wp-content/uploads/2025/11/colorful-balloons-confetti-celebration-background.jpg",
       "genre": ""
+    },
+    {
+      "title": "Sukkhu + Absent God + Ravens Agony",
+      "date": "8.5.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/sukkhu-absent-god-ravens-agony/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/04/uni_a4_png-scaled.png",
+      "genre": "black metal, metal"
     },
     {
       "title": "REMDIK , PAKOSTEŇ ,",
@@ -3843,6 +3943,16 @@
       "genre": "post-punk, alternativa, elektronika, rock"
     },
     {
+      "title": "Milli Janatková & Jaroslav Kořán (křest dvojalba)",
+      "date": "13.5.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/milli-janatkova-jaroslav-koran-krest-dvojalba/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/04/07-Milli-Jarda-unor-2026-scaled.jpeg",
+      "genre": "indie"
+    },
+    {
       "title": "Obscure presents: Crippled Black Phoenix (UK), Temple Fang (NL)",
       "date": "14.5.2026",
       "time": "19:00",
@@ -4081,6 +4191,16 @@
       "url": "https://goout.net/cs/it-s-not-a-phase-mom/szmnohy/",
       "image": "https://goout.net/i/138/1387956-383.jpg",
       "genre": "alternativa, metal, rock, punk"
+    },
+    {
+      "title": "František Skála & Třaskavá směs",
+      "date": "15.5.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/frantisek-skala-traskava-smes-4/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2025/03/DSC1306-1.jpg",
+      "genre": "rock, blues, country, šanson"
     },
     {
       "title": "Berem Všechno",
@@ -4383,6 +4503,16 @@
       "genre": ""
     },
     {
+      "title": "KONCERT VĚRA MARTINOVÁ & MERITUM - 40 LET NA SÓLOVÉ DRÁZE",
+      "date": "18.5.2026",
+      "time": "19:00",
+      "venue": "KC Zahrada",
+      "category": "hudba",
+      "url": "https://kczahrada.cz/?post_type=tribe_events&p=14058",
+      "image": "https://kczahrada.cz/wp-content/uploads/2025/12/Vera-2024-BIG.jpg",
+      "genre": "country"
+    },
+    {
       "title": "STRAHOV OPENAIR BAND CONTEST – FINÁLE SOUTĚŽ KAPEL",
       "date": "19.05.2026",
       "time": "18:30",
@@ -4561,6 +4691,16 @@
       "url": "https://cargogallery.cz/akce/dead-finks-nz-de-amen-break/",
       "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-10-756x454.png",
       "genre": "post-punk, rock, punk, pop"
+    },
+    {
+      "title": "DISCOBILLY NIGHT",
+      "date": "20.5.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/discobilly-night/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/04/JANNY-RICHTER-LIVE-SHOT-scaled.jpg",
+      "genre": "rock, blues, soul, funk"
     },
     {
       "title": "GUMMY PIG , GALANTI",
@@ -5000,7 +5140,7 @@
       "category": "hudba",
       "url": "https://www.praguefringe.com/programme/#day[]=1779667200&venue[]=308",
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/u8jyxf9zd8.641523546-1517005173764262-6193658993596784110-n.jpg",
-      "genre": ""
+      "genre": "folk"
     },
     {
       "title": "Muzikanti z Kampy",
@@ -5213,6 +5353,16 @@
       "genre": "prog, rock, indie"
     },
     {
+      "title": "Souvrat + Petr Onufer",
+      "date": "27.5.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/souvrat-petr-onufer/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2022/11/DSC_0040-scaled.jpg",
+      "genre": ""
+    },
+    {
       "title": "Tojeon, Love & other cliches, Kristy Hernandez",
       "date": "28.5.2026",
       "time": "20:00",
@@ -5321,6 +5471,26 @@
       "url": "https://cargogallery.cz/akce/hello-marcel-dj-le-petit-nicolas/",
       "image": "https://cargogallery.cz/wp-content/uploads/2026/04/FUTURUM-WEB-ROZMERY-3-756x454.png",
       "genre": ""
+    },
+    {
+      "title": "HUDEBNÍ SVĚTY TOMÁŠE MACHA",
+      "date": "28.5.2026",
+      "time": "19:00",
+      "venue": "Chodovská tvrz",
+      "category": "hudba",
+      "url": "https://kczahrada.cz/?post_type=tribe_events&p=14730",
+      "image": "https://kczahrada.cz/wp-content/uploads/2026/04/plakaty_kveten_A26.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Band Of Heysek acoustic + Domalis&Oralis feat. Tubalis",
+      "date": "28.5.2026",
+      "time": "20:00",
+      "venue": "Čítárna Unijazz",
+      "category": "hudba",
+      "url": "https://citarna.unijazz.cz/events/band-of-heysek-acoustic-domalisoralis-feat-tubalis/",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2022/11/DSC_0040-scaled.jpg",
+      "genre": "alternativa, blues"
     },
     {
       "title": "Never Sol: křest desky Rest Your Wound On Mine",
@@ -6493,6 +6663,26 @@
       "genre": ""
     },
     {
+      "title": "Festivalová vstupenka na VLNY 2026",
+      "date": "15.6.2026",
+      "time": "08:00",
+      "venue": "Chodovská tvrz",
+      "category": "hudba",
+      "url": "https://kczahrada.cz/?post_type=tribe_events&p=14548",
+      "image": "https://kczahrada.cz/wp-content/uploads/2026/03/Snimek-obrazovky-2026-03-11-140900-1.png",
+      "genre": "klasika"
+    },
+    {
+      "title": "Vlny Chodovské tvrze 2026 Zahajovací koncert - JAKUB PUSTINA: SLAVNÉ FILMOVÉ MELODIE",
+      "date": "15.6.2026",
+      "time": "19:00",
+      "venue": "Chodovská tvrz",
+      "category": "hudba",
+      "url": "https://kczahrada.cz/?post_type=tribe_events&p=14439",
+      "image": "https://kczahrada.cz/wp-content/uploads/2026/03/Snimek-obrazovky-2026-03-03-140308.png",
+      "genre": ""
+    },
+    {
       "title": "P.O.D. / US",
       "date": "16.6.2026",
       "time": "19:00",
@@ -6563,6 +6753,16 @@
       "genre": ""
     },
     {
+      "title": "Vlny Chodovské tvrze 2026:  BÁRA BASIKOVÁ RECITÁL",
+      "date": "16.6.2026",
+      "time": "19:00",
+      "venue": "Chodovská tvrz",
+      "category": "hudba",
+      "url": "https://kczahrada.cz/?post_type=tribe_events&p=14443",
+      "image": "https://kczahrada.cz/wp-content/uploads/2026/03/DSC_5860.jpg",
+      "genre": ""
+    },
+    {
       "title": "Touché Amoré / US",
       "date": "17.6.2026",
       "time": "18:30",
@@ -6610,6 +6810,16 @@
       "category": "hudba",
       "url": "https://www.o2universum.cz/events/david-byrne-headline-summer-show-prague/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/12/1080x1080-davidbyrne.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Vlny Chodovské tvrze 2026: CHANTAL POULLAIN & TRIO ŠTĚPÁNA MARKOVIČE",
+      "date": "17.6.2026",
+      "time": "19:00",
+      "venue": "Chodovská tvrz",
+      "category": "hudba",
+      "url": "https://kczahrada.cz/?post_type=tribe_events&p=14447",
+      "image": "https://kczahrada.cz/wp-content/uploads/2026/03/Snimek-obrazovky-2026-03-03-140548.png",
       "genre": ""
     },
     {
@@ -6673,6 +6883,16 @@
       "genre": "punk"
     },
     {
+      "title": "Vlny Chodovské tvrze 2026: MLADÁ KREV",
+      "date": "18.6.2026",
+      "time": "19:00",
+      "venue": "Chodovská tvrz",
+      "category": "hudba",
+      "url": "https://kczahrada.cz/?post_type=tribe_events&p=14451",
+      "image": "https://kczahrada.cz/wp-content/uploads/2026/03/zus.png",
+      "genre": ""
+    },
+    {
       "title": "A-TRAK: 3 HOUR SET (CA)",
       "date": "19.06.2026",
       "time": "",
@@ -6731,6 +6951,16 @@
       "url": "https://www.modravopice.cz/akce/koncert-218/",
       "image": "https://www.modravopice.cz/wp-content/uploads/2026/01/657952624_1585814313550319_2987052290040556676_n.jpg",
       "genre": "heavy metal, electronica, metal, rock"
+    },
+    {
+      "title": "Vlny Chodovské tvrze 2026: Speciální host ABBA CZ REVIVAL",
+      "date": "19.6.2026",
+      "time": "19:00",
+      "venue": "Chodovská tvrz",
+      "category": "hudba",
+      "url": "https://kczahrada.cz/?post_type=tribe_events&p=14455",
+      "image": "https://kczahrada.cz/wp-content/uploads/2026/03/abba_revival_band_abbacz_20250208_sonderborg_044.jpg",
+      "genre": ""
     },
     {
       "title": "IMANBEK (KZ)",
@@ -6873,6 +7103,16 @@
       "genre": "shoegaze, punk, pop"
     },
     {
+      "title": "Vlny Chodovské tvrze 2026: ŠTĚPÁN RAK: KYTARA NAPŘÍČ ŽÁNRY",
+      "date": "22.6.2026",
+      "time": "19:00",
+      "venue": "Chodovská tvrz",
+      "category": "hudba",
+      "url": "https://kczahrada.cz/?post_type=tribe_events&p=14460",
+      "image": "https://kczahrada.cz/wp-content/uploads/2026/03/stepan-rak_final.jpg",
+      "genre": "rock"
+    },
+    {
       "title": "Skryabin / UA",
       "date": "23.6.2026",
       "time": "19:00",
@@ -6901,6 +7141,16 @@
       "url": "https://www.redutajazzclub.cz/program-cs",
       "image": "",
       "genre": "jazz, soul, funk"
+    },
+    {
+      "title": "Vlny Chodovské tvrze 2026: RADKA FIŠAROVÁ RECITÁL",
+      "date": "23.6.2026",
+      "time": "19:00",
+      "venue": "Chodovská tvrz",
+      "category": "hudba",
+      "url": "https://kczahrada.cz/?post_type=tribe_events&p=14464",
+      "image": "https://kczahrada.cz/wp-content/uploads/2026/03/radka_fisarova.jpg",
+      "genre": "šanson"
     },
     {
       "title": "MEN I TRUST (CA)",
@@ -7001,6 +7251,16 @@
       "url": "https://www.modravopice.cz/akce/koncert-249/",
       "image": "https://www.modravopice.eu/art/plakat-default.jpg",
       "genre": ""
+    },
+    {
+      "title": "Vlny Chodovské tvrze 2026: Závěrečný koncert CIGÁNSKI DIABLI",
+      "date": "25.6.2026",
+      "time": "19:00",
+      "venue": "Chodovská tvrz",
+      "category": "hudba",
+      "url": "https://kczahrada.cz/?post_type=tribe_events&p=14473",
+      "image": "https://kczahrada.cz/wp-content/uploads/2026/03/Snimek-obrazovky-2026-03-03-140322.png",
+      "genre": "jazz"
     },
     {
       "title": "Ocean Sleeper (AU)",
@@ -12380,16 +12640,6 @@
       "category": "hudba",
       "url": "https://www.modravopice.cz/akce/koncert-239/",
       "image": "https://www.modravopice.eu/art/plakat-default.jpg",
-      "genre": ""
-    },
-    {
-      "title": "HYPER REAL: Entrañas ☆ SIM ☆ Opium Hum ☆ Domizako",
-      "date": "18.4.2027",
-      "time": "",
-      "venue": "Fuchs2",
-      "category": "hudba",
-      "url": "https://www.fuchs2.cz/events/hyper-real-entranas-sim-opium-hum-domizako",
-      "image": "https://static.wixstatic.com/media/742259_ef1e50c70aa64f738052d53053f6eebb~mv2.jpg",
       "genre": ""
     },
     {

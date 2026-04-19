@@ -2744,6 +2744,8 @@ def scrape_varsava():
             title = ld.get("name", "").strip()
             if not title:
                 continue
+            if "kvíz" in title.lower() or "kviz" in title.lower():
+                continue
 
             start = ld.get("startDate", "")
             date_text = ""
@@ -2858,6 +2860,207 @@ def scrape_subzero():
 
 
 # ─────────────────────────────────────────────────────────────
+#  KC ZAHRADA + CHODOVSKÁ TVRZ  (kczahrada.cz)
+# ─────────────────────────────────────────────────────────────
+def scrape_kczahrada():
+    print("* KC Zahrada / Chodovská tvrz...")
+    events = []
+    page = 1
+
+    while True:
+        url = "https://kczahrada.cz/program/rubrika/koncert/"
+        if page > 1:
+            url += f"?tribe_paged={page}"
+        soup = get_soup(url)
+        if not soup:
+            break
+
+        content = soup.find(id="tribe-events-content")
+        if not content:
+            break
+
+        items = content.find_all("div", class_="tribe-events-border")
+        if not items:
+            break
+
+        for ev in items:
+            title_el = ev.find("b")
+            link_el = ev.find("a")
+            title = title_el.get_text(strip=True) if title_el else (link_el.get_text(strip=True) if link_el else "")
+            if not title:
+                continue
+
+            href = link_el.get("href", "") if link_el else ""
+
+            img_el = ev.find("img")
+            image = img_el.get("src", "") if img_el else ""
+            # WordPress thumbnail suffix -177x142 → plný rozměr
+            image = re.sub(r"-\d+x\d+(\.\w+)$", r"\1", image)
+
+            # Druhý a třetí col-1 obsahují datum a čas
+            col1s = ev.find_all("div", class_="col-1")
+            date_raw = col1s[1].get_text(strip=True) if len(col1s) > 1 else ""
+            time_str = col1s[2].get_text(strip=True) if len(col1s) > 2 else ""
+
+            # Normalizuj datum "23.04.2026" → "23.4.2026"
+            date_str = ""
+            dm = re.match(r"(\d{1,2})\.(\d{1,2})\.(\d{4})", date_raw)
+            if dm:
+                date_str = f"{int(dm.group(1))}.{int(dm.group(2))}.{dm.group(3)}"
+
+            if not date_str:
+                continue
+
+            badges = [b.get_text(strip=True) for b in ev.find_all("span", class_="badge")]
+            badges_lower = [b.lower() for b in badges]
+
+            if any("chodovsk" in b for b in badges_lower):
+                venue = "Chodovská tvrz"
+            else:
+                venue = "KC Zahrada"
+
+            events.append({
+                "title": title,
+                "date": date_str,
+                "time": time_str,
+                "venue": venue,
+                "category": "hudba",
+                "url": href,
+                "image": image,
+            })
+
+        # Zkontroluj, zda existuje další stránka
+        next_li = content.find("li", class_="tribe-events-nav-next")
+        if not next_li or not next_li.find("a"):
+            break
+        page += 1
+
+    print(f"   [OK] {len(events)} akcí")
+    return events
+
+
+# ─────────────────────────────────────────────────────────────
+#  ČÍTÁRNA UNIJAZZ  (citarna.unijazz.cz)
+# ─────────────────────────────────────────────────────────────
+def scrape_citarna():
+    print("* Čítárna Unijazz...")
+    import time as _time
+
+    ajax_url = "https://citarna.unijazz.cz/wp-admin/admin-ajax.php"
+    ajax_headers = {
+        **HEADERS,
+        "Content-Type": "application/x-www-form-urlencoded",
+        "X-Requested-With": "XMLHttpRequest",
+        "Referer": "https://citarna.unijazz.cz/",
+    }
+
+    home_soup = get_soup("https://citarna.unijazz.cz/program/")
+    if not home_soup:
+        return []
+
+    atts_m = re.search(r'atts:\s*"([^"]+)"', str(home_soup))
+    if not atts_m:
+        print("  [WARN] Čítárna: MEC atts nenalezeny", file=sys.stderr)
+        return []
+    atts = atts_m.group(1)
+
+    def extract_concerts(soup):
+        items = []
+        for art in soup.find_all("article", class_="item"):
+            header = art.find("div", class_="itemHeader")
+            if not header or not header.get_text(strip=True).lower().startswith("koncert"):
+                continue
+            title_el = art.find("h2", class_="title")
+            if not title_el:
+                continue
+            title = title_el.get_text(strip=True)
+            if not title or title == "+Program+":
+                continue
+            link_el = art.find("a", class_="item__link") or art.find("a", href=True)
+            url = link_el.get("href", "") if link_el else ""
+            if url:
+                items.append({"title": title, "url": url})
+        return items
+
+    def next_month_from_nav(soup):
+        nav = soup.find(class_="mec-next-month")
+        if not nav:
+            return None
+        y, m = nav.get("data-mec-year"), nav.get("data-mec-month")
+        return (int(y), int(m)) if y and m else None
+
+    seen_urls = set()
+    concert_items = []
+    current_soup = home_soup
+
+    while True:
+        for item in extract_concerts(current_soup):
+            if item["url"] not in seen_urls:
+                seen_urls.add(item["url"])
+                concert_items.append(item)
+
+        next_ym = next_month_from_nav(current_soup)
+        if not next_ym:
+            break
+        y, m = next_ym
+        try:
+            post_data = f"action=mec_tile_load_month&mec_year={y}&mec_month={m:02d}&{atts}&apply_sf_date=1"
+            resp = requests.post(ajax_url, data=post_data, headers=ajax_headers, timeout=15)
+            resp.raise_for_status()
+            month_html = resp.json().get("month", "")
+            if not month_html:
+                break
+            current_soup = BeautifulSoup(month_html, "html.parser")
+        except Exception as e:
+            print(f"  [WARN] Čítárna AJAX {y}-{m:02d}: {e}", file=sys.stderr)
+            break
+
+    events = []
+    for item in concert_items:
+        _time.sleep(0.3)
+        detail = get_soup(item["url"])
+        if not detail:
+            continue
+
+        date_str, time_str = "", ""
+        time_el = detail.find("div", class_="event-time")
+        if time_el:
+            raw = time_el.get_text(strip=True)
+            dm = re.match(r"(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})\s+(\d{2}:\d{2})", raw)
+            if dm:
+                d, mo, y, t = dm.groups()
+                date_str = f"{int(d)}.{int(mo)}.{y}"
+                time_str = t
+
+        if not date_str:
+            continue
+
+        image = ""
+        for div in detail.find_all("div", class_="ct-div-block"):
+            bg = re.search(r"background-image:\s*url\(([^)]+)\)", div.get("style", ""))
+            if bg:
+                image = bg.group(1).strip("'\"")
+                break
+        if not image:
+            og = detail.find("meta", property="og:image")
+            if og:
+                image = og.get("content", "")
+
+        events.append({
+            "title": item["title"],
+            "date": date_str,
+            "time": time_str,
+            "venue": "Čítárna Unijazz",
+            "category": "hudba",
+            "url": item["url"],
+            "image": image,
+        })
+
+    print(f"   [OK] {len(events)} akcí")
+    return events
+
+
+# ─────────────────────────────────────────────────────────────
 #  HLAVNÍ FUNKCE
 # ─────────────────────────────────────────────────────────────
 def main():
@@ -2877,6 +3080,7 @@ def main():
         scrape_musicbar,
         scrape_futurum,
         scrape_klub007,
+        scrape_citarna,
         scrape_crossclub,
         scrape_akropolis,
         scrape_vagon,
@@ -2904,6 +3108,8 @@ def main():
         scrape_modravopice,
         scrape_subzero,
         scrape_varsava,
+        scrape_kczahrada,
+        scrape_citarna,
     ]
 
     for scraper in scrapers:
