@@ -3160,6 +3160,151 @@ def scrape_klubovnapovalec():
 
 
 # ─────────────────────────────────────────────────────────────
+#  SALMOVSKÁ LITERÁRNÍ KAVÁRNA
+# ─────────────────────────────────────────────────────────────
+def scrape_salmovska():
+    print("* Salmovská literární kavárna...")
+    try:
+        import pdfplumber
+        import io as _io
+    except ImportError:
+        print("   [SKIP] pdfplumber není nainstalován (pip install pdfplumber)")
+        return []
+
+    if not HAS_PLAYWRIGHT:
+        print("   [SKIP] playwright není k dispozici")
+        return []
+
+    BASE = "https://www.salmovska.cz"
+    VENUE = "Salmovská literární kavárna"
+
+    MONTH_SLUGS = [
+        "leden", "unor", "brezen", "duben", "kveten", "cerven",
+        "cervenec", "srpen", "zari", "rijen", "listopad", "prosinec",
+    ]
+
+    DATE_RE = re.compile(r'(\d{1,2})\.(\d{1,2})\.')
+    TIME_RE = re.compile(r'(\d{1,2}):(\d{2})')
+    MONTH_YEAR_RE = re.compile(r'(?:DUBEN|KV.TEN|LEDEN|.NOR|B.EZEN|.ERVEN.?|SRPEN|Z...[IÍ]|..JEN|LISTOPAD|PROSINEC)\s+(\d{4})', re.IGNORECASE)
+    # Separator between title and description in the text cell
+    TITLE_SEP = re.compile(
+        r'\s*[-−–]\s+'                   # ASCII or Unicode dash with spaces
+        r'|\.\.\s*'                       # double dot
+        r'|,\s*(?=[a-z])'                 # comma before lowercase
+        r'|\s+[^\x20-\x7e]\s+'           # single garbled char surrounded by spaces (em-dash)
+        r'|\s+[^\x20-\x7e](?=[a-z]{2})'  # garbled char followed by 2+ lowercase ASCII (garbled lc word)
+        r'|\s+(?=[a-z]{2})'              # space before 2+ lowercase ASCII chars
+    )
+
+    def _extract_title(text):
+        """Extract performer title from first line of event cell."""
+        first_line = text.split('\n')[0].strip()
+        m = TITLE_SEP.search(first_line)
+        title = first_line[:m.start()].strip() if m else first_line
+        # Strip trailing noise: lone non-ASCII chars, noise keywords
+        title = re.sub(r'\s*(VYPROD.NO|DOPORU.UJEME)\s*$', '', title, flags=re.IGNORECASE)
+        title = re.sub(r'[\x80-\xff]+$', '', title).strip()  # trailing garbled char(s)
+        return title[:100] if title else ""
+
+    def _parse_pdf(pdf_bytes, fallback_year):
+        events = []
+        try:
+            with pdfplumber.open(_io.BytesIO(pdf_bytes)) as pdf:
+                year = fallback_year
+
+                # Try to get year from first page text
+                first_text = pdf.pages[0].extract_text() or ""
+                my = MONTH_YEAR_RE.search(first_text)
+                if my:
+                    year = int(my.group(1))
+
+                for pg in pdf.pages:
+                    for table in pg.extract_tables():
+                        for row in table:
+                            if not row or len(row) < 3:
+                                continue
+                            col_date, col_time, col_desc = row[0] or "", row[1] or "", row[2] or ""
+
+                            # Skip rows without a recognisable date
+                            dm = DATE_RE.search(col_date)
+                            if not dm:
+                                continue
+
+                            day_n, mon_n = int(dm.group(1)), int(dm.group(2))
+                            date_str = f"{day_n}.{mon_n}.{year}"
+
+                            # Time from col_time or fallback
+                            tm = TIME_RE.search(col_time)
+                            time_str = f"{tm.group(1)}:{tm.group(2)}" if tm else "19:00"
+
+                            title = _extract_title(col_desc)
+                            if not title:
+                                continue
+
+                            genre = extract_genre_from_text(col_desc)
+
+                            events.append({
+                                "title": title,
+                                "date": date_str,
+                                "time": time_str,
+                                "venue": VENUE,
+                                "category": "hudba",
+                                "url": BASE,
+                                "image": "",
+                                "genre": genre,
+                            })
+
+        except Exception as e:
+            print(f"   [WARN] Chyba při parsování PDF: {e}", file=sys.stderr)
+        return events
+
+    events = []
+    try:
+        from playwright.sync_api import sync_playwright
+        with sync_playwright() as pw:
+            browser = pw.chromium.launch(headless=True)
+            context = browser.new_context()
+            page = context.new_page()
+
+            # Visit main page to establish session/cookies
+            page.goto(BASE + "/", timeout=15000)
+
+            # Find all program pages to scrape (current + next month)
+            now = datetime.now()
+
+            months_to_try = []
+            cur_slug = MONTH_SLUGS[now.month - 1]
+            months_to_try.append((cur_slug, now.year))
+            # Next month
+            if now.month < 12:
+                months_to_try.append((MONTH_SLUGS[now.month], now.year))
+            else:
+                months_to_try.append((MONTH_SLUGS[0], now.year + 1))
+
+            for slug, yr in months_to_try:
+                yr_short = str(yr)[2:]
+                pdf_url = f"{BASE}/programy/{yr_short}/{slug}_{yr}.pdf"
+                try:
+                    resp = page.request.get(pdf_url, timeout=15000)
+                    if resp.status == 200:
+                        pdf_bytes = resp.body()
+                        parsed = _parse_pdf(pdf_bytes, yr)
+                        events.extend(parsed)
+                        print(f"   {slug} {yr}: {len(parsed)} akcí")
+                    else:
+                        print(f"   [WARN] PDF nedostupné ({resp.status}): {pdf_url}")
+                except Exception as e:
+                    print(f"   [WARN] {slug}: {e}", file=sys.stderr)
+
+            browser.close()
+    except Exception as e:
+        print(f"   [ERROR] {e}", file=sys.stderr)
+
+    print(f"   [OK] {len(events)} akcí celkem")
+    return events
+
+
+# ─────────────────────────────────────────────────────────────
 #  HLAVNÍ FUNKCE
 # ─────────────────────────────────────────────────────────────
 def main():
@@ -3210,6 +3355,7 @@ def main():
         scrape_kczahrada,
         scrape_citarna,
         scrape_klubovnapovalec,
+        scrape_salmovska,
     ]
 
     for scraper in scrapers:

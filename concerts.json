@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-19T11:22:38.037634",
-  "count": 1291,
+  "updated": "2026-04-21T12:19:47.954383",
+  "count": 1322,
   "events": [
     {
       "title": "Universal Ticket Universal",
@@ -11,26 +11,6 @@
       "url": "https://www.jazzdock.cz/cs/koncert/universal-ticket",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/JZD%20web.webp",
       "genre": "jazz"
-    },
-    {
-      "title": "Jozef Mrva ml.: Challenger Escape Plan",
-      "date": "30.01.2026",
-      "time": "",
-      "venue": "MeetFactory",
-      "category": "galerie kostka",
-      "url": "https://meetfactory.cz/cs/program/detail/tadeas-podracky-it-grows-with-you",
-      "image": "https://meetfactory.cz/media/images/rescaled/Josef_Mrva_Challenger_Escape_Plan_Kostka_Meetfactory_ph_Jan_Kolsky_03-320x426.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Tadeáš Podracký: It Grows With You",
-      "date": "30.01.2026",
-      "time": "",
-      "venue": "MeetFactory",
-      "category": "galerie meetfactory",
-      "url": "https://meetfactory.cz/cs/program/detail/tadeas-podracky-it-grows-with-you-1",
-      "image": "https://meetfactory.cz/media/images/rescaled/004_Podracky_It_Grows_With_You_P4A3573up-320x426.jpg",
-      "genre": ""
     },
     {
       "title": "WHITECHAPEL, SYLOSIS, 200 STAB WOUNDS, TRIBAL GAZE (UK)",
@@ -733,16 +713,6 @@
       "genre": ""
     },
     {
-      "title": "Moře dní & Jan Váňa",
-      "date": "18.04.2026",
-      "time": "19:30",
-      "venue": "Café v lese",
-      "category": "hudba",
-      "url": "https://cafevlese.cz/events/more-dni-jan-vana/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/02/641325844_855432717521485_8415958699309931982_n-e1772016976844-768x447.jpg",
-      "genre": ""
-    },
-    {
       "title": "Ondřej Štveráček Quartet",
       "date": "18.04.2026",
       "time": "19:00",
@@ -783,56 +753,6 @@
       "genre": "jazz, soul, funk"
     },
     {
-      "title": "Soukromá akce - 18.4.2026",
-      "date": "18.4.2026",
-      "time": "",
-      "venue": "Music Club Jižák",
-      "category": "hudba",
-      "url": "https://www.musicclubjizak.cz/program/",
-      "image": "",
-      "genre": "doom, noise"
-    },
-    {
-      "title": "MUSIC BAR – vstup zdarma!",
-      "date": "19.4.2026",
-      "time": "17:00",
-      "venue": "Rock Café",
-      "category": "hudba",
-      "url": "https://rockcafe.cz/cs/program/music-bar-vstup-zdarma-383/",
-      "image": "https://static.goout.cloud/rockcafecz/2026/03/8a4517a2-images-250x167.jpeg",
-      "genre": ""
-    },
-    {
-      "title": "Mobb Deep feat. Havoc along with Big Noyd & DJ L.E.S.",
-      "date": "19.4.2026",
-      "time": "20:00",
-      "venue": "Lucerna Music Bar",
-      "category": "hudba",
-      "url": "https://musicbar.cz/cs/program/mobb-deep/",
-      "image": "https://static.goout.cloud/musicbarcz/2025/12/f0302f54-havoc-300-300x300.jpg",
-      "genre": "hip-hop"
-    },
-    {
-      "title": "Richard Autner (SK) & Band",
-      "date": "19.04.2026",
-      "time": "19:30",
-      "venue": "Café v lese",
-      "category": "hudba",
-      "url": "https://cafevlese.cz/events/richard-autner-sk-band/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/02/RiAko_Se-201-768x513.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Unsane + Děti deště",
-      "date": "19.04.2026",
-      "time": "20.00",
-      "venue": "MeetFactory",
-      "category": "hudba",
-      "url": "https://meetfactory.cz/cs/program/detail/unsane",
-      "image": "https://meetfactory.cz/media/images/rescaled/UNSANE_2_Mohawk_3.8.22_cRc-320x426.jpg",
-      "genre": "punk, noise"
-    },
-    {
       "title": "Big Band Pražského salonního orchestruNedělní Dixie",
       "date": "19.04.2026",
       "time": "16:00",
@@ -863,16 +783,6 @@
       "genre": "jazz, soul, funk"
     },
     {
-      "title": "Olin Nejezchleba a KyBaBu",
-      "date": "19.04.2026",
-      "time": "20:00",
-      "venue": "Malostranská Beseda",
-      "category": "hudba",
-      "url": "https://goout.net/cs/olin-nejezchleba-a-kybabu/szegcgy/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/h51otckz3g.907039-800.jpg",
-      "genre": ""
-    },
-    {
       "title": "Lloyd Banks (USA)",
       "date": "19.4.2026",
       "time": "",
@@ -883,44 +793,14 @@
       "genre": "hip-hop, pop, rap"
     },
     {
-      "title": "NEUROSIS UNBOUND RELEASE PARTY",
+      "title": "JAKUB ŠAFR TRIO",
       "date": "19.4.2026",
-      "time": "18:00",
-      "venue": "Modrá Vopice",
+      "time": "19:00",
+      "venue": "Salmovská literární kavárna",
       "category": "hudba",
-      "url": "https://www.modravopice.cz/akce/koncert-195/",
-      "image": "https://www.modravopice.cz/wp-content/uploads/2026/01/640694458_1593698989093909_5572356970257758701_n.jpg",
-      "genre": ""
-    },
-    {
-      "title": "FreeZone: Art Kills Me, Čihy, Alltgaze",
-      "date": "20.4.2026",
-      "time": "18:30",
-      "venue": "Rock Café",
-      "category": "hudba",
-      "url": "https://rockcafe.cz/cs/program/freezone-art-kills-me-cihy-alltgaze/",
-      "image": "https://static.goout.cloud/rockcafecz/2026/04/6454d00c-img_3939-250x167.jpeg",
-      "genre": ""
-    },
-    {
-      "title": "DITZ (UK)",
-      "date": "20.04.2026",
-      "time": "19:30",
-      "venue": "Café v lese",
-      "category": "hudba",
-      "url": "https://cafevlese.cz/events/ditz-uk-2/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/01/1256386-800-e1769339880469-768x570.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Mystigo, HYKL",
-      "date": "20.4.2026",
-      "time": "",
-      "venue": "Kaštan",
-      "category": "hudba",
-      "url": "https://kastan.cz/akce/mystigo-hykl/",
-      "image": "https://kastan.cz/wp-content/uploads/2026/03/Mystigo_2-scaled.jpg",
-      "genre": "Koncert"
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "swing"
     },
     {
       "title": "Jazz Dock Orchestra plays Chick Corea",
@@ -943,44 +823,14 @@
       "genre": "jazz, soul, funk"
     },
     {
-      "title": "Jitka Keltie & band - jedinečená houslová show",
-      "date": "20.04.2026",
-      "time": "19:30",
-      "venue": "Malostranská Beseda",
-      "category": "hudba",
-      "url": "https://www.jitkakeltie.cz/jedinecna-houslova-show-v-malostranske-besede-20-4-2026/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/r8qyq8ff0d.plakat-A4-Malostranska-beseda-2-1.jpg",
-      "genre": "pop, country, celtic"
-    },
-    {
-      "title": "Muzikanti z Kampy",
+      "title": "JIŘÍ ŠLUPKA SVĚRÁK & NEJEN BLUES",
       "date": "20.4.2026",
       "time": "19:00",
-      "venue": "Sala Terrena",
+      "venue": "Salmovská literární kavárna",
       "category": "hudba",
-      "url": "https://www.kckampa.cz/",
-      "image": "https://www.kckampa.cz/media/muzikanti-600x600.jpg",
-      "genre": "blues, folk"
-    },
-    {
-      "title": "TAME IMPALA – DEADBEAT TOUR + support RIP Magic",
-      "date": "20.4.2026",
-      "time": "20:00",
-      "venue": "O2 Arena",
-      "category": "hudba",
-      "url": "https://www.o2arena.cz/events/tame-impala-deadbeat-tour/",
-      "image": "https://www.o2arena.cz/wp-content/uploads/2025/09/o2-1080x1080-4.jpg",
-      "genre": ""
-    },
-    {
-      "title": "witch fever",
-      "date": "20.4.2026",
-      "time": "18:15",
-      "venue": "Klub Varšava",
-      "category": "hudba",
-      "url": "https://www.klubvarsava.cz/?ajde_events=witch-fever",
-      "image": "https://www.klubvarsava.cz/wp-content/uploads/2026/04/26_04_20-Witch-fever.png",
-      "genre": ""
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "blues, soul, swing"
     },
     {
       "title": "Obscure presents: Lansdowne (USA) + support",
@@ -1121,6 +971,16 @@
       "url": "https://www.klubovna.povalec.cz/8290/program/tengri-atmotic-sladkobol-21-04-2026-19-00",
       "image": "https://www.klubovna.povalec.cz/uploads/Klubovna/000093(35).jpg",
       "genre": ""
+    },
+    {
+      "title": "BAŤA & MALÁ PARTA",
+      "date": "21.4.2026",
+      "time": "19:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "jazz"
     },
     {
       "title": "Fource presents: Kiki Rockwell (USA) + support: Finnegan …",
@@ -1293,6 +1153,16 @@
       "genre": "death metal, hardcore, industrial, sludge"
     },
     {
+      "title": "ABALONE",
+      "date": "22.4.2026",
+      "time": "18:30",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "jazz"
+    },
+    {
       "title": "Fource presents: Aries (USA) + support: Ray Sequoya (USA)",
       "date": "23.4.2026",
       "time": "20:00",
@@ -1463,6 +1333,16 @@
       "genre": "alternativa, rock, jazz, trap"
     },
     {
+      "title": "BLUESA",
+      "date": "23.4.2026",
+      "time": "19:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "blues, reggae"
+    },
+    {
       "title": "Selection presents: Natalie Jane (USA)",
       "date": "24.4.2026",
       "time": "20:00",
@@ -1531,6 +1411,16 @@
       "url": "https://cafevlese.cz/events/reindeer-fest-26-vol-1/",
       "image": "https://cafevlese.cz/wp-content/uploads/2026/03/caution-well-e1774295361555-768x552.jpg",
       "genre": ""
+    },
+    {
+      "title": "VYPRODÁNO: TECHNO PILATES (CZ)",
+      "date": "24.04.2026",
+      "time": "",
+      "venue": "Roxy",
+      "category": "hudba",
+      "url": "https://www.roxy.cz/events/detail/4895/vyprodano-techno-pilates",
+      "image": "https://www.roxy.cz/upload/temp/techno-pilates-foto-nsudhzxen02d-crop-480-480.png",
+      "genre": "concert, drum&bass, electro, grime"
     },
     {
       "title": "JOHANNES SCHUSTER (DE)",
@@ -1633,16 +1523,6 @@
       "genre": "rap, trap"
     },
     {
-      "title": "SALO / RAM DANCE: Major P ☆ 1Marcus ☆ Peeni Walli",
-      "date": "24.4.2026",
-      "time": "",
-      "venue": "Fuchs2",
-      "category": "hudba",
-      "url": "https://www.fuchs2.cz/events/salo-ram-dance-major-p-1marcus-peeni-walli",
-      "image": "https://static.wixstatic.com/media/742259_0a4ba7a0d3ff46d3939c5a82ff5f4bc2~mv2.jpg",
-      "genre": "hip-hop, reggae"
-    },
-    {
       "title": "WHISKAS present Aamourocean ☆ KimberlaID ☆ Pewtwo ☆ Kaa Glo ☆ Ainur Unx ☆ DJ Nos ☆ Pech",
       "date": "24.4.2026",
       "time": "",
@@ -1691,6 +1571,16 @@
       "url": "https://www.klubvarsava.cz/?ajde_events=charta",
       "image": "https://www.klubvarsava.cz/wp-content/uploads/2026/04/26_04_24-charta.png",
       "genre": ""
+    },
+    {
+      "title": "LUDĚK KANDA",
+      "date": "24.4.2026",
+      "time": "19:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "jazz"
     },
     {
       "title": "VPŘEDSKOK x BOLESLAM 2026",
@@ -1863,6 +1753,16 @@
       "genre": ""
     },
     {
+      "title": "SALO / RAM DANCE: Major P ☆ 1Marcus ☆ Peeni Walli",
+      "date": "25.4.2026",
+      "time": "",
+      "venue": "Fuchs2",
+      "category": "hudba",
+      "url": "https://www.fuchs2.cz/events/salo-ram-dance-major-p-1marcus-peeni-walli",
+      "image": "https://static.wixstatic.com/media/742259_0a4ba7a0d3ff46d3939c5a82ff5f4bc2~mv2.jpg",
+      "genre": "hip-hop, reggae"
+    },
+    {
       "title": "REVO: COLUMBO RECORDS 003 Release party",
       "date": "25.4.2026",
       "time": "",
@@ -2013,6 +1913,16 @@
       "genre": "blues, folk"
     },
     {
+      "title": "VÁŽNĚ NEVÁŽNĚ S CACTUSEM",
+      "date": "26.4.2026",
+      "time": "18:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "jazz"
+    },
+    {
       "title": "Nanday (křest desky) + hosté",
       "date": "27.4.2026",
       "time": "20:00",
@@ -2033,7 +1943,7 @@
       "genre": "house"
     },
     {
-      "title": "PAVEL SEDLÁČEK & CADILLAC",
+      "title": "PAVEL SEDLÁČEK & CADILLAC+ host: Míra Hajšman",
       "date": "27.4.2026",
       "time": "",
       "venue": "Vagon",
@@ -2321,6 +2231,16 @@
       "url": "https://www.klubovna.povalec.cz/8295/program/btnj-28-04-2026-19-30",
       "image": "https://www.klubovna.povalec.cz/uploads/Klubovna/_Orezane_obrazky/000093(39)1770043255.jpg",
       "genre": ""
+    },
+    {
+      "title": "JAZZOVÉ HRÁTKY",
+      "date": "28.4.2026",
+      "time": "19:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "jazz"
     },
     {
       "title": "Fource presents: Ásgeir (IS) + support: Bríet (IS)",
@@ -2683,6 +2603,16 @@
       "genre": ""
     },
     {
+      "title": "Pop 80’s & 90’s video party DJ Jirka Neumann",
+      "date": "1.5.2026",
+      "time": "21:00",
+      "venue": "Lucerna Music Bar",
+      "category": "hudba",
+      "url": "https://musicbar.cz/cs/program/pop-80s-90s-video-party-dj-jirka-neumann-898/",
+      "image": "https://static.goout.cloud/musicbarcz/2021/08/034133ed-80s-fialova_300-300x300.jpg",
+      "genre": ""
+    },
+    {
       "title": "MAX STYLER (US)",
       "date": "01.05.2026",
       "time": "",
@@ -2821,6 +2751,16 @@
       "url": "https://rockcafe.cz/cs/program/joshua-curran-the-rubberdux-2/",
       "image": "https://static.goout.cloud/rockcafecz/2026/03/c49fab54-dscf3084-250x167.jpeg",
       "genre": "rock"
+    },
+    {
+      "title": "Pop 80’s & 90’s video party DJ Jirka Neumann",
+      "date": "2.5.2026",
+      "time": "21:00",
+      "venue": "Lucerna Music Bar",
+      "category": "hudba",
+      "url": "https://musicbar.cz/cs/program/pop-80s-90s-video-party-dj-jirka-neumann-901/",
+      "image": "https://static.goout.cloud/musicbarcz/2021/08/ca8fa3b2-80s-zluta_300-300x300.jpg",
+      "genre": ""
     },
     {
       "title": "Selection: Klangkarussell | Kaleidoscope Live Tour 2026",
@@ -3053,6 +2993,16 @@
       "genre": ""
     },
     {
+      "title": "Abeceda strachu ŽIVĚ (Temná strana POPKULTURY)",
+      "date": "4.5.2026",
+      "time": "18:00",
+      "venue": "Rock Café",
+      "category": "hudba",
+      "url": "https://rockcafe.cz/cs/program/abeceda-strachu-zive-temna-strana-popkultury/",
+      "image": "https://static.goout.cloud/rockcafecz/2026/04/6c16aded-images-1-250x167.jpeg",
+      "genre": ""
+    },
+    {
       "title": "The Tiger Lillies / UK",
       "date": "4.5.2026",
       "time": "19:00",
@@ -3120,7 +3070,7 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/eric-clapton-2026/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/10/eric-clapton-1080x1080-1.jpg",
-      "genre": ""
+      "genre": "rock, pop"
     },
     {
       "title": "Vernisáž: Jiří 231 – Climate Revolution",
@@ -3173,14 +3123,14 @@
       "genre": "pop, jazz, blues, rap"
     },
     {
-      "title": "Herta – Crossing The Illusion 2026",
-      "date": "5.5.2026",
-      "time": "19:00",
-      "venue": "Subzero",
+      "title": "Absolventský koncert - Eliška Milá & Tereza Jurníková",
+      "date": "05.05.2026",
+      "time": "19:30",
+      "venue": "Malostranská Beseda",
       "category": "hudba",
-      "url": "https://goout.net/cs/herta-crossing-the-illusion-2026/szwathy/",
-      "image": "https://goout.net/i/138/1388512-383.jpg",
-      "genre": "metal"
+      "url": "https://www.facebook.com/events/1892174078154919",
+      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/z005rviv2z.670771091-27209523125316427-2864218269112273169-n.jpg",
+      "genre": ""
     },
     {
       "title": "Xavier Baumaxa… a hosté",
@@ -3271,6 +3221,16 @@
       "url": "https://cargogallery.cz/akce/the-rumpled-it-support-budweiss-drunken-bastards-cz/",
       "image": "https://cargogallery.cz/wp-content/uploads/2025/10/FUTURUM-WEB-ROZMERY-5-756x454.png",
       "genre": "rock, punk, pop, folk"
+    },
+    {
+      "title": "ZUZI & PETR",
+      "date": "6.5.2026",
+      "time": "19:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "blues, folk, šanson"
     },
     {
       "title": "Dope D.O.D. (NL)",
@@ -3383,6 +3343,16 @@
       "genre": ""
     },
     {
+      "title": "KAREL DVOŘAK + MIKE HURRYUP a",
+      "date": "7.5.2026",
+      "time": "19:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "jazz"
+    },
+    {
       "title": "Simon Kornél and the Boughris (HU)",
       "date": "8.5.2026",
       "time": "20:00",
@@ -3391,6 +3361,16 @@
       "url": "https://rockcafe.cz/cs/program/simon-kornel-and-the-boughris-hu/",
       "image": "https://static.goout.cloud/rockcafecz/2026/02/b7f7ce47-skb_mix_03-250x167.jpg",
       "genre": "alternativa"
+    },
+    {
+      "title": "Pop 80’s & 90’s video party DJ Jirka Neumann",
+      "date": "8.5.2026",
+      "time": "21:00",
+      "venue": "Lucerna Music Bar",
+      "category": "hudba",
+      "url": "https://musicbar.cz/cs/program/pop-80s-90s-video-party-dj-jirka-neumann-904/",
+      "image": "https://static.goout.cloud/musicbarcz/2021/08/a599cfe1-1920x1080-80s-lmb21_300-300x300.jpg",
+      "genre": ""
     },
     {
       "title": "ZEMĚŽLUČ , WOUNDEAD KNEE , PRASKLEP , LOCURA",
@@ -3411,6 +3391,16 @@
       "url": "https://citarna.unijazz.cz/events/sukkhu-absent-god-ravens-agony/",
       "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/04/uni_a4_png-scaled.png",
       "genre": "black metal, metal"
+    },
+    {
+      "title": "TECHNO PILATES (CZ)",
+      "date": "08.05.2026",
+      "time": "",
+      "venue": "Roxy",
+      "category": "hudba",
+      "url": "https://www.roxy.cz/events/detail/4897/techno-pilates",
+      "image": "https://www.roxy.cz/upload/temp/techno-pilates-roxy-club-4zvm5qdbri7o-crop-480-480.jpg",
+      "genre": "concert, drum&bass, electro, grime"
     },
     {
       "title": "FRANCIS MERCIER (US)",
@@ -3513,6 +3503,16 @@
       "genre": ""
     },
     {
+      "title": "Pop 80’s & 90’s video party DJ Jirka Neumann",
+      "date": "9.5.2026",
+      "time": "21:00",
+      "venue": "Lucerna Music Bar",
+      "category": "hudba",
+      "url": "https://musicbar.cz/cs/program/pop-80s-90s-video-party-dj-jirka-neumann-906/",
+      "image": "https://static.goout.cloud/musicbarcz/2021/08/4c46816e-80s-tyrkysova_300-300x300.jpg",
+      "genre": ""
+    },
+    {
       "title": "REMDIK , PAKOSTEŇ ,",
       "date": "09.05.2026",
       "time": "19:00",
@@ -3593,7 +3593,7 @@
       "genre": "r&b, jazz, soul"
     },
     {
-      "title": "Groove DockJazz To Dance",
+      "title": "Groove Dock - Jazz To Dance!",
       "date": "09.05.2026",
       "time": "22:00",
       "venue": "Jazz Dock",
@@ -3763,6 +3763,16 @@
       "genre": "rap"
     },
     {
+      "title": "VÁŽNĚ NEVÁŽNĚ S CACTUSEM",
+      "date": "10.5.2026",
+      "time": "18:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "jazz"
+    },
+    {
       "title": "Ceny Apollo: Idea & James Cole + The Prostitutes + Jakub König",
       "date": "11.5.2026",
       "time": "19:00",
@@ -3841,6 +3851,16 @@
       "url": "https://goout.net/cs/anamanaguchi/szpeciy/",
       "image": "https://goout.net/i/090/901559-383.jpg",
       "genre": "rock, indie"
+    },
+    {
+      "title": "POETICKÉ JAMOVÁN",
+      "date": "11.5.2026",
+      "time": "19:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "jazz"
     },
     {
       "title": "Ruts DC (UK) + support: Arrogant Twins (10 let)",
@@ -3953,6 +3973,16 @@
       "genre": "pop"
     },
     {
+      "title": "JAZZ BLUFFERS",
+      "date": "12.5.2026",
+      "time": "19:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "jazz, dixieland"
+    },
+    {
       "title": "The Agony, Janet A, Natty",
       "date": "13.5.2026",
       "time": "19:30",
@@ -4041,6 +4071,16 @@
       "url": "https://goout.net/cs/krajina-a-nauzea-orchestra/szktiiy/",
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/89s8idmhh7.672675304-1239079088211909-2348486566289370024-n.jpg",
       "genre": "post-punk, alternativa, elektronika, rock"
+    },
+    {
+      "title": "MARKÉTA BUREŠOVÁ & PETRA BÍLKOV",
+      "date": "13.5.2026",
+      "time": "19:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "jazz"
     },
     {
       "title": "Obscure presents: Crippled Black Phoenix (UK), Temple Fang (NL)",
@@ -4173,6 +4213,16 @@
       "genre": "rock, punk"
     },
     {
+      "title": "Pop 80’s & 90’s video party DJ Jirka Neumann",
+      "date": "15.5.2026",
+      "time": "21:00",
+      "venue": "Lucerna Music Bar",
+      "category": "hudba",
+      "url": "https://musicbar.cz/cs/program/pop-80s-90s-video-party-dj-jirka-neumann-899/",
+      "image": "https://static.goout.cloud/musicbarcz/2021/08/034133ed-80s-fialova_300-300x300.jpg",
+      "genre": ""
+    },
+    {
       "title": "RUMBLE ANSAMBLE , INKOUST PANA BOUČKA",
       "date": "15.05.2026",
       "time": "19:00",
@@ -4270,7 +4320,7 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/stefan-margita-a-andele-strazni-70/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/03/margita-o2-400x400-2.jpg",
-      "genre": ""
+      "genre": "pop"
     },
     {
       "title": "Four Imaginary Boys",
@@ -4321,6 +4371,16 @@
       "url": "https://rockcafe.cz/cs/program/berem-vsechno/",
       "image": "https://static.goout.cloud/rockcafecz/2026/03/a0f8dcea-prvnitazeni_ig_post_praha-250x167.png",
       "genre": "rock, rap"
+    },
+    {
+      "title": "Pop 80’s & 90’s video party DJ Jirka Neumann",
+      "date": "16.5.2026",
+      "time": "21:00",
+      "venue": "Lucerna Music Bar",
+      "category": "hudba",
+      "url": "https://musicbar.cz/cs/program/pop-80s-90s-video-party-dj-jirka-neumann-902/",
+      "image": "https://static.goout.cloud/musicbarcz/2021/08/ca8fa3b2-80s-zluta_300-300x300.jpg",
+      "genre": ""
     },
     {
       "title": "AWAKEN BY MOONLIGHT , CROW TO CROW , WINNOW",
@@ -4440,7 +4500,7 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/pokacova-detska-o2-arena/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/07/400x400-o2-pokac.jpg",
-      "genre": ""
+      "genre": "pop, folk"
     },
     {
       "title": "ACID ROW",
@@ -4533,6 +4593,16 @@
       "genre": ""
     },
     {
+      "title": "ART FAMILY",
+      "date": "17.5.2026",
+      "time": "17:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "jazz"
+    },
+    {
       "title": "TANTEHORSE LIGHT IN THE DARKNESS (ČECHOVÁ+VIZVÁRY)",
       "date": "18.05.2026",
       "time": "",
@@ -4541,16 +4611,6 @@
       "url": "https://palacakropolis.cz/work/33298?event_id=40010&no=62&page_id=33824",
       "image": "https://palacakropolis.cz/images/photos/0024/8147/20240124_1841-min_web_event.jpg",
       "genre": "house"
-    },
-    {
-      "title": "Arima Ederra (US)",
-      "date": "18.05.2026",
-      "time": "19:30",
-      "venue": "Café v lese",
-      "category": "hudba",
-      "url": "https://cafevlese.cz/events/arima-ederra-us/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/03/1389234-800-768x513.jpg",
-      "genre": ""
     },
     {
       "title": "Jazz Dock Orchestra plays Miles Davis",
@@ -4623,6 +4683,16 @@
       "genre": "country"
     },
     {
+      "title": "JIŘÍ ŠLUPKA SVĚRÁK & NEJEN BLUES",
+      "date": "18.5.2026",
+      "time": "19:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "blues, soul, swing"
+    },
+    {
       "title": "STRAHOV OPENAIR BAND CONTEST – FINÁLE SOUTĚŽ KAPEL",
       "date": "19.05.2026",
       "time": "18:30",
@@ -4651,6 +4721,16 @@
       "url": "https://cafevlese.cz/events/telenova-aus/",
       "image": "https://cafevlese.cz/wp-content/uploads/2026/01/1377183-800-768x460.jpg",
       "genre": ""
+    },
+    {
+      "title": "Duben v Pešti, Dokruhu",
+      "date": "19.5.2026",
+      "time": "",
+      "venue": "Kaštan",
+      "category": "hudba",
+      "url": "https://kastan.cz/akce/duben-v-pesti-dokruhu-2/",
+      "image": "https://kastan.cz/wp-content/uploads/2024/11/12_12_2024_plakat_kastan-scaled.jpg",
+      "genre": "Koncert"
     },
     {
       "title": "Deerhoof + BearCloud",
@@ -4723,6 +4803,16 @@
       "genre": "pop"
     },
     {
+      "title": "PLÁSTEV",
+      "date": "19.5.2026",
+      "time": "19:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "fusion"
+    },
+    {
       "title": "PŘESUNUTO: Fource presents: Chris Grey (CAN)",
       "date": "20.5.2026",
       "time": "20:00",
@@ -4751,6 +4841,16 @@
       "url": "https://palacakropolis.cz/work/33298?event_id=41080&no=62&page_id=33824",
       "image": "https://palacakropolis.cz/images/photos/0026/4119/pa_IBERIANWAVES_some_LINEUP_fb_event_cover_web_event.jpg",
       "genre": "house"
+    },
+    {
+      "title": "Star Club West (BE), Palma",
+      "date": "20.5.2026",
+      "time": "",
+      "venue": "Kaštan",
+      "category": "hudba",
+      "url": "https://kastan.cz/akce/star-club-west-be-palma/",
+      "image": "https://kastan.cz/wp-content/uploads/2026/04/20052026_SCW.jpg",
+      "genre": "Koncert"
     },
     {
       "title": "Russian Circles + Pelican + Fotocrime",
@@ -4811,6 +4911,16 @@
       "url": "https://cargogallery.cz/akce/dead-finks-nz-de-amen-break/",
       "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-10-756x454.png",
       "genre": "post-punk, rock, punk, pop"
+    },
+    {
+      "title": "IRENA ZLÁMALOV",
+      "date": "20.5.2026",
+      "time": "19:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "jazz"
     },
     {
       "title": "GUMMY PIG , GALANTI",
@@ -4913,6 +5023,26 @@
       "genre": "pop"
     },
     {
+      "title": "JAKUB ŠAFR TRIO",
+      "date": "21.5.2026",
+      "time": "19:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "swing"
+    },
+    {
+      "title": "Pop 80’s & 90’s video party DJ Jirka Neumann",
+      "date": "22.5.2026",
+      "time": "21:00",
+      "venue": "Lucerna Music Bar",
+      "category": "hudba",
+      "url": "https://musicbar.cz/cs/program/pop-80s-90s-video-party-dj-jirka-neumann-905/",
+      "image": "https://static.goout.cloud/musicbarcz/2021/08/a599cfe1-1920x1080-80s-lmb21_300-300x300.jpg",
+      "genre": ""
+    },
+    {
       "title": "STRESS",
       "date": "22.05.2026",
       "time": "19:00",
@@ -5013,6 +5143,16 @@
       "genre": "death metal, thrash, metal"
     },
     {
+      "title": "ALENA HLADKÁ a PETR OŽANA",
+      "date": "22.5.2026",
+      "time": "19:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "jazz"
+    },
+    {
       "title": "Coremusic slaví 15 let",
       "date": "23.5.2026",
       "time": "17:30",
@@ -5021,6 +5161,16 @@
       "url": "https://rockcafe.cz/cs/program/coremusic-slavi-15-let/",
       "image": "https://static.goout.cloud/rockcafecz/2026/03/15dbd681-some_ig-post-250x167.png",
       "genre": "house, metal, rock, punk"
+    },
+    {
+      "title": "Pop 80’s & 90’s video party DJ Jirka Neumann",
+      "date": "23.5.2026",
+      "time": "21:00",
+      "venue": "Lucerna Music Bar",
+      "category": "hudba",
+      "url": "https://musicbar.cz/cs/program/pop-80s-90s-video-party-dj-jirka-neumann-907/",
+      "image": "https://static.goout.cloud/musicbarcz/2021/08/4c46816e-80s-tyrkysova_300-300x300.jpg",
+      "genre": ""
     },
     {
       "title": "HAGZISSA , MALLEPHYR , PELOROUS Turbojugend Prague Spring Volume 10",
@@ -5213,6 +5363,16 @@
       "genre": ""
     },
     {
+      "title": "ACH TY KOMEDIE !! LETY A PÁDY",
+      "date": "24.5.2026",
+      "time": "17:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "jazz"
+    },
+    {
       "title": "moondoggy (CAN)",
       "date": "25.05.2026",
       "time": "19:30",
@@ -5271,6 +5431,16 @@
       "url": "https://www.kckampa.cz/",
       "image": "https://www.kckampa.cz/media/Khamoro_05-31_storytelling_7-600x600.jpg",
       "genre": "blues, folk"
+    },
+    {
+      "title": "DARJA KUNCOV",
+      "date": "25.5.2026",
+      "time": "19:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "jazz"
     },
     {
       "title": "Blue October / US",
@@ -5361,6 +5531,16 @@
       "url": "https://www.modravopice.cz/akce/koncert-250/",
       "image": "https://www.modravopice.cz/wp-content/uploads/2026/03/652331852_1407874858019875_5155396823866385691_n.jpg",
       "genre": "psychedelic, stoner, rock"
+    },
+    {
+      "title": "THE CORKS",
+      "date": "26.5.2026",
+      "time": "19:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "blues, folk"
     },
     {
       "title": "Obscure presents: JOHN 5 (USA) + support: South of Salem (UK)",
@@ -5460,7 +5640,7 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/ne-yo-akon-nights-like-this-tour-2026/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/01/1080x1080-neyo-akon.jpg",
-      "genre": ""
+      "genre": "pop"
     },
     {
       "title": "PANOPTIKUM (křest alba Pizza Extrapolis) + MIDNIGHT SWIMMERS + speciální host",
@@ -5471,6 +5651,16 @@
       "url": "https://cargogallery.cz/akce/panoptikum-krest-alba-pizza-extrapolis-midnight-swimmers-specialni-host/",
       "image": "https://cargogallery.cz/wp-content/uploads/2026/04/FUTURUM-WEB-ROZMERY-2-756x454.png",
       "genre": "prog, rock, indie"
+    },
+    {
+      "title": "JANA RYCHTEROVÁ &",
+      "date": "27.5.2026",
+      "time": "19:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "jazz"
     },
     {
       "title": "Tojeon, Love & other cliches, Kristy Hernandez",
@@ -5593,6 +5783,16 @@
       "genre": ""
     },
     {
+      "title": "With Love: Syntax Error + The Last of Fuzz + další",
+      "date": "28.5.2026",
+      "time": "19:30",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://goout.net/cs/with-love-syntax-error+the-last-of-fuzz+dalsi/szvoliy/",
+      "image": "https://goout.net/i/139/1391487-383.jpg",
+      "genre": "industrial, shoegaze"
+    },
+    {
       "title": "HUDEBNÍ SVĚTY TOMÁŠE MACHA",
       "date": "28.5.2026",
       "time": "19:00",
@@ -5600,6 +5800,26 @@
       "category": "hudba",
       "url": "https://kczahrada.cz/?post_type=tribe_events&p=14730",
       "image": "https://kczahrada.cz/wp-content/uploads/2026/04/plakaty_kveten_A26.jpg",
+      "genre": ""
+    },
+    {
+      "title": "HANKY TONKY JAZZ BAND",
+      "date": "28.5.2026",
+      "time": "19:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "jazz"
+    },
+    {
+      "title": "Pop 80’s & 90’s video party DJ Jirka Neumann",
+      "date": "29.5.2026",
+      "time": "21:00",
+      "venue": "Lucerna Music Bar",
+      "category": "hudba",
+      "url": "https://musicbar.cz/cs/program/pop-80s-90s-video-party-dj-jirka-neumann-900/",
+      "image": "https://static.goout.cloud/musicbarcz/2021/08/034133ed-80s-fialova_300-300x300.jpg",
       "genre": ""
     },
     {
@@ -5731,6 +5951,16 @@
       "url": "https://goout.net/cs/los-fastidios/szcjkfy/",
       "image": "https://goout.net/i/138/1380237-383.jpg",
       "genre": "rock, reggae, ska"
+    },
+    {
+      "title": "Pop 80’s & 90’s video party DJ Jirka Neumann",
+      "date": "30.5.2026",
+      "time": "21:00",
+      "venue": "Lucerna Music Bar",
+      "category": "hudba",
+      "url": "https://musicbar.cz/cs/program/pop-80s-90s-video-party-dj-jirka-neumann-903/",
+      "image": "https://static.goout.cloud/musicbarcz/2021/08/ca8fa3b2-80s-zluta_300-300x300.jpg",
+      "genre": ""
     },
     {
       "title": "PATOČKA FEST",
@@ -5900,7 +6130,17 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/conan-gray-wishbone-world-tour-with-special-guest-esha-tewari/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/10/o2-arena-400x400-conan-gray-praha-new-venue.jpg",
-      "genre": ""
+      "genre": "pop"
+    },
+    {
+      "title": "JAKUB ŠAFR SWING TRIO AVALON –",
+      "date": "31.5.2026",
+      "time": "19:00",
+      "venue": "Salmovská literární kavárna",
+      "category": "hudba",
+      "url": "https://www.salmovska.cz",
+      "image": "",
+      "genre": "swing"
     },
     {
       "title": "Itamar Borochov Quartet",
@@ -6230,7 +6470,7 @@
       "category": "hudba",
       "url": "https://www.modravopice.cz/akce/koncert-257/",
       "image": "https://www.modravopice.eu/art/plakat-default.jpg",
-      "genre": ""
+      "genre": "industrial, grindcore"
     },
     {
       "title": "KRS-One / US",
@@ -6380,7 +6620,7 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/elan-kamaradi/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/01/1080x1080-2.jpg",
-      "genre": ""
+      "genre": "rock, pop"
     },
     {
       "title": "LÝSIS , SHIVER DOWN , DISTORTED TIMES , BERHELVEN",
@@ -6580,7 +6820,7 @@
       "category": "hudba",
       "url": "https://www.modravopice.cz/akce/koncert-202/",
       "image": "https://www.modravopice.eu/art/plakat-default.jpg",
-      "genre": ""
+      "genre": "thrash"
     },
     {
       "title": "!T.O.O.H.! , KOŽIŠ , MAKRAB",
@@ -7300,7 +7540,7 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/duran-duran/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/02/duran-duran-2026-bannery-1080x1080-1.jpg",
-      "genre": ""
+      "genre": "pop"
     },
     {
       "title": "F2 LIVE: deBasement",
@@ -8153,6 +8393,16 @@
       "genre": ""
     },
     {
+      "title": "Pavel Wlosok Quartet",
+      "date": "19.07.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/pavel-wlosok-quartet-3",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/wlosok.webp",
+      "genre": "jazz"
+    },
+    {
       "title": "Jazz Dock Orchestra",
       "date": "20.07.2026",
       "time": "21:00",
@@ -8441,6 +8691,16 @@
       "url": "https://archa-plus.cz/cz/program/detail/701/2026-07-31-agnes-obel",
       "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2FAgnes-Obel.png&width=500&height=500",
       "genre": "písničkářství"
+    },
+    {
+      "title": "Elena Sonenshine QuartetJazz On The Roof",
+      "date": "01.08.2026",
+      "time": "16:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/elena-sonenshine-jocose-jazz-32",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/elena-sonenshine-foto-2023-651bfa9784453596286545-6654726d23349900532207.webp",
+      "genre": "jazz"
     },
     {
       "title": "Terne Čhave",
@@ -8791,6 +9051,16 @@
       "url": "https://meetfactory.cz/cs/program/detail/cate-le-bon",
       "image": "https://meetfactory.cz/static/images/dilo-neni-k-dispozici.jpg",
       "genre": "indie, art rock"
+    },
+    {
+      "title": "Maranatha Gospel Choir",
+      "date": "17.08.2026",
+      "time": "21:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/maranatha-gospel-choir-10",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/maranatha-gospel-choir-6597f413115fe201779042.webp",
+      "genre": "jazz, blues"
     },
     {
       "title": "Libor Šmoldas Organ TrioLive Album Recording!",
@@ -10283,6 +10553,16 @@
       "genre": ""
     },
     {
+      "title": "WU LYF",
+      "date": "1.10.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://goout.net/cs/wu-lyf/szgyjiy/",
+      "image": "https://goout.net/i/139/1391680-383.jpg",
+      "genre": "r&b, pop, soul, funk"
+    },
+    {
       "title": "Tom Gregory (UK)",
       "date": "2.10.2026",
       "time": "20:00",
@@ -10480,7 +10760,7 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/deep-purple/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/11/deep-purple-400x400-1.jpg",
-      "genre": ""
+      "genre": "metal, rock"
     },
     {
       "title": "Dub Pistols / UK, support: Zooblasters",
@@ -10620,7 +10900,7 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/marika-70/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/12/o2-400x400-praha.jpg",
-      "genre": ""
+      "genre": "pop"
     },
     {
       "title": "Blood Red Shoes / UK",
@@ -10860,7 +11140,7 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/cesky-mejdan-s-impulsem-2026/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/02/o2-1080-x-1080.jpg",
-      "genre": ""
+      "genre": "rock, pop"
     },
     {
       "title": "JAN BENDIG",
@@ -10951,6 +11231,16 @@
       "url": "https://www.modravopice.cz/akce/punk-za-dvacku-4/",
       "image": "https://www.modravopice.eu/art/plakat-default.jpg",
       "genre": "punk"
+    },
+    {
+      "title": "Darren Keily / IE",
+      "date": "21.10.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/darren-keily-ie/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/04/FUTURUM-WEB-ROZMERY-7-1-756x454.png",
+      "genre": ""
     },
     {
       "title": "KARMAFEST 2026: REFLECTIONS OF KARMA, IMODIUM & POST-IT",
@@ -11155,11 +11445,11 @@
     {
       "title": "KPOP ALL STARS",
       "date": "25.10.2026",
-      "time": "19:00",
+      "time": "14:00",
       "venue": "O2 Arena",
       "category": "hudba",
       "url": "https://www.o2universum.cz/events/kpop-all-stars/",
-      "image": "https://www.o2arena.cz/wp-content/uploads/2026/03/k-pop-o2-banner-1080x1080-1.jpg",
+      "image": "https://www.o2arena.cz/wp-content/uploads/2026/04/k-pop-o2-banner-1080x1080-1.jpg",
       "genre": ""
     },
     {
@@ -11380,6 +11670,16 @@
       "category": "hudba",
       "url": "https://musicbar.cz/cs/program/laura-a-jeji-tygri-40-let/",
       "image": "https://static.goout.cloud/musicbarcz/2026/01/dbfbc2cd-03.big-bang-300x300.jpg",
+      "genre": ""
+    },
+    {
+      "title": "The Temperance Movement / UK",
+      "date": "1.11.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/the-temperance-movement-uk/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/04/FUTURUM-WEB-ROZMERY-9-756x454.png",
       "genre": ""
     },
     {
@@ -11720,7 +12020,7 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/sima-v-o2-arene/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/11/x-sima-o2-400x400-1.jpg",
-      "genre": ""
+      "genre": "pop"
     },
     {
       "title": "KONCERT",
@@ -11810,7 +12110,7 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/korn/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/03/korn-1080x1080-1.jpg",
-      "genre": ""
+      "genre": "metal, rock"
     },
     {
       "title": "The Kid LAROI – A Perfect World Tour",
@@ -11820,7 +12120,7 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/the-kid-laroi-a-perfect-world-tour/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/02/kid-laroi-1080x1080-1.jpg",
-      "genre": ""
+      "genre": "pop"
     },
     {
       "title": "THE CASSANDRA COMPLEX / UK + SJÖBLOM / SE",
@@ -11880,7 +12180,7 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/martina-partlova/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/11/1080x1080.jpg",
-      "genre": ""
+      "genre": "rock, pop"
     },
     {
       "title": "Retro Dance Party",
@@ -11950,7 +12250,7 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/radio-kiss-millennium-explosion-live-show-2026/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/11/400x400-2.jpg",
-      "genre": ""
+      "genre": "pop"
     },
     {
       "title": "KRISTIÁN ŠEBEK – Můj vzor, Božský Karel",
@@ -12000,7 +12300,7 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/pitbull-im-back/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/03/1080x1080-pitbull-2026-o2arena.jpg",
-      "genre": ""
+      "genre": "pop"
     },
     {
       "title": "Chameleons / UK",
@@ -12070,7 +12370,7 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/sarah-brightman-a-winter-symphony/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/12/1080x1080-sarah-brightman-2026-praha-o2.jpg",
-      "genre": ""
+      "genre": "pop"
     },
     {
       "title": "KONCERT",
@@ -12273,6 +12573,16 @@
       "genre": "pop, rock"
     },
     {
+      "title": "KONCERT",
+      "date": "5.12.2026",
+      "time": "18:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/komcert/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2026/04/674011726_1752411346219147_4450979919813508552_n.jpg",
+      "genre": ""
+    },
+    {
       "title": "OLIN \"45 LET V TOM\"",
       "date": "06.12.2026",
       "time": "",
@@ -12350,7 +12660,7 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/no-name-30/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2024/10/o2-nn30-2026-1200x1200-1.jpg",
-      "genre": ""
+      "genre": "pop"
     },
     {
       "title": "KONCERT",
@@ -12380,7 +12690,7 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/bryan-adams-roll-with-the-punches/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/02/1080x1080-bryanadams.jpg",
-      "genre": ""
+      "genre": "rock, pop"
     },
     {
       "title": "SIMONA – tichá noc",
@@ -12733,6 +13043,16 @@
       "genre": ""
     },
     {
+      "title": "KONCERT",
+      "date": "10.4.2027",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-259/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
       "title": "The World of Hans Zimmer – A New Dimension",
       "date": "16.4.2027",
       "time": "19:30",
@@ -12800,7 +13120,7 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/richard-krajco-50-narozeninovy-koncert/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/02/1080x1080-1.jpg",
-      "genre": ""
+      "genre": "rock, pop"
     },
     {
       "title": "KONCERT",
@@ -12873,16 +13193,6 @@
       "genre": ""
     },
     {
-      "title": "IL VOLO",
-      "date": "18.10.2027",
-      "time": "20:00",
-      "venue": "O2 Arena",
-      "category": "hudba",
-      "url": "https://www.o2arena.cz/events/il-volo-2027/",
-      "image": "https://www.o2arena.cz/wp-content/uploads/2025/11/1080x1080-il-volo-2026-27-praha-o2.jpg",
-      "genre": ""
-    },
-    {
       "title": "4 TENOŘI – 10 let na scéně",
       "date": "18.12.2027",
       "time": "19:00",
@@ -12890,7 +13200,7 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/4-tenori-10-let-na-scene/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2025/11/4-tenori-o2-1080x1080-1.jpg",
-      "genre": ""
+      "genre": "pop"
     },
     {
       "title": "POSTPONED / F2 LIVE: Niko B ☆ Supaspicybois",
