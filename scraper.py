@@ -3558,6 +3558,88 @@ def scrape_salmovska():
 
 
 # ─────────────────────────────────────────────────────────────
+#  NA SLAMNÍKU  (na-slamniku.cz)
+# ─────────────────────────────────────────────────────────────
+def scrape_naslamniku():
+    print("* Na Slamníku...")
+    URL = "https://na-slamniku.cz/koncerty/"
+    VENUE = "Na Slamníku"
+
+    CZ_MONTHS = {
+        "leden": 1, "únor": 2, "březen": 3, "duben": 4,
+        "květen": 5, "červen": 6, "červenec": 7, "srpen": 8,
+        "září": 9, "říjen": 10, "listopad": 11, "prosinec": 12,
+    }
+
+    soup = get_soup(URL)
+    if not soup:
+        print("   [OK] 0 akcí")
+        return []
+
+    wrapper = soup.find("div", class_="slam-program-wrapper")
+    if not wrapper:
+        print("   [WARN] slam-program-wrapper nenalezen")
+        return []
+
+    events = []
+
+    for mblock in wrapper.find_all("div", class_="slam-month-block"):
+        title_el = mblock.find("h2", class_="slam-month-title")
+        if not title_el:
+            continue
+
+        # "Květen 2026" → month=5, year=2026
+        parts = title_el.get_text(strip=True).split()
+        if len(parts) < 2:
+            continue
+        month = CZ_MONTHS.get(parts[0].lower())
+        if not month:
+            continue
+        try:
+            year = int(parts[1])
+        except ValueError:
+            continue
+
+        for cell in mblock.find_all("div", class_="slam-day-cell"):
+            cls = cell.get("class", [])
+            if "slam-past" in cls or "slam-empty" in cls:
+                continue
+
+            num_el = cell.find("span", class_=lambda c: c and "slam-num" in c)
+            if not num_el:
+                continue
+            try:
+                day = int(num_el.get_text(strip=True))
+            except ValueError:
+                continue
+
+            evt_el = cell.find("div", class_=lambda c: c and "slam-event" in c)
+            if not evt_el:
+                continue
+
+            title = evt_el.get_text(strip=True)
+            if not title or "soukromá akce" in title.lower():
+                continue
+
+            date_str = f"{day}.{month}.{year}"
+            genre = extract_genre_from_text(title)
+
+            events.append({
+                "title": title,
+                "date": date_str,
+                "time": "20:00",
+                "venue": VENUE,
+                "category": "hudba",
+                "url": URL,
+                "image": "",
+                "genre": genre,
+            })
+
+    print(f"   [OK] {len(events)} akcí")
+    return events
+
+
+# ─────────────────────────────────────────────────────────────
 #  HLAVNÍ FUNKCE
 # ─────────────────────────────────────────────────────────────
 def main():
@@ -3611,6 +3693,7 @@ def main():
         scrape_citarna,
         scrape_klubovnapovalec,
         scrape_salmovska,
+        scrape_naslamniku,
         scrape_cafenaplcesty,
     ]
 

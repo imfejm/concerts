@@ -242,6 +242,7 @@ function renderCalendar(selectedKey = null, calYear = null, calMonth = null) {
 
 let venueCoords = {};
 let venueUrls = {};
+let venueInfo = {};
 
 async function loadVenueCoords() {
   if (Object.keys(venueCoords).length) return;
@@ -256,6 +257,12 @@ async function loadVenueCoords() {
     venueUrls = await res.json();
   } catch(e) {
     console.warn('venue-urls.json se nepodařilo načíst', e);
+  }
+  try {
+    const res = await fetch('venue-info.json');
+    venueInfo = await res.json();
+  } catch(e) {
+    console.warn('venue-info.json se nepodařilo načíst', e);
   }
 }
 
@@ -339,8 +346,9 @@ function render() {
 
   if (!events.length) {
     const _solo = activeVenues.size === 1 ? [...activeVenues][0] : null;
+    const _soloNote = (_solo && venueInfo[_solo]) ? `<span class="venue-address-note">📍 ${escHtml(venueInfo[_solo])}</span>` : '';
     const mapBtn = (_solo && venueCoords[_solo])
-      ? `<button class="venue-map-btn" id="venue-map-btn">📍 Zobrazit na mapě</button>`
+      ? `<div class="venue-map-header"><button class="venue-map-btn" id="venue-map-btn">📍 Zobrazit na mapě</button>${_soloNote}</div>`
       : '';
     content.innerHTML = mapBtn + `
       <div class="grid">
@@ -409,7 +417,8 @@ function render() {
 
   const _soloV = activeVenues.size === 1 ? [...activeVenues][0] : null;
   if (_soloV && venueCoords[_soloV]) {
-    html = `<button class="venue-map-btn" id="venue-map-btn">📍 Zobrazit na mapě</button>` + html;
+    const _note = venueInfo[_soloV] ? `<span class="venue-address-note">📍 ${escHtml(venueInfo[_soloV])}</span>` : '';
+    html = `<div class="venue-map-header"><button class="venue-map-btn" id="venue-map-btn">📍 Zobrazit na mapě</button>${_note}</div>` + html;
   }
 
   content.innerHTML = html;
