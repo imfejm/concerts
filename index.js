@@ -241,6 +241,7 @@ function renderCalendar(selectedKey = null, calYear = null, calMonth = null) {
 }
 
 let venueCoords = {};
+let venueUrls = {};
 
 async function loadVenueCoords() {
   if (Object.keys(venueCoords).length) return;
@@ -249,6 +250,12 @@ async function loadVenueCoords() {
     venueCoords = await res.json();
   } catch(e) {
     console.warn('venue-coords.json se nepodařilo načíst', e);
+  }
+  try {
+    const res = await fetch('venue-urls.json');
+    venueUrls = await res.json();
+  } catch(e) {
+    console.warn('venue-urls.json se nepodařilo načíst', e);
   }
 }
 
@@ -446,7 +453,9 @@ function cardHTML(ev) {
         <div class="card-date">${escHtml(dateLabel)}</div>
         <div class="card-title">${escHtml(ev.title || '???')}</div>
         <span class="card-genre${ev.genre ? '' : ' card-genre--na'}">${ev.genre ? escHtml(ev.genre) : 'n/a'}</span>
-        <div class="card-venue">&#9679; ${escHtml(ev.venue || '')}</div>
+        <div class="card-venue">
+          &#9679; ${escHtml(ev.venue || '')}${venueUrls[ev.venue] ? `<span class="card-venue-btn" onclick="event.preventDefault();event.stopPropagation();window.open('${escHtml(venueUrls[ev.venue])}','_blank','noopener')" title="Web klubu">↗</span>` : ''}
+        </div>
       </div>
     </a>`;
 }

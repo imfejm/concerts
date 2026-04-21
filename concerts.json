@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-21T12:19:47.954383",
-  "count": 1322,
+  "updated": "2026-04-21T13:07:27.210872",
+  "count": 1357,
   "events": [
     {
       "title": "Universal Ticket Universal",
@@ -980,7 +980,7 @@
       "category": "hudba",
       "url": "https://www.salmovska.cz",
       "image": "",
-      "genre": "jazz"
+      "genre": "swing"
     },
     {
       "title": "Fource presents: Kiki Rockwell (USA) + support: Finnegan …",
@@ -1153,6 +1153,16 @@
       "genre": "death metal, hardcore, industrial, sludge"
     },
     {
+      "title": "Endform (Ca) / Sangre De Idiotas (Sk) / Léthé (Cz)",
+      "date": "22.4.2026",
+      "time": "20:00",
+      "venue": "Eternia půda",
+      "category": "hudba",
+      "url": "https://www.facebook.com/events/2023061088620611",
+      "image": "",
+      "genre": "drum & bass, grindcore"
+    },
+    {
       "title": "ABALONE",
       "date": "22.4.2026",
       "time": "18:30",
@@ -1160,7 +1170,7 @@
       "category": "hudba",
       "url": "https://www.salmovska.cz",
       "image": "",
-      "genre": "jazz"
+      "genre": "swing"
     },
     {
       "title": "Fource presents: Aries (USA) + support: Ray Sequoya (USA)",
@@ -1580,7 +1590,7 @@
       "category": "hudba",
       "url": "https://www.salmovska.cz",
       "image": "",
-      "genre": "jazz"
+      "genre": "swing"
     },
     {
       "title": "VPŘEDSKOK x BOLESLAM 2026",
@@ -1813,7 +1823,7 @@
       "genre": ""
     },
     {
-      "title": "Evergreen Mars, River House, Ikad (SRB)",
+      "title": "Evergreen Mars (HU/TR) + Ikad (SRB)",
       "date": "25.4.2026",
       "time": "19:00",
       "venue": "Klubovna Povaleč",
@@ -1821,6 +1831,16 @@
       "url": "https://www.klubovna.povalec.cz/8292/program/-----srb-25-04-2026-19-00",
       "image": "https://www.klubovna.povalec.cz/uploads/Klubovna/000093(37).jpg",
       "genre": "house"
+    },
+    {
+      "title": "SUPLEXX (hc/trash, Serbia) // MAJAK (d-beat HC, Serbia) // ČOKL (chain punx, Praha)",
+      "date": "25.4.2026",
+      "time": "19:30",
+      "venue": "Café Na půl cesty",
+      "category": "hudba",
+      "url": "https://www.greendoors.cz/akce/suplexx-hc-trash-serbia-majak-d-beat-hc-serbia/",
+      "image": "",
+      "genre": "experimental"
     },
     {
       "title": "The Virginmarys (UK) + support: Atomy nevadí",
@@ -1920,7 +1940,7 @@
       "category": "hudba",
       "url": "https://www.salmovska.cz",
       "image": "",
-      "genre": "jazz"
+      "genre": "swing"
     },
     {
       "title": "Nanday (křest desky) + hosté",
@@ -2213,14 +2233,14 @@
       "genre": "hardcore, punk"
     },
     {
-      "title": "Lamp Of Murmuur + One Of Nine",
+      "title": "Ostbahnhof (De) + Robovi Trotoara (Cz)",
       "date": "28.4.2026",
       "time": "20:00",
-      "venue": "Subzero",
+      "venue": "Eternia půda",
       "category": "hudba",
-      "url": "https://goout.net/cs/lamp-of-murmuur+one-of-nine/szadtdy/",
-      "image": "https://goout.net/i/123/1237905-383.jpg",
-      "genre": ""
+      "url": "https://www.facebook.com/events/909005882106693",
+      "image": "",
+      "genre": "post-punk, punk"
     },
     {
       "title": "BTNJ",
@@ -2240,7 +2260,7 @@
       "category": "hudba",
       "url": "https://www.salmovska.cz",
       "image": "",
-      "genre": "jazz"
+      "genre": "swing"
     },
     {
       "title": "Fource presents: Ásgeir (IS) + support: Bríet (IS)",
@@ -2583,16 +2603,6 @@
       "genre": "death metal, nu metal, thrash, metal"
     },
     {
-      "title": "Through the clashing rocks Tour 2026: Khirki",
-      "date": "30.4.2026",
-      "time": "20:00",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://goout.net/cs/through-the-clashing-rocks-tour-2026-khirki/szgqufy/",
-      "image": "https://goout.net/i/138/1381954-383.jpg",
-      "genre": "metal, rock"
-    },
-    {
       "title": "unseen.in4K",
       "date": "30.4.2026",
       "time": "17:59",
@@ -2601,6 +2611,16 @@
       "url": "https://www.klubvarsava.cz/?ajde_events=unseen-in4k",
       "image": "https://www.klubvarsava.cz/wp-content/uploads/2026/04/26_04_30-unseen.in4k-1.png",
       "genre": ""
+    },
+    {
+      "title": "V*OHEŇ A PÍSNIČKA! 2026",
+      "date": "30.4.2026",
+      "time": "14:00",
+      "venue": "Café Na půl cesty",
+      "category": "hudba",
+      "url": "https://www.greendoors.cz/akce/vohen-a-pisnicka-2026-2/",
+      "image": "",
+      "genre": "indie rock, fusion, rock, indie"
     },
     {
       "title": "Pop 80’s & 90’s video party DJ Jirka Neumann",
@@ -2731,16 +2751,6 @@
       "url": "https://www.modravopice.cz/akce/koncert-225/",
       "image": "https://www.modravopice.cz/wp-content/uploads/2026/02/641264398_1491086509685274_5989255598480997539_n.jpg",
       "genre": "hard rock, metal, rock"
-    },
-    {
-      "title": "AFA fest 2026",
-      "date": "1.5.2026",
-      "time": "12:00",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://goout.net/cs/afa-fest-2026/szumufy/",
-      "image": "https://goout.net/i/133/1334563-383.jpg",
-      "genre": ""
     },
     {
       "title": "Joshua Curran & The Rubberdux",
@@ -3350,7 +3360,7 @@
       "category": "hudba",
       "url": "https://www.salmovska.cz",
       "image": "",
-      "genre": "jazz"
+      "genre": "swing"
     },
     {
       "title": "Simon Kornél and the Boughris (HU)",
@@ -3503,6 +3513,16 @@
       "genre": ""
     },
     {
+      "title": "EMO HARDCORE IS BACK IN TOWN – Café Na půl cesty >un automne de plus (FR) // Soastasphrenas (GER) // circle end (PL)<",
+      "date": "8.5.2026",
+      "time": "19:00",
+      "venue": "Café Na půl cesty",
+      "category": "hudba",
+      "url": "https://www.greendoors.cz/akce/un-automne-de-plus-fr-soastasphrenas-ger/",
+      "image": "",
+      "genre": "hardcore"
+    },
+    {
       "title": "Pop 80’s & 90’s video party DJ Jirka Neumann",
       "date": "9.5.2026",
       "time": "21:00",
@@ -3653,16 +3673,6 @@
       "genre": "alternativa, rock, punk"
     },
     {
-      "title": "Weatherday",
-      "date": "9.5.2026",
-      "time": "20:00",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://goout.net/cs/weatherday/sziupfy/",
-      "image": "https://goout.net/i/134/1349629-383.jpg",
-      "genre": "pop, noise"
-    },
-    {
       "title": "Laments And Whispers: Insinistra + After Evolution + Sarkonia",
       "date": "9.5.2026",
       "time": "19:30",
@@ -3670,6 +3680,16 @@
       "category": "hudba",
       "url": "https://www.klubovna.povalec.cz/8309/program/insistra-09-05-2026-19-30",
       "image": "https://www.klubovna.povalec.cz/uploads/Klubovna/_Orezane_obrazky/0000000 Insinistra1770814571.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Desolat (AUT) // NO VIDA // REK",
+      "date": "9.5.2026",
+      "time": "18:30",
+      "venue": "Café Na půl cesty",
+      "category": "hudba",
+      "url": "https://www.greendoors.cz/akce/desolat-aut-no-vida-rek/",
+      "image": "",
       "genre": ""
     },
     {
@@ -3770,7 +3790,7 @@
       "category": "hudba",
       "url": "https://www.salmovska.cz",
       "image": "",
-      "genre": "jazz"
+      "genre": "swing"
     },
     {
       "title": "Ceny Apollo: Idea & James Cole + The Prostitutes + Jakub König",
@@ -3843,16 +3863,6 @@
       "genre": "blues, folk"
     },
     {
-      "title": "Anamanaguchi",
-      "date": "11.5.2026",
-      "time": "20:00",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://goout.net/cs/anamanaguchi/szpeciy/",
-      "image": "https://goout.net/i/090/901559-383.jpg",
-      "genre": "rock, indie"
-    },
-    {
       "title": "POETICKÉ JAMOVÁN",
       "date": "11.5.2026",
       "time": "19:00",
@@ -3860,7 +3870,7 @@
       "category": "hudba",
       "url": "https://www.salmovska.cz",
       "image": "",
-      "genre": "jazz"
+      "genre": "swing"
     },
     {
       "title": "Ruts DC (UK) + support: Arrogant Twins (10 let)",
@@ -3963,6 +3973,16 @@
       "genre": ""
     },
     {
+      "title": "Turn Of Phrase (Uk) // Compete (Au) // Lifelike (Cz)",
+      "date": "12.5.2026",
+      "time": "20:00",
+      "venue": "Eternia půda",
+      "category": "hudba",
+      "url": "https://www.facebook.com/events/1352669686894309/",
+      "image": "",
+      "genre": "hardcore"
+    },
+    {
       "title": "Castilho (PT)",
       "date": "12.5.2026",
       "time": "19:30",
@@ -3981,6 +4001,16 @@
       "url": "https://www.salmovska.cz",
       "image": "",
       "genre": "jazz, dixieland"
+    },
+    {
+      "title": "Slumberland (BEL)",
+      "date": "12.5.2026",
+      "time": "19:00",
+      "venue": "Café Na půl cesty",
+      "category": "hudba",
+      "url": "https://www.greendoors.cz/akce/slumberland-bel/",
+      "image": "",
+      "genre": "alternativa"
     },
     {
       "title": "The Agony, Janet A, Natty",
@@ -4080,7 +4110,7 @@
       "category": "hudba",
       "url": "https://www.salmovska.cz",
       "image": "",
-      "genre": "jazz"
+      "genre": "swing"
     },
     {
       "title": "Obscure presents: Crippled Black Phoenix (UK), Temple Fang (NL)",
@@ -4201,6 +4231,16 @@
       "url": "https://www.klubovna.povalec.cz/8327/program/rajtaraj-14-05-2026-19-30",
       "image": "https://www.klubovna.povalec.cz/img/frontend/logo.png",
       "genre": ""
+    },
+    {
+      "title": "Profilachse (GER) // sladkobol",
+      "date": "14.5.2026",
+      "time": "19:30",
+      "venue": "Café Na půl cesty",
+      "category": "hudba",
+      "url": "https://www.greendoors.cz/akce/profilachse-ger-sladkobol/",
+      "image": "",
+      "genre": "rock, punk"
     },
     {
       "title": "Zllo Fest 4: Cocotte Minute, Anteater, Bound To Break",
@@ -4341,16 +4381,6 @@
       "url": "https://www.modravopice.cz/akce/koncert-226/",
       "image": "https://www.modravopice.cz/wp-content/uploads/2026/02/plakat_15.5.2026.jpg",
       "genre": "rock, pop"
-    },
-    {
-      "title": "It’s Not A Phase Mom!",
-      "date": "15.5.2026",
-      "time": "19:00",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://goout.net/cs/it-s-not-a-phase-mom/szmnohy/",
-      "image": "https://goout.net/i/138/1387956-383.jpg",
-      "genre": "alternativa, metal, rock, punk"
     },
     {
       "title": "Monsterwatch (USA)",
@@ -4600,7 +4630,7 @@
       "category": "hudba",
       "url": "https://www.salmovska.cz",
       "image": "",
-      "genre": "jazz"
+      "genre": "swing"
     },
     {
       "title": "TANTEHORSE LIGHT IN THE DARKNESS (ČECHOVÁ+VIZVÁRY)",
@@ -4661,16 +4691,6 @@
       "url": "https://bikejesus.com/#program",
       "image": "",
       "genre": "alternativa, elektronika, hardcore, indie"
-    },
-    {
-      "title": "Dorian Electra",
-      "date": "18.5.2026",
-      "time": "20:00",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://goout.net/cs/dorian-electra/szybbiy/",
-      "image": "https://goout.net/i/138/1389573-383.jpg",
-      "genre": ""
     },
     {
       "title": "KONCERT VĚRA MARTINOVÁ & MERITUM - 40 LET NA SÓLOVÉ DRÁZE",
@@ -4920,7 +4940,7 @@
       "category": "hudba",
       "url": "https://www.salmovska.cz",
       "image": "",
-      "genre": "jazz"
+      "genre": "swing"
     },
     {
       "title": "GUMMY PIG , GALANTI",
@@ -5150,7 +5170,7 @@
       "category": "hudba",
       "url": "https://www.salmovska.cz",
       "image": "",
-      "genre": "jazz"
+      "genre": "swing"
     },
     {
       "title": "Coremusic slaví 15 let",
@@ -5370,7 +5390,7 @@
       "category": "hudba",
       "url": "https://www.salmovska.cz",
       "image": "",
-      "genre": "jazz"
+      "genre": "swing"
     },
     {
       "title": "moondoggy (CAN)",
@@ -5543,6 +5563,16 @@
       "genre": "blues, folk"
     },
     {
+      "title": "STORMIN‘ (rock-blues)",
+      "date": "26.5.2026",
+      "time": "19:00",
+      "venue": "Café Na půl cesty",
+      "category": "hudba",
+      "url": "https://www.greendoors.cz/akce/stormin-rock-blues/",
+      "image": "",
+      "genre": "rock, blues"
+    },
+    {
       "title": "Obscure presents: JOHN 5 (USA) + support: South of Salem (UK)",
       "date": "27.5.2026",
       "time": "19:00",
@@ -5660,7 +5690,7 @@
       "category": "hudba",
       "url": "https://www.salmovska.cz",
       "image": "",
-      "genre": "jazz"
+      "genre": "swing"
     },
     {
       "title": "Tojeon, Love & other cliches, Kristy Hernandez",
@@ -5783,16 +5813,6 @@
       "genre": ""
     },
     {
-      "title": "With Love: Syntax Error + The Last of Fuzz + další",
-      "date": "28.5.2026",
-      "time": "19:30",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://goout.net/cs/with-love-syntax-error+the-last-of-fuzz+dalsi/szvoliy/",
-      "image": "https://goout.net/i/139/1391487-383.jpg",
-      "genre": "industrial, shoegaze"
-    },
-    {
       "title": "HUDEBNÍ SVĚTY TOMÁŠE MACHA",
       "date": "28.5.2026",
       "time": "19:00",
@@ -5811,6 +5831,16 @@
       "url": "https://www.salmovska.cz",
       "image": "",
       "genre": "jazz"
+    },
+    {
+      "title": "Café Blešák vol.1",
+      "date": "28.5.2026",
+      "time": "15:00",
+      "venue": "Café Na půl cesty",
+      "category": "hudba",
+      "url": "https://www.greendoors.cz/akce/cafe-blesak-vol-1/",
+      "image": "",
+      "genre": ""
     },
     {
       "title": "Pop 80’s & 90’s video party DJ Jirka Neumann",
@@ -5941,16 +5971,6 @@
       "url": "https://www.modravopice.cz/akce/koncert-92/",
       "image": "https://www.modravopice.cz/wp-content/uploads/2025/02/PZD-2026-05-29a30-A3.jpg",
       "genre": "punk"
-    },
-    {
-      "title": "Los Fastidios",
-      "date": "29.5.2026",
-      "time": "20:00",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://goout.net/cs/los-fastidios/szcjkfy/",
-      "image": "https://goout.net/i/138/1380237-383.jpg",
-      "genre": "rock, reggae, ska"
     },
     {
       "title": "Pop 80’s & 90’s video party DJ Jirka Neumann",
@@ -6471,6 +6491,16 @@
       "url": "https://www.modravopice.cz/akce/koncert-257/",
       "image": "https://www.modravopice.eu/art/plakat-default.jpg",
       "genre": "industrial, grindcore"
+    },
+    {
+      "title": "Veganské hody Praha 2026",
+      "date": "6.6.2026",
+      "time": "11:00",
+      "venue": "Café Na půl cesty",
+      "category": "hudba",
+      "url": "https://www.greendoors.cz/akce/veganske-hody-praha-2025-2/",
+      "image": "",
+      "genre": ""
     },
     {
       "title": "KRS-One / US",
@@ -7443,16 +7473,6 @@
       "genre": "country"
     },
     {
-      "title": "Dream, Ivory + support: losers!",
-      "date": "22.6.2026",
-      "time": "20:00",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://goout.net/cs/dream-ivory+support-losers/szjpfey/",
-      "image": "https://goout.net/i/137/1376551-383.jpg",
-      "genre": "shoegaze, punk, pop"
-    },
-    {
       "title": "Vlny Chodovské tvrze 2026: ŠTĚPÁN RAK: KYTARA NAPŘÍČ ŽÁNRY",
       "date": "22.6.2026",
       "time": "19:00",
@@ -7601,6 +7621,16 @@
       "url": "https://www.modravopice.cz/akce/koncert-249/",
       "image": "https://www.modravopice.eu/art/plakat-default.jpg",
       "genre": ""
+    },
+    {
+      "title": "G.A.Z.E. + Yossarian",
+      "date": "25.6.2026",
+      "time": "20:00",
+      "venue": "Eternia půda",
+      "category": "hudba",
+      "url": "https://www.facebook.com/events/1404000751211493/",
+      "image": "",
+      "genre": "heavy metal, hardcore, metal"
     },
     {
       "title": "Vlny Chodovské tvrze 2026: Závěrečný koncert CIGÁNSKI DIABLI",
@@ -8633,6 +8663,16 @@
       "genre": "jazz, swing"
     },
     {
+      "title": "Phillip Bracken (AUS)",
+      "date": "29.7.2026",
+      "time": "19:00",
+      "venue": "Café Na půl cesty",
+      "category": "hudba",
+      "url": "https://www.greendoors.cz/akce/phillip-bracken-aus/",
+      "image": "",
+      "genre": ""
+    },
+    {
       "title": "DZ Deathrays (AUS) + support",
       "date": "30.7.2026",
       "time": "20:00",
@@ -8651,16 +8691,6 @@
       "url": "https://www.pragueopenair.cz/events/rybicky-48/",
       "image": "https://www.pragueopenair.cz/wp-content/uploads/2026/02/POA-FOTO-2026-1500x1000-r48.jpg",
       "genre": "pop"
-    },
-    {
-      "title": "This Will Destroy You + Mascara",
-      "date": "30.7.2026",
-      "time": "19:00",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://goout.net/cs/this-will-destroy-you+mascara/szaldhy/",
-      "image": "https://goout.net/i/090/907860-383.jpg",
-      "genre": "metal"
     },
     {
       "title": "The Golden Voice: A Celebration of Tony Bennett",
@@ -8711,16 +8741,6 @@
       "url": "https://www.jazzdock.cz/cs/koncert/terne-chave-28",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/Terne%20%C4%8Chave%20.webp",
       "genre": "rock, jazz"
-    },
-    {
-      "title": "A Wilhelm Scream + support",
-      "date": "2.8.2026",
-      "time": "19:00",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://goout.net/cs/a-wilhelm-scream+support/szoudiy/",
-      "image": "https://goout.net/i/052/525732-383.jpg",
-      "genre": "hardcore, punk"
     },
     {
       "title": "Evergreen Terrace (USA) + support",
@@ -10363,16 +10383,6 @@
       "genre": ""
     },
     {
-      "title": "King Dude",
-      "date": "27.9.2026",
-      "time": "19:00",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://goout.net/cs/king-dude/szewdiy/",
-      "image": "https://goout.net/i/042/422067-383.jpg",
-      "genre": "rock, blues, folk, country"
-    },
-    {
       "title": "Obscure presents: Humanity’s Last Breath (SWE), …",
       "date": "28.9.2026",
       "time": "17:30",
@@ -10551,16 +10561,6 @@
       "url": "https://www.modravopice.cz/akce/koncert-199/",
       "image": "https://www.modravopice.eu/art/plakat-default.jpg",
       "genre": ""
-    },
-    {
-      "title": "WU LYF",
-      "date": "1.10.2026",
-      "time": "20:00",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://goout.net/cs/wu-lyf/szgyjiy/",
-      "image": "https://goout.net/i/139/1391680-383.jpg",
-      "genre": "r&b, pop, soul, funk"
     },
     {
       "title": "Tom Gregory (UK)",
@@ -12313,16 +12313,6 @@
       "genre": "post-punk, punk"
     },
     {
-      "title": "Moon Walker",
-      "date": "22.11.2026",
-      "time": "19:00",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://goout.net/cs/moon-walker/szypmhy/",
-      "image": "https://goout.net/i/138/1387651-383.jpg",
-      "genre": "rock"
-    },
-    {
       "title": "THE MUSIC DIGEST (38)",
       "date": "23.11.2026",
       "time": "",
@@ -13221,6 +13211,296 @@
       "url": "https://www.fuchs2.cz/events/postponed-f2-live-lex-amor",
       "image": "https://static.wixstatic.com/media/742259_5b50e2ed14aa449c8be4317492ff9529~mv2.jpg",
       "genre": ""
+    },
+    {
+      "title": "The Devil And The Almighty Blues + Landmine Spring",
+      "date": "23.4.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://www.facebook.com/events/1354080646502460/",
+      "image": "",
+      "genre": "blues"
+    },
+    {
+      "title": "FESSUS (At) / CANCER VOID (Cz) / HERUVIM (Ua)",
+      "date": "25.4.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://www.facebook.com/events/803091462151646",
+      "image": "",
+      "genre": "death metal, metal"
+    },
+    {
+      "title": "Lamp Of Murmuur + One Of Nine",
+      "date": "28.4.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://goout.net/cs/lamp-of-murmuur+one-of-nine/szadtdy/",
+      "image": "https://goout.net/i/123/1237905-383.jpg",
+      "genre": ""
+    },
+    {
+      "title": "🎬 Warm-up kino: Don't Fall in Love with Yourself // Deaf Club",
+      "date": "29.4.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://www.facebook.com/events/897232473386524",
+      "image": "",
+      "genre": "hardcore, punk, swing"
+    },
+    {
+      "title": "Through the clashing rocks Tour 2026: Khirki",
+      "date": "30.4.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://goout.net/cs/through-the-clashing-rocks-tour-2026-khirki/szgqufy/",
+      "image": "https://goout.net/i/138/1381954-383.jpg",
+      "genre": "metal, rock"
+    },
+    {
+      "title": "AFA fest 2026",
+      "date": "1.5.2026",
+      "time": "12:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://goout.net/cs/afa-fest-2026/szumufy/",
+      "image": "https://goout.net/i/133/1334563-383.jpg",
+      "genre": ""
+    },
+    {
+      "title": "HERTA (gr) + support",
+      "date": "5.5.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://www.facebook.com/events/1778938006400562/",
+      "image": "",
+      "genre": "progressive, metal"
+    },
+    {
+      "title": "RAEIN (it) + STORMO (it) + ZMAR + NERVY",
+      "date": "6.5.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://connect.boomevents.org/event/raein",
+      "image": "",
+      "genre": "post-rock, hardcore, screamo, metal"
+    },
+    {
+      "title": "DEAF CLUB (us) + TRIGGER (de) + LICKSPIT + LEVAG",
+      "date": "7.5.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://connect.boomevents.org/cs/event/deafclub",
+      "image": "",
+      "genre": "noise rock, hardcore, grindcore"
+    },
+    {
+      "title": "Weatherday",
+      "date": "9.5.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://goout.net/cs/weatherday/sziupfy/",
+      "image": "https://goout.net/i/134/1349629-383.jpg",
+      "genre": "pop, noise"
+    },
+    {
+      "title": "Anamanaguchi",
+      "date": "11.5.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://goout.net/cs/anamanaguchi/szpeciy/",
+      "image": "https://goout.net/i/090/901559-383.jpg",
+      "genre": "rock, indie"
+    },
+    {
+      "title": "APTERA (Berlin) + VOODOO GARDEN",
+      "date": "13.5.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://www.facebook.com/events/849822717931554/",
+      "image": "",
+      "genre": "doom"
+    },
+    {
+      "title": "It’s Not A Phase Mom!",
+      "date": "15.5.2026",
+      "time": "19:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://goout.net/cs/it-s-not-a-phase-mom/szmnohy/",
+      "image": "https://goout.net/i/138/1387956-383.jpg",
+      "genre": "alternativa, metal, rock, punk"
+    },
+    {
+      "title": "UNREAL TOURNAMENT vol. 6",
+      "date": "16.5.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://www.facebook.com/events/1234322501589888/",
+      "image": "",
+      "genre": ""
+    },
+    {
+      "title": "Dorian Electra",
+      "date": "18.5.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://goout.net/cs/dorian-electra/szybbiy/",
+      "image": "https://goout.net/i/138/1389573-383.jpg",
+      "genre": ""
+    },
+    {
+      "title": "FROM ASHES TOUR (křest alba SUBVERSION), support: Expost + special guest",
+      "date": "23.5.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://www.facebook.com/events/1211652927706468/",
+      "image": "",
+      "genre": ""
+    },
+    {
+      "title": "ENDSTAND (fin) + WASTED YEARS (ger)",
+      "date": "26.5.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://web.facebook.com/events/1342851224540046/",
+      "image": "",
+      "genre": "hardcore, punk"
+    },
+    {
+      "title": "With Love: Syntax Error + The Last of Fuzz + další",
+      "date": "28.5.2026",
+      "time": "19:30",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://goout.net/cs/with-love-syntax-error+the-last-of-fuzz+dalsi/szvoliy/",
+      "image": "https://goout.net/i/139/1391487-383.jpg",
+      "genre": "industrial, shoegaze"
+    },
+    {
+      "title": "Los Fastidios",
+      "date": "29.5.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://goout.net/cs/los-fastidios/szcjkfy/",
+      "image": "https://goout.net/i/138/1380237-383.jpg",
+      "genre": "rock, reggae, ska"
+    },
+    {
+      "title": "Processio miseriae Pragensis 3: EBONY PENDANT (USA)+DRENGSKAPUR (Ger)+DRAUGVEIL+SELVNATT (CZ, NOR)",
+      "date": "11.6.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://www.facebook.com/events/1579158933329435/",
+      "image": "",
+      "genre": "black metal, metal"
+    },
+    {
+      "title": "Dream, Ivory + support: losers!",
+      "date": "22.6.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://goout.net/cs/dream-ivory+support-losers/szjpfey/",
+      "image": "https://goout.net/i/137/1376551-383.jpg",
+      "genre": "shoegaze, punk, pop"
+    },
+    {
+      "title": "This Will Destroy You + Mascara",
+      "date": "30.7.2026",
+      "time": "19:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://goout.net/cs/this-will-destroy-you+mascara/szaldhy/",
+      "image": "https://goout.net/i/090/907860-383.jpg",
+      "genre": "metal"
+    },
+    {
+      "title": "A Wilhelm Scream + support",
+      "date": "2.8.2026",
+      "time": "19:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://goout.net/cs/a-wilhelm-scream+support/szoudiy/",
+      "image": "https://goout.net/i/052/525732-383.jpg",
+      "genre": "hardcore, punk"
+    },
+    {
+      "title": "Evoken (usa) + TodoMal (esp) + Et Moriemur (cz)",
+      "date": "10.8.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://www.facebook.com/events/26380099078281848/",
+      "image": "",
+      "genre": "doom"
+    },
+    {
+      "title": "Fossilization + Phobocosm + Můra",
+      "date": "2.9.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://www.facebook.com/events/969887595387536/",
+      "image": "",
+      "genre": "doom, metal"
+    },
+    {
+      "title": "King Dude",
+      "date": "27.9.2026",
+      "time": "19:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://goout.net/cs/king-dude/szewdiy/",
+      "image": "https://goout.net/i/042/422067-383.jpg",
+      "genre": "rock, blues, folk, country"
+    },
+    {
+      "title": "WU LYF",
+      "date": "1.10.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://goout.net/cs/wu-lyf/szgyjiy/",
+      "image": "https://goout.net/i/139/1391680-383.jpg",
+      "genre": "r&b, pop, soul, funk"
+    },
+    {
+      "title": "DAILY THOMPSON + Constance Tomb",
+      "date": "14.11.2026",
+      "time": "20:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://www.facebook.com/events/25906762665612724/",
+      "image": "",
+      "genre": "indie rock, alternativa, rock, indie"
+    },
+    {
+      "title": "Moon Walker",
+      "date": "22.11.2026",
+      "time": "19:00",
+      "venue": "Subzero",
+      "category": "hudba",
+      "url": "https://goout.net/cs/moon-walker/szypmhy/",
+      "image": "https://goout.net/i/138/1387651-383.jpg",
+      "genre": "rock"
     }
   ]
 }

@@ -1033,6 +1033,30 @@ main {
   font-size: 0.78rem;
   color: var(--muted);
   padding-top: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.card-venue-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.35em;
+  height: 1.35em;
+  border-radius: 3px;
+  background: var(--border);
+  color: var(--muted);
+  font-size: 0.72rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.card-venue-btn:hover {
+  background: var(--accent);
+  color: #fff;
 }
 
 .card-genre {

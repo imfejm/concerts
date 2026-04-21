@@ -2860,6 +2860,183 @@ def scrape_subzero():
 
 
 # ─────────────────────────────────────────────────────────────
+#  ETERNIA SMÍCHOV — Subzero akce
+# ─────────────────────────────────────────────────────────────
+def scrape_eternia_subzero():
+    print("* Eternia Smíchov (Subzero)...")
+    if not HAS_PLAYWRIGHT:
+        print("   [SKIP] playwright není k dispozici")
+        return []
+
+    URL = "https://www.eterniasmichov.com/akce"
+    events = []
+    seen = set()
+
+    DATE_RE = re.compile(r'(\d{1,2})\.\s*(\d{1,2})\.\s*(20\d\d)')
+
+    def _title_fix(s):
+        """ALL CAPS → Title Case; mixed-case zůstane."""
+        core = re.sub(r'\s*\([A-Z]{2,3}\)\s*', lambda m: m.group(0).lower(), s)
+        if core == core.upper():
+            return s.title()
+        return s
+
+    try:
+        from playwright.sync_api import sync_playwright
+        with sync_playwright() as pw:
+            br = pw.chromium.launch()
+            page = br.new_page()
+            page.goto(URL, wait_until="networkidle", timeout=30000)
+            html = page.content()
+            br.close()
+
+        soup = BeautifulSoup(html, "html.parser")
+
+        for a in soup.find_all("a", class_=re.compile(r"css-")):
+            date_span = a.find("span", class_="akceInfo")
+            if not date_span:
+                continue
+
+            hover = a.find("div", class_="hoverInfo")
+            if not hover:
+                continue
+
+            # Venue z "kde:" span
+            spans = hover.find_all("span")
+            venue_text = ""
+            for i, sp in enumerate(spans):
+                if sp.get_text(strip=True) == "kde:" and i + 1 < len(spans):
+                    venue_text = spans[i + 1].get_text(strip=True).lower()
+                    break
+            if "subzero" not in venue_text:
+                continue
+
+            # Datum
+            dm = DATE_RE.search(date_span.get_text())
+            if not dm:
+                continue
+            date_str = f"{int(dm.group(1))}.{int(dm.group(2))}.{dm.group(3)}"
+
+            # Název
+            title_div = a.find("div", class_=re.compile(r"css-"))
+            title = title_div.get_text(strip=True) if title_div else ""
+            if not title:
+                continue
+            title = _title_fix(title)
+
+            key = (title.lower(), date_str)
+            if key in seen:
+                continue
+            seen.add(key)
+
+            url = a.get("href", URL)
+
+            # Popis pro žánr
+            desc = hover.get_text(" ", strip=True)
+            genre = extract_genre_from_text(title + " " + desc)
+
+            events.append({
+                "title": title,
+                "date": date_str,
+                "time": "20:00",
+                "venue": "Subzero",
+                "category": "hudba",
+                "url": url,
+                "image": "",
+                "genre": genre,
+            })
+
+    except Exception as e:
+        print(f"  [WARN] Eternia: {e}", file=sys.stderr)
+
+    print(f"   [OK] {len(events)} akcí")
+    return events
+
+
+def scrape_eternia_puda():
+    print("* Eternia Smíchov (Půda)...")
+    if not HAS_PLAYWRIGHT:
+        print("   [SKIP] playwright není k dispozici")
+        return []
+
+    URL = "https://www.eterniasmichov.com/akce"
+    events = []
+    seen = set()
+
+    DATE_RE = re.compile(r'(\d{1,2})\.\s*(\d{1,2})\.\s*(20\d\d)')
+
+    def _title_fix(s):
+        if s == s.upper():
+            return s.title()
+        return s
+
+    try:
+        from playwright.sync_api import sync_playwright
+        with sync_playwright() as pw:
+            br = pw.chromium.launch()
+            page = br.new_page()
+            page.goto(URL, wait_until="networkidle", timeout=30000)
+            html = page.content()
+            br.close()
+
+        soup = BeautifulSoup(html, "html.parser")
+
+        for a in soup.find_all("a", class_=re.compile(r"css-")):
+            date_span = a.find("span", class_="akceInfo")
+            if not date_span:
+                continue
+            hover = a.find("div", class_="hoverInfo")
+            if not hover:
+                continue
+
+            spans = hover.find_all("span")
+            venue_text = ""
+            for i, sp in enumerate(spans):
+                if sp.get_text(strip=True) == "kde:" and i + 1 < len(spans):
+                    venue_text = spans[i + 1].get_text(strip=True).lower()
+                    break
+            if "půda" not in venue_text:
+                continue
+
+            dm = DATE_RE.search(date_span.get_text())
+            if not dm:
+                continue
+            date_str = f"{int(dm.group(1))}.{int(dm.group(2))}.{dm.group(3)}"
+
+            title_div = a.find("div", class_=re.compile(r"css-"))
+            title = title_div.get_text(strip=True) if title_div else ""
+            if not title:
+                continue
+            title = _title_fix(title)
+
+            key = (title.lower(), date_str)
+            if key in seen:
+                continue
+            seen.add(key)
+
+            url = a.get("href", URL)
+            desc = hover.get_text(" ", strip=True)
+            genre = extract_genre_from_text(title + " " + desc)
+
+            events.append({
+                "title": title,
+                "date": date_str,
+                "time": "20:00",
+                "venue": "Eternia půda",
+                "category": "hudba",
+                "url": url,
+                "image": "",
+                "genre": genre,
+            })
+
+    except Exception as e:
+        print(f"  [WARN] Eternia půda: {e}", file=sys.stderr)
+
+    print(f"   [OK] {len(events)} akcí")
+    return events
+
+
+# ─────────────────────────────────────────────────────────────
 #  KC ZAHRADA + CHODOVSKÁ TVRZ  (kczahrada.cz)
 # ─────────────────────────────────────────────────────────────
 def scrape_kczahrada():
@@ -3160,6 +3337,82 @@ def scrape_klubovnapovalec():
 
 
 # ─────────────────────────────────────────────────────────────
+#  CAFÉ NA PŮL CESTY (Green Doors)
+# ─────────────────────────────────────────────────────────────
+def scrape_cafenaplcesty():
+    print("* Café Na půl cesty (Green Doors)...")
+    URL = "https://www.greendoors.cz/cs/landing_page/cafe-na-pul-cesty-3/"
+    VENUE = "Café Na půl cesty"
+
+    CZ_MONTHS = {
+        "leden": 1, "únor": 2, "únoru": 2, "březen": 3, "duben": 4,
+        "květen": 5, "červen": 6, "červenec": 7, "srpen": 8,
+        "září": 9, "říjen": 10, "listopad": 11, "prosinec": 12,
+    }
+
+    soup = get_soup(URL)
+    if not soup:
+        print("   [OK] 0 akcí")
+        return []
+
+    prog = soup.find("div", class_="program_table")
+    if not prog:
+        print("   [WARN] program_table nenalezena")
+        return []
+
+    now = datetime.now()
+    events = []
+
+    for li in prog.find_all("li"):
+        day_el = li.find("div", class_="day")
+        month_el = li.find("div", class_="month")
+        time_el = li.find("div", class_="grey")
+        title_el = li.find("h4")
+        link_el = li.find("a", class_="block_a")
+        desc_el = li.find("p")
+
+        if not (day_el and month_el and title_el):
+            continue
+
+        title = title_el.get_text(strip=True)
+        if not title:
+            continue
+
+        day = int(day_el.get_text(strip=True))
+        month_name = month_el.get_text(strip=True).lower()
+        month = CZ_MONTHS.get(month_name)
+        if not month:
+            continue
+
+        year = now.year
+        if month < now.month - 1:
+            year += 1
+
+        date_str = f"{day}.{month}.{year}"
+        time_raw = time_el.get_text(" ", strip=True) if time_el else ""
+        tm = re.search(r"\d{1,2}:\d{2}", time_raw)
+        time_str = tm.group(0) if tm else "19:00"
+        url = link_el.get("href", URL) if link_el else URL
+
+        desc = desc_el.get_text(" ", strip=True) if desc_el else ""
+        genre = extract_genre_from_text(title + " " + desc)
+
+        events.append({
+            "title": title,
+            "date": date_str,
+            "time": time_str,
+            "venue": VENUE,
+            "category": "hudba",
+            "url": url,
+            "image": "",
+            "genre": genre,
+        })
+
+    print(f"   [OK] {len(events)} akcí")
+    return events
+
+
+# ─────────────────────────────────────────────────────────────
 #  SALMOVSKÁ LITERÁRNÍ KAVÁRNA
 # ─────────────────────────────────────────────────────────────
 def scrape_salmovska():
@@ -3351,11 +3604,14 @@ def main():
         scrape_bikejesus,
         scrape_modravopice,
         scrape_subzero,
+        scrape_eternia_subzero,
+        scrape_eternia_puda,
         scrape_varsava,
         scrape_kczahrada,
         scrape_citarna,
         scrape_klubovnapovalec,
         scrape_salmovska,
+        scrape_cafenaplcesty,
     ]
 
     for scraper in scrapers:
