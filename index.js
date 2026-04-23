@@ -73,6 +73,11 @@ function buildFilters(events) {
   });
 
   // Toggle tlačítko pro mobilní zobrazení
+  const mobileLabel = document.createElement('span');
+  mobileLabel.className = 'filters-mobile-label';
+  mobileLabel.innerHTML = 'KDE: <span class="filters-hint">můžeš vybrat více možností</span>';
+  wrap.parentNode.insertBefore(mobileLabel, wrap);
+
   const toggle = document.createElement('button');
   toggle.className = 'filters-toggle';
   toggle.id = 'filters-toggle';
@@ -80,7 +85,7 @@ function buildFilters(events) {
 
   function updateToggleLabel() {
     const n = activeVenues.size;
-    toggle.innerHTML = `<span>Kluby${n > 0 ? ` (${n})` : ''}</span><span class="filters-toggle-icon">▾</span>`;
+    toggle.innerHTML = `<span>Místa${n > 0 ? ` (${n})` : ''}</span><span class="filters-toggle-icon">▾</span>`;
     toggle.classList.toggle('has-active', n > 0);
   }
   updateToggleLabel();

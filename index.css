@@ -782,6 +782,18 @@ code {
   width: 100%;
 }
 
+.filters-mobile-label {
+  display: none;
+}
+
+.filters-hint {
+  font-size: 0.7rem;
+  color: var(--accent);
+  text-transform: none;
+  letter-spacing: 0;
+  opacity: 0.75;
+}
+
 .filters {
   display: flex;
   gap: 0.5rem;
@@ -1345,6 +1357,16 @@ footer a {
   }
   .filters-label {
     display: none;
+  }
+  .filters-mobile-label {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    width: 100%;
+    padding-left: 1rem;
+    padding-bottom: 0.25rem;
   }
 
   .genre-bar {
