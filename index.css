@@ -1257,7 +1257,7 @@ footer a {
     border-radius: 2px;
     color: var(--muted);
     font-family: var(--font-body);
-    font-size: 0.95rem;
+    font-size: 1.05rem;
     padding: 0.4rem 0.85rem;
     cursor: pointer;
     text-transform: uppercase;
@@ -1285,7 +1285,7 @@ footer a {
     border-radius: 2px;
     color: #fff;
     font-family: var(--font-body);
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 500;
     cursor: pointer;
     letter-spacing: 0.05em;
@@ -1333,6 +1333,9 @@ footer a {
     overflow-y: auto;
   }
 
+  .filters-group {
+    margin-bottom: 0.75rem;
+  }
   .view-bar {
     flex-wrap: wrap;
     align-items: center;
@@ -1348,7 +1351,7 @@ footer a {
   }
   .view-bar-label {
     display: block;
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     color: var(--muted);
     text-transform: uppercase;
     letter-spacing: 0.08em;
@@ -1360,7 +1363,7 @@ footer a {
   }
   .filters-mobile-label {
     display: block;
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     color: var(--muted);
     text-transform: uppercase;
     letter-spacing: 0.08em;
@@ -1376,22 +1379,22 @@ footer a {
   .genre-bar-label {
     display: block;
     width: 100%;
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     color: var(--muted);
     text-transform: uppercase;
     letter-spacing: 0.08em;
   }
   .filter-btn {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .view-btn {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
   }
   .genre-btn {
-    font-size: 0.85rem;
+    font-size: 0.95rem;
   }
   #search {
-    font-size: 1rem;
+    font-size: 1.05rem;
   }
 
   .search-wrap {
