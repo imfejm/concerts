@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python3 -c ' *)"
+      "Bash(python3 -c ' *)",
+      "Bash(python -)",
+      "Bash(python -c ' *)",
+      "Bash(grep -n 're.search\\(r\\\\?\"\\(.d{1,2}\\)' scraper.py)",
+      "Bash(PYTHONIOENCODING=utf8 python -c ' *)"
     ]
   }
 }

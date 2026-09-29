@@ -2212,41 +2212,36 @@ def scrape_o2arena():
 # ─────────────────────────────────────────────────────────────
 def scrape_sasazu():
     print("* SaSaZu Club...")
-    soup = get_soup("https://www.sasazu-club.com/events")
+    base = "https://www.sasazu-club.com"
+    soup = get_soup(base + "/")
     if not soup:
         return []
 
     events = []
-    base = "https://www.sasazu-club.com"
+    seen = set()
 
-    for item in soup.select("a.grid-item"):
-        text_el = item.find(class_="portfolio-text")
-        text = text_el.get_text(strip=True) if text_el else ""
-        if not text:
-            continue
-
-        # Formát: "17.4.2026 - Název" nebo "8. 4. 2026 - Název"
-        m = re.match(r"(\d{1,2})\.?\s*(\d{1,2})\.?\s*(\d{4})\s*[-–]\s*(.+)", text)
-        if not m:
-            continue
-
-        date_str = f"{int(m.group(1))}.{int(m.group(2))}.{m.group(3)}"
-        title = m.group(4).strip()
-
+    # Nový web (Next.js): karty <a href="/akce/<uuid>"> s datem "DD. MM. YYYY" a <h3> názvem
+    for item in soup.select('a[href^="/akce/"]'):
         href = item.get("href", "")
-        url = href if href.startswith("http") else base + href
+        if href in seen:
+            continue
+
+        h3 = item.find("h3")
+        title = h3.get_text(strip=True) if h3 else ""
+        m = re.search(r"(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})", item.get_text(" ", strip=True))
+        if not title or not m:
+            continue
+        seen.add(href)
 
         img = item.find("img")
-        image = img.get("data-image", "") or img.get("src", "") if img else ""
-
         events.append({
             "title": title,
-            "date": date_str,
+            "date": f"{int(m.group(1))}.{int(m.group(2))}.{m.group(3)}",
             "time": "",
             "venue": "SaSaZu",
             "category": "hudba",
-            "url": url,
-            "image": image,
+            "url": base + href,
+            "image": img.get("src", "") if img else "",
         })
 
     print(f"   [OK] {len(events)} akcí")
