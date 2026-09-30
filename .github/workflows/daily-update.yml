@@ -1,0 +1,59 @@
+name: Daily concert update
+
+on:
+  schedule:
+    # GitHub cron běží v UTC: 04:00 UTC = 06:00 CEST (v zimě 05:00 CET)
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Commit and push changes
+        id: commit
+        run: |
+          if git diff --quiet -- concerts.json; then
+            echo "Žádné změny v concerts.json."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add concerts.json
+          git commit -m "daily concert update"
+          git pull --rebase origin main
+          git push origin main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # Push z GITHUB_TOKENu nespouští další workflow, takže build Pages spustíme ručně.
+      - name: Trigger GitHub Pages build
+        if: steps.commit.outputs.changed == 'true'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds"
