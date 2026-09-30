@@ -15,6 +15,7 @@ Pro automatické spouštění každý den:
 """
 
 import json
+import os
 import re
 import sys
 from datetime import datetime
@@ -27,6 +28,10 @@ try:
     HAS_PLAYWRIGHT = True
 except ImportError:
     HAS_PLAYWRIGHT = False
+
+# Kontrola úplnosti dat před uložením (viz main)
+MAX_DROP_RATIO = 0.05   # max. povolený pokles počtu akcí oproti minulému běhu
+MIN_VENUE_EVENTS = 5    # místo s ≥ tolika akcemi nesmí zmizet úplně
 
 HEADERS = {
     "User-Agent": (
@@ -3788,6 +3793,32 @@ def main():
     print(f"  Z cache (předchozí běh): {genre_from_cache}")
     print(f"  Nově staženo: {genre_fetched}")
     print(f"  Nedostupné: {genre_missing}")
+
+    # ── Kontrola úplnosti: neuložit výrazně menší data než minule ──
+    if not os.environ.get("FORCE_UPDATE"):
+        problems = []
+        try:
+            with open("concerts.json", encoding="utf-8") as f:
+                old_events = json.load(f).get("events", [])
+        except Exception:
+            old_events = []
+        if old_events:
+            old_count, new_count = len(old_events), len(unique_events)
+            if new_count < old_count * (1 - MAX_DROP_RATIO):
+                problems.append(f"celkový počet klesl z {old_count} na {new_count}")
+            old_venues = {}
+            for e in old_events:
+                old_venues[e.get("venue")] = old_venues.get(e.get("venue"), 0) + 1
+            new_venues = {e.get("venue") for e in unique_events}
+            for v, n in old_venues.items():
+                if v and n >= MIN_VENUE_EVENTS and v not in new_venues:
+                    problems.append(f"{v}: {n} akcí -> 0")
+        if problems:
+            print("\n[ABORT] Podezřelý výpadek zdrojů, concerts.json NEPŘEPSÁN:", file=sys.stderr)
+            for p in problems:
+                print(f"  - {p}", file=sys.stderr)
+            print("  (pro vynucení nastav FORCE_UPDATE=1)", file=sys.stderr)
+            sys.exit(1)
 
     # Ukládáme do JSON
     output = {
