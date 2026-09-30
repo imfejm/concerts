@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-30T10:51:13.703589",
-  "count": 1401,
+  "updated": "2026-09-30T20:19:00.145690",
+  "count": 1409,
   "events": [
     {
       "title": "Universal Ticket Universal",
@@ -113,6 +113,16 @@
       "genre": "concert, drum&bass, electro, grime"
     },
     {
+      "title": "Daniel Žižka",
+      "date": "24.01.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/daniel-zizka-1-1",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/daniel-zizka-1-1200x800-6abceeb44ca86132798400.webp",
+      "genre": "indie pop, indie, pop, jazz"
+    },
+    {
       "title": "SPITFIRE COMPANY ANTIWORDS",
       "date": "25.01.2026",
       "time": "",
@@ -170,6 +180,26 @@
       "category": "hudba",
       "url": "https://www.jazzdock.cz/cs/koncert/flui-jaromir-honzak-stepanka-balcarova-katerina-hoskova-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/flui-foto5-6a3e4a0b40a88665561898.webp",
+      "genre": "jazz"
+    },
+    {
+      "title": "Lenka Nová",
+      "date": "01.02.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/lenka-nova-29",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/lenka%20nov%C3%A1%20aktual.webp",
+      "genre": "jazz"
+    },
+    {
+      "title": "Lenka Nová",
+      "date": "02.02.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/lenka-nova-30",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/lenka%20nov%C3%A1%20aktual.webp",
       "genre": "jazz"
     },
     {
@@ -641,6 +671,16 @@
       "url": "https://meetfactory.cz/cs/program/detail/tomas-mitura-chasing-shadows",
       "image": "https://meetfactory.cz/media/images/rescaled/Public_house_26_meetfactory_opaaalek_44-320x426.jpg",
       "genre": "house"
+    },
+    {
+      "title": "Electric Light Orchestra Experience feat. Phil Bates + Cutting Crew / UK",
+      "date": "9.5.2026",
+      "time": "19:00",
+      "venue": "Lucerna Music Bar",
+      "category": "hudba",
+      "url": "https://musicbar.cz/cs/program/electric-light-orchestra-experience-feat-phil-bates-cutting-crew-uk/",
+      "image": "https://static.goout.cloud/musicbarcz/2026/09/0c338d5e-phil_bates-300x300.jpg",
+      "genre": "rock"
     },
     {
       "title": "Oskar Petr „75“, hosté: David Koller, Aneta Langerová, Kamil Střihavka ad.",
@@ -1513,16 +1553,6 @@
       "genre": "jazz"
     },
     {
-      "title": "Progres 2",
-      "date": "29.9.2026",
-      "time": "18:30",
-      "venue": "Lucerna Music Bar",
-      "category": "hudba",
-      "url": "https://musicbar.cz/cs/program/progres-2-2/",
-      "image": "https://static.goout.cloud/musicbarcz/2026/05/9d0c11fc-progres-2-300x300.jpg",
-      "genre": ""
-    },
-    {
       "title": "Robert Balzar Trio",
       "date": "29.09.2026",
       "time": "21:00",
@@ -1571,26 +1601,6 @@
       "url": "https://rockcafe.cz/cs/program/obscure-presents-the-dear-hunter-usa-special-guest/",
       "image": "https://static.goout.cloud/rockcafecz/2025/09/6fd46ad3-instagram-the-dear-hunter-2026-praha-1-250x167.jpg",
       "genre": "house"
-    },
-    {
-      "title": "VZPOMÍNKA NA OLDŘICHA JANOTU",
-      "date": "30.9.2026",
-      "time": "20:00",
-      "venue": "Čítárna Unijazz",
-      "category": "hudba",
-      "url": "https://citarna.unijazz.cz/events/oldrich-janota-vzpominkovy-vecer-praha/",
-      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/08/janota.jpeg",
-      "genre": ""
-    },
-    {
-      "title": "KATARZIA – KŘEST ALBA+SUPPORT MEOWLAU+VOJTIK",
-      "date": "30.09.2026",
-      "time": "",
-      "venue": "Palác Akropolis",
-      "category": "hudba",
-      "url": "https://palacakropolis.cz/work/33298?event_id=40201&no=62&page_id=33824",
-      "image": "https://palacakropolis.cz/images/photos/0026/4034/000018_web_hp.JPG",
-      "genre": ""
     },
     {
       "title": "Deep Forest (FR)",
@@ -3239,7 +3249,7 @@
       "venue": "Palác Akropolis",
       "category": "hudba",
       "url": "https://palacakropolis.cz/work/33298?event_id=40326&no=62&page_id=33824",
-      "image": "https://palacakropolis.cz/images/photos/0026/5526/BabaZula_poster_2_web_event.jpg",
+      "image": "https://palacakropolis.cz/images/photos/0026/5526/BabaZula_poster_2_web_hp.jpg",
       "genre": ""
     },
     {
@@ -3959,7 +3969,7 @@
       "venue": "Čítárna Unijazz",
       "category": "hudba",
       "url": "https://citarna.unijazz.cz/events/koncinna-prosli-tudy-blazni/",
-      "image": "https://citarna.unijazz.cz/wp-content/uploads/2022/11/DSC_0040-scaled.jpg",
+      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/09/WhatsApp-Image-2026-02-12-at-15.37.11-9-kopie-Sudkom-Petr-2.jpg",
       "genre": "rock, šanson"
     },
     {
@@ -5803,6 +5813,16 @@
       "genre": "pop, jazz"
     },
     {
+      "title": "Petr Kalandra Memory Band",
+      "date": "25.10.2026",
+      "time": "20:00",
+      "venue": "Malostranská Beseda",
+      "category": "hudba",
+      "url": "https://goout.net/cs/petr-kalandra-memory-band/szcsdny/",
+      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/5v9yhsy8ji.nla62co7b1-560-560.png",
+      "genre": "blues"
+    },
+    {
       "title": "Dylan Moran: Looking For Trouble",
       "date": "25.10.2026",
       "time": "",
@@ -7613,6 +7633,16 @@
       "genre": ""
     },
     {
+      "title": "Blešák na vlnách",
+      "date": "8.11.2026",
+      "time": "14:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/blesak-na-vlnach-2/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/09/CARGO_SPEED_16.8.2026-12-756x504.jpg",
+      "genre": ""
+    },
+    {
       "title": "Lyapis Trubetskoy / BY",
       "date": "9.11.2026",
       "time": "19:00",
@@ -8371,6 +8401,16 @@
       "url": "https://meetfactory.cz/cs/program/detail/obscure-despised-icon-carnifex-suffocation-gates-to-hell",
       "image": "https://meetfactory.cz/media/images/rescaled/images-8-79x111.jpeg",
       "genre": "death metal, metal"
+    },
+    {
+      "title": "Open Call: Rezidence v CEAAC Štrasburk",
+      "date": "15.11.2026",
+      "time": "",
+      "venue": "MeetFactory",
+      "category": "ostatní",
+      "url": "https://meetfactory.cz/cs/program/detail/open-call-rezidence-v-ceaac-strasburk-2",
+      "image": "https://meetfactory.cz/media/images/rescaled/ceaac_blue-320x426.jpg",
+      "genre": ""
     },
     {
       "title": "EsDeeKid",
@@ -9193,13 +9233,13 @@
       "genre": ""
     },
     {
-      "title": "Pokáč, support: Beira",
+      "title": "Pokáč + live band, support: Beira",
       "date": "23.11.2026",
       "time": "19:00",
       "venue": "Lucerna Music Bar",
       "category": "hudba",
       "url": "https://musicbar.cz/cs/program/pokac-9/",
-      "image": "https://static.goout.cloud/musicbarcz/2023/11/cc0f1445-pokac_300-300x300.jpg",
+      "image": "https://static.goout.cloud/musicbarcz/2026/09/46ccb976-777a3130-300x300.jpg",
       "genre": ""
     },
     {
@@ -9623,16 +9663,6 @@
       "genre": "pop, jazz"
     },
     {
-      "title": "Mat213 – křest desky a medley největších hitů",
-      "date": "27.11.2026",
-      "time": "20:00",
-      "venue": "Archa+",
-      "category": "hudba",
-      "url": "https://archa-plus.cz/cz/program/detail/791/2026-11-27-mat213-krest-desky-a-medley-nejvetsich-hitu",
-      "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2Farcha2-2-2.jpeg&width=500&height=500",
-      "genre": "indie pop, indie, pop, folk"
-    },
-    {
       "title": "Billy Barman & Dievčatá zo SĽUK-u - Vianočný koncert",
       "date": "27.11.2026",
       "time": "20:00",
@@ -9641,6 +9671,16 @@
       "url": "https://archa-plus.cz/cz/program/detail/897/2026-11-27-billy-barman-dievcata-zo-sluk-u-vianocny-koncert",
       "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2FbbXsluk-bratislava-vol.1-122-autor-Tomas-Certik.jpeg&width=500&height=500",
       "genre": ""
+    },
+    {
+      "title": "Mat213 – křest desky a medley největších hitů",
+      "date": "27.11.2026",
+      "time": "20:00",
+      "venue": "Archa+",
+      "category": "hudba",
+      "url": "https://archa-plus.cz/cz/program/detail/791/2026-11-27-mat213-krest-desky-a-medley-nejvetsich-hitu",
+      "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2Farcha2-2-2.jpeg&width=500&height=500",
+      "genre": "indie pop, indie, pop, folk"
     },
     {
       "title": "Pražský Výtěr: 30 let",
@@ -10283,6 +10323,16 @@
       "genre": ""
     },
     {
+      "title": "Pop 80s & 90s video party DJ Jirka Neumann",
+      "date": "4.12.2026",
+      "time": "21:00",
+      "venue": "Lucerna Music Bar",
+      "category": "hudba",
+      "url": "https://musicbar.cz/cs/program/pop-80s-90s-video-party-dj-jirka-neumann-958/",
+      "image": "https://static.goout.cloud/musicbarcz/2021/08/a599cfe1-1920x1080-80s-lmb21_300-300x300.jpg",
+      "genre": ""
+    },
+    {
       "title": "MORBIDFEST 2026: I’M MORBID + ATHEIST + CANCER + STELLVRIS",
       "date": "04.12.2026",
       "time": "18:30",
@@ -10401,6 +10451,16 @@
       "url": "https://archa-plus.cz/cz/program/detail/867/2026-12-04-ventolin-fvlcrvm-ventofu-tour",
       "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2FVentofu2.jpeg&width=500&height=500",
       "genre": "pop"
+    },
+    {
+      "title": "Calin & Viktor Sheen – Arena Tour",
+      "date": "4.12.2026",
+      "time": "19:00",
+      "venue": "O2 Arena",
+      "category": "hudba",
+      "url": "https://www.o2arena.cz/events/calin-viktor-sheen-arena-tour/",
+      "image": "https://www.o2arena.cz/wp-content/uploads/2026/09/arena-tour-2026-12-04-praha-02-1080x1080px-compressed.jpg",
+      "genre": ""
     },
     {
       "title": "VOILÀ / US – PŘESUNUTO DO ROXY",
@@ -11613,6 +11673,16 @@
       "genre": ""
     },
     {
+      "title": "Joshua Curran + Curtains Please",
+      "date": "20.12.2026",
+      "time": "19:10",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/joshua-curran-curtains-please/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/09/2-756x454.jpg",
+      "genre": "rock"
+    },
+    {
       "title": "LATERNA MAGIKA PERPETUUM HAVEL",
       "date": "21.12.2026",
       "time": "",
@@ -12160,6 +12230,16 @@
       "category": "hudba",
       "url": "https://www.modravopice.cz/akce/koncert-251/",
       "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Blešák na vlnách",
+      "date": "10.1.2027",
+      "time": "14:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/blesak-na-vlnach-3/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/09/CARGO_SPEED_16.8.2026-12-756x504.jpg",
       "genre": ""
     },
     {
