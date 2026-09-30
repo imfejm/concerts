@@ -18,7 +18,7 @@ import json
 import os
 import re
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 
 import requests
 from bs4 import BeautifulSoup
@@ -3822,7 +3822,7 @@ def main():
 
     # Ukládáme do JSON
     output = {
-        "updated": datetime.now().isoformat(),
+        "updated": datetime.now(timezone.utc).isoformat(),
         "count": len(unique_events),
         "events": unique_events,
     }
