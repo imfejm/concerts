@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-29T11:53:19.851787",
-  "count": 1139,
+  "updated": "2026-09-30T11:18:21.321032",
+  "count": 1319,
   "events": [
     {
       "title": "Universal Ticket Universal",
@@ -683,6 +683,16 @@
       "genre": "jazz, blues, písničkářství"
     },
     {
+      "title": "Tribute to Jazz Legends: Timeless Melodies",
+      "date": "01.09.2026",
+      "time": "20:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Klub zadán",
       "date": "02.09.2026",
       "time": "19:00",
@@ -691,6 +701,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-321",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Legendary Pop Icons in Jazz: Adele / Lady Gaga / Amy Winehouse (Dorota Tóthová)",
+      "date": "02.09.2026",
+      "time": "20:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "David Dorůžka/Robert Fischmann/Martin Novák",
@@ -703,6 +723,16 @@
       "genre": "world music, jazz"
     },
     {
+      "title": "The Billie Holiday Tribute: A Journey into the Jazz Era",
+      "date": "03.09.2026",
+      "time": "20:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Bachtale Apsa",
       "date": "04.09.2026",
       "time": "21:00",
@@ -711,6 +741,26 @@
       "url": "https://www.jazzdock.cz/cs/koncert/bachtale-apsa-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/bachtale-apsa-2-6a5e1863b0e0b971261768.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
+      "date": "04.09.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Swinging Melodies: A Journey through Unforgettable Jazz Performances",
+      "date": "04.09.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Jamie Marshall Duo ft. Svatka Hlávková ŠtepánkováJazz On The Roof",
@@ -733,6 +783,26 @@
       "genre": "fusion, rock, jazz"
     },
     {
+      "title": "The Nina Simone Experience: An Unforgettable Jazz Tribute",
+      "date": "05.09.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "The Beatles Groove: A Jazz Tribute",
+      "date": "05.09.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Swing SessionNedělní Dixie",
       "date": "06.09.2026",
       "time": "16:00",
@@ -753,6 +823,16 @@
       "genre": "jazz"
     },
     {
+      "title": "Big Band Trumpets – Kings of Swing Tribute to Duke Ellington, Quincy Jones, Dizzy Gillespie, Glen Miller…",
+      "date": "06.09.2026",
+      "time": "20:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Five Rivers Blues Band",
       "date": "07.09.2026",
       "time": "21:00",
@@ -761,6 +841,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/five-rivers-blues-band-11",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/five-rivers-blues-band-6a59dce1da4f5559935599.webp",
       "genre": "electric blues, jazz, blues"
+    },
+    {
+      "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
+      "date": "07.09.2026",
+      "time": "20:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Imran Musa Zangi & Aqua Congaskřest singlu z nového alba",
@@ -773,6 +863,16 @@
       "genre": "world music, jazz"
     },
     {
+      "title": "Melodic Journey with Louis Armstrong, Gershwin, Jobim presented by the Metropolitan Jazz Band",
+      "date": "08.09.2026",
+      "time": "20:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Imran Musa Zangi & Aqua Congaskřest singlu z nového alba",
       "date": "09.09.2026",
       "time": "21:00",
@@ -783,6 +883,16 @@
       "genre": "world music, jazz"
     },
     {
+      "title": "Piano Legends Unite: A Tribute to Chick Corea, Herbie Hancock, and Oscar Peterson",
+      "date": "09.09.2026",
+      "time": "20:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Klub zadán",
       "date": "10.09.2026",
       "time": "19:00",
@@ -791,6 +901,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-306",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Legendary Pop Icons in Jazz: Adele / Lady Gaga / Amy Winehouse (Dorota Tóthová)",
+      "date": "10.09.2026",
+      "time": "20:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Nika",
@@ -811,6 +931,26 @@
       "url": "https://www.jazzdock.cz/cs/koncert/juwana-jenkins-and-her-all-star-mojo-band-1-5",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/jenkins.webp",
       "genre": "jazz, blues"
+    },
+    {
+      "title": "Masters of Groove: Jazz, Soul & Funk with Lee Andrew Davison (USA)",
+      "date": "11.09.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "The Ray Charles Experience by Lee Andrew Davison (USA)",
+      "date": "11.09.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Elin - Coucou TrioJazz On The Roof",
@@ -843,6 +983,26 @@
       "genre": "jazz"
     },
     {
+      "title": "The Golden Voice: A Celebration of Tony Bennett",
+      "date": "12.09.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Two Voices & Jazz Band: Romantic Night",
+      "date": "12.09.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Big Band Pražského salonního orchestruNedělní Dixie",
       "date": "13.09.2026",
       "time": "16:00",
@@ -863,6 +1023,16 @@
       "genre": "jazz, swing"
     },
     {
+      "title": "Jazz Treasures: A Tribute Concert to the American Jazz Masters",
+      "date": "13.09.2026",
+      "time": "20:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Les Gars d'en Bas",
       "date": "14.09.2026",
       "time": "21:00",
@@ -871,6 +1041,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/les-gars-den-bas-1-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-les-gars-den-bas-14-9-2026-6a1560d66a5c8774188670.webp",
       "genre": "rock, jazz"
+    },
+    {
+      "title": "Louis Armstrong Forever: Celebrating a Jazz Icon with Old Timers Jazz Band",
+      "date": "14.09.2026",
+      "time": "20:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Tomáš Víšek - Jazz Goes To Classic",
@@ -893,6 +1073,16 @@
       "genre": "jazz"
     },
     {
+      "title": "Queens Sing the Blue Notes: A Tribute to Bessie Smith, Dinah Washington, Etta James, Janis Joplin",
+      "date": "15.09.2026",
+      "time": "20:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Hetty Kate Quartet - Jazz in Four Seasons (AUS/CZ/USA)",
       "date": "16.09.2026",
       "time": "21:00",
@@ -903,6 +1093,16 @@
       "genre": "jazz"
     },
     {
+      "title": "The Essence of French Chanson: A Tribute to Piaf, Aznavour, Brel, and more...",
+      "date": "16.09.2026",
+      "time": "20:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Klub zadán",
       "date": "17.09.2026",
       "time": "19:00",
@@ -911,6 +1111,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-337",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
+      "date": "17.09.2026",
+      "time": "20:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Alarmfase 3",
@@ -943,6 +1153,26 @@
       "genre": "jazz, funk"
     },
     {
+      "title": "Bohemia Big Band: Tribute to Glenn Miller, Duke Ellington, Benny Goodman...",
+      "date": "18.09.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Timeless Jazz: Bohemia Big Band Pays Tribute to Gershwin, Basie & Miller",
+      "date": "18.09.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Ondřej Kabrna &  Flying AccordionJazz On The Roof",
       "date": "19.09.2026",
       "time": "15:00",
@@ -971,6 +1201,26 @@
       "url": "https://www.jazzdock.cz/cs/koncert/kale-7",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/kale-690cc14c36507570345797.webp",
       "genre": "pop, jazz, blues"
+    },
+    {
+      "title": "Remembering Sinatra: A Timeless Tribute",
+      "date": "19.09.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Swingin’ with Sinatra",
+      "date": "19.09.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Jóga s živou hudbou v Jazz Docku",
@@ -1003,6 +1253,16 @@
       "genre": "jazz"
     },
     {
+      "title": "The Saxophone Legacy: Tribute to Coltrane, Getz, Rollins & Young",
+      "date": "20.09.2026",
+      "time": "20:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Jazz Dock Orchestra plays the music of The Vanguard Jazz Orchestra",
       "date": "21.09.2026",
       "time": "21:00",
@@ -1011,6 +1271,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/jazz-dock-orchestra-90",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/jazzdock-orchestra-upoutavka-zari-2026-6a834c149ed61043260958.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "The Nina Simone Experience: An Unforgettable Jazz Tribute",
+      "date": "21.09.2026",
+      "time": "20:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Cyrille Oswald’s Tons of Bari (NL/CZ/USA)",
@@ -1023,6 +1293,16 @@
       "genre": "jazz"
     },
     {
+      "title": "Piano Legends Unite: A Tribute to Chick Corea, Herbie Hancock, and Oscar Peterson",
+      "date": "22.09.2026",
+      "time": "20:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "John Coltrane 100 anniversary",
       "date": "23.09.2026",
       "time": "20:00",
@@ -1033,6 +1313,16 @@
       "genre": "jazz"
     },
     {
+      "title": "Big Band Trumpets – Kings of Swing Tribute to Duke Ellington, Quincy Jones, Dizzy Gillespie, Glen Miller…",
+      "date": "23.09.2026",
+      "time": "20:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Klub zadán",
       "date": "24.09.2026",
       "time": "19:00",
@@ -1041,6 +1331,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-338",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Melodic Journey with Louis Armstrong, Gershwin, Jobim presented by the Metropolitan Jazz Band",
+      "date": "24.09.2026",
+      "time": "20:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Julian Hesse Quartet",
@@ -1063,14 +1363,24 @@
       "genre": "jazz, soul"
     },
     {
-      "title": "Znouzectnost, Medvěd 009, Lety Mimo",
-      "date": "26.9.2026",
+      "title": "Remembering Sinatra: A Timeless Tribute",
+      "date": "25.09.2026",
       "time": "19:00",
-      "venue": "Rock Café",
+      "venue": "Reduta Jazz Club",
       "category": "hudba",
-      "url": "https://rockcafe.cz/cs/program/znouzectnost-medved-009-lety-mimo/",
-      "image": "https://static.goout.cloud/rockcafecz/2026/05/fb4ee11f-att.vhv2i9l9rez-40a2aqi6fcr9ul9al6gnytbslygddny-e1779991607165-250x167.jpeg",
-      "genre": "rock"
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Swingin’ with Sinatra",
+      "date": "25.09.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Roaring Wild Cats PragueJazz On The Roof",
@@ -1103,14 +1413,24 @@
       "genre": "jazz"
     },
     {
-      "title": "Rock for People presents: Vundabar (USA), Yot Club (USA)",
-      "date": "27.9.2026",
+      "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
+      "date": "26.09.2026",
       "time": "19:00",
-      "venue": "Rock Café",
+      "venue": "Reduta Jazz Club",
       "category": "hudba",
-      "url": "https://rockcafe.cz/cs/program/rock-for-people-presents-vundabar-usa-yot-club-usa/",
-      "image": "https://static.goout.cloud/rockcafecz/2026/05/e488e46b-square-250x167.png",
-      "genre": "indie rock, rock, indie"
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Swinging Melodies: A Journey through Unforgettable Jazz Performances",
+      "date": "26.09.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Dixieland pražských aviatikůNedělní Dixie",
@@ -1133,24 +1453,24 @@
       "genre": "elektronika, jazz"
     },
     {
-      "title": "PŘESUNUTO: Obscure presents: Humanity’s Last Breath …",
-      "date": "28.9.2026",
-      "time": "17:30",
-      "venue": "Rock Café",
+      "title": "The Ray Charles Experience by Lee Andrew Davison (USA)",
+      "date": "27.09.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
       "category": "hudba",
-      "url": "https://rockcafe.cz/cs/program/obscure-presents-humanitys-last-breath-swe-vildhjarta-swe-enterprise-earth-usa-karmanjakah-swe/",
-      "image": "https://static.goout.cloud/rockcafecz/2026/03/f0046c56-600x600-12-250x167.jpg",
-      "genre": "rock"
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
-      "title": "FreeZone: Late Mayday, Schmüd, Lars",
-      "date": "28.9.2026",
-      "time": "19:00",
-      "venue": "Rock Café",
+      "title": "The Ultimate Jazz, Soul & Funk Experience with Lee Andrew Davison (USA)",
+      "date": "27.09.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
       "category": "hudba",
-      "url": "https://rockcafe.cz/cs/program/late-mayday-schmud-lars/",
-      "image": "https://static.goout.cloud/rockcafecz/2026/09/698917df-784862487_1013354431727981_6576901562488980398_n-250x167.jpg",
-      "genre": "rock"
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Annaliesa Rose & The Buds (AUS/CZ)",
@@ -1163,74 +1483,14 @@
       "genre": "jazz"
     },
     {
-      "title": "ZRUŠENO: Selection presents: ClockClock (DE)",
-      "date": "29.9.2026",
-      "time": "19:00",
-      "venue": "Rock Café",
+      "title": "The Billie Holiday Tribute: A Journey into the Jazz Era",
+      "date": "28.09.2026",
+      "time": "20:00",
+      "venue": "Reduta Jazz Club",
       "category": "hudba",
-      "url": "https://rockcafe.cz/cs/program/selection-presents-clockclock-de-2/",
-      "image": "https://static.goout.cloud/rockcafecz/2026/03/f8cf503c-admin-ajax.php-10-250x167.jpeg",
-      "genre": "pop"
-    },
-    {
-      "title": "FreeZone: Nixies + Finally Tuesday!",
-      "date": "29.9.2026",
-      "time": "19:30",
-      "venue": "Rock Café",
-      "category": "hudba",
-      "url": "https://rockcafe.cz/cs/program/freezone-nixies-finally-tuesday/",
-      "image": "https://static.goout.cloud/rockcafecz/2026/09/0932c485-799441262_122257777970103587_659950727975728765_n-250x167.jpg",
-      "genre": "alternativa, fusion, rock, indie"
-    },
-    {
-      "title": "Progres 2",
-      "date": "29.9.2026",
-      "time": "18:30",
-      "venue": "Lucerna Music Bar",
-      "category": "hudba",
-      "url": "https://musicbar.cz/cs/program/progres-2-2/",
-      "image": "https://static.goout.cloud/musicbarcz/2026/05/9d0c11fc-progres-2-300x300.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Křest Live CD Loes a Honza + Support KrMiš",
-      "date": "29.9.2026",
-      "time": "19:30",
-      "venue": "Čítárna Unijazz",
-      "category": "hudba",
-      "url": "https://citarna.unijazz.cz/events/https-goout-net-cs-loes-a-honza-krest-live-cdsupport-krmis-szjuoly/",
-      "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/08/Loes-Honza-PR-2025-01-Virginia-Tello-Close-Landscape-Loes-van-Schaijk-scaled-e1786367532722.jpg",
-      "genre": ""
-    },
-    {
-      "title": "BANNED FROM UTOPIA PLAY THE MUSIC OF FRANK ZAPPA/US",
-      "date": "29.09.2026",
-      "time": "",
-      "venue": "Palác Akropolis",
-      "category": "hudba",
-      "url": "https://palacakropolis.cz/work/33298?event_id=39017&no=62&page_id=33824",
-      "image": "https://palacakropolis.cz/images/photos/0025/7441/Banned_From_Utopia_web_hp.jpg",
-      "genre": ""
-    },
-    {
-      "title": "SLAM v lese",
-      "date": "29.09.2026",
-      "time": "19:30",
-      "venue": "Café v lese",
-      "category": "hudba",
-      "url": "https://cafevlese.cz/events/slam-v-lese-10/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/09/801327612_1559130282923122_2390903672967109606_n-768x437.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Live Nation: Father Of Peace",
-      "date": "29.09.2026",
-      "time": "20.00",
-      "venue": "MeetFactory",
-      "category": "hudba",
-      "url": "https://meetfactory.cz/cs/program/detail/live-nation-father-of-peace",
-      "image": "https://meetfactory.cz/media/images/rescaled/1900x1900-000000-80-0-0_XYeLnz1-320x426.jpg",
-      "genre": ""
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Robert Balzar Trio",
@@ -1243,14 +1503,14 @@
       "genre": "jazz"
     },
     {
-      "title": "Ibby Pop - křest debutového sólo alba",
+      "title": "Louis Armstrong Forever: Celebrating a Jazz Icon with Old Timers Jazz Band",
       "date": "29.09.2026",
       "time": "20:00",
-      "venue": "Malostranská Beseda",
+      "venue": "Reduta Jazz Club",
       "category": "hudba",
-      "url": "https://goout.net/cs/ibby-pop/szupkly/",
-      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/t7wxnay8oa.image0.jpeg",
-      "genre": "pop"
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Red Bull Symphonic with Ben Cristovao",
@@ -1263,36 +1523,6 @@
       "genre": ""
     },
     {
-      "title": "Blockhead / US + ProleteR / FR",
-      "date": "29.9.2026",
-      "time": "19:00",
-      "venue": "Cargo Gallery",
-      "category": "hudba",
-      "url": "https://cargogallery.cz/akce/blockhead-us-proleter-fr-support-arms-and-sleepers-de/",
-      "image": "https://cargogallery.cz/wp-content/uploads/2026/03/FUTURUM-WEB-ROZMERY-11-756x454.png",
-      "genre": "electro"
-    },
-    {
-      "title": "OsamaSon (USA)",
-      "date": "29.9.2026",
-      "time": "",
-      "venue": "SaSaZu",
-      "category": "hudba",
-      "url": "https://www.sasazu-club.com/akce/4ceab379-9f13-4813-9eb3-a805c0eccb82",
-      "image": "https://qglmzuvgrznvopdyfmie.supabase.co/storage/v1/object/public/event-web/4ceab379-9f13-4813-9eb3-a805c0eccb82/1785410984782.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Blizzard",
-      "date": "29.9.2026",
-      "time": "20:00",
-      "venue": "Na Slamníku",
-      "category": "hudba",
-      "url": "https://na-slamniku.cz/koncerty/",
-      "image": "",
-      "genre": "rock"
-    },
-    {
       "title": "Obscure presents: The Dear Hunter (USA) + support: River House",
       "date": "30.9.2026",
       "time": "19:00",
@@ -1300,7 +1530,7 @@
       "category": "hudba",
       "url": "https://rockcafe.cz/cs/program/obscure-presents-the-dear-hunter-usa-special-guest/",
       "image": "https://static.goout.cloud/rockcafecz/2025/09/6fd46ad3-instagram-the-dear-hunter-2026-praha-1-250x167.jpg",
-      "genre": ""
+      "genre": "house"
     },
     {
       "title": "VZPOMÍNKA NA OLDŘICHA JANOTU",
@@ -1319,7 +1549,7 @@
       "venue": "Palác Akropolis",
       "category": "hudba",
       "url": "https://palacakropolis.cz/work/33298?event_id=40201&no=62&page_id=33824",
-      "image": "https://palacakropolis.cz/images/photos/0026/4034/000018_web_event.JPG",
+      "image": "https://palacakropolis.cz/images/photos/0026/4034/000018_web_hp.JPG",
       "genre": ""
     },
     {
@@ -1361,6 +1591,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/ga-21",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/ga20-1200x900-699734b089280958584668.webp",
       "genre": "rock, jazz, blues"
+    },
+    {
+      "title": "Timeless Legends: Celebrating the Legacy of Michael Jackson, AC Jobim, Herbie Hancock, and Duke Ellington",
+      "date": "30.09.2026",
+      "time": "20:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Potlach: Pacifik + Sychravo",
@@ -1415,7 +1655,7 @@
     {
       "title": "HAVOK / US + BLOOD RED THRONE / NO + XONOR / SZ + ERADIKATED / SE",
       "date": "01.10.2026",
-      "time": "18:30",
+      "time": "18:00",
       "venue": "Futurum Music Bar",
       "category": "hudba",
       "url": "https://futurum.musicbar.cz/program/havok-us-blood-red-throne-no-xonor-sz-eradikated-se/",
@@ -1483,6 +1723,26 @@
       "genre": "rock, jazz"
     },
     {
+      "title": "Tribute to the Birth of Modern Jazz: From 1940s Bebop to 1950s Hard Bop",
+      "date": "01.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "THE “BOHEMIA AFTER DARK” PROJECT – TRIBUTE TO THE GIANTS OF BOP (UK/CZ)",
+      "date": "01.10.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Etc...",
       "date": "01.10.2026",
       "time": "20:00",
@@ -1490,7 +1750,7 @@
       "category": "hudba",
       "url": "#",
       "image": "https://goout.net/i/120/1206001-800.jpg",
-      "genre": "rock"
+      "genre": "rock, pop, jazz, blues"
     },
     {
       "title": "Muzikanti z Kampy",
@@ -1641,6 +1901,26 @@
       "url": "https://www.jazzdock.cz/cs/koncert/laco-deczi-new-york-celula-1-26",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/laco-deczi-6a6c7ad75ef50933727247.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Bohemia Big Band: Tribute to Glenn Miller, Duke Ellington, Benny Goodman...",
+      "date": "02.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Timeless Jazz: Bohemia Big Band Pays Tribute to Gershwin, Basie & Miller",
+      "date": "02.10.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "ETC...",
@@ -1853,6 +2133,26 @@
       "genre": "jazz"
     },
     {
+      "title": "Remembering Sinatra: A Timeless Tribute",
+      "date": "03.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Swingin’ with Sinatra",
+      "date": "03.10.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "A+U: \n\n\t\t\t\t\tDream hiss – Tvorba herního světa prostřednictvím zvuku w/ Ancestral Vision & Oliver Torr",
       "date": "03.10.2026",
       "time": "14:00",
@@ -1983,6 +2283,16 @@
       "genre": "jazz"
     },
     {
+      "title": "THE BEST JAZZ FROM NEW ORLEANS: JJ JAZZMEN & LUCI RADECKA",
+      "date": "04.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Edith Piaf: Dnes nechci spát sama",
       "date": "04.10.2026",
       "time": "20:00",
@@ -2043,7 +2353,7 @@
       "genre": "rock"
     },
     {
-      "title": "Kateřina Marie Tichá & Bandjeez – VYPRODÁNO",
+      "title": "Kateřina Marie Tichá & Bandjeez",
       "date": "5.10.2026",
       "time": "19:00",
       "venue": "Lucerna Music Bar",
@@ -2103,6 +2413,16 @@
       "genre": "fusion, jazz"
     },
     {
+      "title": "Ray Charles: The Soul & Gospel Experience with Lee Andrew Davison (USA)",
+      "date": "05.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "321 Jedem! host: Eva Burešová",
       "date": "05.10.2026",
       "time": "19:00",
@@ -2145,7 +2465,7 @@
     {
       "title": "ZEKE DEUX /JP",
       "date": "06.10.2026",
-      "time": "19:00",
+      "time": "19:30",
       "venue": "Futurum Music Bar",
       "category": "hudba",
       "url": "https://futurum.musicbar.cz/program/live-shows/zeke-deux-jp/",
@@ -2181,6 +2501,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/justin-hicks-feat-marvin-sewell-kyle-miles-usa-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/upoutavka-justin-hicks-6-10-2026-6a26d16e15ca5279961583.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Melodic Journey with Louis Armstrong, Gershwin, Jobim presented by the Metropolitan Jazz Band",
+      "date": "06.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Martina Trchová & band",
@@ -2271,6 +2601,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/wille-the-bandits-uk-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-wille-the-bandits-7-10-2026-6a6cc49ed4614535250578.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Piano Legends Unite: A Tribute to Chick Corea, Herbie Hancock, and Oscar Peterson",
+      "date": "07.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "12:piet – Přijeli sme do téj Prahy",
@@ -2423,6 +2763,16 @@
       "genre": "jazz, soul"
     },
     {
+      "title": "The Golden Voice: A Celebration of Tony Bennett",
+      "date": "08.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Magnum jazz big band",
       "date": "08.10.2026",
       "time": "20:30",
@@ -2561,6 +2911,26 @@
       "url": "https://www.jazzdock.cz/cs/koncert/top-dream-company-15",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-top-dream-company-9-10-2026-6996d809b0d4f413908928.webp",
       "genre": "jazz, soul"
+    },
+    {
+      "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
+      "date": "09.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Swinging Melodies: A Journey through Unforgettable Jazz Performances",
+      "date": "09.10.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Cedule - GOBLINS ARE REAL",
@@ -2733,6 +3103,26 @@
       "genre": "jazz"
     },
     {
+      "title": "The Ray Charles Experience by Lee Andrew Davison (USA)",
+      "date": "10.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Masters of Groove: Jazz, Soul & Funk with Lee Andrew Davison (USA)",
+      "date": "10.10.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Hugo Toxxx - křest alba Art",
       "date": "10.10.2026",
       "time": "21:00",
@@ -2843,6 +3233,16 @@
       "genre": ""
     },
     {
+      "title": "La Forasteria (AR)",
+      "date": "11.10.2026",
+      "time": "19:30",
+      "venue": "Café v lese",
+      "category": "hudba",
+      "url": "https://cafevlese.cz/events/la-forasteria-ar/",
+      "image": "https://cafevlese.cz/wp-content/uploads/2026/09/819987304_2345356659607401_2268534394744602760_n.png-e1790692675173-768x462.jpeg",
+      "genre": ""
+    },
+    {
       "title": "Dixieland MessengersNedělní Dixie",
       "date": "11.10.2026",
       "time": "16:00",
@@ -2861,6 +3261,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/dorota-barova-trio-5",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/dorotabarovatriofoto2025byjanvalik6-6a57770c32f2f345842800.webp",
       "genre": "world music, jazz, folk"
+    },
+    {
+      "title": "Louis Armstrong Forever: Celebrating a Jazz Icon with Old Timers Jazz Band",
+      "date": "11.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Yaelokre + Ben Caplan",
@@ -2921,6 +3331,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/muff-29",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-muff-12-10-2026-6a991f24b4541979579155.webp",
       "genre": "elektronika, rock, jazz"
+    },
+    {
+      "title": "The Billie Holiday Tribute: A Journey into the Jazz Era",
+      "date": "12.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Jan Spálený & ASPM",
@@ -3021,6 +3441,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/jen-hovorka-marek-urbanek-figures-of-speech-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/urbanek-6a6c8950df2f3538492337.webp",
       "genre": "jazz, rap"
+    },
+    {
+      "title": "Jazz Treasures: A Tribute Concert to the American Jazz Masters",
+      "date": "13.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "A+U: \n\n\t\t\t\t\tDAWLESS – Tvorba elektronické hudby bez PC w/ TMA",
@@ -3151,6 +3581,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/julian-jpo-pollack-trio-usa-3",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/upoutavka-julian-pollack-14-10-2026-6a327db0041c2569925075.webp",
       "genre": "fusion, jazz, soul"
+    },
+    {
+      "title": "Melodic Journey with Louis Armstrong, Gershwin, Jobim presented by the Metropolitan Jazz Band",
+      "date": "14.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "The Devil Wears Prada",
@@ -3291,6 +3731,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-331",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "The Billie Holiday Tribute: A Journey into the Jazz Era",
+      "date": "15.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "David Duchovny",
@@ -3463,6 +3913,26 @@
       "genre": "jazz"
     },
     {
+      "title": "The Ultimate Jazz, Soul & Funk Experience with Lee Andrew Davison (USA)",
+      "date": "16.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "The Ray Charles Experience by Lee Andrew Davison (USA)",
+      "date": "16.10.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Swingová tančírna s The mole´s wing orchestra",
       "date": "16.10.2026",
       "time": "20:00",
@@ -3633,6 +4103,26 @@
       "genre": "jazz, electro"
     },
     {
+      "title": "The Nina Simone Experience: An Unforgettable Jazz Tribute",
+      "date": "17.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "The Beatles Groove: A Jazz Tribute",
+      "date": "17.10.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "TANCESRAZ: SPOTLIGHT",
       "date": "17.10.2026",
       "time": "22:00",
@@ -3659,7 +4149,7 @@
       "venue": "Cargo Gallery",
       "category": "hudba",
       "url": "https://cargogallery.cz/akce/drug-me-fest-xi/",
-      "image": "https://cargogallery.cz/wp-content/uploads/2026/06/Vibravoid_2-756x454.jpg",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/06/TDC_Photographer_@DanTrautwein_13-756x454.jpg",
       "genre": ""
     },
     {
@@ -3761,6 +4251,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/marketa-foukalova-folk-q-1-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/mf-folk-foto-akoller-2-69146d2aa04ef434475125.webp",
       "genre": "jazz, folk"
+    },
+    {
+      "title": "The Saxophone Legacy: Tribute to Coltrane, Getz, Rollins & Young",
+      "date": "18.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Folk Team - křest alba \"Na konci světa\"",
@@ -3883,6 +4383,16 @@
       "genre": "jazz"
     },
     {
+      "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
+      "date": "19.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Leamon + Meadow Avenue + další – Jedny narozeniny a jeden křest",
       "date": "19.10.2026",
       "time": "19:30",
@@ -4001,6 +4511,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/rene-trossman-little-big-band-4",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/rene-661788dd6ad84879839434.webp",
       "genre": "jazz, blues"
+    },
+    {
+      "title": "Tribute to Jazz Legends: Timeless Melodies",
+      "date": "20.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "A+U: \n\n\t\t\t\t\tSet and Play w/ Ursula Sereghy",
@@ -4123,6 +4643,16 @@
       "genre": "jazz, blues"
     },
     {
+      "title": "Backside Big Band Plays the Greats: Ellington, Gillespie, Prima & Gershwin",
+      "date": "21.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Magická noc (Vozáry & Hlavsa) + Poly Noir & The holy spirit smugglers",
       "date": "21.10.2026",
       "time": "20:00",
@@ -4173,7 +4703,7 @@
       "genre": ""
     },
     {
-      "title": "KARMAFEST 2026: REFLECTIONS OF KARMA + SAKAI CLUB + MANYFEST",
+      "title": "KARMAFEST 2026: REFLECTIONS OF KARMA + SAKAI CLUB + JARY TAUBER",
       "date": "22.10.2026",
       "time": "18:30",
       "venue": "Futurum Music Bar",
@@ -4200,6 +4730,16 @@
       "category": "hudba",
       "url": "https://palacakropolis.cz/work/33298?event_id=40623&no=62&page_id=33824",
       "image": "https://palacakropolis.cz/images/photos/0026/3686/Oliver_Vonberg_Digitalism_OptimismPic-0226_web_event.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Moderný chalan + SLAV",
+      "date": "22.10.2026",
+      "time": "19:30",
+      "venue": "Café v lese",
+      "category": "hudba",
+      "url": "https://cafevlese.cz/events/moderny-chalan-slav/",
+      "image": "https://cafevlese.cz/wp-content/uploads/2026/09/1404928-800-768x768.jpg",
       "genre": ""
     },
     {
@@ -4243,6 +4783,16 @@
       "genre": "jazz"
     },
     {
+      "title": "Queens Sing the Blue Notes: A Tribute to Bessie Smith, Dinah Washington, Etta James, Janis Joplin",
+      "date": "22.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Kamberská & Ponocný – Vzpomínka na Steinovky",
       "date": "22.10.2026",
       "time": "20:00",
@@ -4251,6 +4801,16 @@
       "url": "https://goout.net/cs/kamberska-and-ponocny-vzpominka-na-steinovky/sznyemy/",
       "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/h7v1obk1uv.Kamberska-Ponocny-.jpg",
       "genre": ""
+    },
+    {
+      "title": "Trio Jalumar",
+      "date": "22.10.2026",
+      "time": "19:00",
+      "venue": "Sala Terrena",
+      "category": "hudba",
+      "url": "https://www.kckampa.cz/",
+      "image": "https://www.kckampa.cz/media/spolecne-foto-Tria-Jalumar-26.6.2025-600x600.jpg",
+      "genre": "jazz"
     },
     {
       "title": "Caravan Palace (FR)",
@@ -4363,6 +4923,16 @@
       "genre": ""
     },
     {
+      "title": "My Dear Ada",
+      "date": "23.10.2026",
+      "time": "",
+      "venue": "MeetFactory",
+      "category": "galerie meetfactory",
+      "url": "https://meetfactory.cz/cs/program/detail/my-dear-ada",
+      "image": "https://meetfactory.cz/media/images/rescaled/My_Dear_Ada_Meet_Factory_Paleofuture_Lab_03-79x111.TIF",
+      "genre": ""
+    },
+    {
       "title": "Harpreet Bansal Trio (NO/IND/CZ)",
       "date": "23.10.2026",
       "time": "19:00",
@@ -4381,6 +4951,26 @@
       "url": "https://www.jazzdock.cz/cs/koncert/kobra-party-band-universal-1-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/jazzdock-foto-rozmery-69b01e6a9481e906075377.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
+      "date": "23.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Swinging Melodies: A Journey through Unforgettable Jazz Performances",
+      "date": "23.10.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "FKJ",
@@ -4430,6 +5020,16 @@
       "category": "hudba",
       "url": "https://cargogallery.cz/akce/natally/",
       "image": "https://cargogallery.cz/wp-content/uploads/2026/08/01-756x454.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Erem - blowup #05",
+      "date": "23.10.2026",
+      "time": "",
+      "venue": "SaSaZu",
+      "category": "hudba",
+      "url": "https://www.sasazu-club.com/akce/a5ee9b9f-e395-4480-8653-2b342754abe9",
+      "image": "https://qglmzuvgrznvopdyfmie.supabase.co/storage/v1/object/public/event-web/a5ee9b9f-e395-4480-8653-2b342754abe9/1790271320341.jpg",
       "genre": ""
     },
     {
@@ -4543,6 +5143,26 @@
       "genre": "jazz"
     },
     {
+      "title": "Singers Unlimited: A Unique Journey Through Jazz, Pop & Soul",
+      "date": "24.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Harmony Across Continents: The East West European Jazz Orchestra",
+      "date": "24.10.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "ABRAXAS: Tour \"Půl století Abraxas\" + křest LP desky",
       "date": "24.10.2026",
       "time": "20:00",
@@ -4613,6 +5233,16 @@
       "genre": "rock"
     },
     {
+      "title": "THE LIMBA – EUROPE TOUR 2026 (KAZ)",
+      "date": "25.10.2026",
+      "time": "",
+      "venue": "Roxy",
+      "category": "hudba",
+      "url": "https://www.roxy.cz/events/detail/5161/the-limba-europe-tour-2026",
+      "image": "https://www.roxy.cz/upload/temp/img-7307-c62mvdu8w872-crop-480-480.PNG",
+      "genre": "concert, drum&bass, electro, grime"
+    },
+    {
       "title": "Jóga s živou hudbou v Jazz Docku",
       "date": "25.10.2026",
       "time": "10:30",
@@ -4640,6 +5270,16 @@
       "category": "hudba",
       "url": "https://www.jazzdock.cz/cs/koncert/rex-richardson-quintet-feat-aichinger-tokoly-honzak-kleibl-usa-at-sk-cz-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-rex-richardson-quintet-25-10-2026-6a67512a8e6ca486714427.webp",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Big Band Trumpets – Kings of Swing Tribute to Duke Ellington, Quincy Jones, Dizzy Gillespie, Glen Miller…",
+      "date": "25.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
       "genre": "pop, jazz"
     },
     {
@@ -4731,6 +5371,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/sachal-vasandani-best-life-now-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-sachal-vasandani-26-10-2026-69846baf80d7c770399957.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Jason Clotter / Alan Bartuš (New York) & Band Famous American Standards + New Album Release",
+      "date": "26.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "KrisKros a cappella: Říjnová Live Session",
@@ -4853,6 +5503,26 @@
       "genre": "jazz"
     },
     {
+      "title": "Two Voices & Jazz Band: Romantic Night",
+      "date": "27.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "The Golden Voice: A Celebration of Tony Bennett",
+      "date": "27.10.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Precedens",
       "date": "27.10.2026",
       "time": "20:30",
@@ -4963,6 +5633,16 @@
       "genre": "world music, jazz, blues"
     },
     {
+      "title": "Swingin' to the Jazz Age: The Ultimate Tribute Concert",
+      "date": "28.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Saint Stacy / CH",
       "date": "28.10.2026",
       "time": "10:57",
@@ -5033,6 +5713,16 @@
       "genre": "fusion, jazz, rap"
     },
     {
+      "title": "Tribute to the Birth of Modern Jazz: From 1940s Bebop to 1950s Hard Bop",
+      "date": "29.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Berlin Manson - křest desky",
       "date": "29.10.2026",
       "time": "20:00",
@@ -5083,6 +5773,16 @@
       "genre": "rock, punk"
     },
     {
+      "title": "Řezník a Haades – křest alba Drogstars + support: …",
+      "date": "30.10.2026",
+      "time": "20:00",
+      "venue": "Rock Café",
+      "category": "hudba",
+      "url": "https://rockcafe.cz/cs/program/reznik-a-haades-krest-alba-drogstars-support-stryc-nory/",
+      "image": "https://static.goout.cloud/rockcafecz/2026/09/0e7f7a1c-759849592_1590924005729032_5473452107749145093_n-250x167.jpg",
+      "genre": "rock"
+    },
+    {
       "title": "HALLOWEEN Pop 80s & 90s video party DJ Jirka Neumann",
       "date": "30.10.2026",
       "time": "21:00",
@@ -5101,6 +5801,16 @@
       "url": "https://klub007strahov.cz/events/springless-cz-louty-cz-dafy-and-the-rafters-sk/",
       "image": "",
       "genre": "PUNK ROCK"
+    },
+    {
+      "title": "curtains please + Slávek Pham",
+      "date": "30.10.2026",
+      "time": "19:30",
+      "venue": "Café v lese",
+      "category": "hudba",
+      "url": "https://cafevlese.cz/events/curtains-please-slavek-pham/",
+      "image": "https://cafevlese.cz/wp-content/uploads/2026/09/1406112-800-768x509.jpg",
+      "genre": ""
     },
     {
       "title": "Nuummite, Zajetí Kouře, Soldiers of Rage (PT/UK)",
@@ -5161,6 +5871,26 @@
       "url": "https://www.jazzdock.cz/cs/koncert/laco-deczi-new-york-celula-1-28",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/laco-deczi-6a6c7ad75ef50933727247.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Remembering Sinatra: A Timeless Tribute",
+      "date": "30.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Swingin’ with Sinatra",
+      "date": "30.10.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Walk off the Earth",
@@ -5363,6 +6093,26 @@
       "genre": "pop, jazz, soul, ska"
     },
     {
+      "title": "The Nina Simone Experience: An Unforgettable Jazz Tribute",
+      "date": "31.10.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "The Beatles Groove: A Jazz Tribute",
+      "date": "31.10.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Hunger games Rave",
       "date": "31.10.2026",
       "time": "21:00",
@@ -5483,6 +6233,16 @@
       "genre": "jazz"
     },
     {
+      "title": "Piano Legends Unite: A Tribute to Chick Corea, Herbie Hancock, and Oscar Peterson",
+      "date": "01.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Byli jednou dva peaceaři tour",
       "date": "01.11.2026",
       "time": "17:00",
@@ -5490,7 +6250,7 @@
       "category": "hudba",
       "url": "#",
       "image": "https://goout.net/i/140/1401077-800.jpg",
-      "genre": ""
+      "genre": "rock, pop, jazz, blues"
     },
     {
       "title": "The Temperance Movement / UK",
@@ -5553,6 +6313,16 @@
       "genre": "jazz"
     },
     {
+      "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
+      "date": "02.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Horkýže Slíže / SK",
       "date": "3.11.2026",
       "time": "19:30",
@@ -5601,6 +6371,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/noah-derksen-can-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-noah-derksen-3-11-2026-69e238825b67d564464511.webp",
       "genre": "indie rock, rock, indie, jazz"
+    },
+    {
+      "title": "Big Band Trumpets – Kings of Swing Tribute to Duke Ellington, Quincy Jones, Dizzy Gillespie, Glen Miller…",
+      "date": "03.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Honza Křížek Band | Křest alba:  Všechno co mám rád.",
@@ -5703,6 +6483,16 @@
       "genre": "jazz"
     },
     {
+      "title": "The Essence of French Chanson: A Tribute to Piaf, Aznavour, Brel, and more...",
+      "date": "04.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Pocta Zuzaně Navarové + Jazz Elements",
       "date": "04.11.2026",
       "time": "19:30",
@@ -5781,6 +6571,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/bill-frisell-trio-usa-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-bill-frisell-trio-5-11-2026-69ad4cf4f0d3f413869762.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Melodic Journey with Louis Armstrong, Gershwin, Jobim presented by the Metropolitan Jazz Band",
+      "date": "05.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Adam Vopička | Pyžamo, prosím!",
@@ -5913,6 +6713,26 @@
       "genre": "fusion, jazz"
     },
     {
+      "title": "Bohemia Big Band: Tribute to Glenn Miller, Duke Ellington, Benny Goodman...",
+      "date": "06.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Timeless Jazz: Bohemia Big Band Pays Tribute to Gershwin, Basie & Miller",
+      "date": "06.11.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Amon Amarth – The Allfather Awakens: Europe & UK Tour 2026",
       "date": "6.11.2026",
       "time": "18:30",
@@ -6021,6 +6841,26 @@
       "url": "https://www.jazzdock.cz/cs/koncert/looping-voices-ondrej-ruml-nahubu-endru-kirill-yakovlev-circus-ponorka-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-looping-voices-7-11-2026-6aa6e5e6d57d1139698261.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Remembering Sinatra: A Timeless Tribute",
+      "date": "07.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Swingin’ with Sinatra",
+      "date": "07.11.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Hatebreed + Life of Agony + End It",
@@ -6139,8 +6979,18 @@
       "venue": "Jazz Dock",
       "category": "hudba",
       "url": "https://www.jazzdock.cz/cs/koncert/otto-hejnic-trio-7",
-      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-otto-hejnic-trio-8-11-2026-6a71bc8250a03417362775.webp",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-otto-hejnic-trio-8-11-2026-oprava-6abbddfe09155551318643.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "The Saxophone Legacy: Tribute to Coltrane, Getz, Rollins & Young",
+      "date": "08.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Spectaculare_14 - Floex Ensemble (křest) + Juha Mäki-Patola",
@@ -6160,7 +7010,7 @@
       "category": "hudba",
       "url": "#",
       "image": "https://goout.net/i/137/1376731-800.jpg",
-      "genre": ""
+      "genre": "rock, pop, jazz, blues"
     },
     {
       "title": "THE WITCHER III IN CONCERT",
@@ -6213,6 +7063,16 @@
       "genre": "jazz"
     },
     {
+      "title": "Jazz Treasures: A Tribute Concert to the American Jazz Masters",
+      "date": "09.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Radůza",
       "date": "09.11.2026",
       "time": "20:00",
@@ -6220,7 +7080,7 @@
       "category": "hudba",
       "url": "#",
       "image": "https://goout.net/i/137/1376729-800.jpg",
-      "genre": ""
+      "genre": "rock, pop, jazz, blues"
     },
     {
       "title": "LP – ALL IS NOT LOST TOUR",
@@ -6313,6 +7173,16 @@
       "genre": "jazz, blues"
     },
     {
+      "title": "Louis Armstrong Forever: Celebrating a Jazz Icon with Old Timers Jazz Band",
+      "date": "10.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "A+U: \n\n\t\t\t\t\tGarageBand w/ Josef K.",
       "date": "10.11.2026",
       "time": "18:00",
@@ -6403,6 +7273,16 @@
       "genre": "jazz"
     },
     {
+      "title": "Timeless Legends: Celebrating the Legacy of Michael Jackson, AC Jobim, Herbie Hancock, and Duke Ellington",
+      "date": "11.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "LEAP",
       "date": "11.11.2026",
       "time": "20:00",
@@ -6491,6 +7371,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/eda-beneficni-koncert-2",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/eda-2026-web-6a9a9ca94f430432146100.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "The Billie Holiday Tribute: A Journey into the Jazz Era",
+      "date": "12.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Šimon Bílina: První turné",
@@ -6623,6 +7513,26 @@
       "genre": "jazz"
     },
     {
+      "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
+      "date": "13.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Swinging Melodies: A Journey through Unforgettable Jazz Performances",
+      "date": "13.11.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Festival Alternativa: Den 1.",
       "date": "13.11.2026",
       "time": "20:00",
@@ -6713,6 +7623,16 @@
       "genre": ""
     },
     {
+      "title": "LEFTFIELD (UK)",
+      "date": "14.11.2026",
+      "time": "",
+      "venue": "Roxy",
+      "category": "hudba",
+      "url": "https://www.roxy.cz/events/detail/5149/leftfield",
+      "image": "https://www.roxy.cz/upload/temp/leftfield-pxs-t8hmkdkzmdkf-crop-480-480.jpg",
+      "genre": "concert, drum&bass, electro, grime"
+    },
+    {
       "title": "SOČR & Monkey Business",
       "date": "14.11.2026",
       "time": "",
@@ -6741,6 +7661,26 @@
       "url": "https://www.jazzdock.cz/cs/koncert/groove-dock-jazz-to-dance-univ-36",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/dj.webp",
       "genre": "jazz, electro"
+    },
+    {
+      "title": "The Ultimate Jazz, Soul & Funk Experience with Lee Andrew Davison (USA)",
+      "date": "14.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "The Ray Charles Experience by Lee Andrew Davison (USA)",
+      "date": "14.11.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Festival Alternativa: Den 2.",
@@ -6803,6 +7743,16 @@
       "genre": ""
     },
     {
+      "title": "Obscure: Despised Icon + Carnifex + Suffocation + Gates to Hell",
+      "date": "15.11.2026",
+      "time": "18.30",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/obscure-despised-icon-carnifex-suffocation-gates-to-hell",
+      "image": "https://meetfactory.cz/media/images/rescaled/images-8-79x111.jpeg",
+      "genre": "death metal, metal"
+    },
+    {
       "title": "EsDeeKid",
       "date": "15.11.2026",
       "time": "",
@@ -6831,6 +7781,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/stepanka-balcarova-malgorzata-hutek-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/stepanka-balcarova-malgorzata-hutek-6995618b0a79d279014706.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Legendary Pop Icons in Jazz: Adele / Lady Gaga / Amy Winehouse (Dorota Tóthová)",
+      "date": "15.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Health + VOWWS",
@@ -6913,6 +7873,26 @@
       "genre": "jazz"
     },
     {
+      "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
+      "date": "16.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Swinging Melodies: A Journey through Unforgettable Jazz Performances",
+      "date": "16.11.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "KoRn",
       "date": "16.11.2026",
       "time": "19:30",
@@ -6951,6 +7931,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/o-r-k-feat-pat-mastelotto-colin-edwin-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-ork-17-11-2026-6a0d7ba523e0e124311274.webp",
       "genre": "art rock, rock, jazz, soul"
+    },
+    {
+      "title": "Masters of Groove: Jazz, Soul & Funk with Lee Andrew Davison (USA)",
+      "date": "17.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "The Kid LAROI – A Perfect World Tour",
@@ -7021,6 +8011,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/takuya-kuroda-cesky-rozhlas-jazz-fest-2026",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/jazzfest-1200x900-6a7edbbd4eacd295137641.webp",
       "genre": "alternativa, jazz"
+    },
+    {
+      "title": "Big Band Trumpets – Kings of Swing Tribute to Duke Ellington, Quincy Jones, Dizzy Gillespie, Glen Miller…",
+      "date": "18.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "EDIS / TR",
@@ -7103,6 +8103,16 @@
       "genre": "jazz"
     },
     {
+      "title": "Backside Big Band Plays the Greats: Ellington, Gillespie, Prima & Gershwin",
+      "date": "19.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "José González",
       "date": "19.11.2026",
       "time": "20:00",
@@ -7131,16 +8141,6 @@
       "url": "https://cargogallery.cz/akce/psychedelic-porn-crumpets-au/",
       "image": "https://cargogallery.cz/wp-content/uploads/2026/07/DSCF4062-756x454.jpg",
       "genre": "psychedelic, rock"
-    },
-    {
-      "title": "KONCERT",
-      "date": "19.11.2026",
-      "time": "20:00",
-      "venue": "Modrá Vopice",
-      "category": "hudba",
-      "url": "https://www.modravopice.cz/akce/koncert-242/",
-      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
-      "genre": ""
     },
     {
       "title": "Soukromá akce",
@@ -7221,6 +8221,26 @@
       "url": "https://www.jazzdock.cz/cs/koncert/jamie-marshall-1-12",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/jamiemmm.JPG",
       "genre": "jazz"
+    },
+    {
+      "title": "The Ultimate Jazz, Soul & Funk Experience with Lee Andrew Davison (USA)",
+      "date": "20.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "The Ray Charles Experience by Lee Andrew Davison (USA)",
+      "date": "20.11.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Trombenik - Prague klezmer band",
@@ -7373,6 +8393,26 @@
       "genre": "jazz"
     },
     {
+      "title": "The Golden Voice: A Celebration of Tony Bennett",
+      "date": "21.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Two Voices & Jazz Band: Romantic Night",
+      "date": "21.11.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Arlo Parks",
       "date": "21.11.2026",
       "time": "20:00",
@@ -7483,6 +8523,16 @@
       "genre": "r&b, jazz, soul, funk"
     },
     {
+      "title": "Piano Legends Unite: A Tribute to Chick Corea, Herbie Hancock, and Oscar Peterson",
+      "date": "22.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Jiří Štědroň",
       "date": "22.11.2026",
       "time": "16:00",
@@ -7573,6 +8623,16 @@
       "genre": "jazz"
     },
     {
+      "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
+      "date": "23.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Vlasta Horváth – \"Vánoce v předstihu\"",
       "date": "23.11.2026",
       "time": "20:00",
@@ -7631,6 +8691,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/gerald-clayton-trio-usa-2",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-gerald-clayton-trio-24-11-2026-6a29872e3b11e529692335.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "The Ray Charles Experience by Lee Andrew Davison (USA)",
+      "date": "24.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Ondřej Fencl & Hromosvod - 32 let!",
@@ -7703,6 +8773,16 @@
       "genre": "jazz"
     },
     {
+      "title": "Melodic Journey with Louis Armstrong, Gershwin, Jobim presented by the Metropolitan Jazz Band",
+      "date": "25.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Mig 21 – VYPRODÁNO",
       "date": "26.11.2026",
       "time": "19:30",
@@ -7771,6 +8851,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/jazzbit-mladi-ladi-jazz-2026-3",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/mladi%20ladi%20univerzal%20new.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Queens Sing the Blue Notes: A Tribute to Bessie Smith, Dinah Washington, Etta James, Janis Joplin",
+      "date": "26.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Roy Ellis aka Mr. Symarip (JAM)",
@@ -7891,6 +8981,26 @@
       "url": "https://www.jazzdock.cz/cs/koncert/funk-corporation-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/fc-6a842315c9cb6854532739.webp",
       "genre": "jazz, funk"
+    },
+    {
+      "title": "The Nina Simone Experience: An Unforgettable Jazz Tribute",
+      "date": "27.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "The Beatles Groove: A Jazz Tribute",
+      "date": "27.11.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Billy Barman & Dievčatá zo SĽUK-u - Vianočný koncert",
@@ -8043,6 +9153,26 @@
       "genre": "rock, jazz"
     },
     {
+      "title": "Remembering Sinatra: A Timeless Tribute",
+      "date": "28.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Swingin’ with Sinatra",
+      "date": "28.11.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Richard Autner & Band",
       "date": "28.11.2026",
       "time": "19:30",
@@ -8193,6 +9323,16 @@
       "genre": "jazz"
     },
     {
+      "title": "Louis Armstrong Forever: Celebrating a Jazz Icon with Old Timers Jazz Band",
+      "date": "29.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Bombarďák",
       "date": "29.11.2026",
       "time": "15:15",
@@ -8263,14 +9403,24 @@
       "genre": ""
     },
     {
-      "title": "Klub zadán",
+      "title": "Kateřina Steinerová & Her Swing Boys",
       "date": "30.11.2026",
-      "time": "19:00",
+      "time": "20:00",
       "venue": "Jazz Dock",
       "category": "hudba",
-      "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-347",
-      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp",
-      "genre": "jazz"
+      "url": "https://www.jazzdock.cz/cs/koncert/katerina-steinerova-her-swing-boys-1-4",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/katerina-steinerova-656af7b8e8552047691241.webp",
+      "genre": "jazz, swing"
+    },
+    {
+      "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
+      "date": "30.11.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "MUNLY & THE LUPERCALIANS / US",
@@ -8333,6 +9483,16 @@
       "genre": "jazz, blues"
     },
     {
+      "title": "The Essence of French Chanson: A Tribute to Piaf, Aznavour, Brel, and more...",
+      "date": "01.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Lost in Kyiv",
       "date": "1.12.2026",
       "time": "20:00",
@@ -8363,6 +9523,16 @@
       "genre": "jazz, blues"
     },
     {
+      "title": "Melodic Journey with Louis Armstrong, Gershwin, Jobim presented by the Metropolitan Jazz Band",
+      "date": "02.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "ZRÁDCI: POSLEDNÍ STŮL",
       "date": "2.12.2026",
       "time": "19:30",
@@ -8370,6 +9540,16 @@
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/zradci-posledni-stul/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/09/1080x1080.jpg",
+      "genre": ""
+    },
+    {
+      "title": "A7S / SWE",
+      "date": "2.12.2026",
+      "time": "19:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/a7s-swe/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/09/7bd9551b__MM_6132-2-756x454.jpg",
       "genre": ""
     },
     {
@@ -8423,6 +9603,16 @@
       "genre": "jazz"
     },
     {
+      "title": "Timeless Legends: Celebrating the Legacy of Michael Jackson, AC Jobim, Herbie Hancock, and Duke Ellington",
+      "date": "03.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Baby Lasagna",
       "date": "03.12.2026",
       "time": "20:00",
@@ -8450,6 +9640,16 @@
       "category": "hudba",
       "url": "https://www.modravopice.cz/akce/koncert-201/",
       "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Pop 80s & 90s video party DJ Jirka Neumann",
+      "date": "4.12.2026",
+      "time": "21:00",
+      "venue": "Lucerna Music Bar",
+      "category": "hudba",
+      "url": "https://musicbar.cz/cs/program/pop-80s-90s-video-party-dj-jirka-neumann-958/",
+      "image": "https://static.goout.cloud/musicbarcz/2021/08/a599cfe1-1920x1080-80s-lmb21_300-300x300.jpg",
       "genre": ""
     },
     {
@@ -8541,6 +9741,26 @@
       "url": "https://www.jazzdock.cz/cs/koncert/peter-lipa-band-1-7",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-peter-lipa-4-12-2026-6a783d8f06230282618189.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
+      "date": "04.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Swinging Melodies: A Journey through Unforgettable Jazz Performances",
+      "date": "04.12.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Ventolin + FVLCRVM - Ventofu tour",
@@ -8663,6 +9883,26 @@
       "genre": "jazz, funk"
     },
     {
+      "title": "The Ray Charles Experience by Lee Andrew Davison (USA)",
+      "date": "05.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "The Ultimate Jazz, Soul & Funk Experience with Lee Andrew Davison (USA)",
+      "date": "05.12.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Chelsea Wolfe - THE DARK World Tour",
       "date": "05.12.2026",
       "time": "20:00",
@@ -8773,6 +10013,16 @@
       "genre": "jazz"
     },
     {
+      "title": "Legendary Pop Icons in Jazz: Adele / Lady Gaga / Amy Winehouse (Dorota Tóthová)",
+      "date": "06.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "KONCERT",
       "date": "6.12.2026",
       "time": "20:00",
@@ -8843,6 +10093,16 @@
       "genre": "jazz"
     },
     {
+      "title": "Louis Armstrong Forever: Celebrating a Jazz Icon with Old Timers Jazz Band",
+      "date": "07.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Monkey Business – křest alba",
       "date": "8.12.2026",
       "time": "20:00",
@@ -8861,6 +10121,16 @@
       "url": "https://cafevlese.cz/events/bragolin-nl-carrellee-us/",
       "image": "https://cafevlese.cz/wp-content/uploads/2026/07/2EFjnZKA-768x432.jpeg",
       "genre": ""
+    },
+    {
+      "title": "Big Band Trumpets – Kings of Swing Tribute to Duke Ellington, Quincy Jones, Dizzy Gillespie, Glen Miller…",
+      "date": "08.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "MÁRIO BIHÁRI DÍKY ZUZCE NAVAROVÉ",
@@ -8891,6 +10161,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-326",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Tribute to the Birth of Modern Jazz: From 1940s Bebop to 1950s Hard Bop",
+      "date": "09.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Pocta Radimu Hladíkovi - MÁ HRA",
@@ -8941,6 +10221,26 @@
       "url": "https://www.jazzdock.cz/cs/koncert/ben-poole-gb-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-ben-poole-10-12-2026-6aad9d11bf52f285702539.webp",
       "genre": "jazz, blues, country"
+    },
+    {
+      "title": "The Ultimate Jazz, Soul & Funk Experience with Lee Andrew Davison (USA)",
+      "date": "10.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "The Ray Charles Experience by Lee Andrew Davison (USA)",
+      "date": "10.12.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "UDG – křest desky",
@@ -9003,6 +10303,26 @@
       "genre": "jazz"
     },
     {
+      "title": "BEST OF SWING & JAZZ EVENING",
+      "date": "11.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
+      "date": "11.12.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "KONCERT",
       "date": "11.12.2026",
       "time": "20:00",
@@ -9053,6 +10373,26 @@
       "genre": "jazz, electro"
     },
     {
+      "title": "Remembering Sinatra: A Timeless Tribute",
+      "date": "12.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Swingin’ with Sinatra",
+      "date": "12.12.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "NO NAME 30",
       "date": "12.12.2026",
       "time": "20:00",
@@ -9091,6 +10431,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/bara-zmekova-s-kapelou-4",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/bara-zmekova-6-autor-michaela-soskova-hlavni-foto-6a4251e4109fe029920157.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Jazz Treasures: A Tribute Concert to the American Jazz Masters",
+      "date": "13.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Ondřej Brzobohatý & Ondřej Brousek - Souboj klavírů",
@@ -9163,6 +10513,26 @@
       "genre": "jazz"
     },
     {
+      "title": "BEST OF SWING & JAZZ EVENING",
+      "date": "14.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
+      "date": "14.12.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Pocta Haně Hegerové",
       "date": "14.12.2026",
       "time": "19:00",
@@ -9211,6 +10581,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-339",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Queens Sing the Blue Notes: A Tribute to Bessie Smith, Dinah Washington, Etta James, Janis Joplin",
+      "date": "15.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Sám doma in Concert",
@@ -9263,6 +10643,16 @@
       "genre": "jazz"
     },
     {
+      "title": "Melodic Journey with Louis Armstrong, Gershwin, Jobim presented by the Metropolitan Jazz Band",
+      "date": "16.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Václav NOID Bárta – KAPITOLY",
       "date": "16.12.2026",
       "time": "20:00",
@@ -9311,6 +10701,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-348",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "The Saxophone Legacy: Tribute to Coltrane, Getz, Rollins & Young",
+      "date": "17.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "KONCERT",
@@ -9373,6 +10773,26 @@
       "genre": "jazz, blues, country"
     },
     {
+      "title": "Remembering Sinatra: A Timeless Tribute",
+      "date": "18.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Swingin’ with Sinatra",
+      "date": "18.12.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "PETER BENCE",
       "date": "18.12.2026",
       "time": "20:00",
@@ -9433,6 +10853,26 @@
       "genre": "jazz"
     },
     {
+      "title": "Christmas Carols & Gospel with Lee Andrew Davison (USA)",
+      "date": "19.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Special Christmas Evening: Famous Christmas Songs with LA Davison (USA)",
+      "date": "19.12.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "LATERNA MAGIKA PERPETUUM HAVEL",
       "date": "20.12.2026",
       "time": "",
@@ -9461,6 +10901,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/alice-bauer-q-krest-alba-the-way-i-am",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/alice-bauer-6a705a09d90bf127800369.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Louis Armstrong Forever: Celebrating a Jazz Icon with Old Timers Jazz Band",
+      "date": "20.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "DAMICHI 25 let",
@@ -9503,6 +10953,26 @@
       "genre": "jazz"
     },
     {
+      "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
+      "date": "21.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Swinging Melodies: A Journey through Unforgettable Jazz Performances",
+      "date": "21.12.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "DYK SOU VÁNOCE",
       "date": "21.12.2026",
       "time": "19:00",
@@ -9533,6 +11003,26 @@
       "genre": "jazz"
     },
     {
+      "title": "The Nina Simone Experience: An Unforgettable Jazz Tribute",
+      "date": "22.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "The Beatles Groove: A Jazz Tribute",
+      "date": "22.12.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Charlie Slavík Revue",
       "date": "23.12.2026",
       "time": "20:00",
@@ -9541,6 +11031,26 @@
       "url": "https://www.jazzdock.cz/cs/koncert/charlie-slavik-revue-15",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/charlie-revue-web-01-square-64e77669c302c942287945.webp",
       "genre": "rock, jazz, blues"
+    },
+    {
+      "title": "Christmas Carols & Gospel with Lee Andrew Davison (USA)",
+      "date": "23.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Special Christmas Evening: Famous Christmas Songs with LA Davison (USA)",
+      "date": "23.12.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Elena Sonenshine Christmas Quartet",
@@ -9561,6 +11071,26 @@
       "url": "https://www.jazzdock.cz/cs/koncert/laco-deczi-new-york-celula-1-29",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/laco-deczi-6a6c7ad75ef50933727247.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Christmas Carols & Gospel with Lee Andrew Davison (USA)",
+      "date": "25.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Special Christmas Evening: Famous Christmas Songs with LA Davison (USA)",
+      "date": "25.12.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "CHRIS MOSH BEAST 2026",
@@ -9593,6 +11123,26 @@
       "genre": "jazz"
     },
     {
+      "title": "The Ray Charles Experience by Lee Andrew Davison (USA)",
+      "date": "26.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "The Ultimate Jazz, Soul & Funk Experience with Lee Andrew Davison (USA)",
+      "date": "26.12.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Dobré ráno blues bandNedělní Dixie",
       "date": "27.12.2026",
       "time": "16:00",
@@ -9611,6 +11161,26 @@
       "url": "https://www.jazzdock.cz/cs/koncert/laco-deczi-new-york-celula-1-31",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/laco-deczi-6a6c7ad75ef50933727247.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "The Nina Simone Experience: An Unforgettable Jazz Tribute",
+      "date": "27.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "The Beatles Groove: A Jazz Tribute",
+      "date": "27.12.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Luboš Pospíšil a 5P | Tradiční vánoční koncert",
@@ -9653,6 +11223,26 @@
       "genre": "rock, pop, jazz, folk"
     },
     {
+      "title": "The Golden Voice: A Celebration of Tony Bennett",
+      "date": "28.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Two Voices & Jazz Band: Romantic Night",
+      "date": "28.12.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Jazzbit / Mladí ladí jazz 2027",
       "date": "29.12.2026",
       "time": "20:00",
@@ -9661,6 +11251,26 @@
       "url": "https://www.jazzdock.cz/cs/koncert/jazzbit-mladi-ladi-jazz-2027",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/mladi%20ladi%20univerzal%20new.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "The Billie Holiday Tribute: A Journey into the Jazz Era",
+      "date": "29.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Swingin' to the Jazz Age: The Ultimate Tribute Concert",
+      "date": "29.12.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "OKTAGON 100",
@@ -9691,6 +11301,26 @@
       "url": "https://www.jazzdock.cz/cs/koncert/renata-drossler-10",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/renata-drossler-foto-lukart-14-1-6a560e6a21ade413066975.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "Special Christmas Evening: Famous Christmas Songs with LA Davison (USA)",
+      "date": "30.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Christmas Carols & Gospel with Lee Andrew Davison (USA)",
+      "date": "30.12.2026",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Silvestrovská Pop 80s & 90s video party DJ Jirka Neumann",
@@ -9743,6 +11373,16 @@
       "genre": "jazz"
     },
     {
+      "title": "SPECIAL NEW YEAR EVENING WITH LEE ANDREW DAVISON & HIS BAND",
+      "date": "31.12.2026",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "Štěpán Kozub: BEZ DEBAT – Silvestrovský speciál",
       "date": "31.12.2026",
       "time": "14:00",
@@ -9753,6 +11393,16 @@
       "genre": ""
     },
     {
+      "title": "Piano Legends Unite: A Tribute to Chick Corea, Herbie Hancock, and Oscar Peterson",
+      "date": "05.01.2027",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "SEARCH AND DESTROY 2027",
       "date": "09.01.2027",
       "time": "16:00",
@@ -9761,6 +11411,26 @@
       "url": "https://klub007strahov.cz/events/search-and-destroy-2027/",
       "image": "",
       "genre": "NOISE HC PV Čas 9. 1. 2027 16:00 - 22:00 (GMT+01:00) FB Event Kalendář Google kalendář"
+    },
+    {
+      "title": "The Ray Charles Experience by Lee Andrew Davison (USA)",
+      "date": "09.01.2027",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Masters of Groove: Jazz, Soul & Funk with Lee Andrew Davison (USA)",
+      "date": "09.01.2027",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "KONCERT",
@@ -9783,6 +11453,16 @@
       "genre": "Pop"
     },
     {
+      "title": "Jazz Treasures: A Tribute Concert to the American Jazz Masters",
+      "date": "13.01.2027",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "KONCERT",
       "date": "15.1.2027",
       "time": "20:00",
@@ -9791,6 +11471,26 @@
       "url": "https://www.modravopice.cz/akce/koncert-256/",
       "image": "https://www.modravopice.eu/art/plakat-default.jpg",
       "genre": ""
+    },
+    {
+      "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
+      "date": "16.01.2027",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Swinging Melodies: A Journey through Unforgettable Jazz Performances",
+      "date": "16.01.2027",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "SNĚHOVÁ KRÁLOVNA - pohádkový muzikál na ledě",
@@ -9913,6 +11613,16 @@
       "genre": ""
     },
     {
+      "title": "Jazz Treasures: A Tribute Concert to the American Jazz Masters",
+      "date": "25.01.2027",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "DAVE HAUSE & THE MERMAID",
       "date": "26.01.2027",
       "time": "19:00",
@@ -9931,6 +11641,26 @@
       "url": "https://klub007strahov.cz/events/benjamings-clan-cz-prisun-povolen-cz/",
       "image": "",
       "genre": "Folk Punk Rock´n´Roll"
+    },
+    {
+      "title": "Bohemia Big Band: Tribute to Glenn Miller, Duke Ellington, Benny Goodman...",
+      "date": "29.01.2027",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Timeless Jazz: Bohemia Big Band Pays Tribute to Gershwin, Basie & Miller",
+      "date": "29.01.2027",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "KONCERT",
@@ -10053,6 +11783,16 @@
       "genre": "Hiphop"
     },
     {
+      "title": "Night Lovell",
+      "date": "08.02.2027",
+      "time": "20:00",
+      "venue": "Archa+",
+      "category": "hudba",
+      "url": "https://archa-plus.cz/cz/program/detail/922/2027-02-08-night-lovell",
+      "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2FNightLovell.jpeg&width=500&height=500",
+      "genre": ""
+    },
+    {
       "title": "Enemy Inside (DE)",
       "date": "10.2.2027",
       "time": "20:00",
@@ -10061,6 +11801,16 @@
       "url": "https://rockcafe.cz/cs/program/enemy-inside-de/",
       "image": "https://static.goout.cloud/rockcafecz/2026/09/7320374c-786944545_2803752766666763_6845843539471039613_n.png-250x167.jpeg",
       "genre": "rock"
+    },
+    {
+      "title": "Piano Legends Unite: A Tribute to Chick Corea, Herbie Hancock, and Oscar Peterson",
+      "date": "10.02.2027",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "Skety",
@@ -10403,6 +12153,16 @@
       "genre": ""
     },
     {
+      "title": "Piano Legends Unite: A Tribute to Chick Corea, Herbie Hancock, and Oscar Peterson",
+      "date": "03.03.2027",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
       "title": "POP DIVAS – THE SOUNDTRACK OF YOUR LIFE! POCTA NEJVĚTŠÍM SVĚTOVÝM HVĚZDÁM",
       "date": "3.3.2027",
       "time": "20:00",
@@ -10481,6 +12241,26 @@
       "url": "https://futurum.musicbar.cz/program/evil-invaders-exhorder-heathen-warfield/",
       "image": "https://futurum.musicbar.cz/wp-content/uploads/2026/09/Evil-Invaders-Photo-credit_-Jens-De-Vos.jpg",
       "genre": "thrash"
+    },
+    {
+      "title": "Bohemia Big Band: Tribute to Glenn Miller, Duke Ellington, Benny Goodman...",
+      "date": "12.03.2027",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
+    },
+    {
+      "title": "Timeless Jazz: Bohemia Big Band Pays Tribute to Gershwin, Basie & Miller",
+      "date": "12.03.2027",
+      "time": "21:15",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "KONCERT",
@@ -10661,6 +12441,16 @@
       "url": "https://www.modravopice.cz/akce/koncert-281/",
       "image": "https://www.modravopice.eu/art/plakat-default.jpg",
       "genre": ""
+    },
+    {
+      "title": "Piano Legends Unite: A Tribute to Chick Corea, Herbie Hancock, and Oscar Peterson",
+      "date": "04.04.2027",
+      "time": "19:00",
+      "venue": "Reduta Jazz Club",
+      "category": "hudba",
+      "url": "https://www.redutajazzclub.cz/program-cs",
+      "image": "",
+      "genre": "pop, jazz"
     },
     {
       "title": "KONCERT",
@@ -11221,6 +13011,16 @@
       "url": "https://www.o2arena.cz/events/ben-cristovao-2027-big-bang/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/04/o2-fb-aplikace-1080x1080px.jpg",
       "genre": "pop"
+    },
+    {
+      "title": "KONCERT",
+      "date": "15.10.2027",
+      "time": "20:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/koncert-299/",
+      "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
     },
     {
       "title": "KONCERT",
