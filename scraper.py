@@ -970,46 +970,69 @@ def scrape_goout():
     Ale GoOut má veřejné API! Používáme ho místo scrapování.
     """
     print("* GoOut (Praha - koncerty)...")
-    url = "https://goout.net/services/feeder/v2/schedules"
-    params = {
-        "category": "concert",
-        "locality": "prague",
-        "lang": "cs",
-        "limit": 50,
-    }
+    # Starý feeder/v2 endpoint vrací 400; používáme entities/v1 (stejné API jako Subzero).
+    # 101748113 = město Praha, kategorie "concerts".
     try:
-        r = requests.get(url, params=params, headers=HEADERS, timeout=15)
+        r = requests.get(
+            "https://goout.net/services/entities/v1/schedules",
+            params={
+                "languages[]": "cs",
+                "cityIds[]": "101748113",
+                "categories[]": "concerts",
+                "limit": "50",
+                "include": "events,images,venues",
+            },
+            headers=HEADERS,
+            timeout=15,
+        )
         r.raise_for_status()
         data = r.json()
     except Exception as e:
         print(f"  [WARN] GoOut API chyba: {e}", file=sys.stderr)
         return []
 
-    events = []
-    for item in data.get("schedules", []):
-        event = item.get("event", {})
-        performance = item.get("performance", {})
-        venue = item.get("venue", {})
+    included = data.get("included", {})
+    events_map = {e["id"]: e for e in included.get("events", [])}
+    venues_map = {v["id"]: v for v in included.get("venues", [])}
+    images_map = {i["id"]: i for i in included.get("images", [])}
+    today = datetime.now().date()
 
-        start = item.get("startAt", "")
+    events = []
+    for sched in data.get("schedules", []):
+        rel = sched.get("relationships", {})
+        evt = events_map.get((rel.get("event") or {}).get("id"), {})
+        venue = venues_map.get((rel.get("venue") or {}).get("id"), {})
+
+        title = (evt.get("locales", {}).get("cs", {}).get("name") or "").strip()
+        if not title:
+            continue
+
         date_text = ""
         time_text = ""
+        start = sched.get("attributes", {}).get("startAt", "")
         if start:
             try:
-                dt = datetime.fromisoformat(start.replace("Z", "+00:00"))
-                date_text = dt.strftime("%-d.%-m.%Y")
+                dt = datetime.fromisoformat(start)
+                if dt.date() < today:
+                    continue
+                date_text = f"{dt.day}.{dt.month}.{dt.year}"
                 time_text = dt.strftime("%H:%M")
             except Exception:
                 pass
 
+        image = ""
+        img_refs = evt.get("relationships", {}).get("images", [])
+        if img_refs:
+            image = images_map.get(img_refs[0]["id"], {}).get("attributes", {}).get("url", "")
+
         events.append({
-            "title": performance.get("name") or event.get("name", ""),
+            "title": title,
             "date": date_text,
             "time": time_text,
-            "venue": venue.get("name", "Praha"),
+            "venue": venue.get("locales", {}).get("cs", {}).get("name") or "Praha",
             "category": "hudba",
-            "url": f"https://goout.net{item.get('url', '')}",
-            "image": (event.get("images") or [{}])[0].get("url", ""),
+            "url": sched.get("locales", {}).get("cs", {}).get("siteUrl") or sched.get("url", ""),
+            "image": image,
         })
 
     print(f"   [OK] {len(events)} akcí")
