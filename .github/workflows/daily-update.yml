@@ -2,8 +2,9 @@ name: Daily concert update
 
 on:
   schedule:
-    # GitHub cron běží v UTC: 04:00 UTC = 06:00 CEST (v zimě 05:00 CET)
-    - cron: '0 4 * * *'
+    # GitHub cron běží v UTC: 04:17 UTC = 06:17 CEST (v zimě 05:17 CET)
+    # Mimo celou hodinu, aby běh nevypadl při vytížení GitHubu.
+    - cron: '17 4 * * *'
   workflow_dispatch:
 
 permissions:
