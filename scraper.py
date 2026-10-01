@@ -17,7 +17,10 @@ Pro automatické spouštění každý den:
 import json
 import os
 import re
+import subprocess
 import sys
+import time
+import unicodedata
 from datetime import datetime, timezone
 
 import requests
@@ -699,9 +702,41 @@ def scrape_akropolis():
 # ─────────────────────────────────────────────────────────────
 #  VAGON  (vagon.cz)
 # ─────────────────────────────────────────────────────────────
+_CZ_MONTHS = {
+    "leden": 1, "unor": 2, "brezen": 3, "duben": 4, "kveten": 5, "cerven": 6,
+    "cervenec": 7, "srpen": 8, "zari": 9, "rijen": 10, "listopad": 11, "prosinec": 12,
+}
+
+
+def _month_from_text(text):
+    """Vrátí číslo měsíce z českého názvu v textu (bez ohledu na diakritiku/velikost), jinak None."""
+    plain = unicodedata.normalize("NFKD", text.lower())
+    plain = "".join(c for c in plain if not unicodedata.combining(c))
+    # delší názvy první, aby "cervenec" nepřebil "cerven"
+    for name in sorted(_CZ_MONTHS, key=len, reverse=True):
+        if name in plain:
+            return _CZ_MONTHS[name]
+    return None
+
+
+def get_soup_curl(url, timeout=20):
+    """Fallback přes curl — WEDOS ochrana (Vagon) blokuje TLS otisk Python requests, curl projde."""
+    try:
+        out = subprocess.run(
+            ["curl", "-s", "-L", "--fail", "--max-time", str(timeout),
+             "-A", HEADERS["User-Agent"], url],
+            capture_output=True, timeout=timeout + 5, check=True,
+        )
+        return BeautifulSoup(out.stdout.decode("utf-8", errors="replace"), "html.parser")
+    except Exception as e:
+        print(f"  [WARN] curl fallback selhal pro {url}: {e}", file=sys.stderr)
+        return None
+
+
 def scrape_vagon():
     print("* Vagon...")
-    soup = get_soup("https://www.vagon.cz/dnes.php")
+    url = "https://www.vagon.cz/dnes.php"
+    soup = get_soup(url) or get_soup_curl(url)
     if not soup:
         return []
 
@@ -718,18 +753,34 @@ def scrape_vagon():
         print(f"   [WARN] Žádné řádky v tabulce")
         return []
 
-    # Hledej měsíc/rok v nadpisu stránky
-    month, year = 4, datetime.now().year  # Default: duben letošního roku
+    # Měsíc/rok z nadpisu stránky ("Program na Říjen"); rok v nadpisu není, vezmeme letošní
+    now = datetime.now()
+    month, year = now.month, now.year
     h3_tag = soup.find('h3')
     if h3_tag:
         text = h3_tag.get_text(strip=True)
-        # Pokus se parsovat měsíc a rok (např. "duben 2026")
+        parsed_month = _month_from_text(text)
+        if parsed_month:
+            month = parsed_month
         year_match = re.search(r'(\d{4})', text)
         if year_match:
             year = int(year_match.group(1))
+        elif month < now.month - 6:
+            year += 1  # prosincová stránka s programem na leden
+    else:
+        print("   [WARN] Nadpis s měsícem nenalezen, používám aktuální měsíc", file=sys.stderr)
 
-    # Parsuj řádky (přeskoč header)
-    for row in rows[1:]:
+    # Začátek koncertů je v samostatném nadpisu ("Začátky koncertů: 21:00");
+    # čas ve sloupci 5 patří navazující party (24:00-05:00).
+    concert_time = ""
+    for h in soup.find_all('h3'):
+        m = re.search(r'(\d{1,2})[:.](\d{2})', h.get_text()) if "koncert" in h.get_text().lower() else None
+        if m:
+            concert_time = f"{int(m.group(1)):02d}:{m.group(2)}"
+            break
+
+    # Parsuj řádky (tabulka nemá header; řádky bez 5 sloupců a bez čísla dne se přeskočí níže)
+    for row in rows:
         try:
             cols = row.find_all('td')
             if len(cols) < 5:
@@ -748,12 +799,12 @@ def scrape_vagon():
 
             # Parsuj čas
             time_match = re.search(r'(\d{2}):(\d{2})', cas_info)
-            time_str = time_match.group(0) if time_match else ""
+            time_str = concert_time or (time_match.group(0) if time_match else "")
 
-            # Vytvoř datum (den_cislo.4.year)
+            # Vytvoř datum (den_cislo.měsíc.rok)
             try:
                 day_num = int(den_cislo)
-                date_str = f"{day_num}.4.{year}"
+                date_str = f"{day_num}.{month}.{year}"
             except:
                 continue
 
@@ -1702,15 +1753,27 @@ def scrape_reduta():
 
     # API volá web pro každý měsíc zvlášť — procházíme 9 měsíců
     cur_y, cur_m = today.year, today.month
+    failed_in_row = 0
     for _ in range(9):
-        try:
-            url = f"https://www.redutajazzclub.cz/core/tools/program.php?year={cur_y}&month={cur_m}&langs=cs"
-            r = requests.get(url, headers=api_headers, timeout=15)
-            r.raise_for_status()
-            days = r.json() or []
-        except Exception as e:
-            print(f"  [WARN] Reduta {cur_y}-{cur_m:02d}: {e}", file=sys.stderr)
+        url = f"https://www.redutajazzclub.cz/core/tools/program.php?year={cur_y}&month={cur_m}&langs=cs"
+        days = None
+        for attempt in range(2):
+            try:
+                r = requests.get(url, headers=api_headers, timeout=20)
+                r.raise_for_status()
+                days = r.json() or []
+                break
+            except Exception as e:
+                print(f"  [WARN] Reduta {cur_y}-{cur_m:02d} (pokus {attempt + 1}): {e}", file=sys.stderr)
+                time.sleep(3)
+        if days is None:
             days = []
+            failed_in_row += 1
+            if failed_in_row >= 2:
+                print("  [WARN] Reduta: web neodpovídá, přeskakuji zbylé měsíce", file=sys.stderr)
+                break
+        else:
+            failed_in_row = 0
 
         for day_data in days:
             if not day_data.get('badge'):
