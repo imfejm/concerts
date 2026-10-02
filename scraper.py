@@ -3867,6 +3867,36 @@ def main():
     atrium_after_filter = sum(1 for e in unique_events if e.get("venue") == "Atrium Žižkov")
     print(f"Po filtrování divadel: Atrium = {atrium_after_filter}")
 
+    # ── Výpadek zdroje: ponechat budoucí akce z minulého běhu ────
+    # Klub, který měl minule ≥ MIN_VENUE_EVENTS akcí a teď nemá žádnou, je téměř jistě
+    # výpadek scraperu/webu (blokace IP, síť) — převezmeme jeho budoucí akce z concerts.json.
+    try:
+        with open("concerts.json", encoding="utf-8") as f:
+            prev_events = json.load(f).get("events", [])
+    except Exception:
+        prev_events = []
+    if prev_events:
+        def _parse_date(d):
+            try:
+                p = re.sub(r"\s+", "", d).split(".")
+                return datetime(int(p[2]), int(p[1]), int(p[0])).date()
+            except Exception:
+                return None
+
+        today_d = datetime.now().date()
+        new_venues = {e.get("venue") for e in unique_events}
+        prev_by_venue = {}
+        for e in prev_events:
+            prev_by_venue.setdefault(e.get("venue"), []).append(e)
+        for venue, evs in prev_by_venue.items():
+            if not venue or venue in new_venues or len(evs) < MIN_VENUE_EVENTS:
+                continue
+            kept = [e for e in evs if (_parse_date(e.get("date", "")) or today_d) >= today_d]
+            if kept:
+                unique_events.extend(kept)
+                print(f"  [KEEP] {venue}: zdroj nevrátil nic, ponechávám {len(kept)} akcí z minulého běhu")
+        unique_events.sort(key=sort_key)
+
     # ── Inkrementální doplňování žánrů ──────────────────────────
     print("\n* Doplňuji žánry...")
     genre_fetched = 0
