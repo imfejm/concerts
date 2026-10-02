@@ -3800,11 +3800,18 @@ def main():
             if e.get("venue") == "Atrium Žižkov":
                 print(f"    * {e['title']} ({e['date']}) - kategorie: {e.get('category', 'N/A')}")
 
-    # Deduplikace podle názvu + data
+    # Deduplikace podle názvu + data (datum normalizované: "02.10.2026" == "2.10.2026").
+    # GoOut je agregátor — při shodě preferujeme záznam z webu samotného klubu.
+    def dedup_key(e):
+        d = re.sub(r"\s+", "", e.get("date", ""))
+        d = ".".join(p.lstrip("0") or "0" for p in d.split("."))
+        return (e["title"].lower().strip(), d)
+
+    ordered = sorted(all_events, key=lambda e: "goout.net" in (e.get("url") or ""))
     seen = set()
     unique_events = []
-    for e in all_events:
-        key = (e["title"].lower().strip(), e["date"])
+    for e in ordered:
+        key = dedup_key(e)
         if key not in seen:
             seen.add(key)
             unique_events.append(e)
