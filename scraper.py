@@ -3822,6 +3822,23 @@ def main():
         if not (e.get("venue", "").startswith("Kaštan –") and _norm_date(e["date"]) in kastan_dates)
     ]
 
+    # GoOut pojmenovává některé naše kluby jinak (např. "O2 universum" → O2 Arena) a s jiným
+    # názvem akce. Sjednotit na náš název (kvůli mapě); pokud náš scraper ve stejný den a čas
+    # v klubu už akci má, GoOut záznam zahodit.
+    GOOUT_VENUE_ALIASES = {"o2 arena": "O2 Arena", "o2 universum": "O2 Arena"}
+    own_venue_dates = {
+        (e.get("venue"), _norm_date(e["date"]), e.get("time", "")) for e in unique_events if not e.get("_agg")
+    }
+    merged = []
+    for e in unique_events:
+        canon = GOOUT_VENUE_ALIASES.get(e.get("venue", "").lower()) if e.get("_agg") else None
+        if canon:
+            if (canon, _norm_date(e["date"]), e.get("time", "")) in own_venue_dates:
+                continue
+            e["venue"] = canon
+        merged.append(e)
+    unique_events = merged
+
     for e in unique_events:
         e.pop("_agg", None)
 

@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-02T07:10:44.790566+00:00",
-  "count": 1417,
+  "count": 1415,
   "events": [
     {
       "title": "Universal Ticket Universal",
@@ -853,16 +853,6 @@
       "genre": ""
     },
     {
-      "title": "Boris Brejcha",
-      "date": "2.10.2026",
-      "time": "18:00",
-      "venue": "O2 arena",
-      "category": "hudba",
-      "url": "https://goout.net/cs/boris-brejcha/szcpvey/",
-      "image": "https://goout.net/i/125/1255839-383.jpg",
-      "genre": ""
-    },
-    {
       "title": "Classic Spectacular s varhany – Vivaldi, Mozart, Bach",
       "date": "2.10.2026",
       "time": "18:00",
@@ -983,16 +973,6 @@
       "genre": ""
     },
     {
-      "title": "Lunetic – 30 let II.",
-      "date": "2.10.2026",
-      "time": "20:00",
-      "venue": "O2 universum",
-      "category": "hudba",
-      "url": "https://goout.net/cs/lunetic-30-let-ii/szpsjey/",
-      "image": "https://goout.net/i/132/1323441-383.jpg",
-      "genre": "pop"
-    },
-    {
       "title": "Classic Spectacular s piánem – Vivaldi, Chopin, Bizet",
       "date": "2.10.2026",
       "time": "20:00",
@@ -1090,6 +1070,16 @@
       "category": "hudba",
       "url": "https://www.ticketportal.cz/event/GAROU-The-Best-Of?imedium=search",
       "image": "https://www.praguecc.cz/users_data/images/fotky_akce/25816_cs.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Boris Brejcha",
+      "date": "2.10.2026",
+      "time": "18:00",
+      "venue": "O2 Arena",
+      "category": "hudba",
+      "url": "https://goout.net/cs/boris-brejcha/szcpvey/",
+      "image": "https://goout.net/i/125/1255839-383.jpg",
       "genre": ""
     },
     {
@@ -1400,16 +1390,6 @@
       "category": "hudba",
       "url": "https://goout.net/cs/haydn-diriguje-vanhala/szntbey/",
       "image": "https://goout.net/i/118/1183248-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Monika Absolonová",
-      "date": "3.10.2026",
-      "time": "19:00",
-      "venue": "O2 arena",
-      "category": "hudba",
-      "url": "https://goout.net/cs/monika-absolonova/szqoacy/",
-      "image": "https://goout.net/i/133/1333174-383.jpg",
       "genre": ""
     },
     {
