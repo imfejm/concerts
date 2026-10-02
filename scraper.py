@@ -3820,6 +3820,17 @@ def main():
             if e.get("venue") == "Atrium Žižkov":
                 print(f"  [DUP] Odstraněn duplikát: {e['title']} ({e['date']})")
     
+    # GoOut vede Kaštan jako "Kaštan – scéna Unijazzu" a s jiným názvem akce než web Kaštanu
+    # → zahodit, pokud Kaštan má ten samý den vlastní akci.
+    def _norm_date(d):
+        return ".".join(p.lstrip("0") or "0" for p in re.sub(r"\s+", "", d or "").split("."))
+
+    kastan_dates = {_norm_date(e["date"]) for e in unique_events if e.get("venue") == "Kaštan"}
+    unique_events = [
+        e for e in unique_events
+        if not (e.get("venue", "").startswith("Kaštan –") and _norm_date(e["date"]) in kastan_dates)
+    ]
+
     print(f"Po deduplikaci: {len(unique_events)} akcí")
 
     # Seřadíme podle data
