@@ -1084,6 +1084,7 @@ def scrape_goout():
             "category": "hudba",
             "url": sched.get("locales", {}).get("cs", {}).get("siteUrl") or sched.get("url", ""),
             "image": image,
+            "_agg": True,  # agregátor — při duplicitě má přednost scraper konkrétního klubu
         })
 
     print(f"   [OK] {len(events)} akcí")
@@ -3324,99 +3325,83 @@ def scrape_citarna():
 
 
 # ─────────────────────────────────────────────────────────────
-#  KLUBOVNA POVALEC  (klubovna.povalec.cz)
+#  KLUBOVNA POVALEC  (dejvicka-klubovna.cz)
 # ─────────────────────────────────────────────────────────────
 def scrape_klubovnapovalec():
     print("* Klubovna Povalec...")
-    BASE = "https://www.klubovna.povalec.cz"
+    BASE = "https://www.dejvicka-klubovna.cz"
     MUSIC_CATS = {"koncert", "djs"}
     events = []
     seen_urls = set()
+    today = datetime.now().date()
 
-    def get_max_page(soup):
-        """Zjistí počet stránek z paginačních tlačítek."""
-        buttons = soup.find_all("button", attrs={"data-path": re.compile(r"/ajax/filter/program/\d+")})
-        nums = []
-        for btn in buttons:
-            m = re.search(r"/program/(\d+)$", btn.get("data-path", ""))
-            if m:
-                nums.append(int(m.group(1)))
-        return max(nums) if nums else 1
+    def og_image(url):
+        soup = get_soup(url)
+        meta = soup.find("meta", property="og:image") if soup else None
+        return meta.get("content", "") if meta else ""
 
-    def parse_page(soup):
-        """Vrátí seznam akcí z jedné stránky listingu."""
-        page_events = []
-        for row in soup.find_all("tr"):
-            day_cell = row.find("td", class_="day-cell")
-            content_cell = row.find("td", class_="content-cell")
-            cat_cell = row.find("td", class_="category-cell")
-            if not (day_cell and content_cell and cat_cell):
+    # Datum na webu je bez roku ("2. 10.") — rok odvodíme z pořadí (program je řazený chronologicky)
+    year = today.year
+    last_month = None
+
+    for page in range(1, 15):
+        url = f"{BASE}/program/" if page == 1 else f"{BASE}/program/?event_page={page}"
+        soup = get_soup(url)
+        if not soup:
+            break
+        rows = soup.find_all("a", class_="upcoming-event-row")
+        if not rows:
+            break
+
+        for row in rows:
+            date_el = row.find("span", class_="event-date")
+            dm = re.search(r"(\d{1,2})\.\s*(\d{1,2})\.", date_el.get_text().replace(" ", " ")) if date_el else None
+            if not dm:
+                continue
+            day, month = int(dm.group(1)), int(dm.group(2))
+            if last_month is None:
+                # první akce: pokud je měsíc o hodně dřív než dnes, patří do příštího roku
+                if month < today.month - 1:
+                    year += 1
+            elif month < last_month:
+                year += 1
+            last_month = month
+
+            type_el = row.find(class_="event-row-type")
+            if not type_el or type_el.get_text(strip=True).lower() not in MUSIC_CATS:
                 continue
 
-            # Kategorie
-            cat_span = cat_cell.find("span")
-            category_raw = cat_span.get_text(strip=True).lower() if cat_span else ""
-            if category_raw not in MUSIC_CATS:
-                continue
-
-            # URL a datum z odkazu obrázku
-            img_link = day_cell.find("a", href=re.compile(r"^/\d+/program/"))
-            if not img_link:
-                continue
-            href = img_link["href"]
-            full_url = BASE + href
+            href = row.get("href", "")
+            full_url = href if href.startswith("http") else BASE + href
             if full_url in seen_urls:
                 continue
             seen_urls.add(full_url)
 
-            dm = re.search(r"-(\d{2})-(\d{2})-(\d{4})-(\d{2})-(\d{2})$", href)
-            if not dm:
-                continue
-            day, month, year, hh, mm = dm.groups()
-            date_str = f"{int(day)}.{int(month)}.{year}"
-            time_str = f"{hh}:{mm}"
-
-            # Obrázek
-            img_el = img_link.find("img")
-            image = ""
-            if img_el:
-                src = img_el.get("src", "")
-                image = src if src.startswith("http") else BASE + src
-
-            # Název — odkaz s class no-decoration v content-cell
-            title_link = content_cell.find("a", class_="no-decoration")
-            if not title_link:
-                continue
-            title = title_link.get_text(strip=True)
+            title_el = row.find(class_="event-row-title")
+            title = title_el.get_text(strip=True) if title_el else ""
             if not title:
                 continue
 
-            page_events.append({
+            time_el = row.find("span", class_="event-time")
+            tm = re.search(r"(\d{1,2})[.:](\d{2})", time_el.get_text()) if time_el else None
+            time_str = f"{int(tm.group(1)):02d}:{tm.group(2)}" if tm else ""
+
+            genre_el = row.find(class_="event-row-genre")
+            genre = normalize_genre(genre_el.get_text(strip=True)) if genre_el else ""
+
+            events.append({
                 "title": title,
-                "date": date_str,
+                "date": f"{day}.{month}.{year}",
                 "time": time_str,
                 "venue": "Klubovna Povaleč",
                 "category": "hudba",
                 "url": full_url,
-                "image": image,
+                "image": og_image(full_url),
+                "genre": genre,
             })
-        return page_events
 
-    # Stránka 1
-    soup1 = get_soup(BASE + "/program")
-    if not soup1:
-        print(f"   [OK] {len(events)} akcí")
-        return events
-
-    events.extend(parse_page(soup1))
-    max_page = get_max_page(soup1)
-
-    # Další stránky
-    for page in range(2, max_page + 1):
-        soup = get_soup(f"{BASE}/program/{page}")
-        if not soup:
+        if not soup.find("a", class_="next"):
             break
-        events.extend(parse_page(soup))
 
     print(f"   [OK] {len(events)} akcí")
     return events
@@ -3801,19 +3786,25 @@ def main():
                 print(f"    * {e['title']} ({e['date']}) - kategorie: {e.get('category', 'N/A')}")
 
     # Deduplikace podle názvu + data (datum normalizované: "02.10.2026" == "2.10.2026").
-    # GoOut je agregátor — při shodě preferujeme záznam z webu samotného klubu.
+    # GoOut agregátor (scrape_goout) má nejnižší prioritu — vždy vyhrává scraper našeho klubu.
     def dedup_key(e):
         d = re.sub(r"\s+", "", e.get("date", ""))
         d = ".".join(p.lstrip("0") or "0" for p in d.split("."))
         return (e["title"].lower().strip(), d)
 
-    ordered = sorted(all_events, key=lambda e: "goout.net" in (e.get("url") or ""))
+    ordered = sorted(all_events, key=lambda e: bool(e.get("_agg")))
     seen = set()
+    seen_url_dates = set()
     unique_events = []
     for e in ordered:
         key = dedup_key(e)
-        if key not in seen:
+        url = e.get("url") or ""
+        # GoOut vrací stejnou akci s mírně odlišným názvem → shoda URL + datum + čas
+        url_key = (url, key[1], e.get("time", "")) if "goout.net" in url else None
+        if key not in seen and url_key not in seen_url_dates:
             seen.add(key)
+            if url_key:
+                seen_url_dates.add(url_key)
             unique_events.append(e)
         else:
             # Debug: pokud je to Atrium, řekni si, že byla duplikace
@@ -3830,6 +3821,9 @@ def main():
         e for e in unique_events
         if not (e.get("venue", "").startswith("Kaštan –") and _norm_date(e["date"]) in kastan_dates)
     ]
+
+    for e in unique_events:
+        e.pop("_agg", None)
 
     print(f"Po deduplikaci: {len(unique_events)} akcí")
 

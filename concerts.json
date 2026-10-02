@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-02T07:10:44.790566+00:00",
-  "count": 1404,
+  "count": 1417,
   "events": [
     {
       "title": "Universal Ticket Universal",
@@ -923,13 +923,13 @@
       "genre": ""
     },
     {
-      "title": "Etc…",
-      "date": "2.10.2026",
+      "title": "ETC...",
+      "date": "02.10.2026",
       "time": "20:00",
-      "venue": "Malostranská beseda",
+      "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/etc/szkbumy/",
-      "image": "https://goout.net/i/120/1206001-383.jpg",
+      "image": "https://goout.net/i/120/1206001-800.jpg",
       "genre": "rock"
     },
     {
@@ -1083,16 +1083,6 @@
       "genre": "pop, jazz"
     },
     {
-      "title": "ETC...",
-      "date": "02.10.2026",
-      "time": "20:00",
-      "venue": "Malostranská Beseda",
-      "category": "hudba",
-      "url": "https://goout.net/cs/etc/szkbumy/",
-      "image": "https://goout.net/i/120/1206001-800.jpg",
-      "genre": "rock"
-    },
-    {
       "title": "Garou - The Best Of",
       "date": "2.10.2026",
       "time": "",
@@ -1191,6 +1181,16 @@
       "url": "https://www.greendoors.cz/akce/morze-martwe-pl-lakka-cz/",
       "image": "",
       "genre": ""
+    },
+    {
+      "title": "2.0L Turbo + Kellner",
+      "date": "2.10.2026",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.dejvicka-klubovna.cz/event/2-0l-turbo-kellner/",
+      "image": "https://www.dejvicka-klubovna.cz/wp-content/uploads/2026/09/261002HCVKC-scaled.jpg",
+      "genre": "hcvkc"
     },
     {
       "title": "Mr. Irish Bastard (DE) + support: Curlies",
@@ -1453,16 +1453,6 @@
       "genre": "rap"
     },
     {
-      "title": "Ão",
-      "date": "3.10.2026",
-      "time": "20:00",
-      "venue": "Klubovna",
-      "category": "hudba",
-      "url": "https://goout.net/cs/ao/szjxily/",
-      "image": "https://goout.net/i/139/1399556-383.jpg",
-      "genre": "alternativa, elektronika"
-    },
-    {
       "title": "Veronika & The Band",
       "date": "3.10.2026",
       "time": "20:00",
@@ -1643,6 +1633,16 @@
       "genre": "stoner"
     },
     {
+      "title": "Ão (BE)",
+      "date": "3.10.2026",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.dejvicka-klubovna.cz/event/ao-be/",
+      "image": "https://www.dejvicka-klubovna.cz/wp-content/uploads/2026/09/261003_AO-scaled.jpg",
+      "genre": "electronica, art pop, afropop, saudade, alternative latin"
+    },
+    {
       "title": "LATERNA MAGIKA PERPETUUM HAVEL",
       "date": "04.10.2026",
       "time": "",
@@ -1791,6 +1791,16 @@
       "url": "https://na-slamniku.cz/koncerty/",
       "image": "",
       "genre": "rock"
+    },
+    {
+      "title": "Immortal Onion (PL) + William Valerián",
+      "date": "4.10.2026",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.dejvicka-klubovna.cz/event/immortal-onion/",
+      "image": "https://www.dejvicka-klubovna.cz/wp-content/uploads/2026/09/immortal-onion.jpeg",
+      "genre": "jazz fusion"
     },
     {
       "title": "Fource presents: Strawberry Guy (UK) + support: Malena …",
@@ -2033,6 +2043,16 @@
       "genre": "rock"
     },
     {
+      "title": "Tojeon",
+      "date": "6.10.2026",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.dejvicka-klubovna.cz/event/tojeon/",
+      "image": "https://www.dejvicka-klubovna.cz/wp-content/uploads/2026/09/KLUBOVNA-1024x683.jpg",
+      "genre": "mellow new wave"
+    },
+    {
       "title": "Rock for People presents: Chri$tian Gate$ (USA)",
       "date": "7.10.2026",
       "time": "19:00",
@@ -2191,6 +2211,16 @@
       "url": "https://www.greendoors.cz/akce/po-signalu-vizual-zpoved-schizofrenicky/",
       "image": "",
       "genre": ""
+    },
+    {
+      "title": "ĠENN (UK/Malta) + Serge X",
+      "date": "7.10.2026",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.dejvicka-klubovna.cz/event/genn-uk-malta-serge-x/",
+      "image": "https://www.dejvicka-klubovna.cz/wp-content/uploads/2026/09/261007-genn.png",
+      "genre": "post-punk"
     },
     {
       "title": "God Save The Punk II. – SPS + The Fialky",
@@ -2371,6 +2401,16 @@
       "url": "https://na-slamniku.cz/koncerty/",
       "image": "",
       "genre": "rock"
+    },
+    {
+      "title": "Paraphon (CH)",
+      "date": "8.10.2026",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.dejvicka-klubovna.cz/event/paraphon-ch/",
+      "image": "https://www.dejvicka-klubovna.cz/wp-content/uploads/2026/09/paraphon.webp",
+      "genre": "synth-pop"
     },
     {
       "title": "God Save The Punk II. – SPS + The Fialky",
@@ -2571,6 +2611,16 @@
       "url": "https://www.greendoors.cz/akce/only-screamo-de-seima-screamo-ita/",
       "image": "",
       "genre": "screamo"
+    },
+    {
+      "title": "Fobia Kid + Sekula",
+      "date": "9.10.2026",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.dejvicka-klubovna.cz/event/fobia-kid-sekula/",
+      "image": "https://www.dejvicka-klubovna.cz/wp-content/uploads/2026/09/fobiakid.webp",
+      "genre": "rapovna"
     },
     {
       "title": "Abbie Falls, Abyss Above, Bound To Break",
@@ -2831,6 +2881,16 @@
       "url": "https://na-slamniku.cz/koncerty/",
       "image": "",
       "genre": "rock"
+    },
+    {
+      "title": "Impure Schwert + L.S.H.S + SLOTH",
+      "date": "10.10.2026",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.dejvicka-klubovna.cz/event/impure-schwert-lonely-shredder-and-the-heavy-smokers/",
+      "image": "https://www.dejvicka-klubovna.cz/wp-content/uploads/2026/09/lshs-film.jpg",
+      "genre": "premiéra filmu + koncert"
     },
     {
       "title": "FAINTEST IDEA , JET8",
@@ -3343,6 +3403,16 @@
       "genre": "rock"
     },
     {
+      "title": "Franz Skafka",
+      "date": "14.10.2026",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.dejvicka-klubovna.cz/event/franz-skafka/",
+      "image": "https://www.dejvicka-klubovna.cz/wp-content/uploads/2026/09/KLUBOVNA-1024x683.jpg",
+      "genre": "sudet rap"
+    },
+    {
       "title": "Selection presents: Reinhardt Buhr (JAR)",
       "date": "15.10.2026",
       "time": "19:00",
@@ -3811,6 +3881,16 @@
       "url": "https://na-slamniku.cz/koncerty/",
       "image": "",
       "genre": "rock"
+    },
+    {
+      "title": "Pingi + Zandome",
+      "date": "16.10.2026",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.dejvicka-klubovna.cz/event/pingi-zandome-2/",
+      "image": "https://www.dejvicka-klubovna.cz/wp-content/uploads/2026/09/pingi.webp",
+      "genre": "hyper-pop, anti-pop"
     },
     {
       "title": "IAM Oskar + support: teshime",
@@ -4323,6 +4403,16 @@
       "genre": "post-rock, rock"
     },
     {
+      "title": "Talk To Her (IT) + Manollo",
+      "date": "19.10.2026",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.dejvicka-klubovna.cz/event/talk-to-her-it-manollo/",
+      "image": "https://www.dejvicka-klubovna.cz/wp-content/uploads/2026/09/261019-scaled.jpg",
+      "genre": "electro-wave-rock, post-punk"
+    },
+    {
       "title": "Brass Avenue – 10 let + křest alba",
       "date": "20.10.2026",
       "time": "19:00",
@@ -4631,6 +4721,16 @@
       "url": "https://na-slamniku.cz/koncerty/",
       "image": "",
       "genre": "rock"
+    },
+    {
+      "title": "Skraeckoedlan (SWE) + Mancy Sono",
+      "date": "21.10.2026",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.dejvicka-klubovna.cz/event/skraeckoedlan-swe-mancy-sono/",
+      "image": "https://www.dejvicka-klubovna.cz/wp-content/uploads/2026/09/KLUBOVNA-1024x683.jpg",
+      "genre": "stoner rock / psychedelic"
     },
     {
       "title": "Poetika",
@@ -5823,6 +5923,16 @@
       "genre": "rock"
     },
     {
+      "title": "Super Jet Kinoko (JAP) + Broskvičky",
+      "date": "28.10.2026",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.dejvicka-klubovna.cz/event/super-jet-kinoko-jap-broskvicky/",
+      "image": "https://www.dejvicka-klubovna.cz/wp-content/uploads/2026/09/261018_SJK-scaled.jpg",
+      "genre": "new-wave mushroom trance / femi-decadence-rap"
+    },
+    {
       "title": "DŸSE , JAN FAIX",
       "date": "29.10.2026",
       "time": "19:00",
@@ -6191,6 +6301,16 @@
       "url": "https://www.greendoors.cz/akce/phalangst-post-rock-at-iiii/",
       "image": "",
       "genre": "post-rock, post-metal, metal, rock"
+    },
+    {
+      "title": "The Velvet Swing (AT) + Salamirecorder and the Hi-Fi Phonos (AT)",
+      "date": "30.10.2026",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.dejvicka-klubovna.cz/event/the-velvet-swing-at-salami-recorder-at/",
+      "image": "https://www.dejvicka-klubovna.cz/wp-content/uploads/2026/09/KLUBOVNA-1024x683.jpg",
+      "genre": "psychedelic-garage punk-trash mixtape powerpop"
     },
     {
       "title": "Rock n‘ Roll Halloween: The Bones (SWE), Booze …",
@@ -7691,6 +7811,16 @@
       "url": "https://na-slamniku.cz/koncerty/",
       "image": "",
       "genre": "rock"
+    },
+    {
+      "title": "Andy Cermak (CZ) + Ciao Lucifer (NL)",
+      "date": "11.11.2026",
+      "time": "19:30",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.dejvicka-klubovna.cz/event/andy-cermak-cz-ciao-lucifer-nl/",
+      "image": "https://www.dejvicka-klubovna.cz/wp-content/uploads/2026/09/andy-cermak.webp",
+      "genre": "indie-pop"
     },
     {
       "title": "Mutanti hledaj východisko, support: Hopsen Clark",
