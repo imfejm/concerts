@@ -2575,10 +2575,18 @@ def scrape_bikejesus():
             return ""
 
     try:
-        r = requests.get("https://bikejesus.com/events", headers=HEADERS, timeout=15)
-        r.raise_for_status()
-        data = r.json()
         today = datetime.now().date()
+        r = requests.get(
+            "https://bikejesus.com/api/events",
+            params={
+                "pagination[pageSize]": 100,
+                "sort": "Date:asc",
+                "filters[Date][$gte]": today.isoformat(),
+            },
+            headers=HEADERS, timeout=15,
+        )
+        r.raise_for_status()
+        data = r.json().get("data") or []
 
         # Zjisti, které eventy budou potřebovat Playwright (FB-only bez GoOut/RA)
         raw_events = []
