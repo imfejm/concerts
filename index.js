@@ -227,10 +227,21 @@ function renderCalendar(selectedKey = null, calYear = null, calMonth = null) {
     byDate[key].push(ev);
   });
 
+  const isoWeek = (y, m, d) => {
+    const t = new Date(Date.UTC(y, m, d));
+    t.setUTCDate(t.getUTCDate() + 4 - (t.getUTCDay() || 7));
+    const yearStart = Date.UTC(t.getUTCFullYear(), 0, 1);
+    return Math.ceil(((t - yearStart) / 86400000 + 1) / 7);
+  };
+
   let startOffset = (firstDay.getDay() + 6) % 7;
   let cells = '';
-  for (let i = 0; i < startOffset; i++) cells += `<div class="cal-cell cal-empty"></div>`;
+  for (let i = 0; i < startOffset; i++) {
+    if (i === 0) cells += `<div class="cal-week-num">${isoWeek(year, month, 1)}</div>`;
+    cells += `<div class="cal-cell cal-empty"></div>`;
+  }
   for (let day = 1; day <= lastDay.getDate(); day++) {
+    if ((startOffset + day - 1) % 7 === 0) cells += `<div class="cal-week-num">${isoWeek(year, month, day)}</div>`;
     const key = `${day}.${month+1}.${year}`;
     const evs = byDate[key] || [];
     const isT = day === today.getDate() && month === today.getMonth() && year === today.getFullYear();
@@ -260,6 +271,7 @@ function renderCalendar(selectedKey = null, calYear = null, calMonth = null) {
         <button class="cal-nav-btn" id="cal-next">&#8594;</button>
       </div>
       <div class="cal-grid">
+        <div class="cal-head-cell" title="Číslo týdne">T</div>
         ${dayNames.map(d => `<div class="cal-head-cell">${d}</div>`).join('')}
         ${cells}
       </div>

@@ -521,8 +521,17 @@ header {
 
 .cal-grid {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: 1.6rem repeat(7, 1fr);
   gap: 4px;
+}
+
+.cal-week-num {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 0.5rem;
+  font-size: 0.7rem;
+  color: var(--muted);
 }
 
 .cal-head-cell {
