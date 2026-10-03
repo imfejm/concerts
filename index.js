@@ -566,7 +566,7 @@ document.getElementById('search').addEventListener('input', e => {
   render();
 });
 
-document.querySelector('.view-bar').addEventListener('click', e => {
+document.querySelector('.header-nav').addEventListener('click', e => {
   const btn = e.target.closest('.view-btn');
   if (!btn) return;
   const view = btn.dataset.view;

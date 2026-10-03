@@ -144,22 +144,34 @@
         </button>
       </div>
       <div class="header-nav" id="header-nav">
-        <div class="filters-group">
-          <span class="filters-label">kde: <span class="filters-hint">můžeš vybrat více možností</span></span>
-          <div class="filters" id="filters">
-            <button class="filter-btn active" data-venue="vse">Vše</button>
+        <div class="nav-side">
+          <div class="view-bar">
+            <span class="view-bar-label">kdy:</span>
+            <button class="view-btn active" data-view="all">Všechny</button>
+            <button class="view-btn" data-view="dnes">Dnes</button>
+            <button class="view-btn" data-view="zitra">Zítra</button>
+            <button class="view-btn" data-view="tyden">Tento týden</button>
+            <button class="view-btn" data-view="kalendar">Kalendář</button>
+            <span class="view-bar-break"></span>
+            <button class="view-btn view-btn-mapa" data-view="mapa">Mapa</button>
           </div>
+        <div class="search-wrap">
+          <span class="search-icon">&#9654;</span>
+          <input
+            type="text"
+            id="search"
+            placeholder="Hledat akci..."
+            autocomplete="off"
+          />
         </div>
-        <div class="view-bar">
-          <span class="view-bar-label">kdy:</span>
-          <button class="view-btn active" data-view="all">Všechny</button>
-          <button class="view-btn" data-view="dnes">Dnes</button>
-          <button class="view-btn" data-view="zitra">Zítra</button>
-          <button class="view-btn" data-view="tyden">Tento týden</button>
-          <button class="view-btn" data-view="kalendar">Kalendář</button>
-          <span class="view-bar-break"></span>
-          <button class="view-btn view-btn-mapa" data-view="mapa">Mapa</button>
         </div>
+        <div class="nav-main">
+          <div class="filters-group">
+            <span class="filters-label">kde: <span class="filters-hint">můžeš vybrat více možností</span></span>
+            <div class="filters" id="filters">
+              <button class="filter-btn active" data-venue="vse">Vše</button>
+            </div>
+          </div>
         <div class="genre-bar" id="genre-bar">
           <div class="genre-bar-header">
             <span class="genre-bar-label">žánr: <span class="genre-hint">žánry jsou jen orientační, nemusí přesně odpovídat</span></span>
@@ -177,14 +189,6 @@
             <button class="genre-btn" data-genre="pop">Pop</button>
           </div>
         </div>
-        <div class="search-wrap">
-          <span class="search-icon">&#9654;</span>
-          <input
-            type="text"
-            id="search"
-            placeholder="Hledat akci..."
-            autocomplete="off"
-          />
         </div>
       </div>
     </header>
