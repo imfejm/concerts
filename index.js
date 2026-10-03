@@ -22,23 +22,33 @@ function eventMatchesGenre(ev) {
   return [...activeGenres].some(cat => (GENRE_MAP[cat] || []).some(g => genres.includes(g)));
 }
 
-document.addEventListener('click', function removeInit() {
-  document.querySelector('header').classList.remove('header--init');
-  document.removeEventListener('click', removeInit);
-}, { once: true });
-
-// klik na podtitulek zatáhne menu, dokud z headeru neodejde myš
+// Desktop menu: otevře hover nebo klik na "filtr"; zavře odchod myši,
+// klik na podtitulek nebo křížek
 (() => {
   const header = document.querySelector('header');
-  document.querySelector('.logo-sub').addEventListener('click', () => {
+  const close = () => {
+    header.classList.remove('header--open');
     header.classList.add('header--collapsed');
+  };
+  document.querySelector('.logo-sub').addEventListener('click', close);
+  document.querySelector('.logo-filter').addEventListener('click', e => {
+    e.preventDefault();
+    e.stopPropagation();
+    header.classList.remove('header--collapsed');
+    header.classList.add('header--open');
   });
-  header.addEventListener('mouseleave', () => header.classList.remove('header--collapsed'));
+  document.getElementById('nav-close').addEventListener('click', e => {
+    e.preventDefault();
+    close();
+  });
+  header.addEventListener('mouseleave', () => {
+    header.classList.remove('header--collapsed', 'header--open');
+  });
 })();
 
 // malá písmena bez diakritiky, aby šlo hledat např. "cerny" i "černý"
 function stripDiacritics(s) {
-  return (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  return (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 }
 
 let focusSection = null; // 'Zítra' | 'Tento týden' | null
@@ -588,7 +598,13 @@ async function init() {
 }
 
 document.getElementById('search').addEventListener('keydown', e => {
-  if (e.key === 'Enter') closeMenu();
+  if (e.key !== 'Enter') return;
+  closeMenu();
+  // desktop: zatáhnout menu, dokud myš neodejde z headeru
+  const header = document.querySelector('header');
+  header.classList.remove('header--open');
+  header.classList.add('header--collapsed');
+  e.target.blur();
 });
 
 document.getElementById('search').addEventListener('input', e => {

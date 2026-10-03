@@ -89,6 +89,16 @@ header {
     pointer-events: auto;
   }
 
+  header.header--open .header-nav {
+    max-height: 80vh;
+    padding-bottom: 0.5rem;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  header.header--open .logo-arrow {
+    transform: rotate(180deg);
+    opacity: 1;
+  }
   header.header--collapsed:not(.header--init):hover .header-nav {
     max-height: 0;
     padding-bottom: 0;
@@ -210,6 +220,52 @@ header {
   opacity: 0.7;
 }
 
+.logo-filter {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-left: 2rem;
+  color: var(--accent);
+  opacity: 0.85;
+}
+
+.nav-close {
+  display: none;
+  vertical-align: middle;
+  margin-left: 1.6rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+  background: none;
+  border: 1px solid var(--accent);
+  border-radius: 50%;
+  color: var(--accent);
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.nav-close:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+@media (min-width: 769px) {
+  header:hover:not(.header--collapsed) .nav-close,
+  header.header--open .nav-close {
+    display: inline-block;
+  }
+}
+
+.logo-filter {
+  cursor: pointer;
+}
+
+.logo-filter-icon {
+  flex-shrink: 0;
+}
+
 @media (min-width: 769px) {
   header:not(.header--init):hover .logo-arrow {
     transform: rotate(180deg);
@@ -221,7 +277,8 @@ header {
 }
 
 @media (max-width: 600px) {
-  .logo-arrow {
+  .logo-arrow,
+  .logo-filter {
     display: none;
   }
   .logo-sub {
