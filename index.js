@@ -36,6 +36,8 @@ document.addEventListener('click', function removeInit() {
   header.addEventListener('mouseleave', () => header.classList.remove('header--collapsed'));
 })();
 
+let zitraFocus = false;
+
 const todayStr = (() => {
   const d = new Date();
   return `${d.getDate()}.${d.getMonth()+1}.${d.getFullYear()}`;
@@ -417,6 +419,9 @@ function render() {
 
   const sectionIds = { 'Dnes': 'section-dnes', 'Zítra': 'section-zitra', 'Tento týden': 'section-tyden', 'Brzy': 'section-brzy' };
   const collapsible = new Set(['Zítra', 'Tento týden', 'Brzy']);
+  // po kliknutí na "Zítra" se Dnes zabalí a Zítra rozbalí
+  if (zitraFocus) collapsible.add('Dnes');
+  const startsExpanded = label => zitraFocus && label === 'Zítra';
   let html = '';
   Object.entries(groups).forEach(([label, evs]) => {
     if (!evs.length) return;
@@ -424,13 +429,14 @@ function render() {
     evs = [...evs.filter(ev => !isSpecialVenue(ev.venue)), ...evs.filter(ev => isSpecialVenue(ev.venue))];
     const id = sectionIds[label];
     if (collapsible.has(label)) {
+      const cls = startsExpanded(label) ? '' : ' is-collapsed';
       html += `
-        <div class="section-head section-head--toggle is-collapsed" id="${id}" data-body="${id}-body">
+        <div class="section-head section-head--toggle${cls}" id="${id}" data-body="${id}-body">
           <h2 class="section-title">${label}</h2>
           <span class="section-count">${evs.length} ${evs.length === 1 ? 'akce' : 'akcí'}</span>
           <span class="section-toggle-icon">▾</span>
         </div>
-        <div class="grid section-body is-collapsed" id="${id}-body">
+        <div class="grid section-body${cls}" id="${id}-body">
           ${evs.map(ev => cardHTML(ev)).join('')}
         </div>`;
     } else {
@@ -579,6 +585,7 @@ document.querySelector('.header-nav').addEventListener('click', e => {
   const btn = e.target.closest('.view-btn');
   if (!btn) return;
   const view = btn.dataset.view;
+  zitraFocus = view === 'zitra';
 
   if (view === 'zitra') {
     activeView = 'all';
