@@ -481,38 +481,39 @@ def scrape_crossclub():
         return []
 
     events = []
-    base = "https://www.crossclub.cz"
 
-    # Akce jsou v článcích nebo divcích s odkazem na program
-    items = soup.select("a[href*='/program/']")
-
-    for item in items:
-        h2 = item.find(["h2", "h3"])
-        img = item.find("img")
-        if not h2:
+    # Stránka je rozdělená do bloků: <div class="predelToday">DD. MM. YYYY - Den</div>
+    # následovaný <div class="article"> pro každou akci tohoto dne.
+    current_date = ""
+    for el in soup.select("div.predelToday, div.article"):
+        if "predelToday" in el.get("class", []):
+            m = re.search(r"(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})", el.get_text(" ", strip=True))
+            current_date = f"{int(m.group(1))}.{int(m.group(2))}.{m.group(3)}" if m else ""
             continue
 
-        title = h2.get_text(strip=True)
-        text = item.get_text(" ", strip=True)
+        h2 = el.find("h2")
+        link = h2.find("a") if h2 else None
+        if not link or not current_date:
+            continue
+        title = link.get_text(" ", strip=True)
+        cat = el.select_one("p.category")
+        cat_text = cat.get_text(" ", strip=True) if cat else ""
+        if re.match(r"(Kino|Divadlo)", cat_text):
+            continue
 
-        # Datum — formát "10.04.2026" nebo "10.04."
-        date_match = re.search(r"(\d{1,2}\.\d{2}\.(?:\d{4})?)", text)
-        date_text = date_match.group(1) if date_match else ""
-        if date_text and not re.search(r"\d{4}", date_text):
-            date_text += str(datetime.now().year)
-
-        href = item.get("href", "")
-        if not href.startswith("http"):
-            href = base + href
+        img = el.find("img")
+        image = img.get("src", "") if img else ""
+        if image and not image.startswith("http"):
+            image = "https://www.crossclub.cz" + image
 
         events.append({
             "title": title,
-            "date": date_text,
+            "date": current_date,
             "time": "",
             "venue": "Cross Club",
             "category": "hudba",
-            "url": href,
-            "image": img.get("src", "") if img else "",
+            "url": link.get("href", ""),
+            "image": image,
         })
 
     print(f"   [OK] {len(events)} akcí")
@@ -3834,6 +3835,18 @@ def main():
     # názvem akce. Sjednotit na náš název (kvůli mapě); pokud náš scraper ve stejný den a čas
     # v klubu už akci má, GoOut záznam zahodit.
     GOOUT_VENUE_ALIASES = {"o2 arena": "O2 Arena", "o2 universum": "O2 Arena"}
+
+    # GoOut vede Klubovnu Povaleč jako "Klubovna" s jiným názvem akce → vlastní scraper má přednost
+    # (zahodit, pokud má Povaleč ten samý den akci; jinak jen sjednotit název venue).
+    povalec_dates = {_norm_date(e["date"]) for e in unique_events if e.get("venue") == "Klubovna Povaleč"}
+    unique_events = [
+        e for e in unique_events
+        if not (e.get("venue") == "Klubovna" and _norm_date(e["date"]) in povalec_dates)
+    ]
+    for e in unique_events:
+        if e.get("venue") == "Klubovna":
+            e["venue"] = "Klubovna Povaleč"
+
     own_venue_dates = {
         (e.get("venue"), _norm_date(e["date"]), e.get("time", "")) for e in unique_events if not e.get("_agg")
     }
