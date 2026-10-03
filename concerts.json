@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-03T13:46:48.630824+00:00",
-  "count": 1465,
+  "updated": "2026-10-03T14:22:42.764931+00:00",
+  "count": 1482,
   "events": [
     {
       "title": "Universal Ticket Universal",
@@ -903,146 +903,6 @@
       "genre": ""
     },
     {
-      "title": "SUNDEJ SE SUNDAY",
-      "date": "3.10.2026",
-      "time": "",
-      "venue": "Cross Club",
-      "category": "hudba",
-      "url": "https://www.crossclub.cz/cs/program/8680-sundej-se-sunday/",
-      "image": "https://www.crossclub.cz/data/resized/files/2021/rijen/144x144c-8a17-sunday.jpg",
-      "genre": ""
-    },
-    {
-      "title": "LOS TEKKENOS",
-      "date": "3.10.2026",
-      "time": "",
-      "venue": "Cross Club",
-      "category": "hudba",
-      "url": "https://www.crossclub.cz/cs/program/8681-los-tekkenos/",
-      "image": "https://www.crossclub.cz/data/resized/files/cerven2014/144x144c-d066-tek.jpg",
-      "genre": ""
-    },
-    {
-      "title": "divadlo CUCUMIS SENSUS & AFTER & SIMS WELCOME PARTY",
-      "date": "3.10.2026",
-      "time": "",
-      "venue": "Cross Club",
-      "category": "hudba",
-      "url": "https://www.crossclub.cz/cs/program/8675-divadlo-cucumis-sensus-after-sims-welcome-party/",
-      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-cdaa-divl.jpg",
-      "genre": ""
-    },
-    {
-      "title": "TECHNO NIGHT",
-      "date": "3.10.2026",
-      "time": "",
-      "venue": "Cross Club",
-      "category": "hudba",
-      "url": "https://www.crossclub.cz/cs/program/8682-techno-night/",
-      "image": "https://www.crossclub.cz/data/resized/files/2023/listopad/144x144c-a57d-techno.jpg",
-      "genre": ""
-    },
-    {
-      "title": "CROSS KONCERT & DNB AFTER PARTY",
-      "date": "3.10.2026",
-      "time": "",
-      "venue": "Cross Club",
-      "category": "hudba",
-      "url": "https://www.crossclub.cz/cs/program/8676-cross-koncert-dnb-after-party/",
-      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-1ad4-knc1.jpg",
-      "genre": ""
-    },
-    {
-      "title": "CROSS KONCERT w/ DEATHCHANT (USA) & SPIRIT THERAPY w/ BLOCKSBERG & MEMPHYS",
-      "date": "3.10.2026",
-      "time": "",
-      "venue": "Cross Club",
-      "category": "hudba",
-      "url": "https://www.crossclub.cz/cs/program/8667-cross-koncert-w-deathchant-usa-spirit-therapy-w-blocksberg-memphys/",
-      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-778f-knc.jpg",
-      "genre": ""
-    },
-    {
-      "title": "ACID ARAB V CROSSU",
-      "date": "3.10.2026",
-      "time": "",
-      "venue": "Cross Club",
-      "category": "hudba",
-      "url": "https://www.crossclub.cz/cs/program/8677-acid-arab-v-crossu/",
-      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-4071-acd.jpg",
-      "genre": ""
-    },
-    {
-      "title": "DNB NIGHT",
-      "date": "3.10.2026",
-      "time": "",
-      "venue": "Cross Club",
-      "category": "hudba",
-      "url": "https://www.crossclub.cz/cs/program/8684-dnb-night/",
-      "image": "https://www.crossclub.cz/data/resized/files/2017/listopad/144x144c-f514-cross.jpg",
-      "genre": ""
-    },
-    {
-      "title": "ŽIVELNÁ NOC & ZÁVIŠ VE SKLEPĚ",
-      "date": "3.10.2026",
-      "time": "",
-      "venue": "Cross Club",
-      "category": "hudba",
-      "url": "https://www.crossclub.cz/cs/program/8686-zivelna-noc-zavis-ve-sklepe/",
-      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-5b30-zvi.jpg",
-      "genre": ""
-    },
-    {
-      "title": "CROSS FESTIVAL",
-      "date": "3.10.2026",
-      "time": "",
-      "venue": "Cross Club",
-      "category": "hudba",
-      "url": "https://www.crossclub.cz/cs/program/8669-cross-festival/",
-      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-8c1f-cfes.jpg",
-      "genre": ""
-    },
-    {
-      "title": "CROSS KONCERT & THALASSOPHOBIA & TECHNO STAGE",
-      "date": "3.10.2026",
-      "time": "",
-      "venue": "Cross Club",
-      "category": "hudba",
-      "url": "https://www.crossclub.cz/cs/program/8670-cross-koncert-thalassophobia-techno-stage/",
-      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-6a18-cr.jpg",
-      "genre": ""
-    },
-    {
-      "title": "LOS TEKENOS",
-      "date": "3.10.2026",
-      "time": "",
-      "venue": "Cross Club",
-      "category": "hudba",
-      "url": "https://www.crossclub.cz/cs/program/8689-los-tekenos/",
-      "image": "https://www.crossclub.cz/data/resized/files/2016/duben/144x144c-f732-los-tek.jpg",
-      "genre": ""
-    },
-    {
-      "title": "KŘIŽOVATKA",
-      "date": "3.10.2026",
-      "time": "",
-      "venue": "Cross Club",
-      "category": "hudba",
-      "url": "https://www.crossclub.cz/cs/program/8691-krizovatka/",
-      "image": "https://www.crossclub.cz/data/resized/files/2016/cerven/144x144c-961d-cross-logo.jpg",
-      "genre": ""
-    },
-    {
-      "title": "POEZIE VOLE!! & AFTERPARTY",
-      "date": "3.10.2026",
-      "time": "",
-      "venue": "Cross Club",
-      "category": "hudba",
-      "url": "https://www.crossclub.cz/cs/program/8692-poezie-vole-afterparty/",
-      "image": "https://www.crossclub.cz/data/resized/files/2022/unor/144x144c-9510-poe-vole.jpg",
-      "genre": ""
-    },
-    {
       "title": "VIKTOR ORI/SK+VLASTA+KOSMETIK INSTITUT",
       "date": "03.10.2026",
       "time": "",
@@ -1443,6 +1303,16 @@
       "genre": "jazz"
     },
     {
+      "title": "SUNDEJ SE SUNDAY",
+      "date": "4.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8680-sundej-se-sunday/",
+      "image": "https://www.crossclub.cz/data/resized/files/2021/rijen/144x144c-8a17-sunday.jpg",
+      "genre": ""
+    },
+    {
       "title": "LATERNA MAGIKA PERPETUUM HAVEL",
       "date": "04.10.2026",
       "time": "",
@@ -1733,6 +1603,16 @@
       "genre": "PUNK ALTERNATIVE"
     },
     {
+      "title": "LOS TEKKENOS",
+      "date": "5.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8681-los-tekkenos/",
+      "image": "https://www.crossclub.cz/data/resized/files/cerven2014/144x144c-d066-tek.jpg",
+      "genre": ""
+    },
+    {
       "title": "LATERNA MAGIKA PERPETUUM HAVEL",
       "date": "05.10.2026",
       "time": "",
@@ -1953,6 +1833,16 @@
       "genre": ""
     },
     {
+      "title": "divadlo CUCUMIS SENSUS & AFTER & SIMS WELCOME PARTY",
+      "date": "6.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8675-divadlo-cucumis-sensus-after-sims-welcome-party/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-cdaa-divl.jpg",
+      "genre": ""
+    },
+    {
       "title": "TANTEHORSE LIGHT IN THE DARKNESS (ČECHOVÁ+VIZVÁRY)",
       "date": "06.10.2026",
       "time": "",
@@ -2081,6 +1971,16 @@
       "url": "https://klub007strahov.cz/events/ginger-wizard-the-peter-jacksons-cz-self-immolation-music-uk/",
       "image": "",
       "genre": "PSYCHEDELIC ROCK kraut"
+    },
+    {
+      "title": "TECHNO NIGHT",
+      "date": "7.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8682-techno-night/",
+      "image": "https://www.crossclub.cz/data/resized/files/2023/listopad/144x144c-a57d-techno.jpg",
+      "genre": ""
     },
     {
       "title": "TANTEHORSE RUKOJMÍ (INVISIBLE IV.)",
@@ -2273,6 +2173,16 @@
       "genre": ""
     },
     {
+      "title": "CROSS KONCERT & DNB AFTER PARTY",
+      "date": "8.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8676-cross-koncert-dnb-after-party/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-1ad4-knc1.jpg",
+      "genre": ""
+    },
+    {
       "title": "PARRA FOR CUVA/DENacar Tour+SUPPORT HIMALAYAN DALAI LAMA",
       "date": "08.10.2026",
       "time": "",
@@ -2461,6 +2371,16 @@
       "url": "https://klub007strahov.cz/events/no-stress-cz/",
       "image": "",
       "genre": "ROCK"
+    },
+    {
+      "title": "CROSS KONCERT w/ DEATHCHANT (USA) & SPIRIT THERAPY w/ BLOCKSBERG & MEMPHYS",
+      "date": "9.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8667-cross-koncert-w-deathchant-usa-spirit-therapy-w-blocksberg-memphys/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-778f-knc.jpg",
+      "genre": ""
     },
     {
       "title": "IVO DIMČEV/BG",
@@ -2713,6 +2633,16 @@
       "genre": ""
     },
     {
+      "title": "ACID ARAB V CROSSU",
+      "date": "10.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8677-acid-arab-v-crossu/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-4071-acd.jpg",
+      "genre": ""
+    },
+    {
       "title": "BABA ZULA",
       "date": "10.10.2026",
       "time": "",
@@ -2953,6 +2883,16 @@
       "genre": "SKA PUNK"
     },
     {
+      "title": "SUNDEJ SE SUNDAY",
+      "date": "11.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8683-sundej-se-sunday/",
+      "image": "https://www.crossclub.cz/data/resized/files/2021/rijen/144x144c-8a17-sunday.jpg",
+      "genre": ""
+    },
+    {
       "title": "FANFARE CIOCARLIA/RU",
       "date": "11.10.2026",
       "time": "",
@@ -3060,6 +3000,16 @@
       "category": "hudba",
       "url": "https://citarna.unijazz.cz/events/24297/",
       "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/10/20261012-Nazdarci-Praha-Unijazz-scaled.jpg",
+      "genre": ""
+    },
+    {
+      "title": "LOS TEKKENOS",
+      "date": "12.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8668-los-tekkenos/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-ce92-los.jpg",
       "genre": ""
     },
     {
@@ -3181,6 +3131,16 @@
       "url": "https://klub007strahov.cz/events/god-mother-se-obstruktion-se/",
       "image": "",
       "genre": "metal"
+    },
+    {
+      "title": "DNB NIGHT",
+      "date": "13.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8684-dnb-night/",
+      "image": "https://www.crossclub.cz/data/resized/files/2017/listopad/144x144c-f514-cross.jpg",
+      "genre": ""
     },
     {
       "title": "DOMINIQUE FILS-AIMÉ/CA",
@@ -3360,6 +3320,16 @@
       "category": "hudba",
       "url": "https://futurum.musicbar.cz/program/dk-enerhetyk-ua/",
       "image": "https://futurum.musicbar.cz/wp-content/uploads/2026/09/db0e.png",
+      "genre": ""
+    },
+    {
+      "title": "TECHNO NIGHT",
+      "date": "14.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8685-techno-night/",
+      "image": "https://www.crossclub.cz/data/resized/files/2016/prosinec/144x144c-2afa-technonight.jpg",
       "genre": ""
     },
     {
@@ -3561,6 +3531,16 @@
       "url": "https://citarna.unijazz.cz/events/koncinna-prosli-tudy-blazni/",
       "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/09/WhatsApp-Image-2026-02-12-at-15.37.11-9-kopie-Sudkom-Petr-2.jpg",
       "genre": "rock, šanson"
+    },
+    {
+      "title": "ŽIVELNÁ NOC & ZÁVIŠ VE SKLEPĚ",
+      "date": "15.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8686-zivelna-noc-zavis-ve-sklepe/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-5b30-zvi.jpg",
+      "genre": ""
     },
     {
       "title": "HÄMATOM/DE+MEAN MESSIAH",
@@ -3781,6 +3761,16 @@
       "url": "https://citarna.unijazz.cz/events/hrozne-a-songs-from-utopia/",
       "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/09/HROZNE-2026-podium-Jaromir-Rehor-scaled.jpg",
       "genre": "alternativa, rock, indie"
+    },
+    {
+      "title": "CROSS FESTIVAL",
+      "date": "16.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8669-cross-festival/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-8c1f-cfes.jpg",
+      "genre": ""
     },
     {
       "title": "IGOR OROZOVIČ & CO KŘEST ALBA SISYFÁ",
@@ -4093,6 +4083,16 @@
       "genre": "pop"
     },
     {
+      "title": "CROSS KONCERT & THALASSOPHOBIA & TECHNO STAGE",
+      "date": "17.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8670-cross-koncert-thalassophobia-techno-stage/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-6a18-cr.jpg",
+      "genre": ""
+    },
+    {
       "title": "SARI SCHORR/US",
       "date": "17.10.2026",
       "time": "",
@@ -4343,6 +4343,16 @@
       "genre": ""
     },
     {
+      "title": "SUNDEJ SE SUNDAY",
+      "date": "18.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8687-sundej-se-sunday/",
+      "image": "https://www.crossclub.cz/data/resized/files/2021/rijen/144x144c-8a17-sunday.jpg",
+      "genre": ""
+    },
+    {
       "title": "MAX FRY (US) + Computer Kill",
       "date": "18.10.2026",
       "time": "19:30",
@@ -4481,6 +4491,16 @@
       "url": "https://futurum.musicbar.cz/program/oranssi-pazuzu-fi-is-mur-is/",
       "image": "https://futurum.musicbar.cz/wp-content/uploads/2026/05/FUTURUM-WEB-ROZMERY-9.png",
       "genre": "post-metal, metal"
+    },
+    {
+      "title": "LOS TEKENOS",
+      "date": "19.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8689-los-tekenos/",
+      "image": "https://www.crossclub.cz/data/resized/files/2016/duben/144x144c-f732-los-tek.jpg",
+      "genre": ""
     },
     {
       "title": "TANTEHORSE IRIS",
@@ -4641,6 +4661,16 @@
       "url": "https://citarna.unijazz.cz/events/uni-na-podiu-vaclav-havelka/",
       "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/09/Vaclav-Havelka-by-Dag-Markl-2026_3-1-scaled.jpg",
       "genre": "alternativa, ambient, folk"
+    },
+    {
+      "title": "TECHNO NIGHT",
+      "date": "20.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8690-techno-night/",
+      "image": "https://www.crossclub.cz/data/resized/files/2016/srpen/144x144c-485b-techno-cave.jpg",
+      "genre": ""
     },
     {
       "title": "MIŘENKA ČECHOVÁ & SPITFIRE COMPANY BALETKY",
@@ -4813,6 +4843,16 @@
       "genre": "POPCORN , THE ONION RINGS punk rock / rock´n´roll"
     },
     {
+      "title": "KŘIŽOVATKA",
+      "date": "21.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8691-krizovatka/",
+      "image": "https://www.crossclub.cz/data/resized/files/2016/cerven/144x144c-961d-cross-logo.jpg",
+      "genre": ""
+    },
+    {
       "title": "DESET LET SEVERNÍHO NÁSTUPIŠTĚ+SUPPORT DAGMAR VOŇKOVÁ",
       "date": "21.10.2026",
       "time": "",
@@ -4981,6 +5021,16 @@
       "url": "https://klub007strahov.cz/events/nostrrromo-cz-sin-dick-8-cz/",
       "image": "",
       "genre": "groove metal hard core"
+    },
+    {
+      "title": "POEZIE VOLE!! & AFTERPARTY",
+      "date": "22.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8692-poezie-vole-afterparty/",
+      "image": "https://www.crossclub.cz/data/resized/files/2022/unor/144x144c-9510-poe-vole.jpg",
+      "genre": ""
     },
     {
       "title": "DIGITALISM (LIVE)/DE",
@@ -5211,6 +5261,16 @@
       "url": "https://citarna.unijazz.cz/events/vlnotaj/",
       "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/09/vlnotaj_komplet.jpg",
       "genre": "fusion, rock, jazz, funk"
+    },
+    {
+      "title": "CHAMPION SOUND",
+      "date": "23.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8671-champion-sound/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-52f9-enf.jpg",
+      "genre": ""
     },
     {
       "title": "BÁRA HRZÁNOVÁ & CONDURANGO+SUPPORT MARZ",
@@ -5483,6 +5543,16 @@
       "genre": "SKAPARÁDA DJs AFTERPARTY"
     },
     {
+      "title": "HALLOWEEN Vol. 11",
+      "date": "24.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8672-halloween-vol-11/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-c49c-hal.jpg",
+      "genre": ""
+    },
+    {
       "title": "CLAWFINGER/NO/SE",
       "date": "24.10.2026",
       "time": "",
@@ -5693,6 +5763,16 @@
       "genre": "jazz"
     },
     {
+      "title": "VICTORY HARDCORE NIGHT & SUNDEJ SE SUNDAY",
+      "date": "25.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8673-victory-hardcore-night-sundej-se-sunday/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-035e-ysd.jpg",
+      "genre": ""
+    },
+    {
       "title": "RFP Concerts: Alpha Wolf",
       "date": "25.10.2026",
       "time": "17.00",
@@ -5833,6 +5913,16 @@
       "genre": ""
     },
     {
+      "title": "LOS TEKKENOS",
+      "date": "26.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8693-los-tekkenos/",
+      "image": "https://www.crossclub.cz/data/resized/files/144x144c-53c7-tek.jpg",
+      "genre": ""
+    },
+    {
       "title": "SPITFIRE COMPANY KONEC ČLOVĚKA?!",
       "date": "26.10.2026",
       "time": "",
@@ -5961,6 +6051,16 @@
       "url": "https://citarna.unijazz.cz/events/cuefactory-krest-ep-mrklm/",
       "image": "https://citarna.unijazz.cz/wp-content/uploads/2026/09/Foceni-Jiri-Popelka.jpg",
       "genre": "indie, blues"
+    },
+    {
+      "title": "CYPER SOUND KŘEST ALBA & TECHNO STAGE",
+      "date": "27.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8694-cyper-sound-krest-alba-techno-stage/",
+      "image": "https://www.crossclub.cz/data/resized/files/2019/cervenec/144x144c-2df1-cross.jpg",
+      "genre": ""
     },
     {
       "title": "Keltské úterý:FOGGY DUDE+FLAT FLY+BUDWEIS DRUNKEN BASTARDS",
@@ -6133,6 +6233,16 @@
       "genre": ""
     },
     {
+      "title": "BIOCROSS",
+      "date": "28.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8695-biocross/",
+      "image": "https://www.crossclub.cz/data/resized/files/2023/unor/144x144c-8d28-bio.jpg",
+      "genre": ""
+    },
+    {
       "title": "TANTEHORSE S(t)IGMA",
       "date": "28.10.2026",
       "time": "",
@@ -6241,6 +6351,16 @@
       "url": "https://klub007strahov.cz/events/dyse-de-jan-faix-cz/",
       "image": "",
       "genre": "noise rock / ambient techno"
+    },
+    {
+      "title": "REGGAENERACE",
+      "date": "29.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8696-reggaenerace/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-379b-reg.jpg",
+      "genre": ""
     },
     {
       "title": "KVIETAH & VČELY KŘEST ALBA",
@@ -6421,6 +6541,16 @@
       "url": "https://klub007strahov.cz/events/springless-cz-louty-cz-dafy-and-the-rafters-sk/",
       "image": "",
       "genre": "PUNK ROCK"
+    },
+    {
+      "title": "NEUROCELLS & HARD RAVE",
+      "date": "30.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8697-neurocells-hard-rave/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-7907-nue.jpg",
+      "genre": ""
     },
     {
       "title": "IRON MAIDEN Revival+guest: MATKA V KRIZI",
@@ -6673,6 +6803,16 @@
       "genre": "punk halloween volume 31"
     },
     {
+      "title": "THE MICRONAUT (DE) + NOISY POTS AT CROSS CLUB PRAGUE",
+      "date": "31.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8678-the-micronaut-de-noisy-pots-at-cross-club-prague/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-b2bc-nsy.jpg",
+      "genre": ""
+    },
+    {
       "title": "MICHELLE GUREVICH/CA",
       "date": "31.10.2026",
       "time": "",
@@ -6851,6 +6991,16 @@
       "url": "https://futurum.musicbar.cz/program/de-staat-nl-support-hiqpy-nl/",
       "image": "https://futurum.musicbar.cz/wp-content/uploads/2026/04/FUTURUM-WEB-ROZMERY-7-1.png",
       "genre": "rock"
+    },
+    {
+      "title": "SUNDEJ SE SUNDAY",
+      "date": "1.11.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8688-sundej-se-sunday/",
+      "image": "https://www.crossclub.cz/data/resized/files/2021/rijen/144x144c-8a17-sunday.jpg",
+      "genre": ""
     },
     {
       "title": "SLOW PILOT TRIBUTES JEFF BUCKLEY (BE)",
@@ -9011,6 +9161,16 @@
       "url": "https://klub007strahov.cz/events/uraggan-andrew-reggae-orthodox-cz/",
       "image": "",
       "genre": "REGGAE ORTHODOX REGGAE"
+    },
+    {
+      "title": "UP TONE w/ MARATHON",
+      "date": "19.11.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8698-up-tone-w-marathon/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/listopad/144x144c-ced4-up.jpg",
+      "genre": ""
     },
     {
       "title": "SPITFIRE COMPANY & PAST CANCEL",
@@ -14011,6 +14171,16 @@
       "url": "https://www.o2universum.cz/events/skwor-na-hrane-tour/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/08/1080x1080.jpg",
       "genre": "rock, pop"
+    },
+    {
+      "title": "CROSS SQUARE w/ KVĚTY",
+      "date": "14.5.2027",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8534-cross-square-w-kvety/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/cerven/144x144c-3e3b-kve.jpg",
+      "genre": ""
     },
     {
       "title": "NEDVĚDI 27",
