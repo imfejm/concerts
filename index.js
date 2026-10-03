@@ -64,13 +64,24 @@ function buildFilters(events) {
     a.localeCompare(b, 'cs', { sensitivity: 'base' }));
   const wrap = document.getElementById('filters');
   wrap.innerHTML = '<button class="filter-btn active" data-venue="vse">Vše</button>';
-  venues.forEach(v => {
+  // Kostely, paláce, purkrabství, synagogy, kaple a FHS jdou pod oddělovač (Palác Akropolis je klub)
+  const isSpecialVenue = v => v !== 'Palác Akropolis' &&
+    /kostel|palác|purkrabství|synagog|kapl[ei]|humanitních studií/i.test(v);
+  const addVenueBtn = v => {
     const btn = document.createElement('button');
     btn.className = 'filter-btn';
     btn.dataset.venue = v;
     btn.textContent = v;
     wrap.appendChild(btn);
-  });
+  };
+  venues.filter(v => !isSpecialVenue(v)).forEach(addVenueBtn);
+  const special = venues.filter(isSpecialVenue);
+  if (special.length) {
+    const sep = document.createElement('div');
+    sep.className = 'filters-separator';
+    wrap.appendChild(sep);
+    special.forEach(addVenueBtn);
+  }
 
   // Toggle tlačítko pro mobilní zobrazení
   const mobileLabel = document.createElement('span');
