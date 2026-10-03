@@ -57,6 +57,12 @@ function formatDate(dateStr, timeStr) {
   }
 }
 
+// Kostely, paláce, purkrabství, synagogy, kaple a FHS jdou pod oddělovač / na konec seznamu (Palác Akropolis je klub)
+function isSpecialVenue(v) {
+  return v && v !== 'Palác Akropolis' &&
+    /kostel|palác|purkrabství|synagog|kapl[ei]|humanitních studií/i.test(v);
+}
+
 function buildFilters(events) {
   const fromEvents = new Set(events.map(e => e.venue).filter(Boolean));
   const fromCoords = new Set(Object.keys(venueCoords));
@@ -64,9 +70,6 @@ function buildFilters(events) {
     a.localeCompare(b, 'cs', { sensitivity: 'base' }));
   const wrap = document.getElementById('filters');
   wrap.innerHTML = '<button class="filter-btn active" data-venue="vse">Vše</button>';
-  // Kostely, paláce, purkrabství, synagogy, kaple a FHS jdou pod oddělovač (Palác Akropolis je klub)
-  const isSpecialVenue = v => v !== 'Palác Akropolis' &&
-    /kostel|palác|purkrabství|synagog|kapl[ei]|humanitních studií/i.test(v);
   const addVenueBtn = v => {
     const btn = document.createElement('button');
     btn.className = 'filter-btn';
@@ -408,6 +411,8 @@ function render() {
   let html = '';
   Object.entries(groups).forEach(([label, evs]) => {
     if (!evs.length) return;
+    // stabilní řazení: kostely apod. na konec sekce, jinak zůstává pořadí podle data
+    evs = [...evs.filter(ev => !isSpecialVenue(ev.venue)), ...evs.filter(ev => isSpecialVenue(ev.venue))];
     const id = sectionIds[label];
     if (collapsible.has(label)) {
       html += `
