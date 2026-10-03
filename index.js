@@ -36,7 +36,7 @@ document.addEventListener('click', function removeInit() {
   header.addEventListener('mouseleave', () => header.classList.remove('header--collapsed'));
 })();
 
-let zitraFocus = false;
+let focusSection = null; // 'Zítra' | 'Tento týden' | null
 
 const todayStr = (() => {
   const d = new Date();
@@ -371,8 +371,17 @@ async function renderMap() {
 function render() {
   if (activeView === 'kalendar') { renderCalendar(); return; }
   if (activeView === 'mapa') { renderMap(); return; }
-  const events = getFiltered();
+  let events = getFiltered();
   const content = document.getElementById('content');
+
+  // Dnes nic nehraje → ukaž hlášku a pod ní zabalené ostatní sekce
+  let todayEmpty = false;
+  if (activeView === 'dnes' && !events.length) {
+    activeView = 'all';
+    events = getFiltered();
+    activeView = 'dnes';
+    todayEmpty = events.length > 0;
+  }
 
   if (!events.length) {
     const _solo = activeVenues.size === 1 ? [...activeVenues][0] : null;
@@ -419,9 +428,9 @@ function render() {
 
   const sectionIds = { 'Dnes': 'section-dnes', 'Zítra': 'section-zitra', 'Tento týden': 'section-tyden', 'Brzy': 'section-brzy' };
   const collapsible = new Set(['Zítra', 'Tento týden', 'Brzy']);
-  // po kliknutí na "Zítra" se Dnes zabalí a Zítra rozbalí
-  if (zitraFocus) collapsible.add('Dnes');
-  const startsExpanded = label => zitraFocus && label === 'Zítra';
+  // po kliknutí na "Zítra" / "Tento týden" se Dnes zabalí a vybraná sekce rozbalí
+  if (focusSection) collapsible.add('Dnes');
+  const startsExpanded = label => label === focusSection;
   let html = '';
   Object.entries(groups).forEach(([label, evs]) => {
     if (!evs.length) return;
@@ -455,6 +464,17 @@ function render() {
   if (_soloV && venueCoords[_soloV]) {
     const _note = venueInfo[_soloV] ? `<span class="venue-address-note">📍 ${escHtml(venueInfo[_soloV])}</span>` : '';
     html = `<div class="venue-map-header"><button class="venue-map-btn" id="venue-map-btn">📍 Zobrazit na mapě</button>${_note}</div>` + html;
+  }
+
+  if (todayEmpty) {
+    html = `
+      <div class="grid">
+        <div class="empty">
+          <div class="empty-icon">&#9835;</div>
+          <div class="empty-title">Dnes nic nehraje</div>
+          <p>Podívej se na nadcházející akce níže.</p>
+        </div>
+      </div>` + html;
   }
 
   content.innerHTML = html;
@@ -585,7 +605,7 @@ document.querySelector('.header-nav').addEventListener('click', e => {
   const btn = e.target.closest('.view-btn');
   if (!btn) return;
   const view = btn.dataset.view;
-  zitraFocus = view === 'zitra';
+  focusSection = view === 'zitra' ? 'Zítra' : view === 'tyden' ? 'Tento týden' : null;
 
   if (view === 'zitra') {
     activeView = 'all';
