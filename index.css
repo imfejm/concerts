@@ -89,6 +89,17 @@ header {
     pointer-events: auto;
   }
 
+  header.header--collapsed:not(.header--init):hover .header-nav {
+    max-height: 0;
+    padding-bottom: 0;
+    opacity: 0;
+    pointer-events: none;
+  }
+  header.header--collapsed:not(.header--init):hover .logo-arrow {
+    transform: rotate(0deg);
+    opacity: 0.7;
+  }
+
   /* Rozbalené menu: sidebar se žánry vlevo, ostatní filtry vpravo */
   .header-nav {
     display: grid;

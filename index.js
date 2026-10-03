@@ -27,6 +27,15 @@ document.addEventListener('click', function removeInit() {
   document.removeEventListener('click', removeInit);
 }, { once: true });
 
+// klik na podtitulek zatáhne menu, dokud z headeru neodejde myš
+(() => {
+  const header = document.querySelector('header');
+  document.querySelector('.logo-sub').addEventListener('click', () => {
+    header.classList.add('header--collapsed');
+  });
+  header.addEventListener('mouseleave', () => header.classList.remove('header--collapsed'));
+})();
+
 const todayStr = (() => {
   const d = new Date();
   return `${d.getDate()}.${d.getMonth()+1}.${d.getFullYear()}`;
