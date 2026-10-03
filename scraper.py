@@ -476,45 +476,66 @@ def scrape_klub007():
 # ─────────────────────────────────────────────────────────────
 def scrape_crossclub():
     print("* Cross Club...")
-    soup = get_soup("https://www.crossclub.cz/cs/program/")
-    if not soup:
-        return []
-
+    base = "https://www.crossclub.cz"
     events = []
+    seen = set()
 
-    # Stránka je rozdělená do bloků: <div class="predelToday">DD. MM. YYYY - Den</div>
-    # následovaný <div class="article"> pro každou akci tohoto dne.
-    current_date = ""
-    for el in soup.select("div.predelToday, div.article"):
-        if "predelToday" in el.get("class", []):
-            m = re.search(r"(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})", el.get_text(" ", strip=True))
-            current_date = f"{int(m.group(1))}.{int(m.group(2))}.{m.group(3)}" if m else ""
-            continue
+    # Výchozí stránka ukazuje jen dnešek; ?date=YYYY-MM-DD ukáže 14 dní od zadaného data
+    # a odkaz "next" posouvá o týden → procházíme postupně (max ~4 měsíce dopředu).
+    next_url = f"{base}/cs/program/?date={datetime.now().date().isoformat()}"
+    visited = set()
+    for _ in range(18):
+        if not next_url or next_url in visited:
+            break
+        visited.add(next_url)
+        soup = get_soup(next_url)
+        if not soup:
+            break
 
-        h2 = el.find("h2")
-        link = h2.find("a") if h2 else None
-        if not link or not current_date:
-            continue
-        title = link.get_text(" ", strip=True)
-        cat = el.select_one("p.category")
-        cat_text = cat.get_text(" ", strip=True) if cat else ""
-        if re.match(r"(Kino|Divadlo)", cat_text):
-            continue
+        # <div class="predel(Today)">DD. MM. YYYY - Den</div> následovaný bloky <div class="article">
+        current_date = ""
+        found = 0
+        for el in soup.select("div.predel, div.predelToday, div.article"):
+            classes = el.get("class", [])
+            if "article" not in classes:
+                m = re.search(r"(\d{1,2})\.\s*(\d{1,2})\.\s*(\d{4})", el.get_text(" ", strip=True))
+                current_date = f"{int(m.group(1))}.{int(m.group(2))}.{m.group(3)}" if m else ""
+                continue
 
-        img = el.find("img")
-        image = img.get("src", "") if img else ""
-        if image and not image.startswith("http"):
-            image = "https://www.crossclub.cz" + image
+            h2 = el.find("h2")
+            link = h2.find("a") if h2 else None
+            if not link or not current_date:
+                continue
+            found += 1
+            href = link.get("href", "")
+            if (href, current_date) in seen:
+                continue
+            seen.add((href, current_date))
 
-        events.append({
-            "title": title,
-            "date": current_date,
-            "time": "",
-            "venue": "Cross Club",
-            "category": "hudba",
-            "url": link.get("href", ""),
-            "image": image,
-        })
+            cat = el.select_one("p.category")
+            cat_text = cat.get_text(" ", strip=True) if cat else ""
+            if re.match(r"(Kino|Divadlo)", cat_text):
+                continue
+
+            img = el.find("img")
+            image = img.get("src", "") if img else ""
+            if image and not image.startswith("http"):
+                image = base + image
+
+            events.append({
+                "title": link.get_text(" ", strip=True),
+                "date": current_date,
+                "time": "",
+                "venue": "Cross Club",
+                "category": "hudba",
+                "url": href,
+                "image": image,
+            })
+
+        if not found:
+            break
+        nxt = soup.select_one("td.next a")
+        next_url = base + nxt["href"] if nxt and nxt.get("href", "").startswith("/") else None
 
     print(f"   [OK] {len(events)} akcí")
     return events
