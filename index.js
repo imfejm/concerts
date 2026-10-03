@@ -36,6 +36,11 @@ document.addEventListener('click', function removeInit() {
   header.addEventListener('mouseleave', () => header.classList.remove('header--collapsed'));
 })();
 
+// malá písmena bez diakritiky, aby šlo hledat např. "cerny" i "černý"
+function stripDiacritics(s) {
+  return (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+}
+
 let focusSection = null; // 'Zítra' | 'Tento týden' | null
 
 const todayStr = (() => {
@@ -168,10 +173,10 @@ function getFiltered() {
   const today = new Date(); today.setHours(0,0,0,0);
   return allEvents.filter(ev => {
     const venueOk = activeVenues.size === 0 || activeVenues.has(ev.venue);
-    const q = searchQuery.toLowerCase();
+    const q = stripDiacritics(searchQuery);
     const searchOk = !q ||
-      (ev.title || '').toLowerCase().includes(q) ||
-      (ev.venue || '').toLowerCase().includes(q);
+      stripDiacritics(ev.title).includes(q) ||
+      stripDiacritics(ev.venue).includes(q);
     if (!venueOk || !searchOk || !eventMatchesGenre(ev)) return false;
     if (activeView === 'dnes') {
       return isToday(ev.date);
