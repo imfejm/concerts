@@ -607,6 +607,13 @@ document.getElementById('search').addEventListener('keydown', e => {
   e.target.blur();
 });
 
+// klik na tlačítko klubu / času / žánru smaže text hledání (capture, aby to proběhlo před render)
+document.getElementById('header-nav').addEventListener('click', e => {
+  if (!searchQuery || !e.target.closest('.filter-btn, .view-btn, .genre-btn')) return;
+  document.getElementById('search').value = '';
+  searchQuery = '';
+}, true);
+
 document.getElementById('search').addEventListener('input', e => {
   searchQuery = e.target.value;
   if (searchQuery && activeView !== 'all') {
