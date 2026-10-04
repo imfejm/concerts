@@ -1084,6 +1084,20 @@ main {
   font-size: 1.6rem;
   letter-spacing: 0.06em;
 }
+.spotify-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1db954;
+  transition: transform 0.15s, filter 0.15s;
+}
+.spotify-link:hover {
+  transform: scale(1.12);
+  filter: brightness(1.15);
+}
 .section-count {
   font-size: 0.8rem;
   color: var(--muted);

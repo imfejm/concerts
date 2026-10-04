@@ -480,6 +480,7 @@ function render() {
         <div class="section-head" id="${id}">
           <h2 class="section-title">${label}</h2>
           <span class="section-count">${evs.length} ${evs.length === 1 ? 'akce' : 'akcí'}</span>
+          ${label === 'Dnes' ? spotifyLinkHTML() : ''}
         </div>
         <div class="grid">
           ${evs.map(ev => cardHTML(ev)).join('')}
@@ -569,8 +570,34 @@ function updateStats(events) {
   });
 }
 
+let playlists = {};
+
+// ISO týden ve tvaru "2026-W40" (klíč v playlists.json)
+function isoWeekKey(d) {
+  const t = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+  const day = t.getUTCDay() || 7;
+  t.setUTCDate(t.getUTCDate() + 4 - day);
+  const week = Math.ceil(((t - Date.UTC(t.getUTCFullYear(), 0, 1)) / 86400000 + 1) / 7);
+  return `${t.getUTCFullYear()}-W${String(week).padStart(2, '0')}`;
+}
+
+function spotifyLinkHTML() {
+  const url = playlists[isoWeekKey(new Date())]?.url;
+  if (!url) return '';
+  return `<a class="spotify-link" href="${escHtml(url)}" target="_blank" rel="noopener" title="Spotify playlist týdne" aria-label="Spotify playlist týdne" onclick="event.stopPropagation()">
+    <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.52 17.34c-.24.36-.66.48-1.02.24-2.82-1.74-6.36-2.1-10.56-1.14-.42.12-.78-.18-.9-.54-.12-.42.18-.78.54-.9 4.56-1.02 8.52-.6 11.64 1.32.42.18.48.66.3 1.02zm1.44-3.3c-.3.42-.84.6-1.26.3-3.24-1.98-8.16-2.58-11.94-1.38-.48.12-1.02-.12-1.14-.6-.12-.48.12-1.02.6-1.14 4.38-1.32 9.78-.66 13.5 1.62.36.18.54.78.24 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.3c-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.26-1.26 11.28-1.02 15.72 1.62.54.3.72 1.02.42 1.56-.3.42-1.02.6-1.56.3z"/></svg>
+    <span class="spotify-link-text">přehrát na Spotify</span>
+  </a>`;
+}
+
 async function init() {
   try {
+    try {
+      const pl = await fetch('playlists.json?v=' + Date.now());
+      if (pl.ok) playlists = await pl.json();
+    } catch (e) {
+      console.warn('playlists.json se nepodařilo načíst', e);
+    }
     const res = await fetch('concerts.json?v=' + Date.now());
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
