@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-06T09:52:04.521509+00:00",
-  "count": 1426,
+  "updated": "2026-10-06T11:41:52.557988+00:00",
+  "count": 1466,
   "events": [
     {
       "title": "Universal Ticket Universal",
@@ -163,6 +163,16 @@
       "genre": ""
     },
     {
+      "title": "RFP Concerts: Comeback Kid",
+      "date": "27.01.2026",
+      "time": "17.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/rfp-concerts-comeback-kid",
+      "image": "https://meetfactory.cz/media/images/rescaled/Comeback_Kid_19-320x426.jpg",
+      "genre": "hardcore, punk"
+    },
+    {
       "title": "FLOOR JANSEN (NE)",
       "date": "27.01.2026",
       "time": "",
@@ -243,6 +253,16 @@
       "genre": ""
     },
     {
+      "title": "Live Nation: Iceage",
+      "date": "07.02.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/live-nation-iceage",
+      "image": "https://meetfactory.cz/media/images/rescaled/Iceage_-_Star_-_Credit_Alva_Le_Febvre_Large-79x111.jpeg",
+      "genre": "alternativa"
+    },
+    {
       "title": "Spite / US + Emmure / US, special guests: Mauled + Distant",
       "date": "8.2.2026",
       "time": "17:00",
@@ -293,6 +313,16 @@
       "genre": "rock, punk"
     },
     {
+      "title": "Live Nation: Look Mum No Computer",
+      "date": "16.02.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/live-nation-look-mum-no-computer",
+      "image": "https://meetfactory.cz/media/images/rescaled/LOOK_MUM_NO_COMPUTER_by_Melanie_King-compressed-scale_x2_Large-79x111.jpeg",
+      "genre": ""
+    },
+    {
       "title": "WHITECHAPEL, SYLOSIS, 200 STAB WOUNDS, TRIBAL GAZE (UK)",
       "date": "16.02.2026",
       "time": "",
@@ -313,6 +343,16 @@
       "genre": "thrash, metal"
     },
     {
+      "title": "Live Nation: Amble",
+      "date": "17.02.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/live-nation-amble",
+      "image": "https://meetfactory.cz/media/images/rescaled/AmbleArenaPoster-scaled-320x426.jpg",
+      "genre": "folk"
+    },
+    {
       "title": "Richard Spaven (UK)",
       "date": "17.02.2026",
       "time": "20:00",
@@ -321,6 +361,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/richard-spaven-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/richard-spaven-5942-6ac3b8909bc8f950759706.webp",
       "genre": "drum & bass, hip-hop, jazz"
+    },
+    {
+      "title": "RFP Concerts: Dead Poet Society",
+      "date": "21.02.2026",
+      "time": "19.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/rfp-concerts-dead-poet-society",
+      "image": "https://meetfactory.cz/media/images/rescaled/DPS-STUDIO-03-705-Edit_PINK_1-320x426.jpg",
+      "genre": "indie rock, rock, indie"
     },
     {
       "title": "СОЮЗ (SOYUZ)/BY/PL",
@@ -363,6 +413,16 @@
       "genre": ""
     },
     {
+      "title": "Winter Prague Gothic Treffen",
+      "date": "27.02.2026",
+      "time": "",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/winter-prague-gothic-treffen",
+      "image": "https://meetfactory.cz/media/images/rescaled/WPGT_2027_-_flyer_v.1-320x426.jpg",
+      "genre": ""
+    },
+    {
       "title": "Mezcla Cubana",
       "date": "27.02.2026",
       "time": "22:00",
@@ -383,6 +443,16 @@
       "genre": ""
     },
     {
+      "title": "Protomartyr",
+      "date": "28.02.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/protomartyr",
+      "image": "https://meetfactory.cz/media/images/rescaled/Protomartyr_Hyatt_Hill_1_Credit_Trevor_Naud_72dpi-320x426.jpg",
+      "genre": "post-punk, noise rock, rock, punk"
+    },
+    {
       "title": "LATERNA MAGIKA PERPETUUM HAVEL",
       "date": "01.03.2026",
       "time": "",
@@ -393,6 +463,16 @@
       "genre": ""
     },
     {
+      "title": "RFP Concerts: H-Blockx",
+      "date": "06.03.2026",
+      "time": "19.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/rfp-concerts-h-blockx",
+      "image": "https://meetfactory.cz/media/images/rescaled/H-Blockx_FTB_DSC1354_by_Danny_Kötter_thezitterman-2-320x426.jpg",
+      "genre": "rock"
+    },
+    {
       "title": "DAFT FUNK LIVE (UK)",
       "date": "10.03.2026",
       "time": "",
@@ -401,6 +481,16 @@
       "url": "https://www.roxy.cz/events/detail/5027/daft-funk-live",
       "image": "https://www.roxy.cz/upload/temp/137-6a2ae700-7-63f3e700-wl29ttx23v75-crop-480-480.jpeg",
       "genre": "concert, drum&bass, electro, grime"
+    },
+    {
+      "title": "Live Nation: Haiden Henderson",
+      "date": "11.03.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/live-nation-haiden-henderson",
+      "image": "https://meetfactory.cz/media/images/rescaled/Haiden_Hendersen_photo-320x426.jpg",
+      "genre": ""
     },
     {
       "title": "THE HALO EFFECT, LACUNA COIL, OMNIUM GATHERUM (SE/FI)",
@@ -633,6 +723,26 @@
       "genre": ""
     },
     {
+      "title": "Obscure: Nevermore + Rivers of Nihil + Urne",
+      "date": "02.05.2026",
+      "time": "19.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/obscure-nevermore-rivers-of-nihil-urne",
+      "image": "https://meetfactory.cz/media/images/rescaled/images-7-79x111.jpeg",
+      "genre": "sludge, metal"
+    },
+    {
+      "title": "RFP Concerts: Florence Road",
+      "date": "06.05.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/rfp-concerts-florence-road",
+      "image": "https://meetfactory.cz/media/images/rescaled/Florence_Road-320x426.jpg",
+      "genre": "rock"
+    },
+    {
       "title": "Tomáš Mitura: Chasing Shadows",
       "date": "06.05.2026",
       "time": "",
@@ -771,6 +881,16 @@
       "url": "https://www.vagon.cz/dnes.php",
       "image": "",
       "genre": ""
+    },
+    {
+      "title": "D Smack U: Mass Of The Fermenting Dregs",
+      "date": "03.10.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/d-smack-u-mass-of-the-fermenting-dregs",
+      "image": "https://meetfactory.cz/media/images/rescaled/MOTFD_1080_1080-320x426.jpg",
+      "genre": "alternativa"
     },
     {
       "title": "Pavel Zlámal & PQ (CZ/BRA)",
@@ -931,6 +1051,16 @@
       "url": "https://www.vagon.cz/dnes.php",
       "image": "",
       "genre": ""
+    },
+    {
+      "title": "Holy Fuck + Rattle",
+      "date": "06.10.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/holy-fuck",
+      "image": "https://meetfactory.cz/media/images/rescaled/1379749-800-800x-320x426.jpg",
+      "genre": "punk"
     },
     {
       "title": "Justin Hicks feat. Marvin Sewell & Kyle Miles (USA)",
@@ -1131,16 +1261,6 @@
       "url": "https://goout.net/cs/svatecni-pop/szvkghy/",
       "image": "https://goout.net/i/034/348834-383.jpg",
       "genre": "pop"
-    },
-    {
-      "title": "Holy Fuck + Rattle",
-      "date": "6.10.2026",
-      "time": "20:00",
-      "venue": "MeetFactory",
-      "category": "hudba",
-      "url": "https://goout.net/cs/holy-fuck+rattle/szuhhfy/",
-      "image": "https://goout.net/i/137/1379748-383.jpg",
-      "genre": "punk"
     },
     {
       "title": "Zeke Deux",
@@ -1611,6 +1731,16 @@
       "url": "https://kastan.cz/akce/anurrn-earl-grave/",
       "image": "https://kastan.cz/wp-content/uploads/2026/09/Anurrn.jpg",
       "genre": "Koncert"
+    },
+    {
+      "title": "Live Nation: Bleood",
+      "date": "08.10.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/live-nation-bleood",
+      "image": "https://meetfactory.cz/media/images/rescaled/Bleood_2426x1356_fotka-320x426.jpg",
+      "genre": "alternativa"
     },
     {
       "title": "Top Dream Company",
@@ -2143,6 +2273,16 @@
       "genre": ""
     },
     {
+      "title": "Mykki Blanco + Laokoon",
+      "date": "10.10.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/mykki-blanco",
+      "image": "https://meetfactory.cz/media/images/rescaled/mykki_blanco-320x426.jpg",
+      "genre": "rap"
+    },
+    {
       "title": "SWIMMING PAUL (FR)",
       "date": "10.10.2026",
       "time": "",
@@ -2643,7 +2783,17 @@
       "genre": "Koncert"
     },
     {
-      "title": "Jen Hovorka & Marek Urbánek - Figures Of Speech",
+      "title": "RFP Concerts: Yard Act",
+      "date": "13.10.2026",
+      "time": "19.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/rfp-concerts-yard-act",
+      "image": "https://meetfactory.cz/media/images/rescaled/YA_foto-320x426.jpg",
+      "genre": "rock"
+    },
+    {
+      "title": "Jen Hovorka & Marek UrbánekKřest alba Figures Of Speech",
       "date": "13.10.2026",
       "time": "20:00",
       "venue": "Jazz Dock",
@@ -2821,6 +2971,16 @@
       "url": "https://kastan.cz/akce/selma-haiku-balance/",
       "image": "https://kastan.cz/wp-content/uploads/2026/09/Balance-2026-2-scaled.jpg",
       "genre": "Autorské čtení,Koncert"
+    },
+    {
+      "title": "Forest Ray + star51",
+      "date": "14.10.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/forest-ray",
+      "image": "https://meetfactory.cz/media/images/rescaled/1._Forest_Ray_Press_Promo_2026-79x111.JPG",
+      "genre": "rock, indie, funk, country"
     },
     {
       "title": "MYDY - POSLEDNÍ HURÁ! (CZ)",
@@ -3240,6 +3400,16 @@
       "category": "hudba",
       "url": "https://cafevlese.cz/events/andy-kapela-dduckies-dusan-sivak/",
       "image": "https://cafevlese.cz/wp-content/uploads/2026/08/1399215-800-e1787228129614-768x800.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Gotobeat: Halina Rice",
+      "date": "16.10.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/gotobeat-halina-rice",
+      "image": "https://meetfactory.cz/media/images/rescaled/Halina_Rice_live_HERE_at_Outernet_London_UK-7764-79x111.jpeg",
       "genre": ""
     },
     {
@@ -4753,6 +4923,16 @@
       "genre": "Koncert"
     },
     {
+      "title": "Live Nation: Cobrah",
+      "date": "23.10.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/live-nation-cobrah",
+      "image": "https://meetfactory.cz/media/images/rescaled/DSCF3495_2-79x111.jpeg",
+      "genre": ""
+    },
+    {
       "title": "My Dear Ada",
       "date": "23.10.2026",
       "time": "",
@@ -5023,6 +5203,16 @@
       "genre": "Koncert"
     },
     {
+      "title": "Live Nation: Ruel + Sadie Jean",
+      "date": "24.10.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/live-nation-ruel-sadie-jean",
+      "image": "https://meetfactory.cz/media/images/rescaled/images_3_1c75FIo-320x426.jpg",
+      "genre": ""
+    },
+    {
       "title": "BEAUZ (US)",
       "date": "24.10.2026",
       "time": "",
@@ -5201,6 +5391,16 @@
       "url": "https://www.crossclub.cz/cs/program/8673-victory-hardcore-night-sundej-se-sunday/",
       "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-035e-ysd.jpg",
       "genre": ""
+    },
+    {
+      "title": "RFP Concerts: Alpha Wolf",
+      "date": "25.10.2026",
+      "time": "17.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/rfp-concerts-alpha-wolf",
+      "image": "https://meetfactory.cz/media/images/rescaled/Alpha_Wolf_2026-320x426.jpg",
+      "genre": "rock"
     },
     {
       "title": "THE LIMBA – EUROPE TOUR 2026 (KAZ)",
@@ -5501,6 +5701,16 @@
       "url": "https://cafevlese.cz/events/noix-florigin-de/",
       "image": "https://cafevlese.cz/wp-content/uploads/2026/09/1403867-800-e1788873200276-768x755.jpg",
       "genre": ""
+    },
+    {
+      "title": "keiyaA",
+      "date": "27.10.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/keiyaa",
+      "image": "https://meetfactory.cz/media/images/rescaled/0041109383_10-320x426.jpg",
+      "genre": "r&b"
     },
     {
       "title": "NEMZZZ (UK)",
@@ -6003,6 +6213,16 @@
       "genre": "Koncert"
     },
     {
+      "title": "Charmenko: Kid Francescoli",
+      "date": "30.10.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/charmenko-kid-francescoli",
+      "image": "https://meetfactory.cz/media/images/rescaled/images-5-79x111.jpeg",
+      "genre": "electro"
+    },
+    {
       "title": "1991 (UK)",
       "date": "30.10.2026",
       "time": "",
@@ -6251,6 +6471,16 @@
       "url": "https://cafevlese.cz/events/soft-loft-ch/",
       "image": "https://cafevlese.cz/wp-content/uploads/2026/09/1394972-800-768x613.jpg",
       "genre": ""
+    },
+    {
+      "title": "RFP Concerts: Ezhel",
+      "date": "31.10.2026",
+      "time": "18.30",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/rfp-concerts-ezhel",
+      "image": "https://meetfactory.cz/media/images/rescaled/Ezhel-800x-320x426.jpg",
+      "genre": "hip-hop, reggae, rap, trap"
     },
     {
       "title": "Halloween: Haunted house (CZ)",
@@ -6823,6 +7053,16 @@
       "genre": "Festival / koncertní přehlídka"
     },
     {
+      "title": "Live Nation: Altın Gün + Anatolian Grooves",
+      "date": "05.11.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/live-nation-altn-gun",
+      "image": "https://meetfactory.cz/media/images/rescaled/0041893579_10-320x426.jpg",
+      "genre": ""
+    },
+    {
       "title": "Bill Frisell Trio (USA)",
       "date": "05.11.2026",
       "time": "20:00",
@@ -7111,6 +7351,16 @@
       "url": "https://cafevlese.cz/events/besna-sk-wolnera/",
       "image": "https://cafevlese.cz/wp-content/uploads/2026/10/BRIZOLIT-1.jpeg",
       "genre": ""
+    },
+    {
+      "title": "Anna Vaverková + Elias O. Graversen",
+      "date": "07.11.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/anna-vaverkova-elias-o-graversen",
+      "image": "https://meetfactory.cz/media/images/rescaled/26_7OhVgDW-320x426.jpg",
+      "genre": "indie, pop"
     },
     {
       "title": "GREY256 ON TOUR 2026 (CZ)",
@@ -7723,6 +7973,16 @@
       "genre": ""
     },
     {
+      "title": "Obscure: Archspire + Crown Magnetar + The Zenith Passage + Analepsy",
+      "date": "12.11.2026",
+      "time": "17.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/obscure-archspire-crown-magnetar-the-zenith-passage-analepsy",
+      "image": "https://meetfactory.cz/media/images/rescaled/stažený_soubor_2_SzNptyj-320x426.jpg",
+      "genre": ""
+    },
+    {
       "title": "EAGLES OF DEATH METAL (US)",
       "date": "12.11.2026",
       "time": "",
@@ -7861,6 +8121,16 @@
       "url": "https://palacakropolis.cz/work/33298?event_id=40694&genre=1&gsicon=1&no=62&page_id=38637",
       "image": "",
       "genre": ""
+    },
+    {
+      "title": "Selection: Skeler + LXST CXNTURY + Æstral + MRJay",
+      "date": "13.11.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/selection-skeler",
+      "image": "https://meetfactory.cz/media/images/rescaled/DSC_0185-320x426.jpg",
+      "genre": "trance, rap, trap"
     },
     {
       "title": "AGENTS OF TIME (IT)",
@@ -8171,6 +8441,16 @@
       "url": "https://cafevlese.cz/events/the-howlers-uk/",
       "image": "https://cafevlese.cz/wp-content/uploads/2026/05/Main-Press-Shot-Must-be-used-1x1-1-768x768.jpg",
       "genre": ""
+    },
+    {
+      "title": "Obscure: Despised Icon + Carnifex + Suffocation + Gates to Hell",
+      "date": "15.11.2026",
+      "time": "18.30",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/obscure-despised-icon-carnifex-suffocation-gates-to-hell",
+      "image": "https://meetfactory.cz/media/images/rescaled/images-8-79x111.jpeg",
+      "genre": "death metal, metal"
     },
     {
       "title": "Open Call: Rezidence v CEAAC Štrasburk",
@@ -8603,6 +8883,16 @@
       "genre": ""
     },
     {
+      "title": "Pragokoncert: Allt + Avralize + Bite Down",
+      "date": "19.11.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/pragokoncert-allt-avralize-bite-down",
+      "image": "https://meetfactory.cz/media/images/rescaled/641594356_1522702829865041_178508757578396715_n-800x-320x426.jpg",
+      "genre": "progressive, metal"
+    },
+    {
       "title": "COLORFACTORY (CZ)",
       "date": "19.11.2026",
       "time": "",
@@ -8883,6 +9173,16 @@
       "genre": ""
     },
     {
+      "title": "Good Times Only: křest desky",
+      "date": "21.11.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/good-times-only-krest-desky",
+      "image": "https://meetfactory.cz/media/images/rescaled/GTO_PROMO_4_Kuba_Zeman-320x426.jpg",
+      "genre": ""
+    },
+    {
       "title": "TINLICKER (NL)",
       "date": "21.11.2026",
       "time": "",
@@ -9041,6 +9341,16 @@
       "url": "https://cafevlese.cz/events/the-veils-nz/",
       "image": "https://cafevlese.cz/wp-content/uploads/2026/02/theveils_pressphoto2-768x432.jpeg",
       "genre": ""
+    },
+    {
+      "title": "Music Press Production: Arab Strap",
+      "date": "22.11.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/music-press-production-arab-strap",
+      "image": "https://meetfactory.cz/media/images/rescaled/ab6761610000e5eb547b0b30ac01160630da14eb-79x111.jpeg",
+      "genre": "post-rock, metal, rock, indie"
     },
     {
       "title": "Swing SessionNedělní Dixie",
@@ -9323,6 +9633,16 @@
       "genre": ""
     },
     {
+      "title": "Cancer House + Kailas",
+      "date": "25.11.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/cancer-house-kailas",
+      "image": "https://meetfactory.cz/media/images/rescaled/IMG_2601-79x111.jpeg",
+      "genre": "post-rock, house, ambient, rock"
+    },
+    {
       "title": "Klub zadán",
       "date": "25.11.2026",
       "time": "19:00",
@@ -9410,6 +9730,16 @@
       "category": "hudba",
       "url": "https://cafevlese.cz/events/leto-s-monikou-sk/",
       "image": "https://cafevlese.cz/wp-content/uploads/2026/09/03Leto-s-Monikou_foto-Dusan-Husar_still-z-videoklipu-Tiger3-768x576.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Fource: Nieve Ella",
+      "date": "26.11.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/fource-nieve-ella",
+      "image": "https://meetfactory.cz/media/images/rescaled/vertical_Lo6tbPS-320x426.jpg",
       "genre": ""
     },
     {
@@ -9530,6 +9860,16 @@
       "category": "hudba",
       "url": "https://cafevlese.cz/events/widowspeak-us-3/",
       "image": "https://cafevlese.cz/wp-content/uploads/2026/04/Widowspeak4-by-Alexa-Viscius-768x519.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Live Nation: Tiffany Day",
+      "date": "27.11.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/live-nation-tiffany-day",
+      "image": "https://meetfactory.cz/media/images/rescaled/TiffanyDay-GratitudeProject-PressShot1-1080x1332-1-320x426.jpg",
       "genre": ""
     },
     {
@@ -9731,6 +10071,16 @@
       "url": "https://palacakropolis.cz/work/33298?event_id=40554&genre=1&gsicon=1&no=62&page_id=38637",
       "image": "",
       "genre": ""
+    },
+    {
+      "title": "Gutafest 2026",
+      "date": "28.11.2026",
+      "time": "16.30",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/gutafest-2026",
+      "image": "https://meetfactory.cz/media/images/rescaled/4pep0esmtl-gutalax-18-1-930x930-6669a65ac0977-79x111.jpeg",
+      "genre": "grindcore"
     },
     {
       "title": "KANINE (UK)",
@@ -10033,6 +10383,16 @@
       "genre": ""
     },
     {
+      "title": "Live Nation: Strangelove",
+      "date": "30.11.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/live-nation-strangelove",
+      "image": "https://meetfactory.cz/media/images/rescaled/Strangelove-2026-square-79x111.png",
+      "genre": ""
+    },
+    {
       "title": "Kateřina Steinerová & Her Swing Boys",
       "date": "30.11.2026",
       "time": "20:00",
@@ -10091,6 +10451,16 @@
       "url": "https://palacakropolis.cz/work/33298?event_id=40487&genre=1&gsicon=1&no=62&page_id=38637",
       "image": "",
       "genre": ""
+    },
+    {
+      "title": "Shaking Hand",
+      "date": "01.12.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/shaking-hand",
+      "image": "https://meetfactory.cz/media/images/rescaled/SHAKING_HAND_CABLE_TIES_CRED_SAM_LINDLEY-320x426.jpg",
+      "genre": "indie rock, rock, indie"
     },
     {
       "title": "Resident Evil – Symphony of Legacy",
@@ -10341,6 +10711,16 @@
       "url": "https://cafevlese.cz/events/sace6-us/",
       "image": "https://cafevlese.cz/wp-content/uploads/2026/03/unnamed-21-768x658.jpg",
       "genre": ""
+    },
+    {
+      "title": "RFP Concerts: VOILÀ",
+      "date": "04.12.2026",
+      "time": "19.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/rfp-concerts-voila",
+      "image": "https://meetfactory.cz/media/images/rescaled/VA_Profile_Picture_2026-320x426.jpg",
+      "genre": "rock, pop"
     },
     {
       "title": "VYPRODÁNO: VOILÀ (US)",
@@ -10640,6 +11020,16 @@
       "category": "hudba",
       "url": "https://palacakropolis.cz/work/33298?event_id=40321&genre=1&gsicon=1&no=62&page_id=38637",
       "image": "",
+      "genre": ""
+    },
+    {
+      "title": "Satoshi: Viva Moldova Europe Tour",
+      "date": "06.12.2026",
+      "time": "19.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/satoshi-viva-moldova-europe-tour",
+      "image": "https://meetfactory.cz/media/images/rescaled/Satoshi1_vert-width1600-320x426.jpg",
       "genre": ""
     },
     {
@@ -10960,6 +11350,16 @@
       "category": "hudba",
       "url": "https://cafevlese.cz/events/bert-friends/",
       "image": "https://cafevlese.cz/wp-content/uploads/2026/09/1324163-800-768x769.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Selection: Mighty Oaks + June Carousel",
+      "date": "11.12.2026",
+      "time": "20.00",
+      "venue": "MeetFactory",
+      "category": "hudba",
+      "url": "https://meetfactory.cz/cs/program/detail/selection-mighty-oaks",
+      "image": "https://meetfactory.cz/media/images/rescaled/Mighty_Oaks_-_Main_Press_Shot-320x426.jpg",
       "genre": ""
     },
     {
@@ -13665,7 +14065,7 @@
     {
       "title": "Greta Van Fleet – Into The Beginning",
       "date": "22.5.2027",
-      "time": "20:00",
+      "time": "19:00",
       "venue": "O2 Arena",
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/greta-van-fleet-into-the-beginning/",
@@ -14009,7 +14409,7 @@
       "venue": "O2 Arena",
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/ben-cristovao-2027-big-bang/",
-      "image": "https://www.o2arena.cz/wp-content/uploads/2026/04/o2-fb-aplikace-1080x1080px.jpg",
+      "image": "https://www.o2arena.cz/wp-content/uploads/2026/10/o2-o2-fb-aplikace-1080x1080px-1.jpg",
       "genre": "pop"
     },
     {
@@ -14019,7 +14419,7 @@
       "venue": "O2 Arena",
       "category": "hudba",
       "url": "https://www.o2arena.cz/events/ben-cristovao-2027-big-bang-2/",
-      "image": "https://cdn.static-assets.cz/20261005-203757/o2-o2-fb-aplikace-1080x1080px-c6959720beaa.jpg",
+      "image": "https://www.o2arena.cz/wp-content/uploads/2026/10/o2-o2-fb-aplikace-1080x1080px-1.jpg",
       "genre": "pop"
     },
     {
