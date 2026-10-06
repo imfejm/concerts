@@ -544,11 +544,14 @@ def scrape_crossclub():
 # ─────────────────────────────────────────────────────────────
 #  PALÁC AKROPOLIS  (palacakropolis.cz)
 # ─────────────────────────────────────────────────────────────
+AKROPOLIS_URL = "https://palacakropolis.cz/work/33298?event_id={event_id}&genre=1&gsicon=1&no=62&page_id=38637"
+
+
 def scrape_akropolis():
     print("* Palác Akropolis...")
     try:
         # ✨ Parsujeme HTML tabulku bez Playwright — mnohem rychlejší!
-        soup = get_soup("https://palacakropolis.cz/work/33298")
+        soup = get_soup(AKROPOLIS_URL.format(event_id=40276))
         if not soup:
             return []
         
@@ -605,6 +608,22 @@ def scrape_akropolis():
                         image_map[event_id] = src
                     break
 
+                current = current.parent
+
+        # Obrázky z přehledu (plakáty u akcí): najdi nejbližšího předka s právě jedním event_id
+        for img in soup.find_all('img'):
+            src = img.get('src', '')
+            if '_web_hp' not in src:
+                continue
+            current = img.parent
+            for _ in range(6):
+                if not current:
+                    break
+                ids = set(re.findall(r'event_id=(\d+)', str(current)))
+                if ids:
+                    if len(ids) == 1:
+                        image_map.setdefault(ids.pop(), f"https://palacakropolis.cz{src}" if src.startswith('/') else src)
+                    break
                 current = current.parent
 
         for tr in all_trs:
@@ -684,30 +703,10 @@ def scrape_akropolis():
                     "time": time_str,
                     "venue": "Palác Akropolis",
                     "category": category,
-                    "url": f"https://palacakropolis.cz/work/33298?event_id={event_id}&no=62&page_id=33824",
+                    "url": AKROPOLIS_URL.format(event_id=event_id),
                     "image": event_image,
                     "_event_id": event_id,  # dočasně pro stahování obrázků
                 })
-
-        # Pro události bez obrázku stáhni detailní stránku
-        missing = [e for e in events if not e.get("image")]
-        if missing:
-            print(f"   Stahuji obrázky pro {len(missing)} akcí z detailních stránek...")
-            for event in missing:
-                eid = event.get("_event_id")
-                if not eid:
-                    continue
-                detail_url = f"https://palacakropolis.cz/work/33298?event_id={eid}&no=62&page_id=33824"
-                detail_soup = get_soup(detail_url)
-                if detail_soup:
-                    img_tag = detail_soup.find('img', class_='galery_out_img')
-                    if img_tag:
-                        src = img_tag.get('src', '')
-                        if src:
-                            if src.startswith('/'):
-                                event["image"] = f"https://palacakropolis.cz{src}"
-                            else:
-                                event["image"] = src
 
         # Odstraň dočasný klíč _event_id ze všech eventů
         for event in events:
@@ -3904,6 +3903,9 @@ def main():
 
     # Filtrujeme nehudební kategorie (divadlo, galerie, rezidence)
     unique_events = [e for e in unique_events if e.get("category", "").lower() not in ("divadlo", "galerie", "rezidence")]
+    # Vyřadíme i akce, kde se "divadlo" objevuje v názvu nebo žánru
+    unique_events = [e for e in unique_events
+                     if not any("divadl" in (e.get(k) or "").lower() for k in ("title", "genre"))]
     
     # Počítáme Atrium eventy po filtrování
     atrium_after_filter = sum(1 for e in unique_events if e.get("venue") == "Atrium Žižkov")
