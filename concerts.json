@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-07T10:58:46.748149+00:00",
-  "count": 1467,
+  "updated": "2026-10-07T11:25:26.172998+00:00",
+  "count": 1480,
   "events": [
     {
       "title": "Chuck Wansley & The Mother Funkers (USA/CZ)",
@@ -5673,6 +5673,16 @@
       "genre": "indie, blues"
     },
     {
+      "title": "CYPER SOUND KŘEST ALBA & TECHNO STAGE",
+      "date": "27.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8694-cyper-sound-krest-alba-techno-stage/",
+      "image": "https://www.crossclub.cz/data/resized/files/2019/cervenec/144x144c-2df1-cross.jpg",
+      "genre": ""
+    },
+    {
       "title": "Keltské úterý:FOGGY DUDE+FLAT FLY+BUDWEIS DRUNKEN BASTARDS",
       "date": "27.10.2026",
       "time": "21:00",
@@ -5843,6 +5853,16 @@
       "genre": ""
     },
     {
+      "title": "BIOCROSS",
+      "date": "28.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8695-biocross/",
+      "image": "https://www.crossclub.cz/data/resized/files/2023/unor/144x144c-8d28-bio.jpg",
+      "genre": ""
+    },
+    {
       "title": "TANTEHORSE S(t)IGMA",
       "date": "28.10.2026",
       "time": "",
@@ -5961,6 +5981,16 @@
       "url": "https://klub007strahov.cz/events/dyse-de-jan-faix-cz/",
       "image": "",
       "genre": "noise rock / ambient techno"
+    },
+    {
+      "title": "REGGAENERACE",
+      "date": "29.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8696-reggaenerace/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-379b-reg.jpg",
+      "genre": ""
     },
     {
       "title": "KVIETAH & VČELY KŘEST ALBA",
@@ -6141,6 +6171,16 @@
       "url": "https://klub007strahov.cz/events/springless-cz-louty-cz-dafy-and-the-rafters-sk/",
       "image": "",
       "genre": "PUNK ROCK"
+    },
+    {
+      "title": "NEUROCELLS & HARD RAVE",
+      "date": "30.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8697-neurocells-hard-rave/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-7907-nue.jpg",
+      "genre": ""
     },
     {
       "title": "IRON MAIDEN Revival+guest: MATKA V KRIZI",
@@ -6393,6 +6433,16 @@
       "genre": "punk halloween volume 31"
     },
     {
+      "title": "THE MICRONAUT (DE) + NOISY POTS AT CROSS CLUB PRAGUE",
+      "date": "31.10.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8678-the-micronaut-de-noisy-pots-at-cross-club-prague/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/rijen/144x144c-b2bc-nsy.jpg",
+      "genre": ""
+    },
+    {
       "title": "MICHELLE GUREVICH/CA",
       "date": "31.10.2026",
       "time": "",
@@ -6581,6 +6631,16 @@
       "url": "https://futurum.musicbar.cz/program/de-staat-nl-support-hiqpy-nl/",
       "image": "https://futurum.musicbar.cz/wp-content/uploads/2026/04/FUTURUM-WEB-ROZMERY-7-1.png",
       "genre": "rock"
+    },
+    {
+      "title": "SUNDEJ SE SUNDAY",
+      "date": "1.11.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8688-sundej-se-sunday/",
+      "image": "https://www.crossclub.cz/data/resized/files/2021/rijen/144x144c-8a17-sunday.jpg",
+      "genre": ""
     },
     {
       "title": "SLOW PILOT TRIBUTES JEFF BUCKLEY (BE)",
@@ -7563,6 +7623,16 @@
       "genre": ""
     },
     {
+      "title": "LIVE NATION presents Ridgeclub",
+      "date": "8.11.2026",
+      "time": "",
+      "venue": "Fuchs2",
+      "category": "hudba",
+      "url": "https://www.fuchs2.cz/events/live-nation-presents-ridgeclub",
+      "image": "https://static.wixstatic.com/media/742259_02e065c0d6ff4e98bbaa8278d4302878~mv2.jpeg",
+      "genre": "psychedelic, elektronika, house, ambient"
+    },
+    {
       "title": "Lyapis Trubetskoy / BY",
       "date": "9.11.2026",
       "time": "19:00",
@@ -8213,6 +8283,16 @@
       "genre": "pop"
     },
     {
+      "title": "Pragoholik (křest alba) + Lil Fault",
+      "date": "13.11.2026",
+      "time": "20:00",
+      "venue": "Cargo Gallery",
+      "category": "hudba",
+      "url": "https://cargogallery.cz/akce/pragoholik-krest-alba-lil-fault/",
+      "image": "https://cargogallery.cz/wp-content/uploads/2026/10/1028011-800-756x454.jpg",
+      "genre": ""
+    },
+    {
       "title": "KONCERT",
       "date": "13.11.2026",
       "time": "20:00",
@@ -8363,7 +8443,7 @@
       "genre": ""
     },
     {
-      "title": "Puding Pani Elvisovej – 30 let na scéně",
+      "title": "Puding Pani Elvisovej & Le Payaco: OPUSTÍM MESTO - 30 ROKOV TOUR",
       "date": "14.11.2026",
       "time": "19:00",
       "venue": "Cargo Gallery",
@@ -8850,6 +8930,16 @@
       "category": "hudba",
       "url": "https://citarna.unijazz.cz/events/david-pillow-krest-jakub-eden/",
       "image": "https://citarna.unijazz.cz/wp-content/uploads/2022/11/DSC_0040-scaled.jpg",
+      "genre": ""
+    },
+    {
+      "title": "UP TONE w/ MARATHON",
+      "date": "19.11.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8698-up-tone-w-marathon/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/listopad/144x144c-ced4-up.jpg",
       "genre": ""
     },
     {
@@ -9961,6 +10051,16 @@
       "url": "https://cargogallery.cz/akce/aiko-2/",
       "image": "https://cargogallery.cz/wp-content/uploads/2025/10/aiko-756x454.png",
       "genre": "rock"
+    },
+    {
+      "title": "RFP CONCERTS present Chinchilla ☆ Jolina Louise",
+      "date": "27.11.2026",
+      "time": "",
+      "venue": "Fuchs2",
+      "category": "hudba",
+      "url": "https://www.fuchs2.cz/events/rfp-concerts-present-chinchilla-jolina-louise",
+      "image": "https://static.wixstatic.com/media/742259_43cd2b003dcd4d6cbcdcef7d570431d8~mv2.png",
+      "genre": ""
     },
     {
       "title": "KONCERT",
@@ -14033,6 +14133,16 @@
       "genre": "rock, pop"
     },
     {
+      "title": "CROSS SQUARE w/ KVĚTY",
+      "date": "14.5.2027",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8534-cross-square-w-kvety/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/cerven/144x144c-3e3b-kve.jpg",
+      "genre": ""
+    },
+    {
       "title": "NEDVĚDI 27",
       "date": "14.5.2027",
       "time": "20:00",
@@ -14670,6 +14780,26 @@
       "category": "hudba",
       "url": "https://www.modravopice.cz/akce/koncert-305/",
       "image": "https://www.modravopice.eu/art/plakat-default.jpg",
+      "genre": ""
+    },
+    {
+      "title": "POSTPONED / F2 LIVE: Niko B ☆ Supaspicybois",
+      "date": "",
+      "time": "",
+      "venue": "Fuchs2",
+      "category": "hudba",
+      "url": "https://www.fuchs2.cz/events/postponed-f2-live-niko-b-supaspicybois",
+      "image": "https://static.wixstatic.com/media/742259_e7b91b0d1f9e426190abf57a373c4a23~mv2.jpg",
+      "genre": ""
+    },
+    {
+      "title": "POSTPONED / F2 LIVE: Lex Amor",
+      "date": "",
+      "time": "",
+      "venue": "Fuchs2",
+      "category": "hudba",
+      "url": "https://www.fuchs2.cz/events/postponed-f2-live-lex-amor",
+      "image": "https://static.wixstatic.com/media/742259_5b50e2ed14aa449c8be4317492ff9529~mv2.jpg",
       "genre": ""
     }
   ]
