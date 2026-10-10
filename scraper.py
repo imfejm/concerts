@@ -3774,6 +3774,8 @@ def _same_event(a, b):
             return sim >= 0.25  # jeden slot v klubu = jedna akce
         if abs(ma - mb) > 60:
             return False  # dvě různá vystoupení během dne
+    if ma is None or mb is None:
+        return sim >= 0.8  # chybí čas → přísnější shoda názvu
     return sim >= 0.6  # otevření dveří vs. začátek (19:00 vs 20:00)
 
 
@@ -3787,7 +3789,7 @@ def fuzzy_dedup(events):
     kept = []
     by_slot = {}
     for e in sorted(events, key=score, reverse=True):
-        slot = by_slot.setdefault((e.get("venue"), norm_date(e.get("date"))), [])
+        slot = by_slot.setdefault(((e.get("venue") or "").lower(), norm_date(e.get("date"))), [])
         dup = next((k for k in slot if _same_event(k, e)), None)
         if dup is None:
             slot.append(e)
