@@ -1,6 +1,6 @@
 {
   "updated": "2026-10-05T11:56:00.578208+00:00",
-  "count": 1452,
+  "count": 1433,
   "events": [
     {
       "title": "Universal Ticket Universal",
@@ -1013,16 +1013,6 @@
       "genre": "fusion, jazz"
     },
     {
-      "title": "Ray Charles: The Soul & Gospel Experience with Lee Andrew Davison (USA)",
-      "date": "05.10.2026",
-      "time": "19:00",
-      "venue": "Reduta Jazz Club",
-      "category": "hudba",
-      "url": "https://www.redutajazzclub.cz/program-cs",
-      "image": "",
-      "genre": "pop, jazz"
-    },
-    {
       "title": "321 Jedem! host: Eva Burešová",
       "date": "05.10.2026",
       "time": "19:00",
@@ -1120,7 +1110,7 @@
       "category": "hudba",
       "url": "https://goout.net/cs/the-ray-charles-experience-by-lee-andrew-davison/szmygly/",
       "image": "https://goout.net/i/050/509861-383.jpg",
-      "genre": ""
+      "genre": "pop, jazz"
     },
     {
       "title": "Stivínové – Osobnosti tří generací",
@@ -1173,16 +1163,6 @@
       "genre": ""
     },
     {
-      "title": "Kateřina Marie Tichá",
-      "date": "5.10.2026",
-      "time": "20:00",
-      "venue": "Lucerna Music Bar",
-      "category": "hudba",
-      "url": "https://goout.net/cs/katerina-marie-ticha/szeuwky/",
-      "image": "https://goout.net/i/139/1397995-383.jpg",
-      "genre": ""
-    },
-    {
       "title": "Libor’s Jam Ob-Session",
       "date": "5.10.2026",
       "time": "20:00",
@@ -1191,26 +1171,6 @@
       "url": "https://goout.net/cs/libor-s-jam-ob-session/szsqwky/",
       "image": "https://goout.net/i/117/1175692-383.jpg",
       "genre": "jazz"
-    },
-    {
-      "title": "Strawberry Guy + support: Malena Zavala",
-      "date": "5.10.2026",
-      "time": "20:00",
-      "venue": "Rock Café",
-      "category": "hudba",
-      "url": "https://goout.net/cs/strawberry-guy+support-malena-zavala/sziqujy/",
-      "image": "https://goout.net/i/139/1394485-383.jpg",
-      "genre": "rock"
-    },
-    {
-      "title": "Fink + support: Angela Autumn",
-      "date": "5.10.2026",
-      "time": "20:00",
-      "venue": "MeetFactory",
-      "category": "hudba",
-      "url": "https://goout.net/cs/fink+support-angela-autumn/szvnjhy/",
-      "image": "https://goout.net/i/138/1387107-383.jpg",
-      "genre": "písničkářství"
     },
     {
       "title": "The Narrator (DE) + support: ACCVSED (DE), IMPVLSE (DE)",
@@ -1281,16 +1241,6 @@
       "url": "https://www.jazzdock.cz/cs/koncert/justin-hicks-feat-marvin-sewell-kyle-miles-usa-1",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/upoutavka-justin-hicks-6-10-2026-6a26d16e15ca5279961583.webp",
       "genre": "jazz"
-    },
-    {
-      "title": "Melodic Journey with Louis Armstrong, Gershwin, Jobim presented by the Metropolitan Jazz Band",
-      "date": "06.10.2026",
-      "time": "19:00",
-      "venue": "Reduta Jazz Club",
-      "category": "hudba",
-      "url": "https://www.redutajazzclub.cz/program-cs",
-      "image": "",
-      "genre": "pop, jazz"
     },
     {
       "title": "Martina Trchová & band",
@@ -1400,7 +1350,7 @@
       "category": "hudba",
       "url": "https://goout.net/cs/melodic-journey-with-louis-armstrong-gershwin-and-more/sznygly/",
       "image": "https://goout.net/i/083/835202-383.jpg",
-      "genre": ""
+      "genre": "pop, jazz"
     },
     {
       "title": "Slavné varhanní koncerty",
@@ -1423,16 +1373,6 @@
       "genre": ""
     },
     {
-      "title": "The Narrator + support: ACCVSED + IMPVLSE",
-      "date": "6.10.2026",
-      "time": "19:30",
-      "venue": "Rock Café",
-      "category": "hudba",
-      "url": "https://goout.net/cs/the-narrator+support-accvsed+impvlse/szewecy/",
-      "image": "https://goout.net/i/136/1368174-383.jpg",
-      "genre": "rock"
-    },
-    {
       "title": "Stará Paní tančí swing s kapelou C-Bass Circle",
       "date": "6.10.2026",
       "time": "20:00",
@@ -1443,26 +1383,6 @@
       "genre": "jazz, blues, swing"
     },
     {
-      "title": "Kateřina Marie Tichá",
-      "date": "6.10.2026",
-      "time": "20:00",
-      "venue": "Lucerna Music Bar",
-      "category": "hudba",
-      "url": "https://goout.net/cs/katerina-marie-ticha/szyxamy/",
-      "image": "https://goout.net/i/139/1397995-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Justin Hicks & Marvin Sewell & Kyle Miles",
-      "date": "6.10.2026",
-      "time": "20:00",
-      "venue": "Jazz Dock",
-      "category": "hudba",
-      "url": "https://goout.net/cs/justin-hicks-and-marvin-sewell-and-kyle-miles/sznavly/",
-      "image": "https://goout.net/i/140/1401365-383.jpg",
-      "genre": ""
-    },
-    {
       "title": "Sváteční pop",
       "date": "6.10.2026",
       "time": "20:00",
@@ -1471,16 +1391,6 @@
       "url": "https://goout.net/cs/svatecni-pop/szvkghy/",
       "image": "https://goout.net/i/034/348834-383.jpg",
       "genre": "pop"
-    },
-    {
-      "title": "Zeke Deux",
-      "date": "6.10.2026",
-      "time": "20:00",
-      "venue": "Futurum Music Bar",
-      "category": "hudba",
-      "url": "https://goout.net/cs/zeke-deux/szeqqey/",
-      "image": "https://goout.net/i/137/1378140-383.jpg",
-      "genre": ""
     },
     {
       "title": "Classic Spectacular s piánem – Vivaldi, Chopin, Bizet",
@@ -1583,16 +1493,6 @@
       "genre": "jazz"
     },
     {
-      "title": "Piano Legends Unite: A Tribute to Chick Corea, Herbie Hancock, and Oscar Peterson",
-      "date": "07.10.2026",
-      "time": "19:00",
-      "venue": "Reduta Jazz Club",
-      "category": "hudba",
-      "url": "https://www.redutajazzclub.cz/program-cs",
-      "image": "",
-      "genre": "pop, jazz"
-    },
-    {
       "title": "12:piet – Přijeli sme do téj Prahy",
       "date": "07.10.2026",
       "time": "20:30",
@@ -1615,7 +1515,7 @@
     {
       "title": "F2 LIVE: Ashley Sienna ☆ Sara Noff",
       "date": "7.10.2026",
-      "time": "",
+      "time": "19:30",
       "venue": "Fuchs2",
       "category": "hudba",
       "url": "https://www.fuchs2.cz/events/f2-live-ashley-sienna-sara-noff",
@@ -1773,16 +1673,6 @@
       "genre": ""
     },
     {
-      "title": "F2 Live: Ashley Sienna + support: Sara Noff",
-      "date": "7.10.2026",
-      "time": "19:30",
-      "venue": "Fuchs2",
-      "category": "hudba",
-      "url": "https://goout.net/cs/f2-live-ashley-sienna+support-sara-noff/szilmjy/",
-      "image": "https://goout.net/i/139/1394071-383.jpg",
-      "genre": ""
-    },
-    {
       "title": "Flétna kouzelná: Café Zimmermann",
       "date": "7.10.2026",
       "time": "19:30",
@@ -1801,16 +1691,6 @@
       "url": "https://goout.net/cs/dizzee-rascal/szincky/",
       "image": "https://goout.net/i/139/1396351-383.jpg",
       "genre": "rap, grime"
-    },
-    {
-      "title": "Wille & The Bandits",
-      "date": "7.10.2026",
-      "time": "20:00",
-      "venue": "Jazz Dock",
-      "category": "hudba",
-      "url": "https://goout.net/cs/wille-and-the-bandits/szqrpmy/",
-      "image": "https://goout.net/i/140/1401938-383.jpg",
-      "genre": ""
     },
     {
       "title": "God Save The Punk II. – SPS + The Fialky",
@@ -2750,16 +2630,6 @@
       "category": "hudba",
       "url": "https://goout.net/cs/khan-aus+skin-thief-aus+the-new-horizons-cz/szjlxly/",
       "image": "https://goout.net/i/140/1404910-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Khan [Aus] ☆ Skin Thief [Aus] ★ Tnh [Cz]",
-      "date": "12.10.2026",
-      "time": "20:00",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://www.facebook.com/events/1549066339494711/",
-      "image": "",
       "genre": "post-rock, post-metal, progressive, industrial"
     },
     {
@@ -2930,16 +2800,6 @@
       "category": "hudba",
       "url": "https://goout.net/cs/panicbaby/szjqtky/",
       "image": "https://goout.net/i/139/1397413-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "PANICBABY : *this might hurt a little",
-      "date": "13.10.2026",
-      "time": "20:00",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://www.facebook.com/events/950121461359515/",
-      "image": "",
       "genre": ""
     },
     {
@@ -4430,16 +4290,6 @@
       "category": "hudba",
       "url": "https://goout.net/cs/khemmis+celestial-sanctuary/szadwjy/",
       "image": "https://goout.net/i/080/805460-383.jpg",
-      "genre": "death metal, heavy metal, doom, metal"
-    },
-    {
-      "title": "Khemmis, Celestial Sanctuary",
-      "date": "20.10.2026",
-      "time": "20:00",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://www.facebook.com/events/1357475489636311",
-      "image": "",
       "genre": "death metal, heavy metal, doom, metal"
     },
     {
@@ -9953,16 +9803,6 @@
       "genre": "progressive"
     },
     {
-      "title": "Slift + Yoo Doo Right",
-      "date": "27.11.2026",
-      "time": "20:00",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://www.facebook.com/events/1961737334461532/",
-      "image": "",
-      "genre": "progressive"
-    },
-    {
       "title": "Tygroo (křest vinylu) + host",
       "date": "27.11.2026",
       "time": "20:00",
@@ -10930,16 +10770,6 @@
       "category": "hudba",
       "url": "https://goout.net/cs/half-me+special-guests-lastelle-prompts-kora-winter/szxhvky/",
       "image": "https://goout.net/i/139/1397766-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Half Me (DE)",
-      "date": "5.12.2026",
-      "time": "20:00",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://www.facebook.com/events/1768399284147342",
-      "image": "",
       "genre": "hardcore"
     },
     {
@@ -11330,16 +11160,6 @@
       "category": "hudba",
       "url": "https://goout.net/cs/white-hat+voluptas+graf-vampyrsky/szipdny/",
       "image": "https://goout.net/i/140/1406677-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "White Hat / Voluptas / Graf Vampyrsky",
-      "date": "11.12.2026",
-      "time": "20:00",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://www.facebook.com/events/920155120822364",
-      "image": "",
       "genre": "black metal, psychedelic, techno, prog"
     },
     {
@@ -13410,16 +13230,6 @@
       "category": "hudba",
       "url": "https://goout.net/cs/rezn+coltaine/szrhnly/",
       "image": "https://goout.net/i/140/1400697-383.jpg",
-      "genre": "sludge, doom"
-    },
-    {
-      "title": "REZN (USA) + COLTAINE (DE)",
-      "date": "9.3.2027",
-      "time": "20:00",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://www.facebook.com/events/1054022783681165/",
-      "image": "",
       "genre": "sludge, doom"
     },
     {

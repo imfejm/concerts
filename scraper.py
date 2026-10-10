@@ -3740,6 +3740,68 @@ def scrape_naslamniku():
 
 
 # ─────────────────────────────────────────────────────────────
+#  FUZZY DEDUPLIKACE (stejná akce z webu klubu a z agregátoru)
+# ─────────────────────────────────────────────────────────────
+_DEDUP_STOP = {"and", "the", "with", "feat", "featuring", "support", "live", "tour",
+               "special", "guest", "guests", "show", "early", "late", "presents"}
+
+
+def _title_tokens(title):
+    t = unicodedata.normalize("NFKD", (title or "").lower())
+    t = "".join(c for c in t if not unicodedata.combining(c))
+    return {w for w in re.findall(r"[a-z0-9]+", t)
+            if w not in _DEDUP_STOP and (len(w) > 2 or w.isdigit())}
+
+
+def _time_minutes(t):
+    m = re.match(r"\s*(\d{1,2})[:.](\d{2})", t or "")
+    return int(m.group(1)) * 60 + int(m.group(2)) if m else None
+
+
+def _same_event(a, b):
+    """Stejný klub + den a podobný název (jiný zápis téže akce z jiného zdroje)."""
+    ta, tb = _title_tokens(a.get("title")), _title_tokens(b.get("title"))
+    if not ta or not tb:
+        return False
+    sim = len(ta & tb) / min(len(ta), len(tb))
+    na = {w for w in ta if w.isdigit()}
+    nb = {w for w in tb if w.isdigit()}
+    if na != nb and (na or nb):
+        return False  # "Universal Ticket 500" vs "... 1000"
+    ma, mb = _time_minutes(a.get("time")), _time_minutes(b.get("time"))
+    if ma is not None and mb is not None:
+        if ma == mb:
+            return sim >= 0.25  # jeden slot v klubu = jedna akce
+        if abs(ma - mb) > 60:
+            return False  # dvě různá vystoupení během dne
+    return sim >= 0.6  # otevření dveří vs. začátek (19:00 vs 20:00)
+
+
+def fuzzy_dedup(events):
+    def norm_date(d):
+        return ".".join(p.lstrip("0") or "0" for p in re.sub(r"\s+", "", d or "").split("."))
+
+    def score(e):
+        return (not e.get("_agg"), bool(e.get("image")), bool(e.get("genre")))
+
+    kept = []
+    by_slot = {}
+    for e in sorted(events, key=score, reverse=True):
+        slot = by_slot.setdefault((e.get("venue"), norm_date(e.get("date"))), [])
+        dup = next((k for k in slot if _same_event(k, e)), None)
+        if dup is None:
+            slot.append(e)
+            kept.append(e)
+            continue
+        for field in ("image", "genre", "time"):
+            if not dup.get(field) and e.get(field):
+                dup[field] = e[field]
+    order = {id(e): i for i, e in enumerate(events)}
+    kept.sort(key=lambda e: order[id(e)])
+    return kept
+
+
+# ─────────────────────────────────────────────────────────────
 #  HLAVNÍ FUNKCE
 # ─────────────────────────────────────────────────────────────
 def main():
@@ -3879,6 +3941,10 @@ def main():
             e["venue"] = canon
         merged.append(e)
     unique_events = merged
+
+    before_fuzzy = len(unique_events)
+    unique_events = fuzzy_dedup(unique_events)
+    print(f"Fuzzy deduplikace odstranila {before_fuzzy - len(unique_events)} akcí")
 
     for e in unique_events:
         e.pop("_agg", None)
