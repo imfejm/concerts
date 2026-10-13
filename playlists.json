@@ -380,41 +380,61 @@
   "name": "13. 10. 2026",
   "id": "3VyNFjB204kNQeWqRgyMCI",
   "url": "https://open.spotify.com/playlist/3VyNFjB204kNQeWqRgyMCI",
-  "artists": 12,
+  "artists": 13,
   "missing": [
    "DNB NIGHT",
    "DOMINIQUE FILS-AIMÉ/CA",
-   "FreeZone",
    "JAZZ BLUFFERS",
    "Jazz Treasures",
    "Keltské úterý:VINTAGE WINE",
+   "Koncert vážné hudby",
+   "Marek UrbánekKřest alba Figures Of Speech",
    "OBSTRUKTION hc",
    "RFP Concerts",
+   "Romantické melodie",
+   "Slavné varhanní koncerty",
    "SLUT #keepgoing",
-   "Utrejch"
+   "Stará paní tančí swing",
+   "Utrejch",
+   "varhanní toccaty",
+   "Vivaldi Four Seasons"
   ]
  },
  "2026-10-14": {
   "name": "14. 10. 2026",
   "id": "1bYMdEgcAX9P9Tm3lMcUjJ",
   "url": "https://open.spotify.com/playlist/1bYMdEgcAX9P9Tm3lMcUjJ",
-  "artists": 11,
+  "artists": 14,
   "missing": [
    "Balancê",
+   "Brána",
+   "Classic Spectacular",
    "DK Enerhetyk",
    "Doučování ze zeměpisu se Stříbrným Rafaelem",
+   "duety pro soprán",
    "FIANNAN",
+   "Filharmoniště",
+   "Filokalie dneška",
    "Gershwin",
    "H.R.O.M",
+   "III. abonentní koncert",
+   "Jana Špaňúrová Band",
    "Jobim presented by the Metropolitan Jazz Band",
    "Julian \"J3PO\" Pollack Trio",
+   "Koncert vážné hudby",
+   "Nerost",
+   "Pocta Piazzolovi",
    "POKOJ 25",
    "Radeček",
-   "Selection presents",
    "Selma Haiku",
+   "Slavná varhanní díla",
+   "Slavné varhanní koncerty",
    "SOUL KEEPER",
    "SUPPORT ANKI",
-   "TECHNO NIGHT"
+   "světové hudby",
+   "TECHNO NIGHT",
+   "To nejlepší z české",
+   "Zázračný Amadeus"
   ]
  },
  "2026-10-15": {
@@ -539,5 +559,33 @@
    "TANTEHORSE IRIS",
    "ZRUŠENO"
   ]
+ },
+ "2026-10-20": {
+  "name": "20. 10. 2026",
+  "id": "3fRLwzZj1GOPIQJDeuRD4X",
+  "url": "https://open.spotify.com/playlist/3fRLwzZj1GOPIQJDeuRD4X",
+  "artists": 0,
+  "missing": []
+ },
+ "2026-10-21": {
+  "name": "21. 10. 2026",
+  "id": "4gOTt9B0RaifDT4Um4vGlp",
+  "url": "https://open.spotify.com/playlist/4gOTt9B0RaifDT4Um4vGlp",
+  "artists": 0,
+  "missing": []
+ },
+ "2026-10-22": {
+  "name": "22. 10. 2026",
+  "id": "2M9gqylok31DEjdB8fU0uh",
+  "url": "https://open.spotify.com/playlist/2M9gqylok31DEjdB8fU0uh",
+  "artists": 0,
+  "missing": []
+ },
+ "2026-10-23": {
+  "name": "23. 10. 2026",
+  "id": "07Uzi4lAu3GmZH4QMpWIZ8",
+  "url": "https://open.spotify.com/playlist/07Uzi4lAu3GmZH4QMpWIZ8",
+  "artists": 0,
+  "missing": []
  }
 }

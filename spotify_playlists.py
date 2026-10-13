@@ -32,7 +32,7 @@ CONCERTS = "concerts.json"
 OUT = "playlists.json"
 CACHE = "spotify_cache.json"  # interpret -> URI skladby (nebo null), šetří požadavky
 REDIRECT = "http://127.0.0.1:8888/callback"
-SCOPE = "playlist-modify-public"
+SCOPE = "playlist-modify-public playlist-read-private"
 API = "https://api.spotify.com/v1"
 
 # Události, které nejsou koncert konkrétního interpreta
@@ -138,6 +138,10 @@ def call(method, path, token, **kw):
             print(f"  limit Spotify, čekám {wait} s ...")
             time.sleep(wait)
             continue
+        if r.status_code in (502, 503, 504):
+            print(f"  Spotify {r.status_code}, zkouším znovu ...")
+            time.sleep(3)
+            continue
         return r
     return r
 
@@ -177,6 +181,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--days", type=int, default=14, help="kolik nejbližších dnů s koncerty (0 = všechny)")
+    ap.add_argument("--skip-existing", action="store_true",
+                    help="dny, které už mají playlist v playlists.json, nechat beze změny (zachová ruční úpravy)")
+    ap.add_argument("--recover", action="store_true",
+                    help="najít na Spotify už vytvořené playlisty (podle názvu 'D. M. RRRR') a doplnit je do playlists.json")
     args = ap.parse_args()
 
     days = load_days(date.today())
@@ -194,8 +202,34 @@ def main():
     token = get_token(cid, secret)
 
     result = json.load(open(OUT, encoding="utf-8")) if os.path.exists(OUT) else {}
+    if args.recover:
+        by_name, url = {}, "/me/playlists?limit=50"
+        while url:
+            r = call("GET", url, token)
+            r.raise_for_status()
+            j = r.json()
+            for pl in j.get("items", []):
+                if pl:
+                    by_name.setdefault(pl["name"], []).append(pl["id"])
+            url = j["next"].replace(API, "") if j.get("next") else None
+        for key, artists in days.items():
+            d = date.fromisoformat(key)
+            name = f"{d.day}. {d.month}. {d.year}"
+            ids = by_name.get(name, [])
+            if key in result or not ids:
+                continue
+            if len(ids) > 1:
+                print(f"{key}: na Spotify je {len(ids)}x '{name}', beru první (zkontroluj duplicity)")
+            result[key] = {"name": name, "id": ids[0], "url": f"https://open.spotify.com/playlist/{ids[0]}",
+                           "artists": 0, "missing": []}
+            print(f"{key}: doplněno")
+        json.dump(result, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        return
     cache = json.load(open(CACHE, encoding="utf-8")) if os.path.exists(CACHE) else {}
     for key, artists in days.items():
+        if args.skip_existing and key in result:
+            print(f"{key}: už existuje, přeskakuji")
+            continue
         uris, missing = [], []
         for a in artists:
             found = find_cached(a, token, cache)
@@ -214,6 +248,10 @@ def main():
                            "description": "Interpreti z pražských koncertů tohoto dne"})
             r.raise_for_status()
             pid = r.json()["id"]
+            # uložit hned, aby se při pádu playlist při dalším běhu nevytvářel znovu
+            result[key] = {"name": name, "id": pid, "url": f"https://open.spotify.com/playlist/{pid}",
+                           "artists": 0, "missing": []}
+            json.dump(result, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         add_items(pid, uris, token)
         result[key] = {"name": name, "id": pid, "url": f"https://open.spotify.com/playlist/{pid}",
                        "artists": len(artists) - len(missing), "missing": missing}
