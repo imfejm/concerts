@@ -996,7 +996,9 @@ code {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 2px;
-  padding: 0.35rem 0.75rem;
+  padding: 0.5rem 0.75rem;
+  height: auto;
+  align-self: flex-start;
   min-width: 200px;
 }
 .search-wrap input {
@@ -1852,4 +1854,8 @@ footer a {
     padding: 1.5rem 1.25rem 1.25rem;
     border: 2px solid var(--accent);
   }
+}
+
+.stat-label.stat-note {
+  color: #fff;
 }
