@@ -260,7 +260,7 @@ def fetch_genre_from_detail(url):
 # ─────────────────────────────────────────────────────────────
 def scrape_rockcafe():
     print("* Rock Café...")
-    soup = get_soup("https://rockcafe.cz/cs/program/")
+    soup = get_soup("https://rockcafe.cz/cs/hudba/")
     if not soup:
         return []
 
