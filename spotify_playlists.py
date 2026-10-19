@@ -28,6 +28,8 @@ from urllib.parse import parse_qs, urlencode, urlparse
 
 import requests
 
+sys.stdout.reconfigure(encoding="utf-8")
+
 CONCERTS = "concerts.json"
 OUT = "playlists.json"
 CACHE = "spotify_cache.json"  # interpret -> URI skladby (nebo null), šetří požadavky
@@ -43,9 +45,17 @@ SKIP_RE = re.compile(
 )
 
 
+COUNTRY_RE = re.compile(
+    r"\s*/\s*(?:DE|US|BG|RU|CA|JP|UK|GB|FR|IT|ES|PL|SK|AT|AU|SE|NO|FI|NL|HU|CH|BE|IE|IS|DK|CZ|HR|RS|UA|"
+    r"CN|KR|BR|MX|AR|SI|RO|LT|LV|EE|PT|GR|TR|IL|NZ|ZA|IN)\s*$")
+# koncovky, které na Spotify obvykle nejsou součástí jména interpreta
+SUFFIX_RE = re.compile(r"\s+(?:trio|quartet|quintet|band|big band|orchestra|group|duo|live|tribute|revival)$", re.I)
+
 STOP = {"band", "kapela", "support", "cabaret", "natural", "after", "early show", "live nation",
         "klub zadan", "hallelujah", "melodic journey", "ambient session", "trubku", "no", "es", "au",
-        "gr", "swe", "rattle", "skyline", "orion", "stress", "revo", "sloth", "protimluv"}
+        "gr", "swe", "rattle", "skyline", "orion", "stress", "revo", "sloth", "protimluv",
+        "rfp concerts", "rock for people", "selection", "fource", "soul", "pop 80s", "gershwin", "adventures",
+        "dalsi", "zruseno", "filharmoniste", "romanticke melodie", "swinging melodies"}
 
 
 def norm(s):
@@ -58,19 +68,30 @@ def extract_artists(title):
     """Z názvu akce vytáhne pravděpodobné jména interpretů (heuristika)."""
     if SKIP_RE.search(title) and len(title.split()) < 3:
         return []
-    t = re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", title)          # (CZ), (AUS) ...
-    t = re.split(r"\s[-–—:]\s|:\s| – | — ", t)[0]               # podtitul za pomlčkou/dvojtečkou
-    t = re.split(r"\s(?:k[řr]est|narozeninov|pro[šs]li|celebrating|live at)\b", t, flags=re.I)[0]
-    parts = re.split(r"\s*(?:\+|,|\s/\s|\sa\s|\sand\s|\swith\s|\s&\s|\sfeat\.?\s|\sfeaturing\s)\s*", t)
+    t = re.sub(r"https?://\S+", " ", title)
+    t = re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", t)                # (CZ), (AUS) ...
+    t = re.sub(r"^keltsk[ée] [úu]ter[ýy]\s*:\s*", "", t, flags=re.I)
+    t = re.sub(r"(?<=[a-zá-ž])(?=(?:Ned[ěe]ln[íi]|K[řr]est))", " ", t)  # slepené "...MalinováNedělní Dixie"
+    t = re.split(r"\s[-–—:]\s|:\s| – | — |(?<=\S)[-–—]\s+", t)[0]   # podtitul za pomlčkou/dvojtečkou
+    t = re.split(r"\s(?:k[řr]est|narozeninov|pro[šs]li|celebrating|live at|ned[ěe]ln[íi])\b", t, flags=re.I)[0]
+    t = re.sub(r"^.*?\bpresents?\s+", "", t, flags=re.I)          # "RFP CONCERTS present X" -> X
+    parts = re.split(r"\s*(?:\+|,|\s/\s|//|☆|★|\sa\s|\sand\s|\swith\s|\sw/\s|\s&\s|\sx\s|\smeets\s|"
+                     r"\sinvites\s|\sfeat\.?\s|\sfeaturing\s)\s*", t, flags=re.I)
     out = []
     for p in parts:
-        p = p.strip(" .-–—")
+        p = COUNTRY_RE.sub("", p).strip(" .-–—#")
         if len(p) < 3 or len(p) > 50 or SKIP_RE.fullmatch(p.lower()) or norm(p) in STOP:
             continue
         if re.search(r"special guests?|hosté|host", p, re.I):
             continue
         out.append(p)
     return out
+
+
+def is_special_venue(v):
+    """Stejné pravidlo jako isSpecialVenue v index.js: kostely apod. jdou na web (a do playlistu) na konec."""
+    return bool(v) and v != "Palác Akropolis" and bool(
+        re.search(r"kostel|palác|purkrabství|synagog|kapl[ei]|humanitních studií", v, re.I))
 
 
 def load_days(today):
@@ -85,10 +106,18 @@ def load_days(today):
             continue
         if d < today:
             continue
-        key = d.isoformat()
-        for a in extract_artists(e["title"]):
-            days.setdefault(key, {})[norm(a)] = a
-    return {k: sorted(v.values(), key=str.lower) for k, v in sorted(days.items())}
+        days.setdefault(d.isoformat(), []).append(e)
+    # pořadí jako na webu: pořadí akcí v concerts.json, kostely apod. (stabilně) na konec dne
+    out = {}
+    for key, evs in sorted(days.items()):
+        evs = [e for e in evs if not is_special_venue(e.get("venue"))] + \
+              [e for e in evs if is_special_venue(e.get("venue"))]
+        artists = {}
+        for e in evs:
+            for a in extract_artists(e["title"]):
+                artists.setdefault(norm(a), a)  # první výskyt určuje pořadí
+        out[key] = list(artists.values())
+    return out
 
 
 # ---------- Spotify ----------
@@ -148,24 +177,55 @@ def call(method, path, token, **kw):
 
 def find_cached(name, token, cache):
     key = norm(name)
-    if key not in cache:
+    if not cache.get(key):  # chybějící i dřívější nenalezené (prázdný seznam) zkusit znovu
         cache[key] = find_tracks(name, token)
         json.dump(cache, open(CACHE, "w", encoding="utf-8"), ensure_ascii=False)
     return cache[key]
 
 
+def same_artist(spotify_name, want):
+    a, b = norm(spotify_name), want
+    return a == b or re.sub(r"^the ", "", a) == re.sub(r"^the ", "", b)
+
+
 def find_tracks(name, token):
-    """Vrátí URI nejpopulárnější skladby, jejíž interpret přesně odpovídá názvu (jinak nic)."""
-    time.sleep(1)  # šetrně k limitu Spotify
-    r = call("GET", "/search", token, params={"q": f'artist:"{name}"', "type": "track", "limit": 10})
-    if r.status_code != 200:
-        return []
-    want = norm(name)
-    hits = [t for t in r.json().get("tracks", {}).get("items", [])
-            if any(norm(a["name"]) == want for a in t["artists"])]
-    if not hits:
-        return []
-    return [max(hits, key=lambda t: t.get("popularity", 0))["uri"]]
+    """Vrátí URI nejpopulárnější skladby interpreta, jehož jméno přesně odpovídá (jinak nic).
+
+    Zkouší postupně: hledání skladeb podle interpreta, hledání interpreta + jeho top skladby,
+    a totéž bez koncovky typu Trio/Band/Quartet.
+    """
+    variants = [name]
+    short = SUFFIX_RE.sub("", name).strip()
+    if short and short != name:
+        variants.append(short)
+    for v in variants:
+        want = norm(v)
+        time.sleep(1)  # šetrně k limitu Spotify
+        r = call("GET", "/search", token, params={"q": f'artist:"{v}"', "type": "track", "limit": 10})
+        if r.status_code == 200:
+            hits = [t for t in r.json().get("tracks", {}).get("items", [])
+                    if any(same_artist(a["name"], want) for a in t["artists"])]
+            if hits:
+                return [max(hits, key=lambda t: t.get("popularity", 0))["uri"]]
+        time.sleep(1)
+        r = call("GET", "/search", token, params={"q": v, "type": "artist", "limit": 10})
+        if r.status_code != 200:
+            continue
+        arts = [a for a in r.json().get("artists", {}).get("items", []) if same_artist(a["name"], want)]
+        if not arts:
+            continue
+        best = max(arts, key=lambda a: a.get("popularity", 0))
+        time.sleep(1)
+        r = call("GET", f"/artists/{best['id']}/top-tracks", token, params={"market": "CZ"})
+        tracks = r.json().get("tracks", []) if r.status_code == 200 else []
+        if tracks:
+            return [tracks[0]["uri"]]
+        r = call("GET", "/search", token, params={"q": f"artist:{best['name']}", "type": "track", "limit": 10})
+        items = r.json().get("tracks", {}).get("items", []) if r.status_code == 200 else []
+        items = [t for t in items if any(a["id"] == best["id"] for a in t["artists"])]
+        if items:
+            return [items[0]["uri"]]
+    return []
 
 
 def add_items(pid, uris, token):
