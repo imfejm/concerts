@@ -3153,64 +3153,87 @@ def scrape_eternia_puda():
 
 
 # ─────────────────────────────────────────────────────────────
-#  KC ZAHRADA + CHODOVSKÁ TVRZ  (kczahrada.cz)
+#  KC ZAHRADA + CHODOVSKÁ TVRZ  (kulturnijiznimesto.cz)
 # ─────────────────────────────────────────────────────────────
+_CZ_MONTHS_GEN = {
+    "ledna": 1, "unora": 2, "brezna": 3, "dubna": 4, "kvetna": 5, "cervna": 6,
+    "cervence": 7, "srpna": 8, "zari": 9, "rijna": 10, "listopadu": 11, "prosince": 12,
+}
+
+
+def _strip_diacritics(text):
+    return "".join(c for c in unicodedata.normalize("NFKD", text) if not unicodedata.combining(c))
+
+
 def scrape_kczahrada():
     print("* KC Zahrada / Chodovská tvrz...")
     events = []
-    page = 1
+    seen = set()
+    today = datetime.now()
+    base = "https://kulturnijiznimesto.cz/program/"
+    qs = "?e-filter-75168fc-kategorie_programu=koncert"
 
-    while True:
-        url = "https://kczahrada.cz/program/rubrika/koncert/"
-        if page > 1:
-            url += f"?tribe_paged={page}"
-        soup = get_soup(url)
-        if not soup:
+    for page in range(1, 11):
+        url = f"{base}{page}/{qs}" if page > 1 else base + qs
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=20)
+            r.raise_for_status()
+        except Exception as e:
+            print(f"  [WARN] Chyba při stahování {url}: {e}", file=sys.stderr)
             break
-
-        content = soup.find(id="tribe-events-content")
-        if not content:
-            break
-
-        items = content.find_all("div", class_="tribe-events-border")
+        # Server neposílá charset → r.text by hádal ISO-8859-1; předáme bajty (UTF-8 z <meta>)
+        soup = BeautifulSoup(r.content, "html.parser")
+        items = soup.select("div.e-loop-item")
         if not items:
             break
 
         for ev in items:
-            title_el = ev.find("b")
-            link_el = ev.find("a")
-            title = title_el.get_text(strip=True) if title_el else (link_el.get_text(strip=True) if link_el else "")
-            if not title:
+            classes = ev.get("class", [])
+            # Pobočka je v CSS třídě (pobocky-kc-zahrada / pobocky-chodovska-tvrz)
+            if "pobocky-chodovska-tvrz" in classes:
+                venue = "Chodovská tvrz"
+            elif "pobocky-kc-zahrada" in classes:
+                venue = "KC Zahrada"
+            else:
                 continue
 
-            href = link_el.get("href", "") if link_el else ""
+            title_el = ev.find("h2")
+            link_el = ev.find("a", href=re.compile(r"/programy/"))
+            title = title_el.get_text(strip=True) if title_el else ""
+            if not title or not link_el:
+                continue
+            href = link_el["href"]
+
+            # Datum je bez roku ("4 listopadu"), čas volitelný ("19:00" / "11:00 - 23:00")
+            texts = [t.strip() for t in ev.find_all(string=True) if t.strip()]
+            day = month = None
+            time_str = ""
+            for t in texts:
+                dm = re.fullmatch(r"(\d{1,2})\.?\s+(\D+)", t)
+                if dm and day is None:
+                    mon = _CZ_MONTHS_GEN.get(_strip_diacritics(dm.group(2).strip().lower()))
+                    if mon:
+                        day, month = int(dm.group(1)), mon
+                        continue
+                tm = re.match(r"(\d{1,2}):(\d{2})", t)
+                if tm and not time_str:
+                    time_str = f"{int(tm.group(1)):02d}:{tm.group(2)}"
+            if not day:
+                continue
+
+            year = today.year
+            if month < today.month - 1:  # program je dopředu → starší měsíc = příští rok
+                year += 1
+            date_str = f"{day}.{month}.{year}"
+
+            key = (href, date_str)
+            if key in seen:
+                continue
+            seen.add(key)
 
             img_el = ev.find("img")
             image = img_el.get("src", "") if img_el else ""
-            # WordPress thumbnail suffix -177x142 → plný rozměr
-            image = re.sub(r"-\d+x\d+(\.\w+)$", r"\1", image)
-
-            # Druhý a třetí col-1 obsahují datum a čas
-            col1s = ev.find_all("div", class_="col-1")
-            date_raw = col1s[1].get_text(strip=True) if len(col1s) > 1 else ""
-            time_str = col1s[2].get_text(strip=True) if len(col1s) > 2 else ""
-
-            # Normalizuj datum "23.04.2026" → "23.4.2026"
-            date_str = ""
-            dm = re.match(r"(\d{1,2})\.(\d{1,2})\.(\d{4})", date_raw)
-            if dm:
-                date_str = f"{int(dm.group(1))}.{int(dm.group(2))}.{dm.group(3)}"
-
-            if not date_str:
-                continue
-
-            badges = [b.get_text(strip=True) for b in ev.find_all("span", class_="badge")]
-            badges_lower = [b.lower() for b in badges]
-
-            if any("chodovsk" in b for b in badges_lower):
-                venue = "Chodovská tvrz"
-            else:
-                venue = "KC Zahrada"
+            image = re.sub(r"-\d+x\d+(\.\w+)$", r"\1", image)  # plný rozměr
 
             events.append({
                 "title": title,
@@ -3222,11 +3245,8 @@ def scrape_kczahrada():
                 "image": image,
             })
 
-        # Zkontroluj, zda existuje další stránka
-        next_li = content.find("li", class_="tribe-events-nav-next")
-        if not next_li or not next_li.find("a"):
+        if not soup.select_one("a.page-numbers[href*='/program/%d/']" % (page + 1)):
             break
-        page += 1
 
     print(f"   [OK] {len(events)} akcí")
     return events
