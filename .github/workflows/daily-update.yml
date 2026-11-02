@@ -18,7 +18,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v5
 
@@ -33,19 +33,19 @@ jobs:
           playwright install --with-deps chromium
 
       - name: Run scraper
-        run: python scraper.py
+        run: python -u scraper.py
 
       - name: Commit and push changes
         id: commit
         run: |
-          if git diff --quiet -- concerts.json; then
+          if git diff --quiet -- concerts.json modravopice_past.json; then
             echo "Žádné změny v concerts.json."
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add concerts.json
+          git add concerts.json modravopice_past.json
           git commit -m "daily concert update"
           git pull --rebase origin main
           git push origin main

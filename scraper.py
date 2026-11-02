@@ -160,7 +160,7 @@ def extract_genre_from_text(text):
 def load_existing_genres():
     """Načte stávající concerts.json a vrátí dva slovníky pro cache žánrů.
     Vrací: (url_cache, key_cache)
-    - url_cache:  url -> genre
+    - url_cache:  url -> genre (prázdný řetězec = detail už se stahoval a žánr nenašel)
     - key_cache:  (title_lower, date, venue) -> genre
     """
     url_cache = {}
@@ -170,9 +170,12 @@ def load_existing_genres():
             data = json.load(f)
         for e in data.get("events", []):
             genre = e.get("genre", "").strip()
-            if not genre:
-                continue
             url = e.get("url", "")
+            if not genre:
+                # žánr už jednou nenalezen — nestahovat detail při každém běhu znovu
+                if url:
+                    url_cache.setdefault(url, "")
+                continue
             if url:
                 url_cache[url] = genre
             k = (e.get("title", "").lower().strip(), e.get("date", ""), e.get("venue", ""))
@@ -2703,6 +2706,12 @@ def scrape_modravopice():
     events = []
 
     existing = _load_cached_modravopice()
+    # URL stránek, které už jsou minulé — nestahovat je při každém běhu znovu
+    try:
+        with open("modravopice_past.json", encoding="utf-8") as f:
+            past_links = set(json.load(f))
+    except (FileNotFoundError, json.JSONDecodeError):
+        past_links = set()
 
     def fetch_event_page(link):
         try:
@@ -2787,7 +2796,7 @@ def scrape_modravopice():
                 break
             page += 1
 
-        new_links = [l for l in all_links if l not in existing]
+        new_links = [l for l in all_links if l not in existing and l not in past_links]
         print(f"  Celkem {len(all_links)} záznamů, z toho {len(new_links)} nových (stahuju detaily)...")
 
         # Reuse cached future events
@@ -2818,11 +2827,16 @@ def scrape_modravopice():
                     continue
                 ev = make_event(ld, link)
                 if not ev:
+                    past_links.add(link)
                     continue
                 key = (ev["title"].lower(), ev["date"])
                 if key not in seen:
                     seen.add(key)
                     events.append(ev)
+
+        # Zapamatovat si jen odkazy, které na webu ještě jsou
+        with open("modravopice_past.json", "w", encoding="utf-8") as f:
+            json.dump(sorted(past_links & set(all_links)), f, ensure_ascii=False, indent=0)
 
     except Exception as e:
         print(f"  [WARN] Modrá Vopice: {e}", file=sys.stderr)
@@ -3882,11 +3896,13 @@ def main():
     ]
 
     for scraper in scrapers:
+        t0 = time.time()
         try:
             events = scraper()
             all_events.extend(events)
         except Exception as e:
             print(f"  [ERROR] Neočekávaná chyba: {e}", file=sys.stderr)
+        print(f"   (trvalo {time.time() - t0:.0f} s)", flush=True)
 
     print(f"\nPřed deduplikací: {len(all_events)} akcí")
     
@@ -4054,6 +4070,11 @@ def main():
 
         # 2) Žánr v cache z minulého běhu (podle URL nebo klíče)
         cached = genre_url_cache.get(url) or genre_key_cache.get(key)
+        if not cached and url and url in genre_url_cache:
+            # detail se stahoval už minule a žánr nenašel — nezkoušet znovu
+            event["genre"] = ""
+            genre_missing += 1
+            continue
         if cached:
             event["genre"] = cached
             genre_from_cache += 1
