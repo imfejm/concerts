@@ -4016,17 +4016,24 @@ def main():
                 return None
 
         today_d = datetime.now().date()
-        new_venues = {e.get("venue") for e in unique_events}
+        new_by_venue = {}
+        for e in unique_events:
+            new_by_venue.setdefault(e.get("venue"), []).append(e)
         prev_by_venue = {}
         for e in prev_events:
             prev_by_venue.setdefault(e.get("venue"), []).append(e)
         for venue, evs in prev_by_venue.items():
-            if not venue or venue in new_venues or len(evs) < MIN_VENUE_EVENTS:
+            new_evs = new_by_venue.get(venue, [])
+            # výpadek = nic, nebo propad pod polovinu (částečně načtená stránka)
+            if not venue or len(evs) < MIN_VENUE_EVENTS or len(new_evs) * 2 >= len(evs):
                 continue
-            kept = [e for e in evs if (_parse_date(e.get("date", "")) or today_d) >= today_d]
+            have = {(e.get("title"), e.get("date")) for e in new_evs}
+            kept = [e for e in evs
+                    if (e.get("title"), e.get("date")) not in have
+                    and (_parse_date(e.get("date", "")) or today_d) >= today_d]
             if kept:
                 unique_events.extend(kept)
-                print(f"  [KEEP] {venue}: zdroj nevrátil nic, ponechávám {len(kept)} akcí z minulého běhu")
+                print(f"  [KEEP] {venue}: zdroj vrátil {len(new_evs)} (dříve {len(evs)}), doplňuji {len(kept)} akcí z minulého běhu")
         unique_events.sort(key=sort_key)
 
     # ── Inkrementální doplňování žánrů ──────────────────────────
