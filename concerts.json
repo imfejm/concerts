@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-04T12:19:14.391843+00:00",
-  "count": 1575,
+  "updated": "2026-11-05T12:31:44.827460+00:00",
+  "count": 1564,
   "events": [
     {
       "title": "Chuck Wansley & The Mother Funkers (USA/CZ)",
@@ -1223,6 +1223,16 @@
       "genre": ""
     },
     {
+      "title": "Yo Soy Indigo",
+      "date": "09.04.2026",
+      "time": "22:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/yo-soy-indigo-1-4",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/yo-soy-6aec647d320b9273976138.webp",
+      "genre": "jazz, folk"
+    },
+    {
       "title": "The Cinematic Orchestra / UK, support: Elliot Skinner / US",
       "date": "11.4.2026",
       "time": "19:00",
@@ -1743,56 +1753,6 @@
       "genre": "jazz"
     },
     {
-      "title": "Patrik Malý + support: Tomas Robin",
-      "date": "4.11.2026",
-      "time": "19:00",
-      "venue": "Rock Café",
-      "category": "hudba",
-      "url": "https://rockcafe.cz/cs/program/patrik-maly/",
-      "image": "https://static.goout.cloud/rockcafecz/2026/09/fb6b4a70-01_patrik_maly_main-promo_photo_sirka-250x167.jpg",
-      "genre": "rock"
-    },
-    {
-      "title": "Horkýže Slíže / SK, support: Try / SK – VYPRODÁNO",
-      "date": "4.11.2026",
-      "time": "19:30",
-      "venue": "Lucerna Music Bar",
-      "category": "hudba",
-      "url": "https://musicbar.cz/cs/program/horkyze-slize-sk-16/",
-      "image": "https://static.goout.cloud/musicbarcz/2026/07/114c6f59-kopie-souboru-horkyzeslize_promo2026_hires_kubacerv_1-300x300.jpg",
-      "genre": ""
-    },
-    {
-      "title": "TOMÁŠ KOČKO & ORCHESTR",
-      "date": "04.11.2026",
-      "time": "19:00",
-      "venue": "Futurum Music Bar",
-      "category": "hudba",
-      "url": "https://futurum.musicbar.cz/program/tomas-kocko-orchestr/",
-      "image": "https://futurum.musicbar.cz/wp-content/uploads/2026/06/Promo_Perperuna_01m-800x480.jpg",
-      "genre": "world music"
-    },
-    {
-      "title": "BIOCROSS",
-      "date": "4.11.2026",
-      "time": "",
-      "venue": "Cross Club",
-      "category": "hudba",
-      "url": "https://www.crossclub.cz/cs/program/8706-biocross/",
-      "image": "https://www.crossclub.cz/data/resized/files/2022/zari/144x144c-5c2a-bio-cross.jpg",
-      "genre": ""
-    },
-    {
-      "title": "KAFKA BAND HRAJE KAFKU",
-      "date": "04.11.2026",
-      "time": "",
-      "venue": "Palác Akropolis",
-      "category": "hudba",
-      "url": "https://palacakropolis.cz/work/33298?event_id=40205&genre=1&gsicon=1&no=62&page_id=38637",
-      "image": "https://palacakropolis.cz/images/photos/0026/2511/KafkaBand1ByIvoDudek_web_hp.jpg",
-      "genre": ""
-    },
-    {
       "title": "CAFE+ JARKA + FURT",
       "date": "4.11.2026",
       "time": "21:00",
@@ -1801,36 +1761,6 @@
       "url": "https://www.vagon.cz/dnes.php",
       "image": "",
       "genre": ""
-    },
-    {
-      "title": "Michael Krásný Quartet",
-      "date": "04.11.2026",
-      "time": "19:30",
-      "venue": "Café v lese",
-      "category": "hudba",
-      "url": "https://cafevlese.cz/events/michael-krasny-quartet/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/10/1407413-800-e1791372206831-768x951.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Kim Salmon & Smoked Salmon (AUS), Rány těla, Thee Lazy Eyes",
-      "date": "4.11.2026",
-      "time": "",
-      "venue": "Kaštan",
-      "category": "hudba",
-      "url": "https://kastan.cz/akce/kim-salmon-smoked-salmon-aus-rany-tela-thee-lazy-eyes/",
-      "image": "https://kastan.cz/wp-content/uploads/2026/09/salmon_IG-1080x1080px.jpg",
-      "genre": "Koncert"
-    },
-    {
-      "title": "LENNY - ONE NIGHT ONLY (CZ)",
-      "date": "04.11.2026",
-      "time": "",
-      "venue": "Roxy",
-      "category": "hudba",
-      "url": "https://www.roxy.cz/events/detail/5011/lenny-one-night-only",
-      "image": "https://www.roxy.cz/upload/temp/lenny-roxy-sq-800x800px-foto-3llz827184zx-crop-480-480.jpg",
-      "genre": "concert, drum&bass, electro, grime"
     },
     {
       "title": "Kennedy Administration (USA)",
@@ -1849,178 +1779,8 @@
       "venue": "Reduta Jazz Club",
       "category": "hudba",
       "url": "https://www.redutajazzclub.cz/program-cs",
-      "image": "https://goout.net/i/119/1197907-383.jpg",
+      "image": "",
       "genre": "jazz"
-    },
-    {
-      "title": "Pocta Zuzaně Navarové + Jazz Elements",
-      "date": "04.11.2026",
-      "time": "19:30",
-      "venue": "Malostranská Beseda",
-      "category": "hudba",
-      "url": "#",
-      "image": "https://goout.net/i/140/1401758-800.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Bjarne Roupe / Klang Systematiek — Between Traditions",
-      "date": "4.11.2026",
-      "time": "19:00",
-      "venue": "Chodovská tvrz",
-      "category": "hudba",
-      "url": "https://kulturnijiznimesto.cz/programy/bjarne-roupe-klang-systematiek-between-traditions/",
-      "image": "https://kulturnijiznimesto.cz/wp-content/uploads/2026/10/T.JarmyrAudience_@MarekBouda.jpg",
-      "genre": ""
-    },
-    {
-      "title": "operelly + DirtyThePressa",
-      "date": "4.11.2026",
-      "time": "19:30",
-      "venue": "Klubovna Povaleč",
-      "category": "hudba",
-      "url": "https://www.dejvicka-klubovna.cz/event/operelly-dirtythepressa/",
-      "image": "https://www.dejvicka-klubovna.cz/wp-content/uploads/2026/11/orig_extimg_1406724-800.jpg",
-      "genre": "soft-elektronika, indie-folk / alt-rap, cloud rap"
-    },
-    {
-      "title": "Stormin´",
-      "date": "4.11.2026",
-      "time": "20:00",
-      "venue": "Na Slamníku",
-      "category": "hudba",
-      "url": "https://na-slamniku.cz/koncerty/",
-      "image": "",
-      "genre": "blues"
-    },
-    {
-      "title": "KLAUSTRO/FONIJA (psych punk, CRO) // Rocky and His Bootlegs",
-      "date": "4.11.2026",
-      "time": "19:30",
-      "venue": "Café Na půl cesty",
-      "category": "hudba",
-      "url": "https://www.greendoors.cz/akce/klaustro-fonija-psych-punk-cro/",
-      "image": "",
-      "genre": "punk, noise"
-    },
-    {
-      "title": "Koncert vážné hudby",
-      "date": "4.11.2026",
-      "time": "13:00",
-      "venue": "Lobkowiczký palác na Pražském hradě",
-      "category": "hudba",
-      "url": "https://goout.net/cs/koncert-vazne-hudby/szamphy/",
-      "image": "https://goout.net/i/129/1294076-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Classic Spectacular s varhany – Vivaldi, Mozart, Bach",
-      "date": "4.11.2026",
-      "time": "17:00",
-      "venue": "Zrcadlová kaple Klementina",
-      "category": "hudba",
-      "url": "https://goout.net/cs/classic-spectacular-s-varhany-vivaldi-mozart-bach/sztsdey/",
-      "image": "https://goout.net/i/133/1332555-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "To nejlepší z české a světové hudby",
-      "date": "4.11.2026",
-      "time": "17:30",
-      "venue": "Španělská synagoga",
-      "category": "hudba",
-      "url": "https://goout.net/cs/to-nejlepsi-z-ceske-a-svetove-hudby/szogtfy/",
-      "image": "https://goout.net/i/105/1057014-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Barokní mistři ve staré Praze",
-      "date": "4.11.2026",
-      "time": "18:00",
-      "venue": "Kostel sv. Mikuláše",
-      "category": "hudba",
-      "url": "https://goout.net/cs/barokni-mistri-ve-stare-praze/szkroly/",
-      "image": "https://goout.net/i/140/1400268-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Classic Spectacular – Beethoven, Vivaldi, Smetana",
-      "date": "4.11.2026",
-      "time": "18:30",
-      "venue": "Kostel Nejsvětějšího Salvátora",
-      "category": "hudba",
-      "url": "https://goout.net/cs/classic-spectacular-beethoven-vivaldi-smetana/szegjny/",
-      "image": "https://goout.net/i/133/1333350-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Od baroka po současnou premiéru",
-      "date": "4.11.2026",
-      "time": "19:00",
-      "venue": "Žižkovská radnice",
-      "category": "hudba",
-      "url": "https://goout.net/cs/od-baroka-po-soucasnou-premieru/szlndky/",
-      "image": "https://goout.net/i/139/1395714-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Slavné varhanní koncerty",
-      "date": "4.11.2026",
-      "time": "19:00",
-      "venue": "Kostel sv. Františka z Assisi",
-      "category": "hudba",
-      "url": "https://goout.net/cs/slavne-varhanni-koncerty/sztgcey/",
-      "image": "https://goout.net/i/108/1089457-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Fusion Eichler Trio",
-      "date": "4.11.2026",
-      "time": "20:00",
-      "venue": "Ungelt",
-      "category": "hudba",
-      "url": "https://goout.net/cs/fusion-eichler-trio/szxivny/",
-      "image": "https://goout.net/i/140/1409003-383.jpg",
-      "genre": "fusion, jazz"
-    },
-    {
-      "title": "Novo-Dur",
-      "date": "4.11.2026",
-      "time": "20:00",
-      "venue": "U Staré paní Jazz & Cocktail Club",
-      "category": "hudba",
-      "url": "https://goout.net/cs/novo-dur/szaswky/",
-      "image": "https://goout.net/i/128/1287275-383.jpg",
-      "genre": "rock, pop, jazz, funk"
-    },
-    {
-      "title": "Piaf! The Show",
-      "date": "4.11.2026",
-      "time": "20:00",
-      "venue": "Divadlo Hybernia",
-      "category": "hudba",
-      "url": "https://goout.net/cs/piaf-the-show/szfsnky/",
-      "image": "https://goout.net/i/137/1370308-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Horkýže Slíže",
-      "date": "4.11.2026",
-      "time": "21:00",
-      "venue": "Lucerna Music Bar",
-      "category": "hudba",
-      "url": "https://goout.net/cs/horkyze-slize/szgdmly/",
-      "image": "https://goout.net/i/113/1136902-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "FAN CLUB , SCHEISSBURG HC",
-      "date": "04.11.2026",
-      "time": "19:00",
-      "venue": "Klub 007 Strahov",
-      "category": "hudba",
-      "url": "https://klub007strahov.cz/events/fan-club-us-scheissburg-cz/",
-      "image": "",
-      "genre": "Punk / Psych R´n´R"
     },
     {
       "title": "Dirty Blondes  + The Complication",
@@ -2459,7 +2219,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/munroe-blond-works/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/09/1253022-800-768x768.jpg",
+      "image": "https://goout.net/i/138/1382634-383.jpg",
       "genre": ""
     },
     {
@@ -2529,7 +2289,7 @@
       "venue": "Reduta Jazz Club",
       "category": "hudba",
       "url": "https://www.redutajazzclub.cz/program-cs",
-      "image": "",
+      "image": "https://goout.net/i/123/1233503-383.jpg",
       "genre": "jazz"
     },
     {
@@ -2539,7 +2299,7 @@
       "venue": "Reduta Jazz Club",
       "category": "hudba",
       "url": "https://www.redutajazzclub.cz/program-cs",
-      "image": "",
+      "image": "https://goout.net/i/123/1233503-383.jpg",
       "genre": "jazz"
     },
     {
@@ -2703,6 +2463,86 @@
       "genre": ""
     },
     {
+      "title": "Samir Hauser + Smrtislav + Bull in China",
+      "date": "6.11.2026",
+      "time": "18:30",
+      "venue": "Klub 007 Strahov",
+      "category": "hudba",
+      "url": "https://goout.net/cs/samir-hauser+smrtislav+bull-in-china/szcoumy/",
+      "image": "https://goout.net/i/138/1381064-383.jpg",
+      "genre": "pop"
+    },
+    {
+      "title": "Bratři Karamazovi + Space Detour",
+      "date": "6.11.2026",
+      "time": "19:00",
+      "venue": "Loď Kamina",
+      "category": "hudba",
+      "url": "https://goout.net/cs/bratri-karamazovi+space-detour/szqxvly/",
+      "image": "https://goout.net/i/140/1401879-383.jpg",
+      "genre": "alternativa, blues"
+    },
+    {
+      "title": "Flamengo reunion session – 60 let",
+      "date": "6.11.2026",
+      "time": "19:00",
+      "venue": "Palác Akropolis",
+      "category": "hudba",
+      "url": "https://goout.net/cs/flamengo-reunion-session-60-let/szegtfy/",
+      "image": "https://goout.net/i/138/1381739-383.jpg",
+      "genre": "blues, soul"
+    },
+    {
+      "title": "Slavné varhanní koncerty",
+      "date": "6.11.2026",
+      "time": "19:00",
+      "venue": "Kostel sv. Františka z Assisi",
+      "category": "hudba",
+      "url": "https://goout.net/cs/slavne-varhanni-koncerty/szvgcey/",
+      "image": "https://goout.net/i/108/1089457-383.jpg",
+      "genre": ""
+    },
+    {
+      "title": "PARMA Recordings uvádí: Her Voice",
+      "date": "6.11.2026",
+      "time": "19:30",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://goout.net/cs/parma-recordings-uvadi-her-voice/szssvmy/",
+      "image": "https://goout.net/i/140/1405563-383.jpg",
+      "genre": ""
+    },
+    {
+      "title": "AKS – Akademičtí komorní sólisté",
+      "date": "6.11.2026",
+      "time": "19:30",
+      "venue": "Lichtenštejnský palác",
+      "category": "hudba",
+      "url": "https://goout.net/cs/aks-akademicti-komorni-soliste/sznwuly/",
+      "image": "https://goout.net/i/121/1216429-383.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Bran",
+      "date": "6.11.2026",
+      "time": "20:00",
+      "venue": "U Staré paní Jazz & Cocktail Club",
+      "category": "hudba",
+      "url": "https://goout.net/cs/bran/szfswky/",
+      "image": "https://goout.net/i/137/1373757-383.jpg",
+      "genre": "jazz"
+    },
+    {
+      "title": "Vivaldi Four Seasons in Smetana hall",
+      "date": "6.11.2026",
+      "time": "20:00",
+      "venue": "Obecní dům",
+      "category": "hudba",
+      "url": "https://goout.net/cs/vivaldi-four-seasons-in-smetana-hall/sztsfey/",
+      "image": "https://goout.net/i/134/1340729-383.jpg",
+      "genre": ""
+    },
+    {
       "title": "SAMIR HAUSER , SMRTISLAV , BULL IN CHINA Electro EBM",
       "date": "06.11.2026",
       "time": "18:30",
@@ -2779,7 +2619,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/besna-sk-wolnera/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/10/BRIZOLIT-1.jpeg",
+      "image": "",
       "genre": ""
     },
     {
@@ -2991,6 +2831,26 @@
       "url": "https://www.greendoors.cz/akce/orion-child-death-metal-esp/",
       "image": "",
       "genre": "death metal, metal"
+    },
+    {
+      "title": "K-pop Tribute Prague",
+      "date": "7.11.2026",
+      "time": "14:00",
+      "venue": "Kongresové centrum Praha",
+      "category": "hudba",
+      "url": "https://goout.net/cs/k-pop-tribute-prague/szldfiy/",
+      "image": "https://goout.net/i/139/1390347-383.jpg",
+      "genre": "pop"
+    },
+    {
+      "title": "Hvězdy z Albionu: Adele a Coldplay",
+      "date": "7.11.2026",
+      "time": "19:00",
+      "venue": "Kostel U Salvátora",
+      "category": "hudba",
+      "url": "https://goout.net/cs/hvezdy-z-albionu-adele-a-coldplay/szdyamy/",
+      "image": "https://goout.net/i/134/1348761-383.jpg",
+      "genre": ""
     },
     {
       "title": "TRAGEDIS , MARTINA VON W NOC6 - KLUBOVÁ NOC PRAHY 6",
@@ -3379,7 +3239,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/jack-and-the-weatherman-nl/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/01/1379617-800-768x763.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -3529,7 +3389,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/ikan-hyu-ch-2/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/08/1390854-800-768x492.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -3551,26 +3411,6 @@
       "url": "https://www.roxy.cz/events/detail/4743/bratri",
       "image": "https://www.roxy.cz/upload/temp/bratrifoto1byzuzkabonisch-92yk5flbnz5w-crop-480-480.jpg",
       "genre": "concert, drum&bass, electro, grime"
-    },
-    {
-      "title": "Filharmoniště: Best of Baroque",
-      "date": "11.11.2026",
-      "time": "9:30",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/filharmoniste/11-11-26-v-09-30/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/Filharmoniste-e1792409792774.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Hudební podzim na Trojce – Virtuózní lesk i romantické naladění",
-      "date": "11.11.2026",
-      "time": "",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/hudebni-podzim-na-trojce-virtuozni-lesk-i-romanticke-naladeni/hudebni-podzim-na-trojce-virtuozni-lesk-i-romanticke-naladeni/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/IMG_7407-e1791901173810.jpg",
-      "genre": ""
     },
     {
       "title": "Klub zadán",
@@ -3713,6 +3553,26 @@
       "genre": "Stoner Space Kraut Rock"
     },
     {
+      "title": "Filharmoniště: Best of Baroque",
+      "date": "11.11.2026",
+      "time": "9:30",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/filharmoniste/11-11-26-v-09-30/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/Filharmoniste-e1792409792774.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Hudební podzim na Trojce – Virtuózní lesk i romantické naladění",
+      "date": "11.11.2026",
+      "time": "",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/hudebni-podzim-na-trojce-virtuozni-lesk-i-romanticke-naladeni/hudebni-podzim-na-trojce-virtuozni-lesk-i-romanticke-naladeni/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/IMG_7407-e1791901173810.jpg",
+      "genre": ""
+    },
+    {
       "title": "František Prachař & hosté",
       "date": "12.11.2026",
       "time": "19:00",
@@ -3779,7 +3639,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/beira/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/10/IMG_4592-scaled-e1791811558940-768x633.jpeg",
+      "image": "",
       "genre": ""
     },
     {
@@ -4023,16 +3883,6 @@
       "genre": "concert, drum&bass, electro, grime"
     },
     {
-      "title": "Hudební Odyssea: Irvin Venyš a mladí",
-      "date": "13.11.2026",
-      "time": "",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/hudebni-odyssea-irvin-venys-a-mladi/13-11-26-v-18-00/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/MenArt_24.1.2025-32-1-e1791974778314.jpg",
-      "genre": "jazz"
-    },
-    {
       "title": "Michal Horák",
       "date": "13.11.2026",
       "time": "",
@@ -4233,6 +4083,16 @@
       "genre": "Black Shoegaze Post Rock"
     },
     {
+      "title": "Hudební Odyssea: Irvin Venyš a mladí",
+      "date": "13.11.2026",
+      "time": "",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/hudebni-odyssea-irvin-venys-a-mladi/13-11-26-v-18-00/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/MenArt_24.1.2025-32-1-e1791974778314.jpg",
+      "genre": "jazz"
+    },
+    {
       "title": "Slobodná Európa + Chiki Liki Tu-a / SK",
       "date": "14.11.2026",
       "time": "18:00",
@@ -4299,7 +4159,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/rave-from-the-grave-vol-1-temple-solaire-caulichute-djs-electric-jungs-amanita-glitter/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/10/unnamed-20-768x1365.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -4321,16 +4181,6 @@
       "url": "https://www.roxy.cz/events/detail/5149/leftfield",
       "image": "https://www.roxy.cz/upload/temp/leftfield-pxs-t8hmkdkzmdkf-crop-480-480.jpg",
       "genre": "concert, drum&bass, electro, grime"
-    },
-    {
-      "title": "Marie Němcová s kapelou a Gabriela Vermelho & GaRe",
-      "date": "14.11.2026",
-      "time": "",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/marie-nemcova-s-kapelou-a-gabriela-vermelho-gare/marie-nemcova-s-kapelou-a-gabriela-vermelho-gare/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/7cf7ad5f-56b3-4256-b30b-9eff45619823-e1791903384662.jpg",
-      "genre": ""
     },
     {
       "title": "SOČR & Monkey Business",
@@ -4503,6 +4353,16 @@
       "genre": "ROCK / PUNK GRUNGE"
     },
     {
+      "title": "Marie Němcová s kapelou a Gabriela Vermelho & GaRe",
+      "date": "14.11.2026",
+      "time": "",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/marie-nemcova-s-kapelou-a-gabriela-vermelho-gare/marie-nemcova-s-kapelou-a-gabriela-vermelho-gare/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/7cf7ad5f-56b3-4256-b30b-9eff45619823-e1791903384662.jpg",
+      "genre": ""
+    },
+    {
       "title": "Mammoth / US",
       "date": "15.11.2026",
       "time": "19:00",
@@ -4539,7 +4399,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/the-howlers-uk/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/05/Main-Press-Shot-Must-be-used-1x1-1-768x768.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -4739,7 +4599,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/adult-dvd-uk/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/04/Adult-DVD_v5_-768x402.png",
+      "image": "",
       "genre": ""
     },
     {
@@ -4949,7 +4809,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/anatol-svahilec-slametove-solo/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/10/1000766-800-768x559.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -5089,7 +4949,7 @@
       "venue": "Palác Akropolis",
       "category": "hudba",
       "url": "https://palacakropolis.cz/work/33298?event_id=40335&genre=1&gsicon=1&no=62&page_id=38637",
-      "image": "",
+      "image": "https://palacakropolis.cz/images/photos/0026/7287/cancel_sirka2_web_hp.jpg",
       "genre": ""
     },
     {
@@ -5109,7 +4969,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/narvan-support-zlo-z-jihu/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/09/1325664-800-768x511.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -5329,7 +5189,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/karin-park-se/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/10/20042018-DSCF7059-scaled-e1791953451977-768x671.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -5549,7 +5409,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/matyasovi-kamaradi-tba/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/10/1320143-800-768x576.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -5581,16 +5441,6 @@
       "url": "https://www.roxy.cz/events/detail/5041/x-club",
       "image": "https://www.roxy.cz/upload/temp/x-club-pxs-stlnpl8yhbug-crop-480-480.jpg",
       "genre": "concert, drum&bass, electro, grime"
-    },
-    {
-      "title": "Sisa Feher & Mammatus",
-      "date": "20.11.2026",
-      "time": "",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/sisa-feher-vojtech-prochazka-oskar-torok-mammatus/20-11-26-v-20-00/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/09/Foto-Mammatus-stvorec-e1788265632855.jpg",
-      "genre": "jazz"
     },
     {
       "title": "Filip Żółtowski Quartet | Yolk (POL)",
@@ -5783,6 +5633,16 @@
       "genre": "HOUSE , EMAVII Post Hard Core / Indie Pop"
     },
     {
+      "title": "Sisa Feher & Mammatus",
+      "date": "20.11.2026",
+      "time": "",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/sisa-feher-vojtech-prochazka-oskar-torok-mammatus/20-11-26-v-20-00/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/09/Foto-Mammatus-stvorec-e1788265632855.jpg",
+      "genre": "jazz"
+    },
+    {
       "title": "ITCHY (DE) + special guest: Rat Boy (UK)",
       "date": "21.11.2026",
       "time": "19:00",
@@ -5859,7 +5719,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/the-last-internationale-us/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/08/1395109-800-768x768.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -6003,6 +5863,16 @@
       "genre": ""
     },
     {
+      "title": "FAMILY THERAPY present Asher ☆ Parashoot ☆ Fahell ☆ Zecco ☆ Millo",
+      "date": "21.11.2026",
+      "time": "",
+      "venue": "Fuchs2",
+      "category": "hudba",
+      "url": "https://www.fuchs2.cz/events/family-therapy-present-asher-parashoot-fahell-zecco-millo",
+      "image": "https://static.wixstatic.com/media/742259_430ebf65b1494fdfa091afd795a0e783~mv2.jpg",
+      "genre": "house, grime"
+    },
+    {
       "title": "Gurriers (IE) + Support: Enola Gay",
       "date": "21.11.2026",
       "time": "",
@@ -6119,7 +5989,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/the-veils-nz/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/02/theveils_pressphoto2-768x432.jpeg",
+      "image": "",
       "genre": ""
     },
     {
@@ -6319,7 +6189,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/black-holes-the-queues/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/10/1179526-800-768x575.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -6459,7 +6329,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/merito-gramy/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/11/photo-71-768x512.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -6619,7 +6489,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/tophouse-us-special-guest-raynes-uk/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/09/1403810-800-768x512.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -6641,16 +6511,6 @@
       "url": "https://meetfactory.cz/cs/program/detail/cancer-house-kailas",
       "image": "https://meetfactory.cz/media/images/rescaled/IMG_2601-79x111.jpeg",
       "genre": "post-rock, house, ambient, rock"
-    },
-    {
-      "title": "Johanela (+ Giulia Amerighi) support: Tereza Kocholatá",
-      "date": "25.11.2026",
-      "time": "",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/johanela-giulia-amerighi-support-tereza-kocholata/johanela-giulia-amerighi-support-tereza-kocholata/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/VIKTORIEMACANOVA-kopie-rotated-e1791978093101.jpg",
-      "genre": ""
     },
     {
       "title": "Klub zadán",
@@ -6723,6 +6583,16 @@
       "genre": "blues"
     },
     {
+      "title": "Johanela (+ Giulia Amerighi) support: Tereza Kocholatá",
+      "date": "25.11.2026",
+      "time": "",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/johanela-giulia-amerighi-support-tereza-kocholata/johanela-giulia-amerighi-support-tereza-kocholata/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/VIKTORIEMACANOVA-kopie-rotated-e1791978093101.jpg",
+      "genre": ""
+    },
+    {
       "title": "Mig 21 – VYPRODÁNO",
       "date": "26.11.2026",
       "time": "19:30",
@@ -6789,7 +6659,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/leto-s-monikou-sk/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/09/03Leto-s-Monikou_foto-Dusan-Husar_still-z-videoklipu-Tiger3-768x576.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -6811,16 +6681,6 @@
       "url": "https://www.roxy.cz/events/detail/5181/mc-gey",
       "image": "https://www.roxy.cz/upload/temp/mcgay-xgidauje5osf-crop-480-480.jpg",
       "genre": "concert, drum&bass, electro, grime"
-    },
-    {
-      "title": "Calmake uvádí: Jan Šikl, Martina Vídenová & ansámbl",
-      "date": "26.11.2026",
-      "time": "19:30",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/calmake-uvadi/26-11-26-v-19-30/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/09/IMG_6081-e1792564406269.jpeg",
-      "genre": ""
     },
     {
       "title": "Mladí ladí jazz / Jazzbit 2026So Sorry (DE) + Mystigo (CZ)",
@@ -6963,6 +6823,16 @@
       "genre": "World Music"
     },
     {
+      "title": "Calmake uvádí: Jan Šikl, Martina Vídenová & ansámbl",
+      "date": "26.11.2026",
+      "time": "19:30",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/calmake-uvadi/26-11-26-v-19-30/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/09/IMG_6081-e1792564406269.jpeg",
+      "genre": ""
+    },
+    {
       "title": "Noisetrap, KOFE-IN",
       "date": "27.11.2026",
       "time": "19:00",
@@ -7009,7 +6879,7 @@
       "venue": "Palác Akropolis",
       "category": "hudba",
       "url": "https://palacakropolis.cz/work/33298?event_id=40782&genre=1&gsicon=1&no=62&page_id=38637",
-      "image": "",
+      "image": "https://palacakropolis.cz/images/photos/0026/5970/Romana_Kovacs_1_web_hp.jpg",
       "genre": ""
     },
     {
@@ -7029,7 +6899,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/widowspeak-us-3/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/04/Widowspeak4-by-Alexa-Viscius-768x519.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -7223,22 +7093,22 @@
       "genre": "progressive"
     },
     {
-      "title": "Krasohled",
-      "date": "27.11.2026",
-      "time": "22:00",
-      "venue": "Klubovna Povaleč",
-      "category": "hudba",
-      "url": "https://www.dejvicka-klubovna.cz/event/krasohled-10/",
-      "image": "https://www.dejvicka-klubovna.cz/wp-content/uploads/2026/09/KLUBOVNA-1024x683.jpg",
-      "genre": "indie rock / pop-rock"
-    },
-    {
       "title": "Stoner Toad + Voodoo Garden + Sundew",
       "date": "27.11.2026",
       "time": "19:30",
       "venue": "Klubovna Povaleč",
       "category": "hudba",
       "url": "https://www.dejvicka-klubovna.cz/event/stoner-toad-voodoo-garden-sundew/",
+      "image": "https://www.dejvicka-klubovna.cz/wp-content/uploads/2026/09/KLUBOVNA-1024x683.jpg",
+      "genre": "indie rock / pop-rock"
+    },
+    {
+      "title": "Krasohled",
+      "date": "27.11.2026",
+      "time": "22:00",
+      "venue": "Klubovna Povaleč",
+      "category": "hudba",
+      "url": "https://www.dejvicka-klubovna.cz/event/krasohled-10/",
       "image": "https://www.dejvicka-klubovna.cz/wp-content/uploads/2026/09/KLUBOVNA-1024x683.jpg",
       "genre": "indie rock / pop-rock"
     },
@@ -7329,7 +7199,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/blackgold-uk-support-sumo-cyco/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/11/unnamed-17.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -7579,7 +7449,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/gvllow-us/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/04/YGTDmp5g-768x512.jpeg",
+      "image": "",
       "genre": ""
     },
     {
@@ -7769,7 +7639,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/orion-krest-alba/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/10/1406903-800-768x512.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -7879,7 +7749,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/the-wants-usa/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/11/623335408_18097119529907741_17769036213537640_n-e1793563380427-768x492.jpeg",
+      "image": "",
       "genre": ""
     },
     {
@@ -7989,7 +7859,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/chloe-slater-uk/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/06/1396637-800-e1781345446710-768x653.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -8053,6 +7923,16 @@
       "genre": ""
     },
     {
+      "title": "Hudební světy Tomáše Macha",
+      "date": "2.12.2026",
+      "time": "19:00",
+      "venue": "Chodovská tvrz",
+      "category": "hudba",
+      "url": "https://kulturnijiznimesto.cz/programy/hudebni-svety-tomase-macha-3/",
+      "image": "https://kulturnijiznimesto.cz/wp-content/uploads/2026/10/Snimek-obrazovky-2026-10-07-155644.png",
+      "genre": ""
+    },
+    {
       "title": "Sen Triplet – křest desky Kaluže | hosté: Milan Urza, Jakub König, Shelma Hayek",
       "date": "2.12.2026",
       "time": "19:30",
@@ -8109,7 +7989,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/seb-lowe-uk/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/05/Tour-Poster-Nov-2025--scaled-e1779868826639-768x705.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -8121,16 +8001,6 @@
       "url": "https://kastan.cz/akce/notovani-finale-xxii-rocniku/",
       "image": "https://kastan.cz/wp-content/uploads/2026/09/NOT26-11-FBevent.jpg",
       "genre": "Festival / koncertní přehlídka"
-    },
-    {
-      "title": "Calmake uvádí: Karel Havlíček & Juraj Škoda",
-      "date": "3.12.2026",
-      "time": "19:30",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/calmake-uvadi/03-12-26-v-19-30/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/09/Karel-Havlicek-BW-e1792585125119.jpg",
-      "genre": ""
     },
     {
       "title": "Klub zadán",
@@ -8243,6 +8113,16 @@
       "genre": "psychobilly"
     },
     {
+      "title": "Calmake uvádí: Karel Havlíček & Juraj Škoda",
+      "date": "3.12.2026",
+      "time": "19:30",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/calmake-uvadi/03-12-26-v-19-30/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/09/Karel-Havlicek-BW-e1792585125119.jpg",
+      "genre": ""
+    },
+    {
       "title": "Pop 80s & 90s video party DJ Jirka Neumann",
       "date": "4.12.2026",
       "time": "21:00",
@@ -8279,7 +8159,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/sace6-us/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/03/unnamed-21-768x658.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -8479,7 +8359,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/pexeso-krest-ep-midnight-swimmers/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/11/877401787_122131422771080703_2894600489765981811_n-e1793564489213-768x581.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -8799,7 +8679,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/alex-henry-foster-ca/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/05/pressphoto2-768x512.jpeg",
+      "image": "",
       "genre": ""
     },
     {
@@ -8879,7 +8759,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/bragolin-nl-carrellee-us/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/07/2EFjnZKA-768x432.jpeg",
+      "image": "",
       "genre": ""
     },
     {
@@ -8963,16 +8843,6 @@
       "genre": "Koncert"
     },
     {
-      "title": "Jan Burian",
-      "date": "9.12.2026",
-      "time": "19:30",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/jan-burian/jan-burian-2/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/Atrium_zizkov_jan_burian-4-e1791294221707.jpg",
-      "genre": ""
-    },
-    {
       "title": "Olympic",
       "date": "9.12.2026",
       "time": "",
@@ -9053,6 +8923,16 @@
       "genre": "blues"
     },
     {
+      "title": "Jan Burian",
+      "date": "9.12.2026",
+      "time": "19:30",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/jan-burian/jan-burian-2/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/Atrium_zizkov_jan_burian-4-e1791294221707.jpg",
+      "genre": ""
+    },
+    {
       "title": "Poletíme? – V PLNÉ SÍLE",
       "date": "10.12.2026",
       "time": "19:00",
@@ -9073,12 +8953,12 @@
       "genre": ""
     },
     {
-      "title": "DUNAJ - 40 LET NA SCÉNĚ (1986–2026)",
+      "title": "TANTEHORSE S(t)IGMA",
       "date": "10.12.2026",
       "time": "",
       "venue": "Palác Akropolis",
       "category": "hudba",
-      "url": "https://palacakropolis.cz/work/33298?event_id=40212&genre=1&gsicon=1&no=62&page_id=38637",
+      "url": "https://palacakropolis.cz/work/33298?event_id=41516&genre=1&gsicon=1&no=62&page_id=38637",
       "image": "",
       "genre": ""
     },
@@ -9089,7 +8969,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/tim-vantol-nl-pig-lipstick/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/10/793595738_1712658620429378_2277185401435696509_n.png-768x512.jpeg",
+      "image": "",
       "genre": ""
     },
     {
@@ -9209,7 +9089,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/bert-friends/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/09/1324163-800-768x769.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -9271,6 +9151,16 @@
       "url": "https://cargogallery.cz/akce/jamaron/",
       "image": "https://cargogallery.cz/wp-content/uploads/2026/10/25-Velkej-sen-promo-tonyflunkey-756x454.jpg",
       "genre": ""
+    },
+    {
+      "title": "DUB CLUB LIVE present Omega Nebula ☆ Warrior Queen ☆ Peeni Walli Sound ☆ Red-I",
+      "date": "11.12.2026",
+      "time": "",
+      "venue": "Fuchs2",
+      "category": "hudba",
+      "url": "https://www.fuchs2.cz/events/dub-club-live-present-omega-nebula-warrior-queen-peeni-walli-sound-red-i",
+      "image": "https://static.wixstatic.com/media/742259_9366706324194cd382a61db76615c7c9~mv2.jpg",
+      "genre": "elektronika, dubstep, reggae"
     },
     {
       "title": "KONCERT",
@@ -9349,17 +9239,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/meluzina-krest-alba-sundrinker/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/10/1389031-800-e1791954351709-768x571.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Vánoční koncert Chorea Bohemica",
-      "date": "12.12.2026",
-      "time": "",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/vanocni-koncert-chorea-bohemica-2/12-12-26-v-18-00/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2024/11/SVO_6340-e1792591914390.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -9451,6 +9331,16 @@
       "url": "https://na-slamniku.cz/koncerty/",
       "image": "",
       "genre": "blues"
+    },
+    {
+      "title": "Vánoční koncert Chorea Bohemica",
+      "date": "12.12.2026",
+      "time": "",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/vanocni-koncert-chorea-bohemica-2/12-12-26-v-18-00/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2024/11/SVO_6340-e1792591914390.jpg",
+      "genre": ""
     },
     {
       "title": "Buty – 40 let",
@@ -9599,7 +9489,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/goddess-boombox-sa-roc-sol-messiah-usa/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/10/721383-800-scaled-e1792321248659-768x566.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -9873,16 +9763,6 @@
       "genre": ""
     },
     {
-      "title": "Sbor Veselé chvíle: Milí synáčkové, pospíchejme k Betlému!",
-      "date": "17.12.2026",
-      "time": "",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/sbor-vesele-chvile-mili-synackove-pospichejme-k-betlemu/17-12-26-v-20-00/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/Rybovka-132-e1792592437968.jpg",
-      "genre": ""
-    },
-    {
       "title": "Dalibor Janda",
       "date": "17.12.2026",
       "time": "",
@@ -9961,6 +9841,16 @@
       "url": "https://na-slamniku.cz/koncerty/",
       "image": "",
       "genre": "blues"
+    },
+    {
+      "title": "Sbor Veselé chvíle: Milí synáčkové, pospíchejme k Betlému!",
+      "date": "17.12.2026",
+      "time": "",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/sbor-vesele-chvile-mili-synackove-pospichejme-k-betlemu/17-12-26-v-20-00/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/Rybovka-132-e1792592437968.jpg",
+      "genre": ""
     },
     {
       "title": "Soukromá akce",
@@ -10123,16 +10013,6 @@
       "genre": ""
     },
     {
-      "title": "Žižkovská filharmonie: J. J. Ryba – Česká mše vánoční",
-      "date": "19.12.2026",
-      "time": "",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/zizkovska-filharmonie-j-j-ryba-ceska-mse-vanocni/19-12-26-v-18-00/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/DSCF0978-e1792591673856.jpg",
-      "genre": ""
-    },
-    {
       "title": "Ingvaldsen / Cremaschi / Chalupa / Wróblewski (NOR/USA/CZ)",
       "date": "19.12.2026",
       "time": "19:00",
@@ -10211,6 +10091,16 @@
       "url": "https://klub007strahov.cz/events/green-monster-cz-psycho-beets-pl/",
       "image": "",
       "genre": "psychobilly"
+    },
+    {
+      "title": "Žižkovská filharmonie: J. J. Ryba – Česká mše vánoční",
+      "date": "19.12.2026",
+      "time": "",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/zizkovska-filharmonie-j-j-ryba-ceska-mse-vanocni/19-12-26-v-18-00/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/DSCF0978-e1792591673856.jpg",
+      "genre": ""
     },
     {
       "title": "Redzed, support: RNZ",
@@ -11349,7 +11239,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/sifon-martin-kubice-bene-jan-sicko/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/10/bene_sicko_photo4-16_9-768x514.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -11509,7 +11399,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/matej-smutny-the-psycho-lovers/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/10/IMG_2714-768x512.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -11939,7 +11829,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/noah-gundersen-usa/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/11/1409759-800-e1793564717603-768x500.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -11979,7 +11869,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/meltt-ca/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/11/horizontal-768x432.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -12379,7 +12269,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/the-wytches-uk/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/10/iu6cLVAA-768x511.jpeg",
+      "image": "",
       "genre": ""
     },
     {
@@ -12409,7 +12299,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/farveblind-dk/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/10/834131122_1132993662595971_6441236744440694895_n.png-768x512.jpeg",
+      "image": "",
       "genre": ""
     },
     {
@@ -12579,7 +12469,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/dream-state-uk/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/10/1408338-800-e1793185862568-768x771.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -13949,7 +13839,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/dressed-like-boys-be/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/10/horizontal-768x432.jpg",
+      "image": "",
       "genre": ""
     },
     {
@@ -14029,7 +13919,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/black-marble-usa/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/11/5fbe2de7-996c-4159-8f07-07de515cc5c8.jpg-768x480.webp",
+      "image": "",
       "genre": ""
     },
     {
@@ -14599,7 +14489,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/snayx-uk/",
-      "image": "https://cafevlese.cz/wp-content/uploads/2026/10/Snayx.jpeg",
+      "image": "",
       "genre": ""
     },
     {
