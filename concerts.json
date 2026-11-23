@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-22T12:43:10.503385+00:00",
-  "count": 1425,
+  "updated": "2026-11-23T14:51:37.828622+00:00",
+  "count": 1433,
   "events": [
     {
       "title": "The Opening Party 2027",
@@ -373,6 +373,16 @@
       "genre": "concert, drum&bass, electro, grime"
     },
     {
+      "title": "Petra Ernyei Quintet",
+      "date": "25.01.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/petra-ernyei-quintet-2",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/petra-ern-6925b2890573f036031089-6b042da149064942922465.webp",
+      "genre": "jazz"
+    },
+    {
       "title": "TANTEHORSE S(t)IGMA",
       "date": "26.01.2026",
       "time": "",
@@ -431,6 +441,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/klub-zadan-350",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/JAZZ%20DOCK%20nocni_foto_1200x900.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "TANTEHORSE S(t)IGMA",
+      "date": "29.01.2026",
+      "time": "",
+      "venue": "Palác Akropolis",
+      "category": "hudba",
+      "url": "https://palacakropolis.cz/work/33298?event_id=41639&genre=1&gsicon=1&no=62&page_id=38637",
+      "image": "",
+      "genre": ""
     },
     {
       "title": "ADAM BEYER (SE)",
@@ -511,6 +531,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/lenka-nova-29",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/lenka%20nov%C3%A1%20aktual.webp",
       "genre": "jazz"
+    },
+    {
+      "title": "TANTEHORSE IRIS",
+      "date": "02.02.2026",
+      "time": "",
+      "venue": "Palác Akropolis",
+      "category": "hudba",
+      "url": "https://palacakropolis.cz/work/33298?event_id=41188&genre=1&gsicon=1&no=62&page_id=38637",
+      "image": "",
+      "genre": ""
     },
     {
       "title": "Lenka Nová",
@@ -711,6 +741,16 @@
       "url": "https://www.jazzdock.cz/cs/koncert/libor-smoldas-organ-trio-24",
       "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/12-libor-smoldas-copyright-ondrej-kosik-logo-6602c1a6b88a8196574763.webp",
       "genre": "jazz, blues, soul, funk"
+    },
+    {
+      "title": "TANTEHORSE S(t)IGMA",
+      "date": "21.02.2026",
+      "time": "",
+      "venue": "Palác Akropolis",
+      "category": "hudba",
+      "url": "https://palacakropolis.cz/work/33298?event_id=41158&genre=1&gsicon=1&no=62&page_id=38637",
+      "image": "",
+      "genre": ""
     },
     {
       "title": "RFP Concerts: Dead Poet Society",
@@ -1063,6 +1103,16 @@
       "genre": "concert, drum&bass, electro, grime"
     },
     {
+      "title": "Ema Pilarova - Křest alba Maaya Thila (supportGaia Anzari)",
+      "date": "14.03.2026",
+      "time": "20:00",
+      "venue": "Jazz Dock",
+      "category": "hudba",
+      "url": "https://www.jazzdock.cz/cs/koncert/ema-pilarova-krest-alba-maaya-thila-support-gaia-anzari",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/jazzdock-6b042fe509328346587404.webp",
+      "genre": "jazz"
+    },
+    {
       "title": "Jelen",
       "date": "16.3.2026",
       "time": "19:00",
@@ -1383,6 +1433,16 @@
       "genre": ""
     },
     {
+      "title": "TANTEHORSE S(t)IGMA",
+      "date": "06.04.2026",
+      "time": "",
+      "venue": "Palác Akropolis",
+      "category": "hudba",
+      "url": "https://palacakropolis.cz/work/33298?event_id=40755&genre=1&gsicon=1&no=62&page_id=38637",
+      "image": "",
+      "genre": ""
+    },
+    {
       "title": "Mňága a Žďorp – 40 let, + support: Lufťáci",
       "date": "7.4.2026",
       "time": "19:00",
@@ -1623,6 +1683,16 @@
       "genre": "world music, r&b, jazz, soul"
     },
     {
+      "title": "NOUVELLE VAGUE/FR- A DATE WITH DEPECHE MODE",
+      "date": "28.04.2026",
+      "time": "",
+      "venue": "Palác Akropolis",
+      "category": "hudba",
+      "url": "https://palacakropolis.cz/work/33298?event_id=41263&genre=1&gsicon=1&no=62&page_id=38637",
+      "image": "",
+      "genre": ""
+    },
+    {
       "title": "Greg Howe \"Extraction\" ft. Dennis Chambers (USA)",
       "date": "28.04.2026",
       "time": "21:00",
@@ -1829,7 +1899,7 @@
       "venue": "Jazz Dock",
       "category": "hudba",
       "url": "https://www.jazzdock.cz/cs/koncert/dominic-miller-1",
-      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/dominic-miller-6558be5200212149924983.webp",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-dominic-miller-26-5-2027-6b02e5c21ac87954541739.webp",
       "genre": "jazz"
     },
     {
@@ -1839,7 +1909,7 @@
       "venue": "Jazz Dock",
       "category": "hudba",
       "url": "https://www.jazzdock.cz/cs/koncert/dominic-miller-1-1",
-      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/interpreter/dominic-miller-6558be5200212149924983.webp",
+      "image": "https://www.jazzdock.cz/media/cache/middle/uploads/images/event/upoutavka-dominic-miller-27-5-2027-6b02e5e6d2ce1030435899.webp",
       "genre": "jazz"
     },
     {
@@ -2593,66 +2663,6 @@
       "genre": "jazz"
     },
     {
-      "title": "Spy (USA), Combust (USA), Sidestep (SWE), SCOOP",
-      "date": "22.11.2026",
-      "time": "19:00",
-      "venue": "Rock Café",
-      "category": "hudba",
-      "url": "https://rockcafe.cz/cs/program/spy-usa-combust-usa-sidestep-swe/",
-      "image": "https://static.goout.cloud/rockcafecz/2026/06/40d99f83-713405088_1419057336923888_8395641664853665988_n-250x167.jpg",
-      "genre": "hardcore, punk"
-    },
-    {
-      "title": "Thom Artway",
-      "date": "22.11.2026",
-      "time": "18:00",
-      "venue": "Lucerna Music Bar",
-      "category": "hudba",
-      "url": "https://musicbar.cz/cs/program/thom-artway/",
-      "image": "https://static.goout.cloud/musicbarcz/2026/10/09b06051-5-300x300.jpg",
-      "genre": "písničkářství"
-    },
-    {
-      "title": "MOON WALKER / US",
-      "date": "22.11.2026",
-      "time": "18:30",
-      "venue": "Futurum Music Bar",
-      "category": "hudba",
-      "url": "https://futurum.musicbar.cz/program/moon-walker-us/",
-      "image": "https://futurum.musicbar.cz/wp-content/uploads/2026/04/FUTURUM-WEB-ROZMERY-1-800x480.png",
-      "genre": "rock"
-    },
-    {
-      "title": "SUNDEJ SE SUNDAY",
-      "date": "22.11.2026",
-      "time": "",
-      "venue": "Cross Club",
-      "category": "hudba",
-      "url": "https://www.crossclub.cz/cs/program/8714-sundej-se-sunday/",
-      "image": "https://www.crossclub.cz/data/resized/files/2021/rijen/144x144c-8a17-sunday.jpg",
-      "genre": ""
-    },
-    {
-      "title": "The Veils (NZ) + Anthonie Tonnon",
-      "date": "22.11.2026",
-      "time": "19:30",
-      "venue": "Café v lese",
-      "category": "hudba",
-      "url": "https://cafevlese.cz/events/the-veils-nz/",
-      "image": "https://goout.net/i/138/1385102-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Music Press Production: Arab Strap",
-      "date": "22.11.2026",
-      "time": "20.00",
-      "venue": "MeetFactory",
-      "category": "hudba",
-      "url": "https://meetfactory.cz/cs/program/detail/music-press-production-arab-strap",
-      "image": "https://meetfactory.cz/media/images/rescaled/ab6761610000e5eb547b0b30ac01160630da14eb-79x111.jpeg",
-      "genre": "post-rock, metal, rock, indie"
-    },
-    {
       "title": "Swing SessionNedělní Dixie",
       "date": "22.11.2026",
       "time": "16:00",
@@ -2679,68 +2689,8 @@
       "venue": "Reduta Jazz Club",
       "category": "hudba",
       "url": "https://www.redutajazzclub.cz/program-cs",
-      "image": "https://goout.net/i/131/1310637-383.jpg",
+      "image": "",
       "genre": "jazz"
-    },
-    {
-      "title": "Jiří Štědroň",
-      "date": "22.11.2026",
-      "time": "16:00",
-      "venue": "Malostranská Beseda",
-      "category": "hudba",
-      "url": "https://goout.net/cs/jiri-stedron/szofmky/",
-      "image": "https://goout.net/i/125/1253559-800.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Razam a Iva Marešová",
-      "date": "22.11.2026",
-      "time": "20:30",
-      "venue": "Malostranská Beseda",
-      "category": "hudba",
-      "url": "https://goout.net/cs/razam-a-iva-maresova/szabpny/",
-      "image": "https://goout.net/i/140/1407999-800.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Pitbull – I’m Back!",
-      "date": "22.11.2026",
-      "time": "20:00",
-      "venue": "O2 Arena",
-      "category": "hudba",
-      "url": "https://www.o2arena.cz/events/pitbull-im-back/",
-      "image": "https://www.o2arena.cz/wp-content/uploads/2026/03/1080x1080-pitbull-2026-o2arena.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Chameleons / UK",
-      "date": "22.11.2026",
-      "time": "19:00",
-      "venue": "Cargo Gallery",
-      "category": "hudba",
-      "url": "https://cargogallery.cz/akce/chameleons-uk/",
-      "image": "https://cargogallery.cz/wp-content/uploads/2026/04/FUTURUM-WEB-ROZMERY-4-756x454.png",
-      "genre": ""
-    },
-    {
-      "title": "Artemas (UK)",
-      "date": "22.11.2026",
-      "time": "20:00",
-      "venue": "SaSaZu",
-      "category": "hudba",
-      "url": "https://www.sasazu-club.com/akce/9a0f0fde-c0a9-46c0-8a2e-81c6111fc530",
-      "image": "https://qglmzuvgrznvopdyfmie.supabase.co/storage/v1/object/public/event-web/9a0f0fde-c0a9-46c0-8a2e-81c6111fc530/1785414934754.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Nokia Angel + support: 3Eden & Lilostar",
-      "date": "22.11.2026",
-      "time": "19:30",
-      "venue": "Subzero",
-      "category": "hudba",
-      "url": "https://goout.net/cs/nokia-angel+support-3eden-and-lilostar/szaavmy/",
-      "image": "https://goout.net/i/135/1356648-383.jpg",
-      "genre": ""
     },
     {
       "title": "ADVENTNÍ ROZTOMILOSTI",
@@ -2761,126 +2711,6 @@
       "url": "https://www.salmovska.cz",
       "image": "",
       "genre": "jazz"
-    },
-    {
-      "title": "Strojvůdce a Psychokat",
-      "date": "22.11.2026",
-      "time": "20:00",
-      "venue": "Na Slamníku",
-      "category": "hudba",
-      "url": "https://na-slamniku.cz/koncerty/",
-      "image": "",
-      "genre": "blues"
-    },
-    {
-      "title": "Filharmoniště: Čtvero ročních období očima Antonia Vivaldiho (pro děti od 3 do 8 let)",
-      "date": "22.11.2026",
-      "time": "09:30",
-      "venue": "Mozartovo interaktivní muzeum",
-      "category": "hudba",
-      "url": "https://goout.net/cs/filharmoniste-ctvero-rocnich-obdobi-ocima-antonia-vivaldiho-pro-deti-od-3-do/szqguoy/",
-      "image": "https://goout.net/i/137/1377698-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Koncert vážné hudby",
-      "date": "22.11.2026",
-      "time": "13:00",
-      "venue": "Lobkowiczký palác na Pražském hradě",
-      "category": "hudba",
-      "url": "https://goout.net/cs/koncert-vazne-hudby/szsmphy/",
-      "image": "https://goout.net/i/129/1294076-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Vivaldi Four Seasons in Old Prague",
-      "date": "22.11.2026",
-      "time": "17:00",
-      "venue": "Kostel sv. Jiljí",
-      "category": "hudba",
-      "url": "https://goout.net/cs/vivaldi-four-seasons-in-old-prague/szfvbfy/",
-      "image": "https://goout.net/i/134/1340744-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Classic Spectacular s varhany – Vivaldi, Mozart, Bach",
-      "date": "22.11.2026",
-      "time": "17:00",
-      "venue": "Zrcadlová kaple Klementina",
-      "category": "hudba",
-      "url": "https://goout.net/cs/classic-spectacular-s-varhany-vivaldi-mozart-bach/szmtdey/",
-      "image": "https://goout.net/i/133/1332555-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Classic Spectacular – Beethoven, Vivaldi, Smetana",
-      "date": "22.11.2026",
-      "time": "17:30",
-      "venue": "Kostel Nejsvětějšího Salvátora",
-      "category": "hudba",
-      "url": "https://goout.net/cs/classic-spectacular-beethoven-vivaldi-smetana/szofjny/",
-      "image": "https://goout.net/i/133/1333350-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Bolero, Carmina Burana",
-      "date": "22.11.2026",
-      "time": "17:30",
-      "venue": "Španělská synagoga",
-      "category": "hudba",
-      "url": "https://goout.net/cs/bolero-carmina-burana/szlfbfy/",
-      "image": "https://goout.net/i/105/1057014-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Klavírní recitál Alessandro Marano",
-      "date": "22.11.2026",
-      "time": "18:00",
-      "venue": "Music School Vyšehrad",
-      "category": "hudba",
-      "url": "https://goout.net/cs/klavirni-recital-alessandro-marano/szeiroy/",
-      "image": "https://goout.net/i/140/1409973-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Od klasiky k filmové hudbě a jazzu",
-      "date": "22.11.2026",
-      "time": "18:00",
-      "venue": "Kostel sv. Mikuláše",
-      "category": "hudba",
-      "url": "https://goout.net/cs/od-klasiky-k-filmove-hudbe-a-jazzu/sznroly/",
-      "image": "https://goout.net/i/140/1400284-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Dej to na blond: Veronika Vítová & Tereza Barešová",
-      "date": "22.11.2026",
-      "time": "19:00",
-      "venue": "U Staré paní Jazz & Cocktail Club",
-      "category": "hudba",
-      "url": "https://goout.net/cs/dej-to-na-blond-veronika-vitova-and-tereza-baresova/szdowoy/",
-      "image": "https://goout.net/i/141/1410959-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "J. D. Zelenka: Žalmy",
-      "date": "22.11.2026",
-      "time": "19:30",
-      "venue": "Kostel U Salvátora",
-      "category": "hudba",
-      "url": "https://goout.net/cs/j-d-zelenka-zalmy/szwivny/",
-      "image": "https://goout.net/i/138/1382003-383.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Buď už, prosím tě, zticha",
-      "date": "22.11.2026",
-      "time": "19:30",
-      "venue": "Café Husovka",
-      "category": "hudba",
-      "url": "https://goout.net/cs/bud-uz-prosim-te-zticha/szhlply/",
-      "image": "https://goout.net/i/137/1372453-383.jpg",
-      "genre": ""
     },
     {
       "title": "UNNV (BY)",
@@ -3133,7 +2963,7 @@
       "genre": ""
     },
     {
-      "title": "Mig 21 – VYPRODÁNO",
+      "title": "Mig 21 Poslední vstupenky",
       "date": "24.11.2026",
       "time": "19:30",
       "venue": "Lucerna Music Bar",
@@ -3189,7 +3019,7 @@
       "venue": "Café v lese",
       "category": "hudba",
       "url": "https://cafevlese.cz/events/merito-gramy/",
-      "image": "",
+      "image": "https://goout.net/i/140/1408461-383.jpg",
       "genre": ""
     },
     {
@@ -3209,7 +3039,7 @@
       "venue": "Reduta Jazz Club",
       "category": "hudba",
       "url": "https://www.redutajazzclub.cz/program-cs",
-      "image": "",
+      "image": "https://goout.net/i/083/835202-383.jpg",
       "genre": "jazz"
     },
     {
@@ -3333,6 +3163,106 @@
       "genre": ""
     },
     {
+      "title": "Senka Brankovic & Helmut Mooshammer: Die Weise von Liebe und Tod des Cornets Christoph Rilke",
+      "date": "24.11.2026",
+      "time": "18:00",
+      "venue": "Rakouské kulturní fórum",
+      "category": "hudba",
+      "url": "https://goout.net/cs/senka-brankovic-and-helmut-mooshammer-die-weise-von-liebe-und-tod-des-cornets/szflvny/",
+      "image": "https://goout.net/i/140/1409029-383.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Nikola Mais Collective",
+      "date": "24.11.2026",
+      "time": "18:00",
+      "venue": "Bastion Prague Restaurant",
+      "category": "hudba",
+      "url": "https://goout.net/cs/nikola-mais-collective/szhsuky/",
+      "image": "https://goout.net/i/139/1397589-383.jpg",
+      "genre": "jazz"
+    },
+    {
+      "title": "Heartnoize x Sonitus: Felicity J Lord ft. Jana Havláková & Klára Pudláková + media service",
+      "date": "24.11.2026",
+      "time": "19:00",
+      "venue": "Punctum",
+      "category": "hudba",
+      "url": "https://goout.net/cs/heartnoize-x-sonitus-felicity-j-lord-ft-jana-havlakova-and-klara-pudlakova+/szlckny/",
+      "image": "https://goout.net/i/140/1407465-383.jpg",
+      "genre": "r&b, indie"
+    },
+    {
+      "title": "Večer s Mozartem",
+      "date": "24.11.2026",
+      "time": "19:00",
+      "venue": "Břevnovský klášter",
+      "category": "hudba",
+      "url": "https://goout.net/cs/vecer-s-mozartem/szrsyly/",
+      "image": "https://goout.net/i/140/1402281-383.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Komorní filharmonie Pardubice & Joseph Bastian & Niklas Liepe",
+      "date": "24.11.2026",
+      "time": "19:30",
+      "venue": "Lichtenštejnský palác",
+      "category": "hudba",
+      "url": "https://goout.net/cs/komorni-filharmonie-pardubice-and-joseph-bastian-and-niklas-liepe/sznynky/",
+      "image": "https://goout.net/i/118/1181765-383.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Nessi Gomes – Live concert in Prague",
+      "date": "24.11.2026",
+      "time": "19:30",
+      "venue": "Rock Café",
+      "category": "hudba",
+      "url": "https://goout.net/cs/nessi-gomes-live-concert-in-prague/szwdojy/",
+      "image": "https://goout.net/i/129/1299394-383.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Jazzové vinohradské setkávání: Antonín Gondolán trio",
+      "date": "24.11.2026",
+      "time": "20:00",
+      "venue": "Mandragora",
+      "category": "hudba",
+      "url": "https://goout.net/cs/jazzove-vinohradske-setkavani-antonin-gondolan-trio/szdyumy/",
+      "image": "https://goout.net/i/140/1405414-383.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Stará paní tančí swing",
+      "date": "24.11.2026",
+      "time": "20:00",
+      "venue": "U Staré paní Jazz & Cocktail Club",
+      "category": "hudba",
+      "url": "https://goout.net/cs/stara-pani-tanci-swing/szxrwky/",
+      "image": "https://goout.net/i/116/1165115-383.jpg",
+      "genre": "jazz, blues, swing"
+    },
+    {
+      "title": "Montell Fish: The Nest Tour",
+      "date": "24.11.2026",
+      "time": "20:30",
+      "venue": "SaSaZu",
+      "category": "hudba",
+      "url": "https://goout.net/cs/montell-fish-the-nest-tour/szdcpny/",
+      "image": "https://goout.net/i/140/1408032-383.jpg",
+      "genre": "r&b, indie"
+    },
+    {
+      "title": "Mig 21",
+      "date": "24.11.2026",
+      "time": "21:00",
+      "venue": "Lucerna Music Bar",
+      "category": "hudba",
+      "url": "https://goout.net/cs/mig-21/szvholy/",
+      "image": "https://goout.net/i/103/1035990-383.jpg",
+      "genre": ""
+    },
+    {
       "title": "MUNKA SOSTALI- křest živé nahrávky z Vagonu",
       "date": "24.11.2026",
       "time": "21:00",
@@ -3413,16 +3343,6 @@
       "genre": "post-rock, house, ambient, rock"
     },
     {
-      "title": "Johanela (+ Giulia Amerighi) support: Tereza Kocholatá",
-      "date": "25.11.2026",
-      "time": "",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/johanela-giulia-amerighi-support-tereza-kocholata/johanela-giulia-amerighi-support-tereza-kocholata/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/VIKTORIEMACANOVA-kopie-rotated-e1791978093101.jpg",
-      "genre": ""
-    },
-    {
       "title": "Klub zadán",
       "date": "25.11.2026",
       "time": "19:00",
@@ -3439,7 +3359,7 @@
       "venue": "Reduta Jazz Club",
       "category": "hudba",
       "url": "https://www.redutajazzclub.cz/program-cs",
-      "image": "",
+      "image": "https://goout.net/i/050/509861-383.jpg",
       "genre": "jazz"
     },
     {
@@ -3473,16 +3393,6 @@
       "genre": ""
     },
     {
-      "title": "Šansony Jany Rychterové",
-      "date": "25.11.2026",
-      "time": "18:00",
-      "venue": "Chodovská tvrz",
-      "category": "hudba",
-      "url": "https://kulturnijiznimesto.cz/programy/sansony-jany-rychterove-2/",
-      "image": "https://kulturnijiznimesto.cz/wp-content/uploads/2026/08/jana_rychterova.jpg",
-      "genre": ""
-    },
-    {
       "title": "MARKĚTA BUREŠOVÁ a PETRA BÍLKOVÁ…večer",
       "date": "25.11.2026",
       "time": "19:00",
@@ -3503,6 +3413,76 @@
       "genre": "blues"
     },
     {
+      "title": "Koncert vážné hudby",
+      "date": "25.11.2026",
+      "time": "13:00",
+      "venue": "Lobkowiczký palác na Pražském hradě",
+      "category": "hudba",
+      "url": "https://goout.net/cs/koncert-vazne-hudby/szvmphy/",
+      "image": "https://goout.net/i/129/1294076-383.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Classic Spectacular s varhany – Vivaldi, Mozart, Bach",
+      "date": "25.11.2026",
+      "time": "17:00",
+      "venue": "Zrcadlová kaple Klementina",
+      "category": "hudba",
+      "url": "https://goout.net/cs/classic-spectacular-s-varhany-vivaldi-mozart-bach/szptdey/",
+      "image": "https://goout.net/i/133/1332555-383.jpg",
+      "genre": ""
+    },
+    {
+      "title": "To nejlepší z české a světové hudby",
+      "date": "25.11.2026",
+      "time": "17:30",
+      "venue": "Španělská synagoga",
+      "category": "hudba",
+      "url": "https://goout.net/cs/to-nejlepsi-z-ceske-a-svetove-hudby/szrgtfy/",
+      "image": "https://goout.net/i/105/1057014-383.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Classic Spectacular – Beethoven, Vivaldi, Smetana",
+      "date": "25.11.2026",
+      "time": "18:30",
+      "venue": "Kostel Nejsvětějšího Salvátora",
+      "category": "hudba",
+      "url": "https://goout.net/cs/classic-spectacular-beethoven-vivaldi-smetana/szmfjny/",
+      "image": "https://goout.net/i/133/1333350-383.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Johanela (+ Giulia Amerighi) + Special Guest: Tereza Kocholatá",
+      "date": "25.11.2026",
+      "time": "19:00",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://goout.net/cs/johanela+giulia-amerighi+special-guest-tereza-kocholata/sznpeny/",
+      "image": "https://goout.net/i/137/1378593-383.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Galakoncert k 100. výročí čsl. pobočky ALAI",
+      "date": "25.11.2026",
+      "time": "19:00",
+      "venue": "Rudolfinum",
+      "category": "hudba",
+      "url": "https://goout.net/cs/galakoncert-k-100-vyroci-csl-pobocky-alai/szxemmy/",
+      "image": "https://goout.net/i/140/1404023-383.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Koncert HAMU80",
+      "date": "25.11.2026",
+      "time": "19:30",
+      "venue": "Lichtenštejnský palác",
+      "category": "hudba",
+      "url": "https://goout.net/cs/koncert-hamu80/szugvny/",
+      "image": "https://goout.net/i/140/1408950-383.jpg",
+      "genre": ""
+    },
+    {
       "title": "NIRVANA Revival Praha",
       "date": "25.11.2026",
       "time": "21:00",
@@ -3510,6 +3490,16 @@
       "category": "hudba",
       "url": "https://www.vagon.cz/dnes.php",
       "image": "",
+      "genre": ""
+    },
+    {
+      "title": "Johanela (+ Giulia Amerighi) support: Tereza Kocholatá",
+      "date": "25.11.2026",
+      "time": "",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/johanela-giulia-amerighi-support-tereza-kocholata/johanela-giulia-amerighi-support-tereza-kocholata/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/VIKTORIEMACANOVA-kopie-rotated-e1791978093101.jpg",
       "genre": ""
     },
     {
@@ -3601,16 +3591,6 @@
       "url": "https://www.roxy.cz/events/detail/5181/mc-gey",
       "image": "https://www.roxy.cz/upload/temp/mcgay-xgidauje5osf-crop-480-480.jpg",
       "genre": "concert, drum&bass, electro, grime"
-    },
-    {
-      "title": "Calmake uvádí: Jan Šikl, Martina Vídenová & ansámbl",
-      "date": "26.11.2026",
-      "time": "19:30",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/calmake-uvadi/26-11-26-v-19-30/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/09/IMG_6081-e1792564406269.jpeg",
-      "genre": ""
     },
     {
       "title": "Mladí ladí jazz / Jazzbit 2026So Sorry (DE) + Mystigo (CZ)",
@@ -3753,6 +3733,16 @@
       "genre": ""
     },
     {
+      "title": "Calmake uvádí: Jan Šikl, Martina Vídenová & ansámbl",
+      "date": "26.11.2026",
+      "time": "19:30",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/calmake-uvadi/26-11-26-v-19-30/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/09/IMG_6081-e1792564406269.jpeg",
+      "genre": ""
+    },
+    {
       "title": "Noisetrap, KOFE-IN",
       "date": "27.11.2026",
       "time": "19:00",
@@ -3799,7 +3789,7 @@
       "venue": "Cross Club",
       "category": "hudba",
       "url": "https://www.crossclub.cz/cs/program/8724-drumstation/",
-      "image": "https://www.crossclub.cz/data/resized/files/2016/leden/144x144c-aecc-drumstat.jpg",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/listopad/144x144c-35db-drum.jpg",
       "genre": ""
     },
     {
@@ -3903,16 +3893,6 @@
       "genre": "jazz"
     },
     {
-      "title": "Billy Barman & Dievčatá zo SĽUK-u - Vianočný koncert",
-      "date": "27.11.2026",
-      "time": "20:00",
-      "venue": "Archa+",
-      "category": "hudba",
-      "url": "https://archa-plus.cz/cz/program/detail/897/2026-11-27-billy-barman-dievcata-zo-sluk-u-vianocny-koncert",
-      "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2FbbXsluk-bratislava-vol.1-122-autor-Tomas-Certik.jpeg&width=500&height=500",
-      "genre": ""
-    },
-    {
       "title": "Mat213 – křest desky a medley největších hitů",
       "date": "27.11.2026",
       "time": "20:00",
@@ -3921,6 +3901,16 @@
       "url": "https://archa-plus.cz/cz/program/detail/791/2026-11-27-mat213-krest-desky-a-medley-nejvetsich-hitu",
       "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2Farcha2-2-2.jpeg&width=500&height=500",
       "genre": "indie pop, indie, pop, folk"
+    },
+    {
+      "title": "Billy Barman & Dievčatá zo SĽUK-u - Vianočný koncert",
+      "date": "27.11.2026",
+      "time": "20:00",
+      "venue": "Archa+",
+      "category": "hudba",
+      "url": "https://archa-plus.cz/cz/program/detail/897/2026-11-27-billy-barman-dievcata-zo-sluk-u-vianocny-koncert",
+      "image": "https://archa-plus.cz/cz/image-manipulation/resize?filename=%2Fimages%2FbbXsluk-bratislava-vol.1-122-autor-Tomas-Certik.jpeg&width=500&height=500",
+      "genre": ""
     },
     {
       "title": "Pražský Výtěr: 30 let",
@@ -4139,7 +4129,7 @@
       "venue": "Cross Club",
       "category": "hudba",
       "url": "https://www.crossclub.cz/cs/program/8725-hard-rave-psytrance/",
-      "image": "https://www.crossclub.cz/data/resized/files/galerie/vystava/144x144c-a0db-cross-1-kopie.jpg",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/listopad/144x144c-1083-hard.jpg",
       "genre": ""
     },
     {
@@ -4773,16 +4763,6 @@
       "genre": "indie rock, rock, indie"
     },
     {
-      "title": "Shakespearovská Velkomše Loutková",
-      "date": "1.12.2026",
-      "time": "",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/shakespearovska-velkomse-loutkova/01-12-26-v-19-00/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/11/Shakespearovska-Velkomse-Loutkova-4-e1794329416377.png",
-      "genre": ""
-    },
-    {
       "title": "Resident Evil – Symphony of Legacy",
       "date": "1.12.2026",
       "time": "",
@@ -4881,6 +4861,16 @@
       "url": "https://na-slamniku.cz/koncerty/",
       "image": "",
       "genre": "blues"
+    },
+    {
+      "title": "Shakespearovská Velkomše Loutková",
+      "date": "1.12.2026",
+      "time": "",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/shakespearovska-velkomse-loutkova/01-12-26-v-19-00/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/11/Shakespearovska-Velkomse-Loutkova-4-e1794329416377.png",
+      "genre": ""
     },
     {
       "title": "Akia B.A. + Klacci z lesa",
@@ -5053,26 +5043,6 @@
       "genre": "Festival / koncertní přehlídka"
     },
     {
-      "title": "Filharmoniště: České Vánoce",
-      "date": "3.12.2026",
-      "time": "9:30",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/filharmoniste/03-12-26-v-09-30/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/11/a13c4bdd-8c48-4e68-a46a-216b7dc145bd-e1794329669981.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Calmake uvádí: Karel Havlíček & Juraj Škoda",
-      "date": "3.12.2026",
-      "time": "19:30",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/calmake-uvadi/03-12-26-v-19-30/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/09/Karel-Havlicek-BW-e1792585125119.jpg",
-      "genre": ""
-    },
-    {
       "title": "Klub zadán",
       "date": "03.12.2026",
       "time": "19:00",
@@ -5211,6 +5181,26 @@
       "url": "https://na-slamniku.cz/koncerty/",
       "image": "",
       "genre": "blues"
+    },
+    {
+      "title": "Filharmoniště: České Vánoce",
+      "date": "3.12.2026",
+      "time": "9:30",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/filharmoniste/03-12-26-v-09-30/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/11/a13c4bdd-8c48-4e68-a46a-216b7dc145bd-e1794329669981.jpg",
+      "genre": ""
+    },
+    {
+      "title": "Calmake uvádí: Karel Havlíček & Juraj Škoda",
+      "date": "3.12.2026",
+      "time": "19:30",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/calmake-uvadi/03-12-26-v-19-30/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/09/Karel-Havlicek-BW-e1792585125119.jpg",
+      "genre": ""
     },
     {
       "title": "Roztrhlej Dedáč + Bez Pecek + Stále Nič",
@@ -5453,16 +5443,6 @@
       "genre": "punk, pop"
     },
     {
-      "title": "MANON",
-      "date": "4.12.2026",
-      "time": "19:00",
-      "venue": "Salmovská literární kavárna",
-      "category": "hudba",
-      "url": "https://www.salmovska.cz",
-      "image": "",
-      "genre": "jazz"
-    },
-    {
       "title": "The Bluemoon",
       "date": "4.12.2026",
       "time": "20:00",
@@ -5633,6 +5613,16 @@
       "genre": ""
     },
     {
+      "title": "Boombox (UA)",
+      "date": "5.12.2026",
+      "time": "",
+      "venue": "SaSaZu",
+      "category": "hudba",
+      "url": "https://www.sasazu-club.com/akce/570c0595-e9b5-4fd8-80d6-5525667145b0",
+      "image": "https://qglmzuvgrznvopdyfmie.supabase.co/storage/v1/object/public/event-web/570c0595-e9b5-4fd8-80d6-5525667145b0/1785415513883.jpg",
+      "genre": ""
+    },
+    {
       "title": "ZLOMENÁ SCÉNA x OVERVIEW MUSIC present Calyx Skantia Kyrist Wingz & Energy",
       "date": "5.12.2026",
       "time": "",
@@ -5663,7 +5653,7 @@
       "genre": "hardcore"
     },
     {
-      "title": "VER TERAE",
+      "title": "VER TERRAE",
       "date": "5.12.2026",
       "time": "15:00",
       "venue": "Salmovská literární kavárna",
@@ -5683,7 +5673,17 @@
       "genre": "blues"
     },
     {
-      "title": "Kurtizány z 25. avenue – křest alba",
+      "title": "Mikulášská nadílka v Café Na půl cesty",
+      "date": "5.12.2026",
+      "time": "16:30",
+      "venue": "Café Na půl cesty",
+      "category": "hudba",
+      "url": "https://www.greendoors.cz/akce/mikulasska-nadilka-v-cafe-na-pul-cesty/",
+      "image": "",
+      "genre": ""
+    },
+    {
+      "title": "Kurtizány z 25. avenue – křest alba, support: EASY aid’s",
       "date": "6.12.2026",
       "time": "18:30",
       "venue": "Lucerna Music Bar",
@@ -5720,16 +5720,6 @@
       "category": "hudba",
       "url": "https://meetfactory.cz/cs/program/detail/satoshi-viva-moldova-europe-tour",
       "image": "https://meetfactory.cz/media/images/rescaled/Satoshi1_vert-width1600-320x426.jpg",
-      "genre": ""
-    },
-    {
-      "title": "Slavnostní koncert Cellování",
-      "date": "6.12.2026",
-      "time": "",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/slavnostni-koncert-cellovani/06-12-26-v-18-00/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/11/Cellovani-1-e1794391600422.jpg",
       "genre": ""
     },
     {
@@ -5821,6 +5811,16 @@
       "url": "https://na-slamniku.cz/koncerty/",
       "image": "",
       "genre": "blues"
+    },
+    {
+      "title": "Slavnostní koncert Cellování",
+      "date": "6.12.2026",
+      "time": "",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/slavnostni-koncert-cellovani/06-12-26-v-18-00/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/11/Cellovani-1-e1794391600422.jpg",
+      "genre": ""
     },
     {
       "title": "FreeZone: Matějfest: Klamat + hosté",
@@ -6113,24 +6113,14 @@
       "genre": "Koncert"
     },
     {
-      "title": "KŘEST KNIHY",
+      "title": "KŘEST KNIHY ROXY",
       "date": "09.12.2026",
       "time": "",
       "venue": "Roxy",
       "category": "hudba",
-      "url": "https://www.roxy.cz/events/detail/5227/krest-knihy",
-      "image": "https://www.roxy.cz/upload/temp/roxy-kniha-krest-pxs-xk1cqwdio5vq-crop-480-480.jpg",
+      "url": "https://www.roxy.cz/events/detail/5227/krest-knihy-roxy",
+      "image": "https://www.roxy.cz/upload/temp/krest-fb2-p6vjwg610p2c-crop-480-480.jpg",
       "genre": "concert, drum&bass, electro, grime"
-    },
-    {
-      "title": "Jan Burian",
-      "date": "9.12.2026",
-      "time": "19:30",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/jan-burian/jan-burian-2/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/Atrium_zizkov_jan_burian-4-e1791294221707.jpg",
-      "genre": ""
     },
     {
       "title": "Olympic",
@@ -6231,6 +6221,16 @@
       "url": "https://na-slamniku.cz/koncerty/",
       "image": "",
       "genre": "blues"
+    },
+    {
+      "title": "Jan Burian",
+      "date": "9.12.2026",
+      "time": "19:30",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/jan-burian/jan-burian-2/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/Atrium_zizkov_jan_burian-4-e1791294221707.jpg",
+      "genre": ""
     },
     {
       "title": "Poletíme? – V PLNÉ SÍLE",
@@ -6453,6 +6453,16 @@
       "genre": ""
     },
     {
+      "title": "U N I T Y R A G E C L U B N I G H T",
+      "date": "11.12.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8729-u-n-i-t-y-r-a-g-e-c-l-u-b-n-i-g-h-t/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/listopad/144x144c-ea9c-uni.jpg",
+      "genre": ""
+    },
+    {
       "title": "COCOTTE MINUTE+POST-IT+ANTEATER",
       "date": "11.12.2026",
       "time": "",
@@ -6501,16 +6511,6 @@
       "url": "https://www.roxy.cz/events/detail/5195/vyprodano-addict-club-edition-2",
       "image": "https://www.roxy.cz/upload/temp/addict-club-edition-2-post-1080-x-1350-px-300-dpi-rgb-14-c2-kopie-e7gsl21p1cc0-crop-480-480.jpg",
       "genre": "2, concert, drum&bass, electro"
-    },
-    {
-      "title": "Hudební Odyssea: Ivo Kahánek a mladí",
-      "date": "11.12.2026",
-      "time": "",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/hudebni-odyssea-ivo-kahanek-a-mladi/11-12-26-v-18-00/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/11/Hudebni-Odyssea-7-e1794392198929.jpg",
-      "genre": ""
     },
     {
       "title": "Klub zadán",
@@ -6613,6 +6613,16 @@
       "genre": "hardcore, sludge, grindcore, screamo"
     },
     {
+      "title": "Hudební Odyssea: Ivo Kahánek a mladí",
+      "date": "11.12.2026",
+      "time": "",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/hudebni-odyssea-ivo-kahanek-a-mladi/11-12-26-v-18-00/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/11/Hudebni-Odyssea-7-e1794392198929.jpg",
+      "genre": ""
+    },
+    {
       "title": "25 let Guerilla Records",
       "date": "12.12.2026",
       "time": "17:00",
@@ -6673,14 +6683,14 @@
       "genre": "Koncert"
     },
     {
-      "title": "Vánoční koncert Chorea Bohemica",
+      "title": "ALTERNO: VALHALLA (CZ)",
       "date": "12.12.2026",
       "time": "",
-      "venue": "Atrium Žižkov",
+      "venue": "Roxy",
       "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/vanocni-koncert-chorea-bohemica-2/12-12-26-v-18-00/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2024/11/SVO_6340-e1792591914390.jpg",
-      "genre": ""
+      "url": "https://www.roxy.cz/events/detail/5233/alterno-valhalla",
+      "image": "https://www.roxy.cz/upload/temp/no-image-480-480.png",
+      "genre": "concert, drum&bass, electro, grime"
     },
     {
       "title": "Lenka Nová",
@@ -6801,6 +6811,16 @@
       "url": "https://na-slamniku.cz/koncerty/",
       "image": "",
       "genre": "blues"
+    },
+    {
+      "title": "Vánoční koncert Chorea Bohemica",
+      "date": "12.12.2026",
+      "time": "",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/vanocni-koncert-chorea-bohemica-2/12-12-26-v-18-00/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2024/11/SVO_6340-e1792591914390.jpg",
+      "genre": ""
     },
     {
       "title": "Buty – 40 let",
@@ -7013,7 +7033,7 @@
       "genre": "jazz"
     },
     {
-      "title": "BEST OF SWING & JAZZ EVENING",
+      "title": "SPECIAL CHRISTMAS EVENING - BEST OF SWING & JAZZ EVENING",
       "date": "14.12.2026",
       "time": "19:00",
       "venue": "Reduta Jazz Club",
@@ -7023,7 +7043,7 @@
       "genre": "jazz"
     },
     {
-      "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
+      "title": "SPECIAL CHRISTMAS EVENING - Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
       "date": "14.12.2026",
       "time": "21:15",
       "venue": "Reduta Jazz Club",
@@ -7063,6 +7083,16 @@
       "genre": ""
     },
     {
+      "title": "SOUKROMÁ PARTY",
+      "date": "14.12.2026",
+      "time": "18:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/soukroma-party-10/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2026/11/cosettesblog-dog-5311981_1920.jpg",
+      "genre": ""
+    },
+    {
       "title": "Pražský salonní orchestr",
       "date": "14.12.2026",
       "time": "15:00",
@@ -7080,7 +7110,7 @@
       "category": "hudba",
       "url": "https://www.salmovska.cz",
       "image": "",
-      "genre": "blues, swing, folk, šanson"
+      "genre": "swing"
     },
     {
       "title": "Obscure presents: Mental Cruelty (DE), Ov Sulfur (USA), …",
@@ -7143,16 +7173,6 @@
       "genre": "Koncert"
     },
     {
-      "title": "Zimní rezonance (Vi Tran a Evaspell)",
-      "date": "15.12.2026",
-      "time": "",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/zimni-rezonance-vi-tran-a-evaspell/15-12-26-v-19-00/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/11/Zimni-rezonance-1-e1794392512416.jpg",
-      "genre": "elektronika"
-    },
-    {
       "title": "Klub zadán",
       "date": "15.12.2026",
       "time": "19:00",
@@ -7163,7 +7183,7 @@
       "genre": "jazz"
     },
     {
-      "title": "Queens Sing the Blue Notes: A Tribute to Bessie Smith, Dinah Washington, Etta James, Janis Joplin",
+      "title": "SPECIAL CHRISTMAS EVENING - Queens Sing the Blue Notes: A Tribute to Bessie Smith, Dinah Washington, Etta James, Janis Joplin",
       "date": "15.12.2026",
       "time": "19:00",
       "venue": "Reduta Jazz Club",
@@ -7173,7 +7193,7 @@
       "genre": "jazz"
     },
     {
-      "title": "Ladies of the Blues: Tribute to the Great Voices",
+      "title": "SPECIAL CHRISTMAS EVENING - Ladies of the Blues: Tribute to the Great Voices",
       "date": "15.12.2026",
       "time": "21:15",
       "venue": "Reduta Jazz Club",
@@ -7243,6 +7263,16 @@
       "genre": "blues"
     },
     {
+      "title": "Zimní rezonance (Vi Tran a Evaspell)",
+      "date": "15.12.2026",
+      "time": "",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/zimni-rezonance-vi-tran-a-evaspell/15-12-26-v-19-00/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/11/Zimni-rezonance-1-e1794392512416.jpg",
+      "genre": "elektronika"
+    },
+    {
       "title": "Rybičky 48, special guest: Koblížci – VYPRODÁNO",
       "date": "16.12.2026",
       "time": "18:30",
@@ -7303,7 +7333,7 @@
       "genre": "jazz"
     },
     {
-      "title": "Melodic Journey with Louis Armstrong, Gershwin, Jobim presented by the Metropolitan Jazz Band",
+      "title": "SPECIAL CHRISTMAS EVENING - Melodic Journey with Louis Armstrong, Gershwin, Jobim presented by the Metropolitan Jazz Band",
       "date": "16.12.2026",
       "time": "19:00",
       "venue": "Reduta Jazz Club",
@@ -7313,7 +7343,7 @@
       "genre": "jazz"
     },
     {
-      "title": "Great Melodies of Jazz: Armstrong, Gershwin, Jobim",
+      "title": "SPECIAL CHRISTMAS EVENING - Great Melodies of Jazz: Armstrong, Gershwin, Jobim",
       "date": "16.12.2026",
       "time": "21:15",
       "venue": "Reduta Jazz Club",
@@ -7363,6 +7393,16 @@
       "genre": "pop"
     },
     {
+      "title": "SOUKROMÁ PARTY",
+      "date": "16.12.2026",
+      "time": "18:00",
+      "venue": "Modrá Vopice",
+      "category": "hudba",
+      "url": "https://www.modravopice.cz/akce/soukroma-party-11/",
+      "image": "https://www.modravopice.cz/wp-content/uploads/2026/11/ipicture-teddy-bear-10215815_1920.jpg",
+      "genre": ""
+    },
+    {
       "title": "Benefiční Koncert Pro Vumáče A Statek Hella",
       "date": "16.12.2026",
       "time": "20:00",
@@ -7379,7 +7419,7 @@
       "venue": "Chodovská tvrz",
       "category": "hudba",
       "url": "https://kulturnijiznimesto.cz/programy/ambient-music/",
-      "image": "https://kulturnijiznimesto.cz/wp-content/uploads/2026/11/KlangSystematiek-1024x683-1.jpg",
+      "image": "https://kulturnijiznimesto.cz/wp-content/uploads/2026/11/PMBO1806-1.jpeg",
       "genre": ""
     },
     {
@@ -7443,16 +7483,6 @@
       "genre": "concert, drum&bass, electro, grime"
     },
     {
-      "title": "Sbor Veselé chvíle: Milí synáčkové, pospíchejme k Betlému!",
-      "date": "17.12.2026",
-      "time": "",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/sbor-vesele-chvile-mili-synackove-pospichejme-k-betlemu/17-12-26-v-20-00/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/Rybovka-132-e1792592437968.jpg",
-      "genre": ""
-    },
-    {
       "title": "Dalibor Janda",
       "date": "17.12.2026",
       "time": "",
@@ -7473,7 +7503,7 @@
       "genre": "jazz"
     },
     {
-      "title": "The Saxophone Legacy: Tribute to Coltrane, Getz, Rollins & Young",
+      "title": "SPECIAL CHRISTMAS EVENING - The Saxophone Legacy: Tribute to Coltrane, Getz, Rollins & Young",
       "date": "17.12.2026",
       "time": "19:00",
       "venue": "Reduta Jazz Club",
@@ -7483,7 +7513,7 @@
       "genre": "jazz"
     },
     {
-      "title": "The Great Saxophones of Jazz: Tribute Concert",
+      "title": "SPECIAL CHRISTMAS EVENING - The Great Saxophones of Jazz: Tribute Concert",
       "date": "17.12.2026",
       "time": "21:15",
       "venue": "Reduta Jazz Club",
@@ -7571,6 +7601,16 @@
       "url": "https://na-slamniku.cz/koncerty/",
       "image": "",
       "genre": "blues"
+    },
+    {
+      "title": "Sbor Veselé chvíle: Milí synáčkové, pospíchejme k Betlému!",
+      "date": "17.12.2026",
+      "time": "",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/sbor-vesele-chvile-mili-synackove-pospichejme-k-betlemu/17-12-26-v-20-00/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/Rybovka-132-e1792592437968.jpg",
+      "genre": ""
     },
     {
       "title": "Berem všechno",
@@ -7683,7 +7723,7 @@
       "genre": "jazz, blues, country"
     },
     {
-      "title": "Remembering Sinatra: A Timeless Tribute",
+      "title": "SPECIAL CHRISTMAS EVENING - Remembering Sinatra: A Timeless Tribute",
       "date": "18.12.2026",
       "time": "19:00",
       "venue": "Reduta Jazz Club",
@@ -7693,7 +7733,7 @@
       "genre": "jazz"
     },
     {
-      "title": "Swingin’ with Sinatra",
+      "title": "SPECIAL CHRISTMAS EVENING - Swingin’ with Sinatra",
       "date": "18.12.2026",
       "time": "21:15",
       "venue": "Reduta Jazz Club",
@@ -7853,16 +7893,6 @@
       "genre": "15, concert, drum&bass, electro"
     },
     {
-      "title": "Žižkovská filharmonie: J. J. Ryba – Česká mše vánoční",
-      "date": "19.12.2026",
-      "time": "",
-      "venue": "Atrium Žižkov",
-      "category": "hudba",
-      "url": "https://atriumzizkov.cz/predstaveni/hudba/zizkovska-filharmonie-j-j-ryba-ceska-mse-vanocni/19-12-26-v-18-00/",
-      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/DSCF0978-e1792591673856.jpg",
-      "genre": ""
-    },
-    {
       "title": "Ingvaldsen / Cremaschi / Chalupa / Wróblewski (NOR/USA/CZ)",
       "date": "19.12.2026",
       "time": "19:00",
@@ -7963,6 +7993,16 @@
       "genre": "blues"
     },
     {
+      "title": "Žižkovská filharmonie: J. J. Ryba – Česká mše vánoční",
+      "date": "19.12.2026",
+      "time": "",
+      "venue": "Atrium Žižkov",
+      "category": "hudba",
+      "url": "https://atriumzizkov.cz/predstaveni/hudba/zizkovska-filharmonie-j-j-ryba-ceska-mse-vanocni/19-12-26-v-18-00/",
+      "image": "https://atriumzizkov.cz/wp-content/uploads/2026/10/DSCF0978-e1792591673856.jpg",
+      "genre": ""
+    },
+    {
       "title": "Redzed, support: RNZ",
       "date": "20.12.2026",
       "time": "19:00",
@@ -8013,7 +8053,7 @@
       "genre": "jazz"
     },
     {
-      "title": "Louis Armstrong Forever: Celebrating a Jazz Icon with Old Timers Jazz Band",
+      "title": "SPECIAL CHRISTMAS EVENING - Louis Armstrong Forever: Celebrating a Jazz Icon with Old Timers Jazz Band",
       "date": "20.12.2026",
       "time": "19:00",
       "venue": "Reduta Jazz Club",
@@ -8023,7 +8063,7 @@
       "genre": "jazz"
     },
     {
-      "title": "What a Wonderful World: Tribute to Louis Armstrong",
+      "title": "SPECIAL CHRISTMAS EVENING - What a Wonderful World: Tribute to Louis Armstrong",
       "date": "20.12.2026",
       "time": "21:15",
       "venue": "Reduta Jazz Club",
@@ -8143,7 +8183,7 @@
       "genre": "jazz"
     },
     {
-      "title": "Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
+      "title": "SPECIAL CHRISTMAS EVENING - Ella Fitzgerald: The Voice of Jazz, Forever Resonating",
       "date": "21.12.2026",
       "time": "19:00",
       "venue": "Reduta Jazz Club",
@@ -8153,7 +8193,7 @@
       "genre": "jazz"
     },
     {
-      "title": "Swinging Melodies: A Journey through Unforgettable Jazz Performances",
+      "title": "SPECIAL CHRISTMAS EVENING - Swinging Melodies: A Journey through Unforgettable Jazz Performances",
       "date": "21.12.2026",
       "time": "21:15",
       "venue": "Reduta Jazz Club",
@@ -8263,7 +8303,7 @@
       "genre": "jazz"
     },
     {
-      "title": "The Nina Simone Experience: An Unforgettable Jazz Tribute",
+      "title": "SPECIAL CHRISTMAS EVENING - The Nina Simone Experience: An Unforgettable Jazz Tribute",
       "date": "22.12.2026",
       "time": "19:00",
       "venue": "Reduta Jazz Club",
@@ -8273,7 +8313,7 @@
       "genre": "jazz"
     },
     {
-      "title": "The Beatles Groove: A Jazz Tribute",
+      "title": "SPECIAL CHRISTMAS EVENING - The Beatles Groove: A Jazz Tribute",
       "date": "22.12.2026",
       "time": "21:15",
       "venue": "Reduta Jazz Club",
@@ -8473,6 +8513,16 @@
       "genre": ""
     },
     {
+      "title": "RIDDIM SHOW",
+      "date": "26.12.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8730-riddim-show/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/prosinec/144x144c-935d-med.jpg",
+      "genre": ""
+    },
+    {
       "title": "Justin Lavash",
       "date": "26.12.2026",
       "time": "19:00",
@@ -8493,7 +8543,7 @@
       "genre": "jazz"
     },
     {
-      "title": "The Ray Charles Experience by Lee Andrew Davison (USA)",
+      "title": "SPECIAL CHRISTMAS EVENING - The Ray Charles Experience by Lee Andrew Davison (USA)",
       "date": "26.12.2026",
       "time": "19:00",
       "venue": "Reduta Jazz Club",
@@ -8503,7 +8553,7 @@
       "genre": "jazz"
     },
     {
-      "title": "The Ultimate Jazz, Soul & Funk Experience with Lee Andrew Davison (USA)",
+      "title": "SPECIAL CHRISTMAS EVENING - The Ultimate Jazz, Soul & Funk Experience with Lee Andrew Davison (USA)",
       "date": "26.12.2026",
       "time": "21:15",
       "venue": "Reduta Jazz Club",
@@ -8543,7 +8593,7 @@
       "genre": "jazz"
     },
     {
-      "title": "The Nina Simone Experience: An Unforgettable Jazz Tribute",
+      "title": "SPECIAL CHRISTMAS EVENING -  The Nina Simone Experience: An Unforgettable Jazz Tribute",
       "date": "27.12.2026",
       "time": "19:00",
       "venue": "Reduta Jazz Club",
@@ -8553,7 +8603,7 @@
       "genre": "jazz"
     },
     {
-      "title": "The Beatles Groove: A Jazz Tribute",
+      "title": "SPECIAL CHRISTMAS EVENING -  The Beatles Groove: A Jazz Tribute",
       "date": "27.12.2026",
       "time": "21:15",
       "venue": "Reduta Jazz Club",
@@ -8600,6 +8650,16 @@
       "category": "hudba",
       "url": "https://musicbar.cz/cs/program/kamil-strihavka-40-let-na-scene/",
       "image": "https://static.goout.cloud/musicbarcz/2026/06/e75a7f32-6x4a8232-300x300.jpg",
+      "genre": ""
+    },
+    {
+      "title": "LOS TEKKENOS",
+      "date": "28.12.2026",
+      "time": "",
+      "venue": "Cross Club",
+      "category": "hudba",
+      "url": "https://www.crossclub.cz/cs/program/8731-los-tekkenos/",
+      "image": "https://www.crossclub.cz/data/resized/files/2026/prosinec/144x144c-9f3c-los.jpg",
       "genre": ""
     },
     {
@@ -9239,7 +9299,7 @@
       "venue": "Malostranská Beseda",
       "category": "hudba",
       "url": "https://goout.net/cs/conamara-chaos/szabnpy/",
-      "image": "https://goout.net/i/141/1411894-800.jpg",
+      "image": "https://www.malostranska-beseda.cz/img-storage/club/program/grayscale/8_150x125/otdj1a6yib.fotka.jpeg",
       "genre": ""
     },
     {
@@ -9873,7 +9933,7 @@
       "genre": "jazz"
     },
     {
-      "title": "Wabi Daněk Tribute",
+      "title": "Wabi 80",
       "date": "30.01.2027",
       "time": "20:00",
       "venue": "Malostranská Beseda",
@@ -9901,6 +9961,16 @@
       "url": "https://www.o2universum.cz/events/lednacek-fest/",
       "image": "https://www.o2arena.cz/wp-content/uploads/2026/01/1080x1080-1.jpg",
       "genre": ""
+    },
+    {
+      "title": "LIVE NATION presents Giles Corey",
+      "date": "30.1.2027",
+      "time": "",
+      "venue": "Fuchs2",
+      "category": "hudba",
+      "url": "https://www.fuchs2.cz/events/live-nation-presents-giles-corey",
+      "image": "https://static.wixstatic.com/media/742259_40ab83668b0c4e20927d0b0bd1cc3899~mv2.jpg",
+      "genre": "house, folk"
     },
     {
       "title": "Heathen Alliance, vol. 5",
@@ -11291,6 +11361,16 @@
       "url": "https://futurum.musicbar.cz/program/evil-invaders-exhorder-heathen-warfield/",
       "image": "https://futurum.musicbar.cz/wp-content/uploads/2026/09/Evil-Invaders-Photo-credit_-Jens-De-Vos-800x480.jpg",
       "genre": "thrash"
+    },
+    {
+      "title": "CARLOS AND HIS COYOTES , SLAPDASH",
+      "date": "12.03.2027",
+      "time": "19:00",
+      "venue": "Klub 007 Strahov",
+      "category": "hudba",
+      "url": "https://klub007strahov.cz/events/carlos-and-his-coyotes-cz-slapdash-cz/",
+      "image": "",
+      "genre": "ROCK´N´ROLL"
     },
     {
       "title": "Bohemia Big Band: Tribute to Glenn Miller, Duke Ellington, Benny Goodman...",
@@ -13563,6 +13643,16 @@
       "genre": "jazz"
     },
     {
+      "title": "alt-J",
+      "date": "22.6.2027",
+      "time": "20:00",
+      "venue": "O2 Arena",
+      "category": "hudba",
+      "url": "https://www.o2universum.cz/events/alt-j/",
+      "image": "https://www.o2arena.cz/wp-content/uploads/2026/11/alt-j-1080x1080-1.png",
+      "genre": "rock, folk"
+    },
+    {
       "title": "Rod Stewart",
       "date": "24.6.2027",
       "time": "20:00",
@@ -14011,16 +14101,6 @@
       "url": "https://www.modravopice.cz/akce/koncert-308/",
       "image": "https://www.modravopice.eu/art/plakat-default.jpg",
       "genre": ""
-    },
-    {
-      "title": "FAMILY THERAPY present Asher ☆ Parashoot ☆ Fahell ☆ Zecco ☆ Millo",
-      "date": "21.11.2027",
-      "time": "",
-      "venue": "Fuchs2",
-      "category": "hudba",
-      "url": "https://www.fuchs2.cz/events/family-therapy-present-asher-parashoot-fahell-zecco-millo",
-      "image": "https://static.wixstatic.com/media/742259_430ebf65b1494fdfa091afd795a0e783~mv2.jpg",
-      "genre": "house, grime"
     },
     {
       "title": "Horkýže Slíže 35: Největší koncert v historii kapely",
